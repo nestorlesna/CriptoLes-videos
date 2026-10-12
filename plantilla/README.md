@@ -27,6 +27,7 @@ CHECKLIST.md                ← estado de toda la lista (autogenerado)
 | `node plantilla/make-video.mjs <slug> --miniatura` | solo regenera la miniatura (rápido) |
 | `node plantilla/make-video.mjs --checklist` | regenera `CHECKLIST.md` y todos los `salida/*.youtube.txt` |
 | `node plantilla/make-video.mjs --iconos` | hoja con todos los íconos → `videos/_iconos/snapshots/` |
+| `node plantilla/make-video.mjs --pronunciacion [palabra]` | audios de prueba de `pronunciacion.json` → `videos/_pronunciacion/` (`todas.wav` y uno por palabra: primero tal cual, después ajustada) |
 | `node plantilla/make-video.mjs --kit` | demo de los 9 kinds (`plantilla/kit-demo.json`) → `videos/_kit/snapshots/` — correrlo después de tocar estilos/runtime |
 | `node plantilla/make-video.mjs <slug> --identidad <id>` | el mismo video con otra identidad visual → `videos/_identidad-<id>/` (para comparar) |
 | `npx hyperframes preview` (dentro de `videos/<slug>`) | revisar en el Studio |
@@ -68,7 +69,7 @@ Flags: `--force-tts`, `--no-check`, `--no-snapshot`. HyperFrames fijo en **0.8.1
 }
 ```
 
-`contentHash`: cambiar `youtube`, `miniatura`, `notas` o `revisado` **no** marca el video como desactualizado.
+`contentHash`: cambiar `youtube`, `miniatura`, `notas` o `revisado` **no** marca el video como desactualizado. Cambiar la identidad visual activa **sí** (el render guarda con qué identidad se hizo).
 
 ### Campos comunes a todas las escenas
 
@@ -175,8 +176,8 @@ en `iconos.mjs` con el mismo estilo (variables `--line`, `--plate`, `--primary`,
 
 `plantilla/identidad/<id>.css` (tokens) + `<id>.frame.md` (la especificación). La activa está en `plantilla/identidad/activa.txt`.
 
-- `a-pizarra-menta` — papel cálido con puntitos, tinta azul marino, menta y dorado. Fredoka + Nunito. **(activa)**
-- `b-noche-dorada` — azul noche, dorado y menta. Space Grotesk + Inter.
+- `a-pizarra-menta` — papel cálido con puntitos, tinta azul marino, menta y dorado. Fredoka + Nunito. (alternativa)
+- `b-noche-dorada` — azul noche, dorado y menta. Space Grotesk + Inter. **(activa, elegida 2026-10-12)**
 
 Formato: vertical 1080×1920 (Shorts). 16:9 todavía no está implementado (está documentado en los frame.md cómo sería).
 
@@ -231,6 +232,7 @@ Formato: vertical 1080×1920 (Shorts). 16:9 todavía no está implementado (est�
 - PC nueva: `python -m pip install piper-tts` y bajar el modelo (no va a git, 114 MB) a `plantilla/voces-piper/`:
   `https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_AR/daniela/high/es_AR-daniela-high.onnx` (+ `.onnx.json`).
 - Palabras en inglés (Bitcoin, blockchain, wallet…): `plantilla/pronunciacion.json` cambia cómo se escriben **solo para la voz**.
+  Antes de sumar o cambiar una entrada: `--pronunciacion <palabra>` y escucharla.
 - Licencia CC BY-SA 4.0: crédito automático en la descripción. Edge TTS da 403; Kokoro suena robótico (descartados).
 
 ## Skills

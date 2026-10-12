@@ -3,17 +3,17 @@
 Generado automáticamente por `node plantilla/make-video.mjs --checklist` (no editar a mano).
 La lista y su orden salen de `temas/temas.csv`; el estado, de `temas/<clave>.json`, `videos/<clave>/.pipeline.json` y `salida/`.
 Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"` (y de la columna estado del CSV si no hay ficha).
-Subido = el .mp4 está en `salida/subidos/` (lo mueve el dueño del canal después de publicarlo). Identidad visual activa: `a-pizarra-menta`.
+Subido = el .mp4 está en `salida/subidos/` (lo mueve el dueño del canal después de publicarlo). Identidad visual activa: `b-noche-dorada`.
 
-**Renderizados:** 1 / 32 · **Fichas:** 1 · **Descripción YouTube:** 1 · **Subidos:** 0 · **Próximo:** 2 · ¿Dónde está tu plata cuando está en el banco?
+**Renderizados:** 5 / 32 · **Fichas:** 5 · **Descripción YouTube:** 5 · **Subidos:** 0 · **Próximo:** 6 · ¿Quién creó Bitcoin?
 
 | # | Tema | Nivel | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | ¿Qué es el dinero? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-el-dinero.youtube.txt) | [✅](salida/que-es-el-dinero.miniatura.png) | 54.3 s | [que-es-el-dinero.mp4](salida/que-es-el-dinero.mp4) | ⬜ | ⬜ | Video de prueba del pipeline. |
-| 2 | ¿Dónde está tu plata cuando está en el banco? | Básico 0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 3 | ¿Qué es la inflación? | Básico 0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 4 | ¿Qué es una criptomoneda? | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 5 | ¿Qué es Bitcoin? | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
+| 2 | ¿Dónde está tu plata cuando está en el banco? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/plata-en-el-banco.youtube.txt) | [✅](salida/plata-en-el-banco.miniatura.png) | 51.9 s | [plata-en-el-banco.mp4](salida/plata-en-el-banco.mp4) | ⬜ | ⬜ |  |
+| 3 | ¿Qué es la inflación? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-la-inflacion.youtube.txt) | [✅](salida/que-es-la-inflacion.miniatura.png) | 51.2 s | [que-es-la-inflacion.mp4](salida/que-es-la-inflacion.mp4) | ⬜ | ⬜ |  |
+| 4 | ¿Qué es una criptomoneda? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-una-criptomoneda.youtube.txt) | [✅](salida/que-es-una-criptomoneda.miniatura.png) | 52.1 s | [que-es-una-criptomoneda.mp4](salida/que-es-una-criptomoneda.mp4) | ⬜ | ⬜ |  |
+| 5 | ¿Qué es Bitcoin? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-bitcoin.youtube.txt) | [✅](salida/que-es-bitcoin.miniatura.png) | 50.8 s | [que-es-bitcoin.mp4](salida/que-es-bitcoin.mp4) | ⬜ | ⬜ |  |
 | 6 | ¿Quién creó Bitcoin? | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
 | 7 | ¿Qué es una blockchain? | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
 | 8 | Centralizado vs descentralizado | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |

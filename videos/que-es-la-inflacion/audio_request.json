@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "¿Te pasó que con la misma plata cada vez llenás menos el carrito? Eso tiene nombre: inflación."
+    },
+    {
+      "id": "02",
+      "text": "La inflación es cuando los precios de casi todo suben de forma sostenida, durante meses o años."
+    },
+    {
+      "id": "03",
+      "text": "Pensá en una pizza: si la cortás en el doble de porciones, no hay más pizza. Cada porción es más chica."
+    },
+    {
+      "id": "04",
+      "text": "Una causa común: si se emite mucho dinero y no hay más cosas para comprar, cada billete termina comprando menos."
+    },
+    {
+      "id": "05",
+      "text": "Emitir es crear dinero nuevo: lo hace el banco central. Y poder de compra es cuánto podés comprar con tu plata."
+    },
+    {
+      "id": "06",
+      "text": "Con inflación, la plata guardada en billetes rinde menos, los precios cambian seguido y cuesta planificar."
+    },
+    {
+      "id": "07",
+      "text": "Ojo: muchos estafadores usan el miedo a la inflación. Si te prometen ganancias seguras y te apuran, desconfiá."
+    },
+    {
+      "id": "08",
+      "text": "En resumen: con inflación tu plata compra menos. En el próximo video: ¿qué es una criptomoneda? Por fin entramos en tema."
+    }
+  ]
+}

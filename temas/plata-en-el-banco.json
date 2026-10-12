@@ -1,0 +1,90 @@
+{
+  "slug": "plata-en-el-banco",
+  "titulo": "¿Dónde está tu plata cuando está en el banco?",
+  "nivel": "Básico 0",
+  "descripcion": "Hoy casi todo el dinero es un número en una base de datos. Qué hace el banco, quién lleva la cuenta y por qué dependemos de intermediarios.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Dónde está tu plata en el banco? 🪙 Explicado fácil | Cripto desde cero",
+    "descripcion": "🪙 ¿DÓNDE ESTÁ TU PLATA CUANDO ESTÁ EN EL BANCO? — Entendé qué es realmente tu saldo\n\nDepositás billetes y en la app ves un número. ¿Pero dónde está esa plata? Spoiler: no hay una caja con tu nombre. 🏦\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es tu saldo: un registro en las computadoras del banco\n2️⃣ La libreta del almacén como ejemplo\n3️⃣ Qué pasa cuando hacés una transferencia (no viaja ningún billete)\n4️⃣ Por qué el banco es un intermediario\n5️⃣ Lo bueno y lo no tanto de depender de un banco\n\n💡 LA IDEA CLAVE\nEl banco es como el almacenero que lleva la libreta del barrio: anota quién tiene cuánto, y vos confiás en que lo anote bien.\n\n📖 GLOSARIO\n• Saldo: el número que dice cuánta plata tenés en tu cuenta.\n• Intermediario: alguien que está en el medio entre dos personas y hace posible el intercambio.\n• Transferencia: una orden para que el banco reste de tu cuenta y sume en otra.\n\n⚠️ OJO CON\nNingún banco te pide tu clave por WhatsApp, mail o llamada. Si te la piden, cortá: es un intento de estafa.\n\n🎓 NIVEL: Básico 0 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que siempre se preguntó esto.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Bancos #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["dónde está mi plata en el banco", "cómo funciona un banco", "qué es el saldo", "qué es una transferencia", "intermediarios financieros", "dinero digital", "educación financiera", "cripto desde cero", "criptomonedas para principiantes", "bitcoin explicado fácil", "finanzas personales", "cómo funciona el dinero"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Dónde está", "tu plata?"],
+      "sub": "Cuando la dejás en el banco",
+      "icono": "banco",
+      "orbita": ["celular", "billetes", "computadora", "candado"],
+      "vo": "Depositás tus billetes en el banco y en la app ves un número. Pero ¿dónde está esa plata, realmente?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "TU SALDO",
+      "head": ["Es un número", "en un registro"],
+      "icono": "computadora",
+      "etiquetas": [{ "text": "Quién es cada uno", "cue": "quién" }, { "text": "Cuánto tiene", "cue": "cuánto" }],
+      "vo": "Tu saldo es un registro en las computadoras del banco: una gran planilla que dice quién tiene cuánto."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como la libreta", "del almacén"],
+      "conector": "es como",
+      "a": { "icono": "libro", "label": "La libreta del almacenero" },
+      "simbolo": "=",
+      "b": { "icono": "banco", "label": "La planilla del banco", "cue": "anota" },
+      "nota": { "text": "Vos confiás en que **lo anote bien**.", "cue": "confiás" },
+      "vo": "Es como la libreta del almacén: el almacenero anota lo que tiene cada vecino. Y vos confiás en que lo anote bien."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Cuando", "transferís"],
+      "nodos": [
+        { "icono": "celular", "label": "Vos das la orden", "cue": "transferís" },
+        { "icono": "banco", "label": "Tu banco te resta", "cue": "resta" },
+        { "icono": "persona", "label": "El otro banco le suma", "cue": "suma" }
+      ],
+      "token": { "icono": "moneda", "until": "end" },
+      "vo": "Cuando transferís, no viaja ningún billete: tu banco te resta el número, y el banco de la otra persona se lo suma."
+    },
+    {
+      "kind": "claves",
+      "badge": "EL BANCO",
+      "head": ["Es un", "intermediario"],
+      "items": [
+        { "text": "**Guarda** el registro", "cue": "guarda" },
+        { "text": "**Aprueba** cada movimiento", "cue": "aprueba" },
+        { "text": "**Puede** frenarlo o demorarlo", "cue": "puede" }
+      ],
+      "vo": "El banco es un intermediario: guarda el registro, aprueba cada movimiento y también puede frenarlo o demorarlo."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Dos palabras"],
+      "terminos": [
+        { "termino": "Intermediario", "definicion": "Alguien que está **en el medio** y hace posible el intercambio.", "icono": "apreton" },
+        { "termino": "Saldo", "definicion": "El número que dice **cuánta plata tenés** en tu cuenta.", "icono": "celular", "cue": "saldo" }
+      ],
+      "vo": "Un intermediario es alguien que está en el medio y hace posible el intercambio. Y tu saldo es el número que te anotan."
+    },
+    {
+      "kind": "comparacion",
+      "badge": "DEPENDER DE UN BANCO",
+      "head": ["Lo bueno y", "lo no tanto"],
+      "a": { "titulo": "Lo bueno", "icono": "check", "items": [{ "text": "Es cómodo", "cue": "cómodo" }, { "text": "Perder la tarjeta no es perder la plata", "cue": "tarjeta" }] },
+      "b": { "titulo": "Lo no tanto", "icono": "alerta", "items": [{ "text": "Dependés del banco", "cue": "dependés" }, { "text": "Límites, horarios y comisiones", "cue": "límites" }] },
+      "vo": "Es cómodo, y perder la tarjeta no es perder la plata. Pero dependés del banco, y hay límites, horarios y comisiones."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Tu plata es un número en un registro", "El banco es el intermediario", "Confiás en que lleve bien la cuenta"],
+      "vo": "Tu plata en el banco es un registro que lleva otro. En el próximo video: ¿por qué las cosas aumentan? Hablamos de inflación."
+    }
+  ]
+}

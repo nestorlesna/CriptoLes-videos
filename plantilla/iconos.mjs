@@ -8,7 +8,7 @@ const T = (x, y, txt, size = 44, fill = "var(--line)") =>
 
 export const ICONOS = {
   moneda: `<circle cx="60" cy="60" r="44" fill="var(--gold)" ${S}/><circle cx="60" cy="60" r="31" fill="none" ${S} stroke-width="4"/>${T(60, 62, "$", 40)}`,
-  bitcoin: `<circle cx="60" cy="60" r="44" fill="#F7931A" ${S}/>${T(60, 62, "₿", 54, "#fff")}`,
+  bitcoin: `<circle cx="60" cy="60" r="44" fill="#F7931A" ${S}/>${T(60, 62, "₿", 54, "var(--line)")}`,
   cripto: `<circle cx="60" cy="60" r="44" fill="var(--primary)" ${S}/><path d="M60 30 L84 60 L60 90 L36 60 Z" fill="var(--plate)" ${S} stroke-width="4"/><path d="M36 60 H84" ${S} stroke-width="4"/>`,
   billete: `<rect x="12" y="32" width="96" height="56" rx="8" fill="var(--leaf)" ${S}/><rect x="22" y="42" width="76" height="36" rx="4" fill="none" ${S} stroke-width="3"/><circle cx="60" cy="60" r="12" fill="var(--plate)" ${S} stroke-width="4"/>`,
   billetes: `<rect x="22" y="22" width="86" height="50" rx="8" fill="var(--leaf)" ${S} opacity="0.65"/><rect x="12" y="44" width="86" height="50" rx="8" fill="var(--leaf)" ${S}/><circle cx="55" cy="69" r="11" fill="var(--plate)" ${S} stroke-width="4"/>`,
@@ -53,7 +53,8 @@ export const ICONOS = {
   mensaje: `<path d="M14 22 H106 V82 H52 L30 102 V82 H14 Z" fill="var(--plate)" ${S}/><path d="M30 44 H90 M30 62 H72" ${S} stroke-width="6"/>`,
   anzuelo: `<path d="M70 12 V72 C70 92 54 104 40 98 C26 92 24 76 34 66" fill="none" ${S} stroke-width="8"/><path d="M34 66 L28 82 L44 74" fill="var(--line)" ${S} stroke-width="4"/><circle cx="70" cy="12" r="6" fill="var(--alert)" ${S} stroke-width="3"/>`,
   balanza: `<path d="M60 18 V100 M34 106 H86 M20 34 H100" fill="none" ${S} stroke-width="7"/><path d="M20 34 L8 66 H32 Z M100 34 L88 66 H112 Z" fill="var(--gold)" ${S} stroke-width="4"/><circle cx="60" cy="18" r="7" fill="var(--primary)" ${S} stroke-width="3"/>`,
-  play: `<circle cx="60" cy="60" r="46" fill="var(--primary)" ${S}/><path d="M50 38 L84 60 L50 82 Z" fill="var(--plate)" ${S} stroke-width="4"/>`,
+  pizza: `<circle cx="60" cy="60" r="48" fill="var(--gold)" ${S}/><circle cx="60" cy="60" r="38" fill="#FFE08A" ${S} stroke-width="3"/><path d="M60 22 V98 M22 60 H98 M33 33 L87 87 M87 33 L33 87" ${S} stroke-width="3"/>${[[46, 40], [76, 48], [44, 76], [74, 78], [60, 60]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="6" fill="var(--alert)"/>`).join("")}`,
+  play:`<circle cx="60" cy="60" r="46" fill="var(--primary)" ${S}/><path d="M50 38 L84 60 L50 82 Z" fill="var(--plate)" ${S} stroke-width="4"/>`,
 };
 
 export const ICON_NAMES = Object.keys(ICONOS);

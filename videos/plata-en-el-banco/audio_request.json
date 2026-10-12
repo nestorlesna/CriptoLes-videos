@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Depositás tus billetes en el banco y en la app ves un número. Pero ¿dónde está esa plata, realmente?"
+    },
+    {
+      "id": "02",
+      "text": "Tu saldo es un registro en las computadoras del banco: una gran planilla que dice quién tiene cuánto."
+    },
+    {
+      "id": "03",
+      "text": "Es como la libreta del almacén: el almacenero anota lo que tiene cada vecino. Y vos confiás en que lo anote bien."
+    },
+    {
+      "id": "04",
+      "text": "Cuando transferís, no viaja ningún billete: tu banco te resta el número, y el banco de la otra persona se lo suma."
+    },
+    {
+      "id": "05",
+      "text": "El banco es un intermediario: guarda el registro, aprueba cada movimiento y también puede frenarlo o demorarlo."
+    },
+    {
+      "id": "06",
+      "text": "Un intermediario es alguien que está en el medio y hace posible el intercambio. Y tu saldo es el número que te anotan."
+    },
+    {
+      "id": "07",
+      "text": "Es cómodo, y perder la tarjeta no es perder la plata. Pero dependés del banco, y hay límites, horarios y comisiones."
+    },
+    {
+      "id": "08",
+      "text": "Tu plata en el banco es un registro que lleva otro. En el próximo video: ¿por qué las cosas aumentan? Hablamos de inflación."
+    }
+  ]
+}

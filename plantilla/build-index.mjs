@@ -285,7 +285,7 @@ export function buildIndex(projectDir, { thumb = false, identidad, next } = {}) 
   for (const f of frames) {
     const v = thumb ? undefined : voice[f.id];
     if (!v && !thumb) warn(`frame ${f.id}: sin voz generada`);
-    if (!thumb && plain(f.vo).length > 135) warn(`frame ${f.id}: la voz tiene ${plain(f.vo).length} caracteres (máx. ~130 = 3 líneas de subtítulo)`);
+    if (!thumb && plain(f.vo).length > 125) warn(`frame ${f.id}: la voz tiene ${plain(f.vo).length} caracteres: puede pasar a 4 líneas de subtítulo, revisalo en el contact sheet`);
     f.head.forEach((h) => h.length > 17 && warn(`frame ${f.id}: línea de título larga "${h}" (máx. ~16)`));
     const k = kit(f, { voice: v, warn, next });
     f.html = k.html;

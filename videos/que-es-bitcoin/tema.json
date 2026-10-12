@@ -1,0 +1,89 @@
+{
+  "slug": "que-es-bitcoin",
+  "titulo": "¿Qué es Bitcoin?",
+  "nivel": "Básico 1",
+  "descripcion": "La primera criptomoneda (2009). Qué problema quiso resolver: mandar valor por internet sin depender de un banco.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es Bitcoin? 🪙 La primera cripto explicada fácil | Cripto desde cero",
+    "descripcion": "🪙 ¿QUÉ ES BITCOIN? — La primera criptomoneda y el problema que quiso resolver\n\nSeguro lo escuchaste mil veces, pero ¿sabés qué es Bitcoin y para qué se creó? En menos de un minuto lo entendés. ⚡\n\n📚 EN ESTE VIDEO\n1️⃣ Bitcoin es la primera criptomoneda: funciona desde 2009 y no tiene dueño\n2️⃣ La idea: mandar plata por internet tan directo como un mail\n3️⃣ Cómo viaja un envío de una persona a otra, sin banco en el medio\n4️⃣ Nunca va a haber más de 21 millones de bitcoins\n5️⃣ Bitcoin con mayúscula vs bitcoin con minúscula\n6️⃣ La estafa de \"duplicamos tus bitcoins\"\n\n💡 LA IDEA CLAVE\nBitcoin es como mandar un mail, pero con plata: va directo de una persona a otra, y una red de computadoras verifica que todo esté en orden.\n\n📖 GLOSARIO\n• Bitcoin (con mayúscula): la red y el sistema.\n• bitcoin (con minúscula): la moneda que se mueve en esa red.\n• Suministro máximo: la cantidad total que puede llegar a existir (21 millones).\n\n⚠️ OJO CON\nNadie duplica tus bitcoins. Si te piden que mandes primero para recibir el doble (muchas veces usando la cara de un famoso), es una estafa.\n\n🎓 NIVEL: Básico 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que siempre te pregunta qué es Bitcoin.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #QueEsBitcoin #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es bitcoin", "bitcoin explicado fácil", "bitcoin para principiantes", "cómo funciona bitcoin", "21 millones de bitcoin", "primera criptomoneda", "criptomonedas para principiantes", "cripto desde cero", "qué es una criptomoneda", "educación financiera", "estafas con bitcoin", "btc"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es", "Bitcoin?"],
+      "sub": "La primera criptomoneda",
+      "icono": "bitcoin",
+      "orbita": ["red", "candado", "mundo", "billetera"],
+      "vo": "Seguro escuchaste hablar de Bitcoin. Pero ¿qué es, de dónde salió y qué problema quiso resolver?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["La primera", "de todas"],
+      "icono": "bitcoin",
+      "etiquetas": [{ "text": "Funciona desde 2009", "cue": "2009" }, { "text": "No tiene dueño", "cue": "dueño" }],
+      "vo": "Bitcoin es la primera criptomoneda. Empezó a funcionar en 2009 y no tiene un dueño: la sostiene una red."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como un mail,", "pero con plata"],
+      "conector": "el problema que resolvió",
+      "a": { "icono": "mensaje", "label": "Un mail va directo" },
+      "simbolo": "=",
+      "b": { "icono": "bitcoin", "label": "Plata que va directo", "cue": "sin pedirle" },
+      "vo": "La idea: mandar plata por internet tan directo como un mail, sin pedirle permiso a un banco."
+    },
+    {
+      "kind": "flujo",
+      "head": ["De persona", "a persona"],
+      "nodos": [
+        { "icono": "persona", "label": "Ana manda", "cue": "Ana le manda" },
+        { "icono": "red", "label": "La red verifica", "detalle": "que Ana los tenga", "cue": "verifica" },
+        { "icono": "persona", "label": "Beto recibe", "detalle": "sin banco en el medio", "cue": "Beto los recibe" }
+      ],
+      "token": { "icono": "bitcoin", "until": "end" },
+      "vo": "Ana le manda bitcoins a Beto. Una red de computadoras verifica que Ana los tenga, y Beto los recibe, sin banco en el medio."
+    },
+    {
+      "kind": "claves",
+      "badge": "UN DATO CLAVE",
+      "head": ["Cantidad", "limitada"],
+      "items": [
+        { "text": "Máximo: **21 millones**", "cue": "21" },
+        { "text": "Nadie puede crear más", "cue": "nunca" },
+        { "text": "Se divide en **partes chiquitas**", "cue": "dividir" }
+      ],
+      "vo": "Un dato clave: nunca va a haber más de 21 millones de bitcoins. Y cada uno se puede dividir en partes muy chiquitas."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Mayúscula o", "minúscula"],
+      "terminos": [
+        { "termino": "Bitcoin", "definicion": "Con mayúscula: **la red** y el sistema.", "icono": "red" },
+        { "termino": "bitcoin", "definicion": "Con minúscula: **la moneda** que se mueve en esa red.", "icono": "bitcoin", "cue": "minúscula" }
+      ],
+      "vo": "Un detalle: Bitcoin con mayúscula es la red, y bitcoin con minúscula es la moneda que se mueve en ella."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Estafa", "típica"],
+      "titulo": "\"Duplicamos tus bitcoins\"",
+      "items": [{ "text": "Te piden que mandes primero", "cue": "mandes primero" }, { "text": "Prometen devolverte el doble", "cue": "doble" }],
+      "consejo": { "text": "Si suena demasiado bueno, **es estafa**.", "cue": "es una estafa" },
+      "vo": "Ojo: nadie duplica tus bitcoins. Si te piden que mandes primero para recibir el doble, es una estafa."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["La primera criptomoneda (2009)", "Plata directa, sin banco", "Máximo: 21 millones"],
+      "vo": "Bitcoin es plata digital directa, sin banco y con un máximo fijo. En el próximo video: ¿quién creó Bitcoin? Un misterio."
+    }
+  ]
+}

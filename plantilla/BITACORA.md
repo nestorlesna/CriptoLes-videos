@@ -25,7 +25,7 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-11 | (heredado) | Piper/Kokoro no dan tiempos por palabra | elementos por `at`, `cue` (posición estimada en el texto) o cada ~1,3 s |
 | 10-11 | (heredado) | Animaciones "hasta el final" alargaban la escena | `until: "end"` se expande **después** de medir la voz |
 | 10-11 | (heredado) | Labels cerca del piso pisaban el subtítulo | zona visual hasta y = 1560; subtítulo desde 1600; nada en el medio |
-| 10-12 | (heredado) | Voz de 4 líneas desborda el subtítulo | máx. ~3 líneas (~130 caracteres) por `vo`; el builder avisa > 135 |
+| 10-12 | (heredado) | Voz de 4 líneas desborda el subtítulo | máx. 3 líneas por `vo` (ver entrada de plata-en-el-banco: ideal ≤ 120) |
 | 10-12 | (heredado) | Kokoro robótico, Edge TTS 403 | Piper + Daniela es_AR (aprobada), crédito CC BY-SA automático |
 | 10-12 | (heredado) | Render bloqueaba el trabajo | `--render` en segundo plano y preparar el próximo mientras tanto |
 | 10-12 | (kit) | El registry de HyperFrames no tiene un set de íconos inline reutilizable (sí primitivas: trazo dibujado, check) | íconos propios en `iconos.mjs`; las primitivas se reprodujeron inline (draw, tick, pop) |
@@ -33,7 +33,12 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-12 | (kit) | Con textos largos el visual pisaría el subtítulo | la zona visual se calcula según el alto del título/bajada y el contenido se achica solo |
 | 10-12 | que-es-el-dinero | Comparación: columnas de ~480 px con letra 36 se leían chico | ítems 42 px, títulos 52 px; máx. 3 ítems cortos por lado |
 | 10-12 | (snapshot) | `hyperframes snapshot` agrega un cuadro "end-of-timeline" con un tiempo propio (menor al total) | ignorarlo: el total real es `data-duration`; el último snapshot por escena es el que vale |
-| 10-12 | (check) | Contraste: el ₿ blanco sobre naranja da 2,3:1 | es decorativo (ícono), se acepta |
+| 10-12 | (identidad) | El dueño eligió la identidad B "Noche Dorada" | `activa.txt` = `b-noche-dorada`; el render guarda la identidad (`renderHash`) → cambiarla marca los videos como desactualizados |
+| 10-12 | (voz) | Daniela lee mal palabras en inglés (Bitcoin, blockchain…) y no hay forma automática de verificarlo (Whisper en español = modelo de 3 GB) | `--pronunciacion` genera audios "tal cual / ajustada" en `videos/_pronunciacion/` para que el dueño escuche y elija |
+| 10-12 | plata-en-el-banco, inflación | Con Inter 42 px, voces de 127–133 caracteres pasaron a 4 líneas y tocaron la barra de progreso | ideal ≤ ~120 caracteres; el builder avisa > 125 (revisar en el contact sheet) |
+| 10-12 | que-es-una-criptomoneda | Comillas rectas en el título: Space Grotesk dibuja la de apertura como de cierre (”cripto”) | evitar comillas en `head`; en textos de cuerpo (Inter) se ven bien |
+| 10-12 | (ícono bitcoin) | ₿ blanco sobre naranja = contraste 2,3:1 en el check | ₿ en color tinta (`--line`) |
+| 10-12 | (5 videos) | Producir varios seguidos | escribir las fichas → un loop `make-video` sin render para revisar todos los contact sheets → corregir → loop con `--render` en segundo plano |
 
 ## Pendientes / ideas
 

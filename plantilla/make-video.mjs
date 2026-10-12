@@ -6,6 +6,7 @@
 //   node plantilla/make-video.mjs <slug> --info       fila de temas/temas.csv + anterior/siguiente (datos para la ficha)
 //   node plantilla/make-video.mjs --checklist         regenera CHECKLIST.md y todos los salida/<slug>.youtube.txt
 //   node plantilla/make-video.mjs --iconos            hoja con todos los íconos (videos/_iconos/snapshots/)
+//   node plantilla/make-video.mjs --pronunciacion [palabra]  audios para comparar cómo lee Daniela (videos/_pronunciacion/)
 //   node plantilla/make-video.mjs --kit               demo de todos los kinds de escena (plantilla/kit-demo.json → videos/_kit/)
 //   node plantilla/make-video.mjs <slug> --identidad <id>  mismo video con otra identidad visual (videos/_identidad-<id>/)
 //
@@ -66,6 +67,9 @@ export function contentHash(spec) {
   const { youtube, miniatura, notas, revisado, ...rest } = spec;
   return createHash("sha1").update(JSON.stringify(rest)).digest("hex").slice(0, 12);
 }
+
+// Lo que se compara para saber si el render quedó viejo: la ficha + la identidad visual con la que se renderizó.
+const renderHash = (spec) => `${contentHash(spec)}:${identidadActiva().id}`;
 
 // Los ya publicados se mueven a mano a salida/subidos/: los archivos se buscan ahí también (no se duplican ni se pierden).
 const SUBIDOS = join(ROOT, "salida", "subidos");
@@ -238,7 +242,7 @@ export function checklist() {
     fichas++;
     const { spec, file } = s;
     const st = readStatus(join(ROOT, "videos", slug));
-    const stale = rendered && (st.renderHash ? st.renderHash !== contentHash(spec) : statSync(file).mtimeMs > statSync(out).mtimeMs);
+    const stale = rendered && (st.renderHash ? st.renderHash !== renderHash(spec) : statSync(file).mtimeMs > statSync(out).mtimeMs);
     const ytWarns = exportYoutube(spec);
     if (rendered) done++;
     if (subido) subidos++;
@@ -283,8 +287,34 @@ ${readFileSync(join(HERE, "styles.css"), "utf8")}
   console.log(`· íconos (${ICON_NAMES.length}): videos/_iconos/snapshots/`);
 }
 
+// Prueba de pronunciación: por cada palabra de plantilla/pronunciacion.json, la frase con la palabra tal cual y con el
+// ajuste, una después de la otra → videos/_pronunciacion/<palabra>.wav y todas.wav (para escuchar y decidir).
+function pronunciacion() {
+  const dir = join(ROOT, "videos", "_pronunciacion");
+  rmSync(dir, { recursive: true, force: true });
+  mkdirSync(dir, { recursive: true });
+  const map = JSON.parse(readFileSync(join(HERE, "pronunciacion.json"), "utf8"));
+  const words = Object.keys(map).filter((k) => !k.startsWith("_") && (!slug || k.toLowerCase() === slug.toLowerCase()));
+  const lines = words.flatMap((w, i) => [
+    { id: `${String(i).padStart(2, "0")}a`, text: `Tal cual: hoy hablamos de ${w}.` },
+    { id: `${String(i).padStart(2, "0")}b`, text: `Ajustada: hoy hablamos de ${map[w]}.` },
+  ]);
+  writeFileSync(join(dir, "req.json"), JSON.stringify({ voice: PIPER_VOICE, speed: 1.0, lines }));
+  if (sh(`python "${join(HERE, "piper-tts.py")}" req.json meta.json`, dir, false).status !== 0) throw new Error("piper falló");
+  const list = [];
+  words.forEach((w, i) => {
+    const n = String(i).padStart(2, "0"), out = `${w.replace(/[^\w]/g, "_")}.wav`;
+    spawnSync("ffmpeg", ["-y", "-loglevel", "error", "-i", `assets/voice/${n}a.wav`, "-i", `assets/voice/${n}b.wav`, "-filter_complex", "[0][1]concat=n=2:v=0:a=1", out], { cwd: dir });
+    list.push(`file '${out}'`);
+  });
+  writeFileSync(join(dir, "lista.txt"), list.join("\n"));
+  spawnSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", "lista.txt", "todas.wav"], { cwd: dir });
+  console.log(`✓ videos/_pronunciacion/ — ${words.length} palabras (todas.wav + una por palabra: primero tal cual, después ajustada)`);
+}
+
 function main() {
   if (has("--checklist") && !slug) return checklist();
+  if (has("--pronunciacion")) return pronunciacion();
   if (has("--iconos")) return iconSheet();
   if (has("--kit")) {
     // Demo de todos los kinds: sin voz (duración = min), para revisar el kit después de tocar plantilla/.
@@ -362,7 +392,7 @@ function main() {
     if (r.status !== 0) throw new Error("render falló");
     mkdirSync(join(ROOT, "salida"), { recursive: true });
     copyFileSync(join(dir, "renders", "video.mp4"), outPath(`${slug}.mp4`));
-    writeStatus(dir, { renderizado: today(), renderHash: contentHash(spec) });
+    writeStatus(dir, { renderizado: today(), renderHash: renderHash(spec) });
     console.log(`✓ ${rel(outPath(`${slug}.mp4`))}`);
   }
   checklist();

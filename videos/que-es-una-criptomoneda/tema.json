@@ -1,0 +1,85 @@
+{
+  "slug": "que-es-una-criptomoneda",
+  "titulo": "¿Qué es una criptomoneda?",
+  "nivel": "Básico 1",
+  "descripcion": "Dinero digital que no emite un banco ni un Estado y que se mueve por internet sin intermediarios. La idea general antes de los detalles.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es una criptomoneda? 🪙 La idea explicada fácil | Cripto desde cero",
+    "descripcion": "🪙 ¿QUÉ ES UNA CRIPTOMONEDA? — La idea general, sin tecnicismos\n\nYa vimos qué es el dinero, qué hace un banco y qué es la inflación. Ahora sí entramos en tema: qué es una cripto y en qué se diferencia de la plata del banco. 💻\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es una criptomoneda: dinero digital sin banco ni Estado\n2️⃣ La libreta compartida: un registro que copian miles de personas\n3️⃣ Cómo se mueve: la red revisa y anota\n4️⃣ De dónde viene el \"cripto\": criptografía\n5️⃣ Banco vs cripto\n6️⃣ Por qué es volátil y qué cuidado tener\n\n💡 LA IDEA CLAVE\nEs como la libreta del almacén, pero en vez de llevarla una sola persona, miles tienen la misma copia y la revisan entre todos.\n\n📖 GLOSARIO\n• Criptomoneda: dinero digital protegido con criptografía.\n• Criptografía: técnicas matemáticas para proteger información.\n• Volátil: que su precio sube y baja mucho.\n\n⚠️ OJO CON\nEl precio de las criptomonedas cambia muchísimo. Nunca pongas plata que necesitás, y desconfiá de cualquiera que te prometa ganancias seguras.\n\n🎓 NIVEL: Básico 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que siempre quiso entender qué son las cripto.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #QueEsUnaCripto #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es una criptomoneda", "criptomonedas explicadas fácil", "cripto para principiantes", "qué es cripto", "dinero digital", "criptografía", "cripto desde cero", "bitcoin explicado fácil", "criptomonedas para principiantes", "educación financiera", "cómo funcionan las criptomonedas", "blockchain fácil"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es una", "criptomoneda?"],
+      "sub": "Ahora sí, entramos en tema",
+      "icono": "cripto",
+      "orbita": ["bitcoin", "celular", "red", "candado"],
+      "vo": "Ya sabés qué es el dinero y qué hace un banco. Ahora sí: ¿qué es una criptomoneda?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Dinero", "digital"],
+      "icono": "cripto",
+      "etiquetas": [{ "text": "Existe solo en internet", "cue": "existe" }, { "text": "Sin banco ni Estado", "cue": "ningún banco" }],
+      "vo": "Una criptomoneda es dinero digital: existe solo en internet y no la emite ningún banco ni ningún Estado."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Una libreta", "de todos"],
+      "conector": "¿te acordás de la libreta?",
+      "a": { "icono": "libro", "label": "La lleva una persona" },
+      "simbolo": "→",
+      "b": { "icono": "grupo", "label": "Miles tienen la misma copia", "cue": "miles" },
+      "vo": "¿Te acordás de la libreta del almacén? Imaginá que en vez de llevarla uno, miles de personas tienen la misma copia."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Cómo se", "mueve"],
+      "nodos": [
+        { "icono": "billetera", "label": "Vos mandás", "cue": "mandás" },
+        { "icono": "red", "label": "La red revisa", "detalle": "que la tengas de verdad", "cue": "revisan" },
+        { "icono": "bloque", "label": "Queda anotado", "detalle": "en el registro compartido", "cue": "anotan" }
+      ],
+      "token": { "icono": "cripto", "until": "end" },
+      "vo": "Cuando mandás cripto, miles de computadoras revisan que la tengas y lo anotan en un registro compartido."
+    },
+    {
+      "kind": "glosario",
+      "head": ["¿Por qué", "cripto?"],
+      "terminos": [
+        { "termino": "Criptografía", "definicion": "Matemática para **proteger información**.", "icono": "candado" },
+        { "termino": "Criptomoneda", "definicion": "Dinero digital **protegido con criptografía**.", "icono": "cripto", "cue": "por eso" }
+      ],
+      "vo": "El cripto viene de criptografía: matemática para proteger información. Por eso es muy difícil de falsificar."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Banco vs", "cripto"],
+      "a": { "titulo": "Banco", "icono": "banco", "items": [{ "text": "Lo controla una empresa", "cue": "controla" }, { "text": "Horarios y permisos", "cue": "horarios" }] },
+      "b": { "titulo": "Cripto", "icono": "cripto", "items": [{ "text": "La sostiene una red", "cue": "sostiene" }, { "text": "Anda todo el día", "cue": "todo el día" }] },
+      "vo": "El dinero del banco lo controla una empresa, con horarios y permisos. La cripto la sostiene una red que anda todo el día."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Importante"],
+      "titulo": "Volátil = su precio cambia mucho",
+      "items": [{ "text": "Sube y baja muchísimo", "cue": "sube" }, { "text": "Podés perder lo que pongas", "cue": "nunca" }],
+      "consejo": { "text": "Nunca pongas **plata que necesitás**.", "cue": "nunca" },
+      "vo": "Ojo: las criptomonedas son volátiles, o sea, su precio sube y baja muchísimo. Nunca pongas plata que necesitás."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Dinero digital sin banco ni Estado", "Lo anota una red de computadoras", "Es volátil: cuidado"],
+      "vo": "En resumen: es dinero digital que anota una red, sin banco. En el próximo video: ¿qué es Bitcoin? La primera de todas."
+    }
+  ]
+}

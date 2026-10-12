@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Seguro escuchaste hablar de Bitcóin. Pero ¿qué es, de dónde salió y qué problema quiso resolver?"
+    },
+    {
+      "id": "02",
+      "text": "Bitcóin es la primera criptomoneda. Empezó a funcionar en 2009 y no tiene un dueño: la sostiene una red."
+    },
+    {
+      "id": "03",
+      "text": "La idea: mandar plata por internet tan directo como un mail, sin pedirle permiso a un banco."
+    },
+    {
+      "id": "04",
+      "text": "Ana le manda bitcóins a Beto. Una red de computadoras verifica que Ana los tenga, y Beto los recibe, sin banco en el medio."
+    },
+    {
+      "id": "05",
+      "text": "Un dato clave: nunca va a haber más de 21 millones de bitcóins. Y cada uno se puede dividir en partes muy chiquitas."
+    },
+    {
+      "id": "06",
+      "text": "Un detalle: Bitcóin con mayúscula es la red, y bitcóin con minúscula es la moneda que se mueve en ella."
+    },
+    {
+      "id": "07",
+      "text": "Ojo: nadie duplica tus bitcóins. Si te piden que mandes primero para recibir el doble, es una estafa."
+    },
+    {
+      "id": "08",
+      "text": "Bitcóin es plata digital directa, sin banco y con un máximo fijo. En el próximo video: ¿quién creó Bitcóin? Un misterio."
+    }
+  ]
+}

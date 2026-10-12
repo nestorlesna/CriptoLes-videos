@@ -1,0 +1,90 @@
+{
+  "slug": "que-es-la-inflacion",
+  "titulo": "¿Qué es la inflación?",
+  "nivel": "Básico 0",
+  "descripcion": "Por qué con el mismo billete comprás menos que antes. Quién emite el dinero y qué pasa cuando se emite de más. Sin cifras ni países puntuales.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es la inflación? 🪙 Por qué tu plata rinde menos explicado fácil | Cripto desde cero",
+    "descripcion": "🪙 ¿QUÉ ES LA INFLACIÓN? — Entendé por qué con la misma plata comprás cada vez menos\n\nSi sentís que el carrito se llena cada vez menos con la misma plata, no es tu imaginación. Tiene nombre y te lo explicamos fácil. 🛒\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es la inflación: suben los precios de casi todo, de forma sostenida\n2️⃣ El ejemplo de la pizza cortada en más porciones\n3️⃣ Una causa común: emitir dinero de más\n4️⃣ Qué es emitir y qué es el poder de compra\n5️⃣ Cómo te afecta en el día a día\n6️⃣ Cuidado con las promesas para \"protegerte\" de la inflación\n\n💡 LA IDEA CLAVE\nEs como una pizza: si la cortás en el doble de porciones no hay más pizza, cada porción es más chica. Con el dinero pasa algo parecido.\n\n📖 GLOSARIO\n• Inflación: suba sostenida de los precios de casi todo.\n• Emitir: crear dinero nuevo (lo hace el banco central de cada país).\n• Poder de compra: cuántas cosas podés comprar con tu plata.\n\n⚠️ OJO CON\nMuchos estafadores usan el miedo a la inflación para venderte \"inversiones\" con ganancias seguras. Nadie puede garantizarte ganancias: si te apuran, desconfiá.\n\n🎓 NIVEL: Básico 0 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que siempre se queja de los precios.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Inflacion #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es la inflación", "inflación explicada fácil", "por qué suben los precios", "emisión de dinero", "poder de compra", "banco central", "educación financiera", "cripto desde cero", "criptomonedas para principiantes", "bitcoin explicado fácil", "finanzas personales", "economía para principiantes"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es la", "inflación?"],
+      "sub": "Por qué tu plata rinde menos",
+      "icono": "carrito",
+      "orbita": ["etiqueta", "billetes", "alcancia", "grafico"],
+      "vo": "¿Te pasó que con la misma plata cada vez llenás menos el carrito? Eso tiene nombre: inflación."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Suben", "los precios"],
+      "icono": "etiqueta",
+      "etiquetas": [{ "text": "De casi todo", "cue": "casi todo" }, { "text": "De forma sostenida", "cue": "sostenida" }],
+      "vo": "La inflación es cuando los precios de casi todo suben de forma sostenida, durante meses o años."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como una", "pizza"],
+      "conector": "misma pizza, más porciones",
+      "a": { "icono": "pizza", "label": "8 porciones" },
+      "simbolo": "→",
+      "b": { "icono": "pizza", "label": "16 porciones", "cue": "doble" },
+      "nota": { "text": "No hay más pizza: **cada porción es más chica**.", "cue": "cada porción" },
+      "vo": "Pensá en una pizza: si la cortás en el doble de porciones, no hay más pizza. Cada porción es más chica."
+    },
+    {
+      "kind": "flujo",
+      "head": ["¿Por qué", "pasa?"],
+      "sub": "Una causa común",
+      "nodos": [
+        { "icono": "edificio", "label": "Se emite mucho dinero", "cue": "emite" },
+        { "icono": "billetes", "label": "Hay más billetes", "detalle": "pero no más cosas", "cue": "no hay" },
+        { "icono": "etiqueta", "label": "Cada billete compra menos", "cue": "termina" }
+      ],
+      "vo": "Una causa común: si se emite mucho dinero y no hay más cosas para comprar, cada billete termina comprando menos."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Dos palabras"],
+      "terminos": [
+        { "termino": "Emitir", "definicion": "Crear dinero nuevo. Lo hace el **banco central** de cada país.", "icono": "edificio" },
+        { "termino": "Poder de compra", "definicion": "**Cuánto podés comprar** con tu plata.", "icono": "carrito", "cue": "poder de compra" }
+      ],
+      "vo": "Emitir es crear dinero nuevo: lo hace el banco central. Y poder de compra es cuánto podés comprar con tu plata."
+    },
+    {
+      "kind": "claves",
+      "badge": "EN TU DÍA A DÍA",
+      "head": ["Cómo te", "afecta"],
+      "items": [
+        { "text": "La plata guardada **rinde menos**", "cue": "rinde" },
+        { "text": "Los precios **cambian seguido**", "cue": "precios" },
+        { "text": "Cuesta **planificar**", "cue": "planificar" }
+      ],
+      "vo": "Con inflación, la plata guardada en billetes rinde menos, los precios cambian seguido y cuesta planificar."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Ojo con las", "promesas"],
+      "titulo": "\"Te protejo de la inflación\"",
+      "items": [{ "text": "Ganancias seguras y altas", "cue": "ganancias" }, { "text": "Apuro: \"entrá hoy o perdés\"", "cue": "apuran" }],
+      "consejo": { "text": "Nadie puede garantizarte ganancias. **Desconfiá.**", "cue": "desconfiá" },
+      "vo": "Ojo: muchos estafadores usan el miedo a la inflación. Si te prometen ganancias seguras y te apuran, desconfiá."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Inflación: suben los precios", "Tu plata compra menos", "Una causa: emitir de más"],
+      "vo": "En resumen: con inflación tu plata compra menos. En el próximo video: ¿qué es una criptomoneda? Por fin entramos en tema."
+    }
+  ]
+}
