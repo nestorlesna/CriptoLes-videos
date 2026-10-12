@@ -1,0 +1,14 @@
+/* fonts: https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@600;700;800;900&display=swap */
+/* Identidad B — "Noche Dorada": azul noche profundo, dorado como acento, menta de apoyo. Ver b-noche-dorada.frame.md */
+:root {
+  --bg: #151A3B; --bg-dots: rgba(255,255,255,0.08); --blob: #1F2654;
+  --surface: #222A5E; --surface-line: #3A4387;
+  --ink: #F6F4FF; --muted: #AEB4DD;
+  --line: #0F1330; --plate: #F6F4FF; --paper: #FFF3D1;
+  --primary: #FFC83D; --primary-strong: #FFD66B; --primary-soft: #FFE7A6;
+  --gold: #FFC83D; --sky: #6FA8FF; --leaf: #4FE0B6;
+  --alert: #FF6B6B; --alert-soft: #3A2244; --alert-ink: #FF9A9A;
+  --sub-bg: #0B0E24; --sub-ink: #FFFFFF; --sub-accent: #FFC83D;
+  --font-display: "Space Grotesk", sans-serif; --font-body: "Inter", sans-serif;
+  --radius: 22px; --shadow: 0 0 0 rgba(0,0,0,0);
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "que-es-el-dinero",
+  "titulo": "¿Qué es el dinero?",
+  "nivel": "Básico 0",
+  "descripcion": "Antes de hablar de cripto: para qué sirve el dinero (intercambiar, medir, ahorrar) y por qué confiamos en él. Del trueque al dinero fiduciario.",
+  "revisado": false,
+  "notas": "Video de prueba del pipeline.",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es el dinero? 🪙 Por qué vale explicado fácil | Cripto desde cero",
+    "descripcion": "🪙 ¿QUÉ ES EL DINERO? — Entendé para qué sirve la plata y por qué confiamos en ella\n\nAntes de hablar de criptomonedas, arrancamos por lo más básico. Si entendés qué es el dinero, después cripto se entiende mucho más fácil. 💸\n\n📚 EN ESTE VIDEO\n1️⃣ Qué era el trueque y por qué no alcanzaba\n2️⃣ Cómo el dinero fue cambiando de forma: conchas, metales, billetes y apps\n3️⃣ Las tres cosas para las que sirve: intercambiar, medir y ahorrar\n4️⃣ Por qué un billete vale aunque sea solo papel\n5️⃣ Qué es el dinero fiduciario\n6️⃣ Efectivo vs plata en el banco\n\n💡 LA IDEA CLAVE\nEl dinero es como un acuerdo entre todos: un billete vale porque confiamos en que mañana otra persona también lo va a aceptar.\n\n📖 GLOSARIO\n• Trueque: cambiar una cosa por otra sin usar dinero.\n• Dinero fiduciario: dinero que vale por la confianza en quien lo emite (viene del latín fiducia, confianza).\n• Ahorrar: guardar valor hoy para usarlo más adelante.\n\n⚠️ OJO CON\nNadie multiplica tu plata por arte de magia. Si te prometen ganancias seguras y rápidas, desconfiá: es la señal número uno de una estafa.\n\n🎓 NIVEL: Básico 0 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que siempre quiso entender esto de las cripto.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Dinero #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es el dinero", "para qué sirve el dinero", "dinero fiduciario", "historia del dinero", "trueque", "funciones del dinero", "criptomonedas para principiantes", "cripto desde cero", "bitcoin explicado fácil", "educación financiera", "finanzas personales", "qué es la plata"]
+  },
+  "miniatura": { "escena": "hook", "zoom": 1.15, "dy": 0 },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es", "el dinero?"],
+      "sub": "Antes de hablar de cripto",
+      "icono": "billetes",
+      "orbita": ["moneda", "concha", "celular", "alcancia"],
+      "vo": "Antes de hablar de criptomonedas, arranquemos por lo más básico: ¿qué es el dinero y por qué confiamos en él?"
+    },
+    {
+      "kind": "analogia",
+      "badge": "ANTES DEL DINERO",
+      "head": ["El trueque"],
+      "sub": "Cambiar una cosa por otra",
+      "conector": "tus manzanas por su pescado",
+      "a": { "icono": "manzana", "label": "Tus manzanas" },
+      "simbolo": "?",
+      "b": { "icono": "pescado", "label": "Su pescado", "cue": "pescado" },
+      "nota": { "text": "¿Y si no quiere manzanas? **No hay trato.**", "cue": "no quería" },
+      "vo": "Antes existía el trueque: cambiabas tus manzanas por pescado. ¿Y si el pescador no quería manzanas? No había trato."
+    },
+    {
+      "kind": "flujo",
+      "badge": "CAMBIÓ DE FORMA",
+      "head": ["Un acuerdo", "entre todos"],
+      "nodos": [
+        { "icono": "concha", "label": "Conchas y sal", "cue": "conchas" },
+        { "icono": "lingote", "label": "Metales y monedas", "cue": "metales" },
+        { "icono": "billete", "label": "Billetes de papel", "cue": "billetes" },
+        { "icono": "celular", "label": "Números en una app", "cue": "números" }
+      ],
+      "vo": "Por eso apareció el dinero: algo que todos aceptan. Fue cambiando de forma: conchas, metales, billetes y hoy, números en una app."
+    },
+    {
+      "kind": "claves",
+      "badge": "SIRVE PARA",
+      "head": ["Tres cosas"],
+      "items": [
+        { "text": "**Intercambiar:** comprar y vender", "cue": "intercambiar" },
+        { "text": "**Medir:** ponerle precio a todo", "cue": "medir" },
+        { "text": "**Ahorrar:** guardar valor para después", "cue": "ahorrar" }
+      ],
+      "vo": "El dinero sirve para tres cosas: intercambiar, medir cuánto vale algo y ahorrar, o sea, guardar valor para usarlo después."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA CLAVE",
+      "head": ["Funciona por", "confianza"],
+      "icono": "apreton",
+      "etiquetas": [
+        { "text": "Todos lo aceptan", "cue": "aceptar" },
+        { "text": "Lo respalda un Estado", "cue": "un Estado" }
+      ],
+      "vo": "Un billete es solo papel. Vale porque confiamos en que otros lo van a aceptar, y porque un Estado lo emite y lo respalda."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Dinero", "fiduciario"],
+      "terminos": [
+        { "termino": "Fiduciario", "definicion": "Que vale por la **confianza** en quien lo emite, no por el material.", "icono": "billete" },
+        { "termino": "Fiducia", "definicion": "Palabra en latín que significa **confianza**.", "icono": "libro", "cue": "latín" }
+      ],
+      "vo": "A esto se le llama dinero fiduciario. Viene del latín fiducia, que significa confianza."
+    },
+    {
+      "kind": "comparacion",
+      "badge": "HOY",
+      "head": ["Efectivo vs", "plata digital"],
+      "a": { "titulo": "Efectivo", "icono": "billetes", "items": ["Lo tenés en la mano", "Pagás en persona"] },
+      "b": { "titulo": "En el banco", "icono": "banco", "items": ["Es un número en una computadora", "El banco lleva la cuenta"] },
+      "vo": "Hoy casi todo el dinero es digital: un número en la computadora de un banco, y confiamos en que lleve bien la cuenta."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Reemplazó al trueque", "Sirve para intercambiar, medir y ahorrar", "Vale porque confiamos"],
+      "vo": "En resumen: el dinero es un acuerdo basado en la confianza. En el próximo video: ¿dónde está tu plata cuando está en el banco?"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+clave;titulo;nivel;descripcion;estado
+que-es-el-dinero;¿Qué es el dinero?;Básico 0;Antes de hablar de cripto: para qué sirve el dinero (intercambiar, medir, ahorrar) y por qué confiamos en él. Del trueque al dinero fiduciario.;prueba
+plata-en-el-banco;¿Dónde está tu plata cuando está en el banco?;Básico 0;Hoy casi todo el dinero es un número en una base de datos. Qué hace el banco, quién lleva la cuenta y por qué dependemos de intermediarios.;propuesto
+que-es-la-inflacion;¿Qué es la inflación?;Básico 0;Por qué con el mismo billete comprás menos que antes. Quién emite el dinero y qué pasa cuando se emite de más. Sin cifras ni países puntuales.;propuesto
+que-es-una-criptomoneda;¿Qué es una criptomoneda?;Básico 1;Dinero digital que no emite un banco ni un Estado y que se mueve por internet sin intermediarios. La idea general antes de los detalles.;propuesto
+que-es-bitcoin;¿Qué es Bitcoin?;Básico 1;La primera criptomoneda (2009). Qué problema quiso resolver: mandar valor por internet sin depender de un banco.;propuesto
+quien-creo-bitcoin;¿Quién creó Bitcoin?;Básico 1;Satoshi Nakamoto, el documento de 2008 (whitepaper) y por qué que el creador sea anónimo no cambia cómo funciona.;propuesto
+que-es-blockchain;¿Qué es una blockchain?;Básico 1;La cadena de bloques como un cuaderno contable compartido que miles de computadoras copian y nadie puede borrar.;propuesto
+centralizado-vs-descentralizado;Centralizado vs descentralizado;Básico 1;Un banco con un solo dueño de la planilla vs una red donde muchos llevan la misma cuenta. Ventajas y desventajas de cada uno.;propuesto
+por-que-bitcoin-tiene-valor;¿Por qué Bitcoin tiene valor?;Básico 1;Escasez (máximo de 21 millones), confianza y que la gente lo acepte. Conexión con el video del dinero. Sin hablar de precios.;propuesto
+que-es-una-billetera;¿Qué es una billetera cripto?;Básico 2;La billetera no guarda las monedas: guarda las llaves que te permiten moverlas. Billeteras en el celular, en la compu y en un dispositivo.;propuesto
+clave-publica-y-privada;Clave pública y clave privada;Básico 2;La pública es como tu CBU o alias (la podés compartir); la privada es la llave de tu caja fuerte (nunca se comparte).;propuesto
+frase-semilla;¿Qué es la frase semilla?;Básico 2;Las 12 o 24 palabras que recuperan tu billetera. Cómo guardarla (papel, lugar seguro) y por qué nadie legítimo te la va a pedir.;propuesto
+custodia-propia-vs-exchange;¿Quién tiene tus llaves?;Básico 2;Billetera propia vs dejar todo en una plataforma (custodia). Qué significa "si no son tus llaves, no son tus monedas".;propuesto
+que-es-un-exchange;¿Qué es un exchange?;Básico 2;La plataforma donde se cambia dinero común por cripto. Para qué sirve, qué riesgos tiene y qué mirar antes de usar una. Sin nombrar marcas.;propuesto
+que-pasa-al-comprar-cripto;¿Qué pasa cuando comprás cripto?;Básico 2;El recorrido paso a paso (cuenta, verificación de identidad, compra, retiro a tu billetera) sin recomendar qué ni cuándo comprar.;propuesto
+enviar-y-recibir-cripto;Cómo enviar y recibir cripto;Básico 2;Direcciones, redes y comisiones. Por qué un error en la dirección o la red puede hacer que pierdas el envío. Hacer una prueba chica primero.;propuesto
+estafas-mas-comunes;Las estafas más comunes en cripto;Básico 2;Promesas de ganancias seguras, falsos soportes técnicos, "inversiones" por WhatsApp, esquemas piramidales. Cómo reconocerlas.;propuesto
+seguridad-basica;Seguridad básica: que no te roben;Básico 2;Contraseñas, verificación en dos pasos, phishing (links falsos) y desconfiar de todo lo que llega por privado.;propuesto
+que-es-la-mineria;¿Qué es la minería?;Básico 3;Cómo se agregan bloques nuevos a Bitcoin: computadoras que compiten resolviendo un problema (prueba de trabajo) a cambio de una recompensa.;propuesto
+21-millones-y-halving;21 millones y el halving;Básico 3;Por qué nunca va a haber más de 21 millones de bitcoins y qué es el halving (la recompensa se divide a la mitad cada 210.000 bloques).;propuesto
+que-son-las-comisiones;¿Qué son las comisiones de red?;Básico 3;Por qué pagás para mover cripto, quién cobra esa comisión y por qué a veces sube cuando la red está llena.;propuesto
+que-es-la-volatilidad;¿Por qué el precio sube y baja tanto?;Básico 3;Volatilidad explicada con oferta y demanda, sin cifras ni predicciones. Por qué nunca hay que poner plata que necesitás.;propuesto
+que-es-una-stablecoin;¿Qué es una stablecoin?;Intermedio 1;Criptomonedas que buscan valer lo mismo que una moneda como el dólar. Cómo intentan mantenerse estables y qué riesgos tienen.;propuesto
+que-es-ethereum;¿Qué es Ethereum?;Intermedio 1;Una blockchain que además de mover dinero puede correr programas. Diferencia de propósito con Bitcoin.;propuesto
+contratos-inteligentes;¿Qué es un contrato inteligente?;Intermedio 1;Un programa que se ejecuta solo cuando se cumple una condición, como una máquina expendedora. Ejemplos simples.;propuesto
+tokens-y-altcoins;Tokens y altcoins: ¿por qué hay miles?;Intermedio 1;Diferencia entre moneda propia de una red y token creado encima de otra. Por qué cualquiera puede crear uno (y por qué eso es un riesgo).;propuesto
+prueba-de-participacion;Prueba de participación (staking);Intermedio 1;Otra forma de asegurar una red: en vez de gastar energía se deja bloqueada cripto como garantía. Comparación con la minería.;propuesto
+que-es-defi;¿Qué son las finanzas descentralizadas (DeFi)?;Intermedio 2;Préstamos e intercambios hechos con contratos inteligentes en lugar de bancos. Qué promete y qué riesgos tiene (errores de código, estafas).;propuesto
+que-es-un-nft;¿Qué es un NFT?;Intermedio 2;Un certificado digital único registrado en una blockchain. Qué prueba y qué no prueba la propiedad de un NFT.;propuesto
+redes-de-segunda-capa;Redes de segunda capa (Lightning);Intermedio 2;Cómo se hacen pagos chicos y rápidos encima de una blockchain lenta. Lightning como ejemplo, explicado con una analogía.;propuesto
+impuestos-y-normativa;Cripto, impuestos y normativa;Intermedio 2;Por qué cada país tiene reglas distintas, qué preguntar a un contador y por qué conviene guardar registro de tus movimientos. Sin asesorar.;propuesto
+como-investigar-un-proyecto;Cómo investigar un proyecto (DYOR);Intermedio 2;Qué mirar antes de confiar en una cripto: quién está detrás, para qué sirve, whitepaper y señales de alerta. Cierre de la serie básica.;propuesto

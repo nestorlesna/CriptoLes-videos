@@ -1,0 +1,37 @@
+# Skills de HyperFrames: se reinstalan con skills-lock.json
+#   npx skills add heygen-com/hyperframes
+.agents/
+.claude/skills/
+.claude/settings.local.json
+
+# Dependencias
+node_modules/
+
+# Videos finales (pesados): se regeneran con
+#   node plantilla/make-video.mjs <slug> --render
+# Se versionan solo la descripción de YouTube y la miniatura.
+salida/*.mp4
+salida/subidos/*.mp4
+
+# Carpetas de trabajo generadas por make-video / hyperframes
+videos/_*/
+videos/*/renders/
+videos/*/snapshots/
+videos/*/assets/
+videos/*/miniatura/
+videos/*/.media/
+videos/*/.thumbnails/
+videos/*/.waveform-cache/
+videos/*/.hyperframes/
+videos/*/public/
+videos/*.log
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.log
+
+# Modelo de voz Piper (114 MB, ver plantilla/README.md → Voz)
+plantilla/voces-piper/

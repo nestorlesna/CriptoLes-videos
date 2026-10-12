@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Antes de hablar de criptomonedas, arranquemos por lo más básico: ¿qué es el dinero y por qué confiamos en él?"
+    },
+    {
+      "id": "02",
+      "text": "Antes existía el trueque: cambiabas tus manzanas por pescado. ¿Y si el pescador no quería manzanas? No había trato."
+    },
+    {
+      "id": "03",
+      "text": "Por eso apareció el dinero: algo que todos aceptan. Fue cambiando de forma: conchas, metales, billetes y hoy, números en una app."
+    },
+    {
+      "id": "04",
+      "text": "El dinero sirve para tres cosas: intercambiar, medir cuánto vale algo y ahorrar, o sea, guardar valor para usarlo después."
+    },
+    {
+      "id": "05",
+      "text": "Un billete es solo papel. Vale porque confiamos en que otros lo van a aceptar, y porque un Estado lo emite y lo respalda."
+    },
+    {
+      "id": "06",
+      "text": "A esto se le llama dinero fiduciario. Viene del latín fiducia, que significa confianza."
+    },
+    {
+      "id": "07",
+      "text": "Hoy casi todo el dinero es digital: un número en la computadora de un banco, y confiamos en que lleve bien la cuenta."
+    },
+    {
+      "id": "08",
+      "text": "En resumen: el dinero es un acuerdo basado en la confianza. En el próximo video: ¿dónde está tu plata cuando está en el banco?"
+    }
+  ]
+}

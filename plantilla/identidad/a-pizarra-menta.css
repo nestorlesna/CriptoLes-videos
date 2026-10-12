@@ -1,0 +1,14 @@
+/* fonts: https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800;900&display=swap */
+/* Identidad A — "Pizarra Menta": papel cálido, tinta azul marino, menta como acento, dorado = moneda. Ver a-pizarra-menta.frame.md */
+:root {
+  --bg: #FBF7EE; --bg-dots: rgba(27,35,64,0.10); --blob: #E3F6EE;
+  --surface: #FFFFFF; --surface-line: #1B2340;
+  --ink: #1B2340; --muted: #586079;
+  --line: #1B2340; --plate: #FFFFFF; --paper: #FFF6DC;
+  --primary: #19C39A; --primary-strong: #0A7A5E; --primary-soft: #BDEFDD;
+  --gold: #FFC23D; --sky: #7FB2FF; --leaf: #8FD9A8;
+  --alert: #F0564A; --alert-soft: #FFE6E2; --alert-ink: #B42318;
+  --sub-bg: #1B2340; --sub-ink: #FFFFFF; --sub-accent: #19C39A;
+  --font-display: "Fredoka", sans-serif; --font-body: "Nunito", sans-serif;
+  --radius: 28px; --shadow: 0 10px 0 rgba(27,35,64,0.12);
+}

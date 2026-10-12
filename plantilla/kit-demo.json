@@ -1,0 +1,17 @@
+{
+  "slug": "_kit",
+  "titulo": "Demo del kit de escenas",
+  "nivel": "Básico 2",
+  "music": false,
+  "frames": [
+    { "kind": "hook", "head": ["¿Qué es una", "billetera?"], "sub": "Spoiler: no guarda monedas", "icono": "billetera", "orbita": ["llave", "candado", "bitcoin", "celular"], "min": 4, "vo": "Hook: pregunta gancho + tema." },
+    { "kind": "concepto", "head": ["Guarda", "tus llaves"], "icono": "llave", "etiquetas": ["Clave pública", "Clave privada", "Frase semilla"], "min": 5.5, "vo": "Concepto: título + ícono grande + etiquetas." },
+    { "kind": "analogia", "head": ["Es como un", "llavero"], "a": { "icono": "billetera", "label": "Billetera cripto" }, "simbolo": "=", "b": { "icono": "llave", "label": "Tu llavero" }, "nota": "Las monedas viven en la red, **no en la billetera**.", "min": 5.5, "vo": "Analogía: comparación con algo cotidiano." },
+    { "kind": "flujo", "head": ["Así viaja", "un envío"], "nodos": [{ "icono": "billetera", "label": "Tu billetera", "detalle": "Firmás con tu clave" }, { "icono": "red", "label": "La red", "detalle": "Miles de compus lo verifican" }, { "icono": "bloque", "label": "Un bloque", "detalle": "Queda anotado para siempre" }], "token": { "icono": "bitcoin", "until": "end" }, "min": 8, "vo": "Flujo: cajas y flechas animadas, con una moneda que viaja hasta el final de la escena." },
+    { "kind": "comparacion", "head": ["Caliente", "vs fría"], "a": { "titulo": "Caliente", "icono": "celular", "items": ["Conectada a internet", "Cómoda para el día a día"] }, "b": { "titulo": "Fría", "icono": "candado", "items": ["Sin conexión", "Más segura para guardar"] }, "min": 7.5, "vo": "Comparación: A versus B, ítems intercalados." },
+    { "kind": "claves", "head": ["Tres claves"], "items": ["Anotá la frase en **papel**", "Guardala en un lugar seguro", "**Nunca** la compartas"], "min": 5, "vo": "Claves: lista con ticks." },
+    { "kind": "alerta", "head": ["Estafa", "típica"], "titulo": "\"Soporte técnico\" por privado", "items": ["Te escribe alguien \"del soporte\"", "Te pide tu frase semilla"], "consejo": "Nadie legítimo te la va a pedir. **Nunca.**", "min": 6, "vo": "Alerta: riesgo o estafa típica con señales y consejo." },
+    { "kind": "glosario", "head": ["Glosario"], "terminos": [{ "termino": "Billetera", "definicion": "App o aparato que guarda tus llaves.", "icono": "billetera" }, { "termino": "Frase semilla", "definicion": "12 o 24 palabras que recuperan tu billetera.", "icono": "semilla" }], "min": 4.5, "vo": "Glosario: término + definición en una línea." },
+    { "kind": "cierre", "head": ["Lo que", "aprendiste"], "resumen": ["La billetera guarda llaves", "La frase semilla no se comparte"], "min": 4.5, "vo": "Cierre: resumen + en el próximo video." }
+  ]
+}
