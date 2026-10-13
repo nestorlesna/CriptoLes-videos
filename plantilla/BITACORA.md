@@ -39,9 +39,10 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-12 | que-es-una-criptomoneda | Comillas rectas en el título: Space Grotesk dibuja la de apertura como de cierre (”cripto”) | evitar comillas en `head`; en textos de cuerpo (Inter) se ven bien |
 | 10-12 | (ícono bitcoin) | ₿ blanco sobre naranja = contraste 2,3:1 en el check | ₿ en color tinta (`--line`) |
 | 10-12 | (5 videos) | Producir varios seguidos | escribir las fichas → un loop `make-video` sin render para revisar todos los contact sheets → corregir → loop con `--render` en segundo plano |
+| 10-12 | (voz) | Pronunciación probada por el dueño: todas las del ajuste OK salvo Ethereum ("Ezérium") | Ethereum → "Etérium" (elegida entre 6 variantes) |
 
 ## Pendientes / ideas
 
-- Probar `plantilla/pronunciacion.json` en el primer video con palabras en inglés (Bitcoin, blockchain, wallet…) y ajustar.
+- Palabras nuevas en inglés: sumarlas a `pronunciacion.json` y pasarle el audio de `--pronunciacion <palabra>` al dueño antes de renderizar.
 - Versión 16:9: tokens listos, falta el layout (texto a la izquierda, visual a la derecha).
 - Kind posible a futuro: "números" (un dato verificable grande, ej. 21.000.000) y "línea de tiempo" (2008 → 2009 → hoy).
