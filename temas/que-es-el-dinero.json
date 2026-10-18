@@ -3,7 +3,7 @@
   "titulo": "¿Qué es el dinero?",
   "nivel": "Básico 0",
   "descripcion": "Antes de hablar de cripto: para qué sirve el dinero (intercambiar, medir, ahorrar) y por qué confiamos en él. Del trueque al dinero fiduciario.",
-  "revisado": false,
+  "revisado": true,
   "notas": "Video de prueba del pipeline.",
   "voiceSpeed": 1.0,
   "music": true,
