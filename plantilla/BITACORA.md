@@ -40,6 +40,7 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-12 | (ícono bitcoin) | ₿ blanco sobre naranja = contraste 2,3:1 en el check | ₿ en color tinta (`--line`) |
 | 10-12 | (5 videos) | Producir varios seguidos | escribir las fichas → un loop `make-video` sin render para revisar todos los contact sheets → corregir → loop con `--render` en segundo plano |
 | 10-12 | (voz) | Pronunciación probada por el dueño: todas las del ajuste OK salvo Ethereum ("Ezérium") | Ethereum → "Etérium" (elegida entre 6 variantes) |
+| 10-18 | descripcion_inicial | Video de presentación del canal, más largo que los temas | 14 escenas → ~92 s sin problemas de layout; va primero en `temas.csv` (nivel "Bienvenida") y su cierre apunta a ¿Qué es el dinero? |
 
 ## Pendientes / ideas
 

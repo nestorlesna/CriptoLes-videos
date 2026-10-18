@@ -1,0 +1,63 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Bienvenido a Cripto desde cero. Si las criptomonedas te suenan a chino, este canal es para vos. Te cuento qué vamos a ver."
+    },
+    {
+      "id": "02",
+      "text": "La idea es simple: videos cortos, sin tecnicismos, que van de a un paso. No hace falta saber nada de antes."
+    },
+    {
+      "id": "03",
+      "text": "El recorrido tiene cuatro etapas: el dinero, las criptomonedas, la seguridad y, al final, temas más avanzados."
+    },
+    {
+      "id": "04",
+      "text": "Arrancamos por la base: qué es el dinero, dónde está tu plata cuando está en el banco y qué es la inflación."
+    },
+    {
+      "id": "05",
+      "text": "Después, las criptomonedas: plata digital que viaja por internet sin un banco en el medio, empezando por Bitcóin."
+    },
+    {
+      "id": "06",
+      "text": "Vas a aprender qué es una blocchéin, un cuaderno contable compartido que nadie puede borrar, y qué es la minería."
+    },
+    {
+      "id": "07",
+      "text": "Vamos a ver qué es una billetera cripto, o uólet: no guarda monedas, guarda las llaves para poder moverlas."
+    },
+    {
+      "id": "08",
+      "text": "También qué es un exchéinch, qué pasa cuando comprás cripto y cómo enviarla a tu billetera sin errores."
+    },
+    {
+      "id": "09",
+      "text": "Y algo clave, la seguridad: cómo reconocer estafas, links falsos y por qué tu frase semilla no se comparte nunca."
+    },
+    {
+      "id": "10",
+      "text": "Sobre inversiones: por qué el precio de las cripto sube y baja tanto, y qué son las stéibolcoins, que buscan ser estables."
+    },
+    {
+      "id": "11",
+      "text": "En el nivel intermedio: Etérium, los contratos inteligentes, di fái, que son finanzas sin bancos, y los ene efe te."
+    },
+    {
+      "id": "12",
+      "text": "Y para cerrar la serie: impuestos y normativa, y cómo investigar un proyecto antes de confiar en él."
+    },
+    {
+      "id": "13",
+      "text": "Importante: todo esto es educativo. No te voy a decir qué comprar, y nunca pongas plata que necesitás."
+    },
+    {
+      "id": "14",
+      "text": "Suscribite y arrancamos por el principio. En el próximo video: ¿qué es el dinero?"
+    }
+  ]
+}

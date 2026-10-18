@@ -1,0 +1,144 @@
+{
+  "slug": "descripcion_inicial",
+  "titulo": "¿De qué va Cripto desde cero?",
+  "nivel": "Bienvenida",
+  "descripcion": "Video de presentación del canal: un pantallazo no técnico de todo lo que viene (dinero, inversiones, cripto, blockchain, billeteras, seguridad, DeFi…).",
+  "revisado": true,
+  "notas": "Video de presentación del canal (más largo que los demás).",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿De qué va este canal? 🪙 Cripto explicada fácil, desde cero | Cripto desde cero",
+    "descripcion": "🪙 BIENVENIDO A CRIPTO DESDE CERO — Todo lo que vas a aprender en este canal, en un solo video\n\n¿Te hablan de Bitcoin, blockchain o billeteras y no entendés nada? Tranqui: este canal es para vos. Acá te cuento el recorrido completo. 🗺️\n\n📚 EN ESTE VIDEO\n1️⃣ La idea del canal: videos cortos, sin tecnicismos, de a un paso\n2️⃣ La base: qué es el dinero, el banco y la inflación\n3️⃣ Las criptomonedas y Bitcoin: plata digital sin banco en el medio\n4️⃣ Blockchain y minería\n5️⃣ Billeteras, llaves y frase semilla\n6️⃣ Exchanges: comprar y enviar cripto sin errores\n7️⃣ Seguridad: cómo reconocer estafas\n8️⃣ Inversiones: por qué el precio sube y baja tanto, y las stablecoins\n9️⃣ Nivel intermedio: Ethereum, contratos inteligentes, DeFi y NFT\n🔟 Impuestos, normativa y cómo investigar un proyecto\n\n💡 LA IDEA CLAVE\nEs como aprender a manejar: primero entendés cómo funciona el auto y las reglas, y recién después salís a la ruta.\n\n📖 GLOSARIO\n• Criptomoneda: dinero digital que no emite un banco ni un Estado.\n• Blockchain: un cuaderno contable compartido que nadie puede borrar.\n• Billetera cripto: guarda las llaves para mover tus monedas.\n• DeFi: finanzas hechas con programas en lugar de bancos.\n\n⚠️ OJO CON\nNadie de este canal te va a escribir por privado ni te va a pedir plata. Y tu frase semilla no se comparte nunca, con nadie.\n\n🎓 NIVEL: Bienvenida · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, suscribite, dejá tu like y compartilo con alguien que siempre quiso entender esto de las cripto.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #CriptoDesdeCero #EducacionFinanciera #Blockchain",
+    "tags": ["cripto desde cero", "criptomonedas para principiantes", "qué son las criptomonedas", "aprender cripto", "cripto explicado fácil", "qué es bitcoin", "qué es blockchain", "billetera cripto", "qué es defi", "educación financiera", "cripto en español", "cripto fácil"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿De qué va", "este canal?"],
+      "sub": "Un pantallazo de todo lo que viene",
+      "icono": "cripto",
+      "orbita": ["billetes", "bitcoin", "billetera", "bloque", "candado", "red"],
+      "vo": "Bienvenido a Cripto desde cero. Si las criptomonedas te suenan a chino, este canal es para vos. Te cuento qué vamos a ver."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Desde cero,", "de a un paso"],
+      "icono": "foco",
+      "etiquetas": [{ "text": "Videos cortos", "cue": "cortos" }, { "text": "Sin tecnicismos", "cue": "tecnicismos" }, { "text": "No hace falta saber nada", "cue": "No hace falta" }],
+      "vo": "La idea es simple: videos cortos, sin tecnicismos, que van de a un paso. No hace falta saber nada de antes."
+    },
+    {
+      "kind": "claves",
+      "badge": "EL RECORRIDO",
+      "head": ["Cuatro", "etapas"],
+      "items": [
+        { "text": "**El dinero:** la base", "cue": "el dinero" },
+        { "text": "**Las cripto:** Bitcoin y más", "cue": "las criptomonedas" },
+        { "text": "**Seguridad:** cuidar lo tuyo", "cue": "la seguridad" },
+        { "text": "**Intermedio:** temas avanzados", "cue": "avanzados" }
+      ],
+      "vo": "El recorrido tiene cuatro etapas: el dinero, las criptomonedas, la seguridad y, al final, temas más avanzados."
+    },
+    {
+      "kind": "concepto",
+      "badge": "ETAPA 1",
+      "head": ["Primero,", "el dinero"],
+      "icono": "billetes",
+      "etiquetas": [{ "text": "Para qué sirve", "cue": "qué es el dinero" }, { "text": "Tu plata en el banco", "cue": "banco" }, { "text": "La inflación", "cue": "inflación" }],
+      "vo": "Arrancamos por la base: qué es el dinero, dónde está tu plata cuando está en el banco y qué es la inflación."
+    },
+    {
+      "kind": "analogia",
+      "badge": "ETAPA 2",
+      "head": ["Después,", "las cripto"],
+      "conector": "es como",
+      "a": { "icono": "mensaje", "label": "Un mail va directo" },
+      "simbolo": "=",
+      "b": { "icono": "bitcoin", "label": "Plata digital directa", "cue": "sin un banco" },
+      "nota": "Empezamos por **Bitcoin**, la primera de todas.",
+      "vo": "Después, las criptomonedas: plata digital que viaja por internet sin un banco en el medio, empezando por Bitcoin."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Palabras", "nuevas"],
+      "terminos": [
+        { "termino": "Blockchain", "definicion": "Un cuaderno contable **compartido** que nadie puede borrar.", "icono": "bloques" },
+        { "termino": "Minería", "definicion": "Computadoras que **agregan bloques** nuevos.", "icono": "computadora", "cue": "minería" }
+      ],
+      "vo": "Vas a aprender qué es una blockchain, un cuaderno contable compartido que nadie puede borrar, y qué es la minería."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Tu billetera", "y tus llaves"],
+      "conector": "es como",
+      "a": { "icono": "billetera", "label": "Billetera cripto" },
+      "simbolo": "=",
+      "b": { "icono": "llave", "label": "Tu llavero", "cue": "guarda las llaves" },
+      "nota": "Las monedas viven en la red, **no en la billetera**.",
+      "vo": "Vamos a ver qué es una billetera cripto, o wallet: no guarda monedas, guarda las llaves para poder moverlas."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Comprar y", "enviar"],
+      "nodos": [
+        { "icono": "billetes", "label": "Tu dinero", "cue": "exchange" },
+        { "icono": "edificio", "label": "Un exchange", "detalle": "cambia dinero por cripto", "cue": "comprás" },
+        { "icono": "billetera", "label": "Tu billetera", "detalle": "sin errores", "cue": "enviarla" }
+      ],
+      "token": { "icono": "bitcoin", "until": "end" },
+      "vo": "También qué es un exchange, qué pasa cuando comprás cripto y cómo enviarla a tu billetera sin errores."
+    },
+    {
+      "kind": "alerta",
+      "badge": "ETAPA 3",
+      "head": ["Seguridad", "primero"],
+      "titulo": "Vas a aprender a detectar",
+      "items": [{ "text": "Ganancias \"seguras\"", "cue": "estafas" }, { "text": "Links falsos", "cue": "links" }],
+      "consejo": { "text": "Tu frase semilla **no se comparte nunca**.", "cue": "frase semilla" },
+      "vo": "Y algo clave, la seguridad: cómo reconocer estafas, links falsos y por qué tu frase semilla no se comparte nunca."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Sube y baja", "vs estable"],
+      "a": { "titulo": "Volátil", "icono": "grafico", "items": ["El precio sube y baja", "Oferta y demanda"] },
+      "b": { "titulo": "Stablecoin", "icono": "balanza", "items": ["Busca valer como el dólar", "También tiene riesgos"] },
+      "vo": "Sobre inversiones: por qué el precio de las cripto sube y baja tanto, y qué son las stablecoins, que buscan ser estables."
+    },
+    {
+      "kind": "concepto",
+      "badge": "ETAPA 4",
+      "head": ["Más allá de", "Bitcoin"],
+      "icono": "red",
+      "etiquetas": [{ "text": "Ethereum", "cue": "Ethereum" }, { "text": "Contratos inteligentes", "cue": "contratos" }, { "text": "DeFi y NFT", "cue": "DeFi" }],
+      "vo": "En el nivel intermedio: Ethereum, los contratos inteligentes, DeFi, que son finanzas sin bancos, y los NFT."
+    },
+    {
+      "kind": "claves",
+      "badge": "PARA CERRAR",
+      "head": ["Pensar por", "tu cuenta"],
+      "items": [
+        { "text": "**Impuestos** y normativa", "cue": "impuestos" },
+        { "text": "Cómo **investigar** un proyecto", "cue": "investigar" }
+      ],
+      "vo": "Y para cerrar la serie: impuestos y normativa, y cómo investigar un proyecto antes de confiar en él."
+    },
+    {
+      "kind": "concepto",
+      "badge": "IMPORTANTE",
+      "head": ["Es para", "aprender"],
+      "icono": "libro",
+      "etiquetas": [{ "text": "No es consejo financiero", "cue": "educativo" }, { "text": "No te digo qué comprar", "cue": "qué comprar" }, { "text": "Nunca pongas plata que necesitás", "cue": "nunca" }],
+      "vo": "Importante: todo esto es educativo. No te voy a decir qué comprar, y nunca pongas plata que necesitás."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "viene"],
+      "resumen": ["El dinero", "Las cripto y Bitcoin", "Billeteras y seguridad", "Ethereum y DeFi"],
+      "vo": "Suscribite y arrancamos por el principio. En el próximo video: ¿qué es el dinero?"
+    }
+  ]
+}
