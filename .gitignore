@@ -12,6 +12,7 @@ node_modules/
 # Se versionan solo la descripción de YouTube y la miniatura.
 salida/*.mp4
 salida/subidos/*.mp4
+salida/subidos/**/*.mp4
 
 # Carpetas de trabajo generadas por make-video / hyperframes
 videos/_*/
