@@ -1,0 +1,86 @@
+{
+  "slug": "que-es-ethereum",
+  "titulo": "¿Qué es Ethereum?",
+  "nivel": "Intermedio 1",
+  "descripcion": "Una blockchain que además de mover dinero puede correr programas. Diferencia de propósito con Bitcoin.",
+  "revisado": false,
+  "notas": "Palabra nueva para la voz: ether (escuchar antes de renderizar).",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es Ethereum? 💠 La blockchain que corre programas | Cripto desde cero",
+    "descripcion": "💠 ¿QUÉ ES ETHEREUM? — Más que una moneda: una red que corre programas\n\nDespués de Bitcoin, Ethereum es la red cripto más conocida. Pero su idea es bastante distinta. Acá ves en qué. 🧩\n\n📚 EN ESTE VIDEO\n1️⃣ Una red que, además de mover dinero, corre programas\n2️⃣ Es como una compu compartida por todo el mundo\n3️⃣ Bitcoin vs Ethereum: distinto propósito\n4️⃣ Qué es el ether y qué es el gas\n5️⃣ Qué se construye encima de Ethereum\n6️⃣ Los tokens que se hacen pasar por ether\n\n💡 LA IDEA CLAVE\nBitcoin busca ser dinero digital. Ethereum es como una compu mundial: cualquiera puede usarla para correr programas, y nadie la apaga por su cuenta.\n\n📖 GLOSARIO\n• Ether: la moneda propia de la red Ethereum.\n• Gas: la comisión que pagás por usar la red.\n• Plataforma: una base sobre la que otros construyen aplicaciones.\n\n⚠️ OJO CON\nTokens con nombres parecidos que se hacen pasar por ether, o regalos que no pediste. Verificá siempre qué estás recibiendo.\n\n🎓 NIVEL: Intermedio 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que cree que todas las cripto son iguales.\n\n{{DESLINDE}}\n\n#Criptomonedas #Ethereum #Blockchain #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es ethereum", "ethereum explicado fácil", "bitcoin vs ethereum", "qué es el ether", "qué es el gas en ethereum", "ethereum para principiantes", "blockchain programable", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "contratos inteligentes"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es", "Ethereum?"],
+      "sub": "Más que una moneda",
+      "icono": "cripto",
+      "orbita": ["computadora", "red", "bloque", "mundo"],
+      "vo": "Después de Bitcoin, Ethereum es la red cripto más conocida. Pero su idea es bastante distinta."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Una red que", "corre programas"],
+      "icono": "computadora",
+      "etiquetas": [{ "text": "Funciona desde 2015", "cue": "2015" }, { "text": "Mueve dinero y programas", "cue": "programas" }],
+      "vo": "Ethereum funciona desde 2015. Además de mover dinero, puede correr programas que viven en la blockchain."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Una compu", "mundial"],
+      "conector": "es como",
+      "a": { "icono": "cripto", "label": "Ethereum" },
+      "simbolo": "=",
+      "b": { "icono": "mundo", "label": "Una compu compartida", "cue": "compu" },
+      "nota": "Nadie la apaga **por su cuenta**.",
+      "vo": "Imaginala como una compu compartida por todo el mundo: cualquiera puede usarla y nadie la apaga por su cuenta."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Bitcoin vs", "Ethereum"],
+      "a": { "titulo": "Bitcoin", "icono": "bitcoin", "items": [{ "text": "Dinero digital", "cue": "dinero digital" }, { "text": "Pocas funciones, a propósito", "cue": "pocas" }] },
+      "b": { "titulo": "Ethereum", "icono": "cripto", "items": [{ "text": "Una plataforma", "cue": "plataforma" }, { "text": "Muchas aplicaciones", "cue": "aplicaciones" }] },
+      "vo": "Bitcoin busca ser dinero digital, con pocas funciones a propósito. Ethereum es una plataforma para muchas aplicaciones."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Ether y", "gas"],
+      "terminos": [
+        { "termino": "Ether", "definicion": "La **moneda propia** de Ethereum.", "icono": "moneda" },
+        { "termino": "Gas", "definicion": "La **comisión** por usar la red.", "icono": "billete", "cue": "gas" }
+      ],
+      "vo": "La moneda de Ethereum se llama ether. Y para usar la red pagás una comisión que se llama gas."
+    },
+    {
+      "kind": "claves",
+      "badge": "SE USA PARA",
+      "head": ["Qué se hace", "encima"],
+      "items": [
+        { "text": "**Contratos** que se cumplen solos", "cue": "contratos" },
+        { "text": "**Tokens** de otros proyectos", "cue": "tokens" },
+        { "text": "**Finanzas** sin banco", "cue": "finanzas" }
+      ],
+      "vo": "Encima de Ethereum hay contratos que se cumplen solos, tokens de otros proyectos y finanzas sin banco."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Ojo con", "las copias"],
+      "titulo": "Tokens que se hacen pasar por ether",
+      "items": [{ "text": "Nombres parecidos", "cue": "parecidos" }, { "text": "Regalos que no pediste", "cue": "regalo" }],
+      "consejo": { "text": "Verificá siempre **qué estás recibiendo**.", "cue": "verificá" },
+      "vo": "Ojo: hay tokens con nombres parecidos que se hacen pasar por ether, o que llegan de regalo. Verificá qué recibís."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Una red que corre programas", "Su moneda: ether", "Su comisión: gas"],
+      "vo": "Ethereum es una compu mundial que corre programas. En el próximo video: ¿qué es un contrato inteligente?"
+    }
+  ]
+}

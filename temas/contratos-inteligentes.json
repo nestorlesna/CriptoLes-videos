@@ -1,0 +1,92 @@
+{
+  "slug": "contratos-inteligentes",
+  "titulo": "¿Qué es un contrato inteligente?",
+  "nivel": "Intermedio 1",
+  "descripcion": "Un programa que se ejecuta solo cuando se cumple una condición, como una máquina expendedora. Ejemplos simples.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es un contrato inteligente? 🤖 Explicado con una máquina expendedora | Cripto desde cero",
+    "descripcion": "🤖 ¿QUÉ ES UN CONTRATO INTELIGENTE? — Un programa que se cumple solo\n\nUn contrato que se cumple solo, sin escribano ni juez. Suena raro, pero existe. Acá lo entendés con una máquina expendedora. 🥤\n\n📚 EN ESTE VIDEO\n1️⃣ Es como una máquina expendedora\n2️⃣ La idea: si pasa esto, hace aquello\n3️⃣ Un ejemplo simple, paso a paso\n4️⃣ Lo bueno: sin intermediarios y con reglas a la vista\n5️⃣ Lo malo: un error no se deshace\n6️⃣ El peligro de aprobar contratos sin leer\n\n💡 LA IDEA CLAVE\nPonés la moneda, elegís, y la gaseosa sale sola: no hace falta un vendedor. Un contrato inteligente funciona igual, pero con plata y reglas escritas en código.\n\n📖 GLOSARIO\n• Contrato inteligente: un programa en la blockchain que se ejecuta solo cuando se cumple una condición.\n• Condición: lo que tiene que pasar para que el contrato actúe.\n• Intermediario: alguien en el medio, como un banco o un escribano.\n\n⚠️ OJO CON\nSitios que te piden conectar la billetera y aprobar un contrato. Si es una trampa, te puede vaciar la cuenta. No apruebes lo que no entendés.\n\n🎓 NIVEL: Intermedio 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó smart contracts y no entendió nada.\n\n{{DESLINDE}}\n\n#Criptomonedas #Ethereum #ContratosInteligentes #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es un contrato inteligente", "contratos inteligentes explicados", "smart contracts", "smart contract explicado fácil", "cómo funciona un contrato inteligente", "ethereum para principiantes", "blockchain programable", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "seguridad cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["Contratos", "inteligentes"],
+      "sub": "Programas que se cumplen solos",
+      "icono": "libro",
+      "orbita": ["computadora", "check", "candado", "red"],
+      "vo": "Un contrato que se cumple solo, sin escribano ni juez. Suena raro, pero existe: se llama contrato inteligente."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Una máquina", "expendedora"],
+      "conector": "es como",
+      "a": { "icono": "libro", "label": "Contrato inteligente" },
+      "simbolo": "=",
+      "b": { "icono": "carrito", "label": "Máquina expendedora", "cue": "máquina" },
+      "nota": "Si ponés la moneda, **sale la gaseosa**.",
+      "vo": "Es como una máquina expendedora: ponés la moneda, elegís, y la gaseosa sale sola. No hace falta un vendedor."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Si pasa esto,", "hace aquello"],
+      "icono": "computadora",
+      "etiquetas": [{ "text": "Una condición", "cue": "condición" }, { "text": "Una acción automática", "cue": "automática" }],
+      "vo": "Un contrato inteligente es un programa en la blockchain: si se cumple una condición, hace una acción automática."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Un ejemplo", "simple"],
+      "nodos": [
+        { "icono": "persona", "label": "Ana deja plata", "cue": "ana" },
+        { "icono": "reloj", "label": "Llega la fecha", "cue": "fecha" },
+        { "icono": "persona", "label": "Beto recibe", "detalle": "sin intermediarios", "cue": "beto" }
+      ],
+      "token": { "icono": "moneda", "until": "end" },
+      "vo": "Ana deja plata en un contrato. Cuando llega la fecha acordada, el contrato le manda la plata a Beto. Solo."
+    },
+    {
+      "kind": "claves",
+      "badge": "LO BUENO",
+      "head": ["Por qué", "sirve"],
+      "items": [
+        { "text": "**Sin intermediarios**", "cue": "intermediarios" },
+        { "text": "Reglas **a la vista**", "cue": "vista" },
+        { "text": "Funciona **todo el día**", "cue": "todo el día" }
+      ],
+      "vo": "Lo bueno: no necesita intermediarios, sus reglas están a la vista y funciona todo el día, todos los días."
+    },
+    {
+      "kind": "claves",
+      "badge": "LO MALO",
+      "head": ["Sus", "riesgos"],
+      "items": [
+        { "text": "Un **error de código** no se corrige fácil", "cue": "error" },
+        { "text": "Lo que hace **no se deshace**", "cue": "deshace" },
+        { "text": "Algunos son **trampas**", "cue": "trampas" }
+      ],
+      "vo": "Lo malo: un error en el código no se corrige fácil, lo que hace no se deshace, y algunos son trampas a propósito."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Firmar", "sin leer"],
+      "titulo": "Te piden aprobar un contrato",
+      "items": [{ "text": "Un sitio te pide conectar la billetera", "cue": "conectar" }, { "text": "Aprobás y te vacía la cuenta", "cue": "vacía" }],
+      "consejo": "No apruebes **lo que no entendés**.",
+      "vo": "Ojo: un sitio te pide conectar la billetera y aprobar un contrato. Si es una trampa, te vacía la cuenta."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Si pasa esto, hace aquello", "Sin intermediarios", "Un error no se deshace"],
+      "vo": "Un contrato inteligente es una regla que se cumple sola. En el próximo video: tokens y altcoins, ¿por qué hay miles?"
+    }
+  ]
+}

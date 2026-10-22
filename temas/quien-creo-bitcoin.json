@@ -1,0 +1,86 @@
+{
+  "slug": "quien-creo-bitcoin",
+  "titulo": "¿Quién creó Bitcoin?",
+  "nivel": "Básico 1",
+  "descripcion": "Satoshi Nakamoto, el documento de 2008 (whitepaper) y por qué que el creador sea anónimo no cambia cómo funciona.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Quién creó Bitcoin? 🕵️ El misterio de Satoshi explicado fácil | Cripto desde cero",
+    "descripcion": "🕵️ ¿QUIÉN CREÓ BITCOIN? — Satoshi Nakamoto, el documento de 2008 y por qué el misterio no cambia nada\n\nBitcoin funciona desde 2009, pero nadie sabe con certeza quién lo inventó. Sí: es un misterio de verdad. 🤔\n\n📚 EN ESTE VIDEO\n1️⃣ Satoshi Nakamoto: un seudónimo (puede ser una persona o un grupo)\n2️⃣ El whitepaper de 2008: el documento que explicó cómo funcionaría Bitcoin\n3️⃣ De la idea a la red: 2008, 2009 y hoy\n4️⃣ Por qué dejó de aparecer alrededor de 2011\n5️⃣ Por qué que sea anónimo no cambia cómo funciona\n6️⃣ La estafa de los falsos Satoshis\n\n💡 LA IDEA CLAVE\nEl código de Bitcoin es como una receta publicada: no importa quién la escribió, porque cualquiera la puede leer y revisar.\n\n📖 GLOSARIO\n• Seudónimo: un nombre inventado para no usar el verdadero.\n• Whitepaper: documento que explica cómo funciona un proyecto.\n• Código abierto: programa que cualquiera puede leer y revisar.\n\n⚠️ OJO CON\nGente que dice ser Satoshi, o que usa su nombre, para prometerte bitcoins de regalo si primero les mandás plata. Es estafa.\n\n🎓 NIVEL: Básico 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien a quien le gustan los misterios.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #SatoshiNakamoto #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["quién creó bitcoin", "satoshi nakamoto", "whitepaper de bitcoin", "historia de bitcoin", "origen de bitcoin", "bitcoin explicado fácil", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "código abierto", "estafas con bitcoin"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Quién creó", "Bitcoin?"],
+      "sub": "Un misterio de verdad",
+      "icono": "pregunta",
+      "orbita": ["persona", "libro", "bitcoin", "lupa"],
+      "vo": "Bitcoin funciona desde 2009, pero nadie sabe con certeza quién lo creó. ¿Cómo puede ser?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL NOMBRE",
+      "head": ["Satoshi", "Nakamoto"],
+      "icono": "persona",
+      "etiquetas": [{ "text": "Es un seudónimo", "cue": "seudónimo" }, { "text": "¿Persona o grupo?", "cue": "grupo" }],
+      "vo": "El creador firmó como Satoshi Nakamoto. Es un seudónimo: ni siquiera sabemos si es una persona o un grupo."
+    },
+    {
+      "kind": "glosario",
+      "head": ["El documento", "de 2008"],
+      "terminos": [
+        { "termino": "Seudónimo", "definicion": "Un nombre **inventado** para no usar el verdadero.", "icono": "etiqueta" },
+        { "termino": "Whitepaper", "definicion": "Documento que explica **cómo funciona** un proyecto.", "icono": "libro", "cue": "whitepaper" }
+      ],
+      "vo": "En 2008 publicó un documento cortito, el whitepaper, donde explicaba cómo iba a funcionar Bitcoin."
+    },
+    {
+      "kind": "flujo",
+      "head": ["De la idea", "a la red"],
+      "nodos": [
+        { "icono": "libro", "label": "2008: el documento", "cue": "2008" },
+        { "icono": "bloque", "label": "2009: el primer bloque", "cue": "2009" },
+        { "icono": "grupo", "label": "Hoy: miles de personas", "detalle": "en todo el mundo", "cue": "hoy" }
+      ],
+      "vo": "En 2008, el documento. En 2009, el primer bloque de la red. Y hoy la mantienen miles de personas en el mundo."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UN DATO",
+      "head": ["Un día", "se fue"],
+      "icono": "mensaje",
+      "etiquetas": [{ "text": "Dejó de escribir", "cue": "dejó de escribir" }, { "text": "Nunca más apareció", "cue": "nunca" }],
+      "vo": "Alrededor de 2011 dejó de escribir en los foros y le pasó el proyecto a otros programadores. Nunca más apareció."
+    },
+    {
+      "kind": "analogia",
+      "head": ["No importa", "quién sea"],
+      "conector": "es como",
+      "a": { "icono": "libro", "label": "Una receta publicada" },
+      "simbolo": "=",
+      "b": { "icono": "bitcoin", "label": "El código de Bitcoin", "cue": "código" },
+      "nota": "Cualquiera lo puede **leer y revisar**.",
+      "vo": "¿Importa que sea anónimo? No tanto: es como una receta publicada. El código está a la vista y cualquiera lo revisa."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Falsos", "Satoshis"],
+      "titulo": "Dicen ser el creador",
+      "items": [{ "text": "Prometen regalar bitcoins", "cue": "regalar" }, { "text": "Te piden que mandes primero", "cue": "primero" }],
+      "consejo": { "text": "Nadie regala bitcoins: **es estafa**.", "cue": "estafa" },
+      "vo": "Ojo con los falsos Satoshis: prometen regalar bitcoins si primero les mandás plata. Es una estafa."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Satoshi Nakamoto: un seudónimo", "El documento de 2008", "El código está a la vista"],
+      "vo": "No sabemos quién es Satoshi, pero Bitcoin funciona igual. En el próximo video: ¿qué es una blockchain?"
+    }
+  ]
+}

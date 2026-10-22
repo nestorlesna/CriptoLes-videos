@@ -40,6 +40,9 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-12 | (ícono bitcoin) | ₿ blanco sobre naranja = contraste 2,3:1 en el check | ₿ en color tinta (`--line`) |
 | 10-12 | (5 videos) | Producir varios seguidos | escribir las fichas → un loop `make-video` sin render para revisar todos los contact sheets → corregir → loop con `--render` en segundo plano |
 | 10-12 | (voz) | Pronunciación probada por el dueño: todas las del ajuste OK salvo Ethereum ("Ezérium") | Ethereum → "Etérium" (elegida entre 6 variantes) |
+| 10-22 | temas 7–33 | Escribir todas las fichas juntas para que la producción siga aparte, sin voz ni render | `plantilla/validar-fichas.mjs` (buildIndex en carpeta temporal + reglas YouTube; ~19,5 caracteres de voz por segundo, calibrado con los videos 1–6). Plan en `PLAN-PRODUCCION.md` |
+| 10-22 | (CSV) | La descripción de clave-publica-y-privada tenía ";" y se partía en dos columnas | campos con ";" van entre comillas (readCsv las soporta) |
+| 10-22 | (voz) | Palabras nuevas: whitepaper, Satoshis, halving, altcoin, Stablecoin, ether, pendrive, shopping, CBU | agregadas a `pronunciacion.json`, **pendiente que el dueño las escuche**. En Windows `Halving.wav` pisa a `halving.wav` (mismo nombre sin mayúsculas): da igual, suenan igual |
 | 10-18 | descripcion_inicial | Video de presentación del canal, más largo que los temas | 14 escenas → ~92 s sin problemas de layout; va primero en `temas.csv` (nivel "Bienvenida") y su cierre apunta a ¿Qué es el dinero? |
 
 ## Pendientes / ideas

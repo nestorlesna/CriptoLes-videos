@@ -1,0 +1,84 @@
+{
+  "slug": "clave-publica-y-privada",
+  "titulo": "Clave pública y clave privada",
+  "nivel": "Básico 2",
+  "descripcion": "La pública es como tu CBU o alias (la podés compartir); la privada es la llave de tu caja fuerte (nunca se comparte).",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Clave pública y clave privada 🔑 La diferencia explicada fácil | Cripto desde cero",
+    "descripcion": "🔑 CLAVE PÚBLICA Y CLAVE PRIVADA — Cuál se comparte y cuál jamás\n\nToda billetera cripto tiene dos claves. Saber la diferencia te puede salvar la plata. 🛡️\n\n📚 EN ESTE VIDEO\n1️⃣ La clave pública es como tu alias o tu CBU: se comparte\n2️⃣ La clave privada es como la llave de tu caja fuerte: nunca se comparte\n3️⃣ Pública para recibir, privada para enviar\n4️⃣ Qué es tu dirección y de dónde sale\n5️⃣ Qué es firmar un envío\n6️⃣ La estafa del falso soporte que te pide la clave privada\n\n💡 LA IDEA CLAVE\nLa pública es tu alias: se la pasás a quien te quiere mandar plata. La privada es la llave de tu caja fuerte: quien la tiene, se lleva todo.\n\n📖 GLOSARIO\n• Clave pública: la que se comparte para recibir.\n• Clave privada: la que mueve tus monedas; nunca se comparte.\n• Dirección: la tira de letras y números que le pasás a quien te manda.\n• Firma digital: la prueba de que vos autorizaste un envío.\n\n⚠️ OJO CON\nNadie legítimo te va a pedir tu clave privada: ni un soporte, ni un sitio para verificar tu cuenta. Si te la piden, es estafa.\n\n🎓 NIVEL: Básico 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que está armando su primera billetera.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #ClavePrivada #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["clave pública y clave privada", "qué es la clave privada", "qué es la clave pública", "dirección de billetera", "firma digital cripto", "billetera cripto", "seguridad cripto", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "estafas cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["Dos claves,", "dos usos"],
+      "sub": "Pública y privada",
+      "icono": "llave",
+      "orbita": ["candado", "etiqueta", "billetera", "escudo"],
+      "vo": "Toda billetera tiene dos claves: una pública y una privada. Saber la diferencia te puede salvar la plata."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como tu", "alias"],
+      "conector": "la pública es como",
+      "a": { "icono": "llave", "label": "Clave pública" },
+      "simbolo": "=",
+      "b": { "icono": "etiqueta", "label": "Tu alias o CBU", "cue": "alias" },
+      "nota": "La podés **compartir** sin miedo.",
+      "vo": "La clave pública es como tu alias o tu CBU: se la pasás a quien te quiere mandar plata, sin miedo."
+    },
+    {
+      "kind": "analogia",
+      "head": ["La llave de", "tu caja fuerte"],
+      "conector": "la privada es como",
+      "a": { "icono": "llave", "label": "Clave privada" },
+      "simbolo": "=",
+      "b": { "icono": "candado", "label": "La llave de tu caja fuerte", "cue": "caja fuerte" },
+      "nota": "**Nunca** se comparte.",
+      "vo": "La clave privada es como la llave de tu caja fuerte: con ella se mueve la plata. Nunca se la des a nadie."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Pública vs", "privada"],
+      "a": { "titulo": "Pública", "icono": "etiqueta", "items": [{ "text": "Para recibir", "cue": "recibir" }, { "text": "Se comparte", "cue": "se comparte" }] },
+      "b": { "titulo": "Privada", "icono": "candado", "items": [{ "text": "Para enviar", "cue": "enviar" }, { "text": "Nunca se comparte", "cue": "nunca" }] },
+      "vo": "La pública sirve para recibir y se comparte. La privada sirve para enviar y nunca, nunca se comparte."
+    },
+    {
+      "kind": "concepto",
+      "badge": "TU DIRECCIÓN",
+      "head": ["Para", "recibir"],
+      "icono": "billetera",
+      "etiquetas": [{ "text": "Sale de la clave pública", "cue": "sale" }, { "text": "Letras y números", "cue": "letras" }],
+      "vo": "De la clave pública sale tu dirección: una tira larga de letras y números que le pasás a quien te manda."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Firmar un", "envío"],
+      "terminos": [
+        { "termino": "Firma digital", "definicion": "Prueba de que **vos** autorizaste el envío.", "icono": "check" }
+      ],
+      "vo": "Cuando mandás cripto, tu billetera usa la clave privada para firmar: prueba que el envío lo autorizaste vos."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Nunca la", "compartas"],
+      "titulo": "Te piden la clave privada",
+      "items": [{ "text": "Un falso soporte", "cue": "soporte" }, { "text": "Para verificar tu cuenta", "cue": "verificar" }],
+      "consejo": { "text": "Quien la tiene **se lleva todo**.", "cue": "se lleva" },
+      "vo": "Si alguien te pide la clave privada, como un falso soporte para verificar tu cuenta, es estafa: se lleva todo."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Pública: para recibir", "Privada: para enviar", "La privada no se comparte"],
+      "vo": "La pública se comparte, la privada jamás. En el próximo video: ¿qué es la frase semilla?"
+    }
+  ]
+}

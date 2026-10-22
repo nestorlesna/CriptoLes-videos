@@ -1,0 +1,88 @@
+{
+  "slug": "que-es-defi",
+  "titulo": "¿Qué son las finanzas descentralizadas (DeFi)?",
+  "nivel": "Intermedio 2",
+  "descripcion": "Préstamos e intercambios hechos con contratos inteligentes en lugar de bancos. Qué promete y qué riesgos tiene (errores de código, estafas).",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es DeFi? 🏛️ Las finanzas descentralizadas explicadas fácil | Cripto desde cero",
+    "descripcion": "🏛️ ¿QUÉ SON LAS FINANZAS DESCENTRALIZADAS (DeFi)? — Finanzas sin banco en el medio\n\nPréstamos, intercambios y ahorros sin un banco. Eso promete DeFi. Acá entendés cómo funciona y qué puede salir mal. ⚠️\n\n📚 EN ESTE VIDEO\n1️⃣ Qué quiere decir DeFi\n2️⃣ Es como un banco sin empleados ni horarios\n3️⃣ Qué se puede hacer: intercambiar, prestar y ahorrar\n4️⃣ Banco vs DeFi: permiso y responsabilidad\n5️⃣ Los riesgos: errores de código, estafas y desplomes\n6️⃣ Los rendimientos imposibles\n\n💡 LA IDEA CLAVE\nDeFi es como un banco sin empleados: las reglas las ejecuta un programa y cualquiera puede entrar. Pero si algo falla, no hay nadie que responda.\n\n📖 GLOSARIO\n• DeFi: finanzas descentralizadas, hechas con contratos inteligentes.\n• Rendimiento: lo que recibís a cambio de prestar o depositar.\n• Contrato inteligente: programa que se cumple solo cuando pasa una condición.\n\n⚠️ OJO CON\nRendimientos que nadie explica, en proyectos nuevos y anónimos. Si no entendés de dónde sale la ganancia, no entres.\n\n🎓 NIVEL: Intermedio 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que te habló de DeFi como si fuera magia.\n\n{{DESLINDE}}\n\n#Criptomonedas #DeFi #FinanzasDescentralizadas #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es defi", "finanzas descentralizadas", "defi explicado fácil", "cómo funciona defi", "riesgos de defi", "préstamos cripto", "rendimientos cripto", "contratos inteligentes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "estafas cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es", "DeFi?"],
+      "sub": "Finanzas sin banco",
+      "icono": "banco",
+      "orbita": ["cripto", "intercambio", "computadora", "candado"],
+      "vo": "Préstamos, intercambios y ahorros sin un banco en el medio. Eso promete DeFi. ¿Cómo funciona?"
+    },
+    {
+      "kind": "glosario",
+      "head": ["Finanzas", "descentralizadas"],
+      "terminos": [
+        { "termino": "DeFi", "definicion": "En inglés, **finanzas descentralizadas**.", "icono": "red" }
+      ],
+      "vo": "DeFi quiere decir finanzas descentralizadas: servicios financieros hechos con contratos inteligentes, no con bancos."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Un banco", "sin empleados"],
+      "conector": "es como",
+      "a": { "icono": "cripto", "label": "DeFi" },
+      "simbolo": "=",
+      "b": { "icono": "banco", "label": "Un banco sin empleados", "cue": "empleados" },
+      "nota": "Las reglas las ejecuta **un programa**.",
+      "vo": "Es como un banco sin empleados ni horarios: las reglas las ejecuta un programa, y cualquiera con billetera entra."
+    },
+    {
+      "kind": "claves",
+      "badge": "QUÉ SE PUEDE HACER",
+      "head": ["Lo que", "ofrece"],
+      "items": [
+        { "text": "**Intercambiar** cripto", "cue": "intercambiar" },
+        { "text": "**Prestar** y pedir prestado", "cue": "prestar" },
+        { "text": "**Ahorrar** con rendimiento", "cue": "ahorrar" }
+      ],
+      "vo": "Ahí podés intercambiar cripto, prestar o pedir prestado, y ahorrar a cambio de un rendimiento."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Banco vs", "DeFi"],
+      "a": { "titulo": "Banco", "icono": "banco", "items": [{ "text": "Te pide permiso", "cue": "permiso" }, { "text": "Alguien responde", "cue": "alguien responde" }] },
+      "b": { "titulo": "DeFi", "icono": "red", "items": [{ "text": "Entra cualquiera", "cue": "cualquiera" }, { "text": "Nadie responde", "cue": "nadie responde" }] },
+      "vo": "El banco te pide permiso, pero si algo falla, alguien responde. En DeFi entra cualquiera, pero si falla, nadie responde."
+    },
+    {
+      "kind": "claves",
+      "badge": "LOS RIESGOS",
+      "head": ["Lo que", "puede fallar"],
+      "items": [
+        { "text": "**Errores** en el código", "cue": "errores" },
+        { "text": "Proyectos que son **estafas**", "cue": "estafas" },
+        { "text": "Precios que **se desploman**", "cue": "desploman" }
+      ],
+      "vo": "Los riesgos: errores en el código, proyectos que son estafas y precios que se desploman de un día para otro."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Rendimiento", "imposible"],
+      "titulo": "Ganá muchísimo por depositar",
+      "items": [{ "text": "Cifras que nadie explica", "cue": "nadie explica" }, { "text": "Proyecto nuevo y anónimo", "cue": "anónimo" }],
+      "consejo": "Si no entendés **de dónde sale la ganancia**, no entres.",
+      "vo": "Si te ofrecen un rendimiento que nadie explica, en un proyecto nuevo y anónimo, desconfiá: puede ser una trampa."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Finanzas con contratos", "Sin permiso y sin horario", "Si falla, nadie responde"],
+      "vo": "DeFi son finanzas sin banco, con más libertad y más riesgo. En el próximo video: ¿qué es un NFT?"
+    }
+  ]
+}

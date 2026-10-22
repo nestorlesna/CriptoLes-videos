@@ -21,6 +21,7 @@ CHECKLIST.md                ← estado de toda la lista (autogenerado)
 
 | Comando | Qué hace |
 |---|---|
+| `node plantilla/validar-fichas.mjs [slug …]` | revisa fichas sin generar voz ni renderizar (CSV, kit, cues, íconos, largos, YouTube) + duración estimada |
 | `node plantilla/make-video.mjs <slug> --info` | fila del CSV + tema anterior y siguiente (el cierre conecta con el siguiente) |
 | `node plantilla/make-video.mjs <slug>` | init si hace falta → voz (solo si cambió el texto) → `index.html` → `hyperframes check` → snapshots (`videos/<slug>/snapshots/contact-sheet.jpg`) → miniatura |
 | `node plantilla/make-video.mjs <slug> --render` | lo anterior + render calidad alta → `salida/<slug>.mp4` (**correrlo en segundo plano**, ~2–3 min) |

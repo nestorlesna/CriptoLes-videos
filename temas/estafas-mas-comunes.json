@@ -1,0 +1,86 @@
+{
+  "slug": "estafas-mas-comunes",
+  "titulo": "Las estafas más comunes en cripto",
+  "nivel": "Básico 2",
+  "descripcion": "Promesas de ganancias seguras, falsos soportes técnicos, \"inversiones\" por WhatsApp, esquemas piramidales. Cómo reconocerlas.",
+  "revisado": false,
+  "notas": "Sin nombrar apps de mensajería (regla de marcas): se dice 'por chat'.",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Las estafas más comunes en cripto 🎣 Cómo reconocerlas | Cripto desde cero",
+    "descripcion": "🎣 LAS ESTAFAS MÁS COMUNES EN CRIPTO — Para que no te pase\n\nEn cripto hay muchas estafas, pero casi todas usan los mismos trucos. Si los conocés, los reconocés al toque. 🛡️\n\n📚 EN ESTE VIDEO\n1️⃣ Las ganancias seguras\n2️⃣ El falso soporte técnico que te escribe por privado\n3️⃣ Las inversiones por chat con capturas y un experto\n4️⃣ El esquema piramidal\n5️⃣ Por qué toda estafa es como un anzuelo con carnada\n6️⃣ Tus tres reglas para defenderte\n\n💡 LA IDEA CLAVE\nToda estafa es como un anzuelo con carnada: algo que brilla demasiado. Si suena demasiado bueno, desconfiá.\n\n📖 GLOSARIO\n• Esquema piramidal: les pagan a los primeros con la plata de los que entran después.\n• Soporte técnico: la ayuda oficial de una plataforma (nunca te escribe primero).\n• Rendimiento: lo que supuestamente ganás por invertir.\n\n⚠️ OJO CON\nNunca compartas tu frase semilla, no le mandes plata a desconocidos, y si te apuran, pará y preguntá.\n\n🎓 NIVEL: Básico 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que te mandó un link para invertir.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #EstafasCripto #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["estafas cripto", "estafas con criptomonedas", "cómo reconocer una estafa", "esquema piramidal", "falso soporte técnico", "estafa de inversión", "ganancias seguras estafa", "seguridad cripto", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "no te estafen"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["Las estafas", "más comunes"],
+      "sub": "Para que no te pase",
+      "icono": "anzuelo",
+      "orbita": ["mensaje", "regalo", "grafico", "persona"],
+      "vo": "En cripto hay muchas estafas, pero casi todas usan los mismos trucos. Aprendé a reconocerlos."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Ganancias", "seguras"],
+      "titulo": "Te prometen duplicar tu plata",
+      "items": [{ "text": "Rendimiento fijo y alto", "cue": "fijas" }, { "text": "Sin ningún riesgo", "cue": "sin riesgo" }],
+      "consejo": { "text": "Nadie puede **asegurar ganancias**.", "cue": "nadie" },
+      "vo": "Primera señal: te prometen ganancias seguras, fijas y sin riesgo. Nadie puede asegurar eso en cripto."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Falso", "soporte"],
+      "titulo": "Te escribe alguien del soporte",
+      "items": [{ "text": "Llega por privado", "cue": "privado" }, { "text": "Pide tu frase o tus claves", "cue": "frase" }],
+      "consejo": { "text": "El soporte real **nunca te escribe primero**.", "cue": "nunca" },
+      "vo": "Segunda: alguien del soporte te escribe por privado y te pide tu frase o tus claves. El soporte real nunca hace eso."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Inversión", "por chat"],
+      "titulo": "Un grupo te invita a invertir",
+      "items": [{ "text": "Capturas de ganancias", "cue": "capturas" }, { "text": "Un experto que te guía", "cue": "experto" }],
+      "consejo": { "text": "Las capturas **se falsifican fácil**.", "cue": "falsifican" },
+      "vo": "Tercera: un grupo de chat con capturas de ganancias y un experto que te guía. Esas capturas se falsifican fácil."
+    },
+    {
+      "kind": "concepto",
+      "badge": "PIRÁMIDES",
+      "head": ["Esquema", "piramidal"],
+      "icono": "grupo",
+      "etiquetas": [{ "text": "Pagan con plata de los nuevos", "cue": "nuevos" }, { "text": "Sin gente nueva, se cae", "cue": "se cae" }],
+      "vo": "Cuarta: el esquema piramidal. Les pagan a los primeros con la plata de los nuevos. Cuando no entra más gente, se cae."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Un anzuelo", "con carnada"],
+      "conector": "toda estafa es como",
+      "a": { "icono": "anzuelo", "label": "La estafa" },
+      "simbolo": "=",
+      "b": { "icono": "regalo", "label": "Una carnada que brilla", "cue": "carnada" },
+      "nota": "Si suena demasiado bueno, **desconfiá**.",
+      "vo": "Toda estafa es como un anzuelo con carnada: algo que brilla demasiado. Si suena demasiado bueno, desconfiá."
+    },
+    {
+      "kind": "claves",
+      "badge": "TU DEFENSA",
+      "head": ["Tres", "reglas"],
+      "items": [
+        { "text": "**Nunca** compartas tu frase", "cue": "nunca" },
+        { "text": "No le mandes plata a **desconocidos**", "cue": "desconocidos" },
+        { "text": "Si te apuran, **pará**", "cue": "apuran" }
+      ],
+      "vo": "Tus tres reglas: nunca compartas tu frase, no le mandes plata a desconocidos, y si te apuran, pará y preguntá."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Ganancias seguras: estafa", "Soporte por privado: estafa", "Si te apuran, pará"],
+      "vo": "Casi todas las estafas usan los mismos trucos. En el próximo video: seguridad básica, que no te roben."
+    }
+  ]
+}

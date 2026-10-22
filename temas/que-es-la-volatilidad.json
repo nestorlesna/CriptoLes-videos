@@ -1,0 +1,89 @@
+{
+  "slug": "que-es-la-volatilidad",
+  "titulo": "¿Por qué el precio sube y baja tanto?",
+  "nivel": "Básico 3",
+  "descripcion": "Volatilidad explicada con oferta y demanda, sin cifras ni predicciones. Por qué nunca hay que poner plata que necesitás.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Por qué el precio de las cripto sube y baja tanto? 🎢 Explicado fácil | Cripto desde cero",
+    "descripcion": "🎢 ¿POR QUÉ EL PRECIO SUBE Y BAJA TANTO? — La volatilidad, sin cifras ni predicciones\n\nEl precio de las cripto puede cambiar muchísimo en poco tiempo. Acá entendés por qué, con los tomates de la feria. 🍅\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es la volatilidad\n2️⃣ El precio funciona como en la feria\n3️⃣ Oferta y demanda, en una frase\n4️⃣ Por qué en cripto se mueve tanto\n5️⃣ El peso del miedo y la euforia\n6️⃣ Las predicciones que prometen cifras exactas\n\n💡 LA IDEA CLAVE\nSi todos quieren algo y hay poco, el precio sube. Si sobra y nadie lo quiere, baja. En un mercado chico, nuevo y abierto todo el día, eso pasa rápido y fuerte.\n\n📖 GLOSARIO\n• Volátil: que su precio cambia mucho y rápido.\n• Demanda: cuántos quieren comprar.\n• Oferta: cuántos quieren vender.\n\n⚠️ OJO CON\nVideos y grupos con gráficos que prometen cifras exactas. Nadie conoce el precio de mañana, y nunca hay que poner plata que necesitás.\n\n🎓 NIVEL: Básico 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se asusta con cada bajón.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Volatilidad #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["volatilidad cripto", "por qué sube y baja bitcoin", "qué es la volatilidad", "oferta y demanda", "precio de las criptomonedas", "riesgo cripto", "miedo y euforia", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Por qué", "sube y baja?"],
+      "sub": "La volatilidad, sin números",
+      "icono": "grafico",
+      "orbita": ["balanza", "grupo", "mensaje", "alerta"],
+      "vo": "El precio de las cripto puede subir y bajar muchísimo en poco tiempo. ¿Por qué pasa eso?"
+    },
+    {
+      "kind": "glosario",
+      "head": ["Qué es la", "volatilidad"],
+      "terminos": [
+        { "termino": "Volátil", "definicion": "Que su precio **cambia mucho** y rápido.", "icono": "grafico" }
+      ],
+      "vo": "A eso se le dice volatilidad. Algo es volátil cuando su precio cambia mucho y rápido, para arriba o para abajo."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como en", "la feria"],
+      "conector": "el precio funciona como",
+      "a": { "icono": "grafico", "label": "Precio cripto" },
+      "simbolo": "=",
+      "b": { "icono": "carrito", "label": "Tomates en la feria", "cue": "feria" },
+      "nota": "Si todos quieren, **sube**. Si nadie quiere, **baja**.",
+      "vo": "Pensá en los tomates de la feria: si todos quieren y hay pocos, suben. Si sobran y nadie quiere, bajan."
+    },
+    {
+      "kind": "claves",
+      "badge": "OFERTA Y DEMANDA",
+      "head": ["Quién compra,", "quién vende"],
+      "items": [
+        { "text": "**Demanda:** cuántos quieren comprar", "cue": "demanda" },
+        { "text": "**Oferta:** cuántos quieren vender", "cue": "oferta" },
+        { "text": "El precio **se acomoda**", "cue": "acomoda" }
+      ],
+      "vo": "Demanda es cuántos quieren comprar, oferta es cuántos quieren vender, y el precio se acomoda entre los dos."
+    },
+    {
+      "kind": "claves",
+      "badge": "POR QUÉ TANTO",
+      "head": ["Por qué", "se mueve tanto"],
+      "items": [
+        { "text": "Mercado **chico y nuevo**", "cue": "chico" },
+        { "text": "**Noticias** y rumores", "cue": "noticias" },
+        { "text": "Abierto **todo el día**", "cue": "todo el día" }
+      ],
+      "vo": "Se mueve tanto porque es un mercado chico y nuevo, reacciona a noticias y rumores, y está abierto todo el día."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LAS EMOCIONES",
+      "head": ["Miedo y", "euforia"],
+      "icono": "corazon",
+      "etiquetas": [{ "text": "Euforia: todos compran", "cue": "euforia" }, { "text": "Miedo: todos venden", "cue": "con miedo" }],
+      "vo": "Y pesan las emociones: con euforia, todos compran y sube. Con miedo, todos venden y baja."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Las", "predicciones"],
+      "titulo": "Va a llegar a tanto, seguro",
+      "items": [{ "text": "Gráficos con flechas para arriba", "cue": "gráficos" }, { "text": "Fechas y cifras exactas", "cue": "cifras" }],
+      "consejo": { "text": "Nadie conoce **el precio de mañana**.", "cue": "nadie" },
+      "vo": "Ojo con los videos y grupos con gráficos que prometen cifras exactas. Nadie conoce el precio de mañana."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Oferta y demanda", "Mercado chico y emocional", "Solo plata que no necesitás"],
+      "vo": "Nunca pongas plata que necesitás. En el próximo video: ¿qué es una stablecoin? Una cripto que busca no moverse."
+    }
+  ]
+}

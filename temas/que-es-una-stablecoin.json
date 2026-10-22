@@ -1,0 +1,88 @@
+{
+  "slug": "que-es-una-stablecoin",
+  "titulo": "¿Qué es una stablecoin?",
+  "nivel": "Intermedio 1",
+  "descripcion": "Criptomonedas que buscan valer lo mismo que una moneda como el dólar. Cómo intentan mantenerse estables y qué riesgos tienen.",
+  "revisado": false,
+  "notas": "Sin nombrar stablecoins puntuales (regla de marcas).",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es una stablecoin? 💵 La cripto que busca no moverse | Cripto desde cero",
+    "descripcion": "💵 ¿QUÉ ES UNA STABLECOIN? — Una cripto que busca valer siempre lo mismo\n\nHay criptomonedas que buscan no subir ni bajar. Se llaman stablecoins. Acá entendés cómo lo intentan y qué riesgos tienen. ⚖️\n\n📚 EN ESTE VIDEO\n1️⃣ Qué quiere decir stablecoin: moneda estable\n2️⃣ Es como un vale de un dólar que viaja por internet\n3️⃣ Cómo se sostiene: una reserva de respaldo\n4️⃣ Para qué se usa\n5️⃣ Qué es la paridad\n6️⃣ Por qué estable no quiere decir sin riesgo\n\n💡 LA IDEA CLAVE\nUna stablecoin es como un vale: cada una representa un dólar, pero se mueve por internet como cualquier cripto. Vale lo que vale la confianza en quien la respalda.\n\n📖 GLOSARIO\n• Stablecoin: cripto que busca valer lo mismo que otra moneda.\n• Reserva: lo que guarda el emisor para respaldarla.\n• Paridad: que valga exactamente lo mismo que la moneda que imita.\n\n⚠️ OJO CON\nEstable no es seguro: dependés de quien la emite, puede perder la paridad y no la garantiza ningún banco central.\n\n🎓 NIVEL: Intermedio 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que piensa que una stablecoin es lo mismo que un dólar.\n\n{{DESLINDE}}\n\n#Criptomonedas #Stablecoin #DolarDigital #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es una stablecoin", "stablecoin explicada", "monedas estables", "dólar digital", "cripto atada al dólar", "riesgos de las stablecoins", "paridad stablecoin", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "volatilidad cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es una", "stablecoin?"],
+      "sub": "Una cripto que busca no moverse",
+      "icono": "moneda",
+      "orbita": ["balanza", "billetes", "banco", "candado"],
+      "vo": "Hay criptomonedas que buscan no subir ni bajar. Se llaman stablecoins. ¿Cómo lo hacen?"
+    },
+    {
+      "kind": "glosario",
+      "head": ["Moneda", "estable"],
+      "terminos": [
+        { "termino": "Stablecoin", "definicion": "En inglés, **moneda estable**.", "icono": "moneda" }
+      ],
+      "vo": "Stablecoin quiere decir moneda estable: una cripto que busca valer siempre lo mismo que otra moneda, como el dólar."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como un", "vale"],
+      "conector": "es como",
+      "a": { "icono": "moneda", "label": "Una stablecoin" },
+      "simbolo": "=",
+      "b": { "icono": "etiqueta", "label": "Un vale de un dólar", "cue": "vale" },
+      "nota": "La idea: **siempre un dólar**.",
+      "vo": "Es como un vale: cada uno representa un dólar, pero se mueve por internet como cualquier cripto."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Cómo se", "sostiene"],
+      "nodos": [
+        { "icono": "billetes", "label": "Una empresa guarda dólares", "cue": "guarda" },
+        { "icono": "moneda", "label": "Emite una por cada uno", "cue": "emite" },
+        { "icono": "intercambio", "label": "Se puede devolver", "cue": "devolver" }
+      ],
+      "vo": "Lo más común: una empresa guarda dólares y emite una stablecoin por cada uno, que después se puede devolver."
+    },
+    {
+      "kind": "claves",
+      "badge": "PARA QUÉ SE USA",
+      "head": ["Para qué", "sirve"],
+      "items": [
+        { "text": "Mover dólares **por internet**", "cue": "internet" },
+        { "text": "**Refugio** entre cripto volátiles", "cue": "refugio" },
+        { "text": "Pagar **sin esperar** a un banco", "cue": "pagar" }
+      ],
+      "vo": "Se usa para mover dólares por internet, como refugio entre cripto que se mueven mucho, y para pagar sin esperar."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Palabra", "nueva"],
+      "terminos": [
+        { "termino": "Paridad", "definicion": "Que valga **lo mismo** que la moneda que imita.", "icono": "balanza" }
+      ],
+      "vo": "Paridad es que una stablecoin valga exactamente lo mismo que la moneda que imita. Si se rompe, vale menos."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Estable no", "es seguro"],
+      "titulo": "Los riesgos de una stablecoin",
+      "items": [{ "text": "Dependés de quien la emite", "cue": "emite" }, { "text": "Puede perder la paridad", "cue": "paridad" }],
+      "consejo": { "text": "No la garantiza **ningún banco central**.", "cue": "banco central" },
+      "vo": "Ojo: estable no es seguro. Dependés de quien la emite, puede perder la paridad y no la garantiza ningún banco central."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Busca valer un dólar", "La respalda una reserva", "Estable no es sin riesgo"],
+      "vo": "Una stablecoin busca valer siempre lo mismo, pero tiene riesgos. En el próximo video: ¿qué es Ethereum?"
+    }
+  ]
+}

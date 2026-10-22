@@ -1,0 +1,90 @@
+{
+  "slug": "como-investigar-un-proyecto",
+  "titulo": "Cómo investigar un proyecto (DYOR)",
+  "nivel": "Intermedio 2",
+  "descripcion": "Qué mirar antes de confiar en una cripto: quién está detrás, para qué sirve, whitepaper y señales de alerta. Cierre de la serie básica.",
+  "revisado": false,
+  "notas": "Último de la lista: el cierre usa 'proximo' a mano. Si se agregan temas al CSV, sacar 'proximo' y ajustar la voz del cierre.",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Cómo investigar una cripto antes de confiar 🔍 DYOR explicado fácil | Cripto desde cero",
+    "descripcion": "🔍 CÓMO INVESTIGAR UN PROYECTO (DYOR) — Qué mirar antes de confiar en una cripto\n\nAntes de confiar en una cripto, hay que investigarla. Acá tenés una lista simple para hacerlo vos, sin depender de nadie. ✅\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es DYOR: hacé tu propia investigación\n2️⃣ Las preguntas: quién está detrás, para qué sirve, qué problema resuelve\n3️⃣ Leer el whitepaper\n4️⃣ Más para mirar: antigüedad, quién tiene la mayoría y fuentes independientes\n5️⃣ Las señales de alerta\n6️⃣ Es como comprar un auto usado\n\n💡 LA IDEA CLAVE\nInvestigar una cripto es como comprar un auto usado: lo revisás, preguntás y lo probás antes de pagar.\n\n📖 GLOSARIO\n• DYOR: en inglés, hacé tu propia investigación.\n• Whitepaper: el documento que explica cómo funciona un proyecto.\n• Fuente independiente: alguien que no gana nada si el proyecto sube.\n\n⚠️ OJO CON\nGanancias aseguradas, apuro para entrar y equipos anónimos sin detalles. Ante la duda, no entres.\n\n🎓 NIVEL: Intermedio 2 · Con este video cerramos la serie básica. Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que siempre te pasa la cripto del momento.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #DYOR #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["cómo investigar una criptomoneda", "dyor", "qué es dyor", "cómo analizar un proyecto cripto", "señales de alerta cripto", "whitepaper", "evitar estafas cripto", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "seguridad cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Cómo investigar", "un proyecto?"],
+      "sub": "Antes de confiar",
+      "icono": "lupa",
+      "orbita": ["libro", "persona", "alerta", "check"],
+      "vo": "Antes de confiar en una cripto, hay que investigarla. Te dejo una lista simple para hacerlo vos."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Qué es", "DYOR"],
+      "terminos": [
+        { "termino": "DYOR", "definicion": "En inglés: **hacé tu propia investigación**.", "icono": "lupa" }
+      ],
+      "vo": "En cripto se dice DYOR: hacé tu propia investigación. No le creas a nadie sin revisar por tu cuenta."
+    },
+    {
+      "kind": "claves",
+      "badge": "LAS PREGUNTAS",
+      "head": ["Quién y", "para qué"],
+      "items": [
+        { "text": "¿**Quién** está detrás?", "cue": "quién" },
+        { "text": "¿**Para qué** sirve?", "cue": "para qué" },
+        { "text": "¿Resuelve un **problema real**?", "cue": "problema" }
+      ],
+      "vo": "Preguntate quién está detrás, para qué sirve y si resuelve un problema real o es solo una promesa."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL DOCUMENTO",
+      "head": ["Leé el", "whitepaper"],
+      "icono": "libro",
+      "etiquetas": [{ "text": "Explica cómo funciona", "cue": "explica" }, { "text": "Si no se entiende, mala señal", "cue": "señal" }],
+      "vo": "Leé el whitepaper, el documento que explica cómo funciona. Si no se entiende nada o no existe, es mala señal."
+    },
+    {
+      "kind": "claves",
+      "badge": "MÁS PARA MIRAR",
+      "head": ["Seguí", "investigando"],
+      "items": [
+        { "text": "**Cuánto tiempo** lleva", "cue": "tiempo" },
+        { "text": "Si pocos tienen **la mayoría**", "cue": "mayoría" },
+        { "text": "Qué dicen **fuentes independientes**", "cue": "independientes" }
+      ],
+      "vo": "Mirá también cuánto tiempo lleva, si unos pocos tienen la mayoría de las monedas y qué dicen fuentes independientes."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Señales de", "alerta"],
+      "titulo": "Cuándo conviene alejarse",
+      "items": [{ "text": "Ganancias aseguradas", "cue": "ganancias" }, { "text": "Te apuran a entrar", "cue": "apuran" }, { "text": "Equipo anónimo, sin detalles", "cue": "anónimo" }],
+      "consejo": { "text": "Ante la duda, **no entres**.", "cue": "duda" },
+      "vo": "Señales de alerta: ganancias aseguradas, te apuran a entrar y un equipo anónimo sin detalles. Ante la duda, no entres."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como comprar", "un auto usado"],
+      "conector": "es como",
+      "a": { "icono": "lupa", "label": "Investigar un proyecto" },
+      "simbolo": "=",
+      "b": { "icono": "check", "label": "Revisar un auto usado", "cue": "auto usado" },
+      "nota": "Mirás todo **antes** de pagar.",
+      "vo": "Es como comprar un auto usado: lo revisás, preguntás y lo probás antes de pagar. Con las cripto, igual."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["DYOR: investigá vos", "Quién, para qué y cómo", "Ante la duda, no entres"],
+      "proximo": "Temas nuevos: ¡se vienen pronto!",
+      "vo": "Con esto cerramos la serie básica. ¡Gracias por llegar hasta acá! En el próximo video, temas nuevos."
+    }
+  ]
+}

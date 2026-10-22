@@ -1,0 +1,89 @@
+{
+  "slug": "redes-de-segunda-capa",
+  "titulo": "Redes de segunda capa (Lightning)",
+  "nivel": "Intermedio 2",
+  "descripcion": "Cómo se hacen pagos chicos y rápidos encima de una blockchain lenta. Lightning como ejemplo, explicado con una analogía.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Redes de segunda capa y Lightning ⚡ Pagos rápidos explicados fácil | Cripto desde cero",
+    "descripcion": "⚡ REDES DE SEGUNDA CAPA (LIGHTNING) — Pagos chicos y rápidos encima de Bitcoin\n\nBitcoin es seguro, pero lento y a veces caro para pagos chicos. Para eso existen las redes de segunda capa. Acá entendés cómo funcionan, con la cuenta del bar. 🍻\n\n📚 EN ESTE VIDEO\n1️⃣ El problema: un bloque cada 10 minutos y lugar limitado\n2️⃣ Es como la cuenta del bar\n3️⃣ Cómo funciona: abrir un canal, pagar muchas veces, anotar el resultado\n4️⃣ Qué es una segunda capa y qué es Lightning\n5️⃣ Las ventajas: rápido y barato\n6️⃣ Lo que conviene saber antes de usarla\n\n💡 LA IDEA CLAVE\nEs como la cuenta del bar: vas anotando cada pedido y al final pagás todo junto. Así, la blockchain solo anota el resultado final.\n\n📖 GLOSARIO\n• Segunda capa: una red que funciona encima de otra.\n• Lightning: la segunda capa más conocida de Bitcoin.\n• Canal: el acuerdo entre dos partes para pagarse muchas veces.\n\n⚠️ OJO CON\nEs más compleja de usar y no conviene para guardar montos grandes. Empezá con poco.\n\n🎓 NIVEL: Intermedio 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que dice que Bitcoin es muy lento para pagar un café.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Lightning #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es lightning network", "red lightning", "segunda capa bitcoin", "layer 2 explicado", "pagos rápidos con bitcoin", "cómo funciona lightning", "comisiones bitcoin", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["Segunda", "capa"],
+      "sub": "Pagos chicos y rápidos",
+      "icono": "cohete",
+      "orbita": ["bitcoin", "red", "reloj", "billete"],
+      "vo": "Bitcoin es seguro, pero lento y a veces caro para pagos chicos. Para eso existen las redes de segunda capa."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL PROBLEMA",
+      "head": ["Poco lugar", "por bloque"],
+      "icono": "bloque",
+      "etiquetas": [{ "text": "Un bloque cada 10 minutos", "cue": "10 minutos" }, { "text": "Lugar limitado", "cue": "limitado" }],
+      "vo": "En Bitcoin sale un bloque cada 10 minutos, más o menos, y el lugar es limitado. Para un café, es mucho esperar."
+    },
+    {
+      "kind": "analogia",
+      "head": ["La cuenta", "del bar"],
+      "conector": "es como",
+      "a": { "icono": "cohete", "label": "Segunda capa" },
+      "simbolo": "=",
+      "b": { "icono": "libro", "label": "La cuenta del bar", "cue": "cuenta" },
+      "nota": "Al final **se paga una sola vez**.",
+      "vo": "Es como la cuenta del bar: vas anotando cada pedido, y al final pagás todo junto, de una sola vez."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Así", "funciona"],
+      "nodos": [
+        { "icono": "candado", "label": "Abrís un canal", "cue": "abrís" },
+        { "icono": "intercambio", "label": "Muchos pagos rápidos", "cue": "rápidos" },
+        { "icono": "bloque", "label": "Se anota el resultado", "detalle": "en la blockchain", "cue": "resultado" }
+      ],
+      "vo": "Abrís un canal con parte de tus bitcoins, hacés muchos pagos rápidos y al final se anota el resultado en la blockchain."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Palabras", "nuevas"],
+      "terminos": [
+        { "termino": "Segunda capa", "definicion": "Una red que funciona **encima** de otra.", "icono": "bloques" },
+        { "termino": "Lightning", "definicion": "La segunda capa **más conocida** de Bitcoin.", "icono": "cohete", "cue": "lightning" }
+      ],
+      "vo": "Una segunda capa es una red que funciona encima de otra. La más conocida de Bitcoin se llama Lightning."
+    },
+    {
+      "kind": "claves",
+      "badge": "VENTAJAS",
+      "head": ["Por qué", "sirve"],
+      "items": [
+        { "text": "Pagos **en segundos**", "cue": "segundos" },
+        { "text": "Comisiones **muy bajas**", "cue": "bajas" },
+        { "text": "Ideal para **montos chicos**", "cue": "montos chicos" }
+      ],
+      "vo": "Ventajas: pagos en segundos, comisiones muy bajas, y es ideal para montos chicos, como un café."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Lo que", "conviene saber"],
+      "titulo": "Antes de usarla",
+      "items": [{ "text": "Es más compleja de usar", "cue": "compleja" }, { "text": "No es para guardar mucho", "cue": "guardar" }],
+      "consejo": { "text": "Empezá con **montos chicos**.", "cue": "empezá" },
+      "vo": "Ojo: es más compleja de usar y no conviene para guardar mucho. Como siempre, empezá con poco."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Una red encima de otra", "Pagos chicos y rápidos", "Lightning, la más conocida"],
+      "vo": "Las segundas capas hacen rápidos los pagos chicos. En el próximo video: cripto, impuestos y normativa."
+    }
+  ]
+}

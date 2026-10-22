@@ -1,0 +1,86 @@
+{
+  "slug": "que-es-un-nft",
+  "titulo": "¿Qué es un NFT?",
+  "nivel": "Intermedio 2",
+  "descripcion": "Un certificado digital único registrado en una blockchain. Qué prueba y qué no prueba la propiedad de un NFT.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es un NFT? 🖼️ Qué prueba y qué no, explicado fácil | Cripto desde cero",
+    "descripcion": "🖼️ ¿QUÉ ES UN NFT? — Un certificado digital único, y lo que no te dice\n\nSeguro escuchaste de gente que pagó fortunas por un dibujo digital. Acá entendés qué se compra en realidad. 🤔\n\n📚 EN ESTE VIDEO\n1️⃣ Qué quiere decir NFT: token no fungible\n2️⃣ Qué es fungible, con un billete de ejemplo\n3️⃣ Un NFT es como un certificado con número único\n4️⃣ Qué prueba y qué no prueba\n5️⃣ Por qué muchas veces la imagen ni está en la blockchain\n6️⃣ Usos posibles\n7️⃣ Las colecciones falsas y los NFT de regalo\n\n💡 LA IDEA CLAVE\nUn NFT es como un certificado con número único registrado en la blockchain: dice quién lo tiene, pero no garantiza que la obra sea tuya ni que valga algo.\n\n📖 GLOSARIO\n• NFT: token no fungible, un token único.\n• Fungible: que se cambia por otro igual, como un billete por otro.\n• Colección: un grupo de NFT del mismo creador.\n\n⚠️ OJO CON\nCopias de colecciones conocidas y NFT de regalo que te piden conectar la billetera. Un regalo que no pediste puede ser una trampa.\n\n🎓 NIVEL: Intermedio 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que todavía no entiende qué es un NFT.\n\n{{DESLINDE}}\n\n#Criptomonedas #NFT #Blockchain #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es un nft", "nft explicado fácil", "token no fungible", "qué prueba un nft", "para qué sirve un nft", "nft para principiantes", "estafas con nft", "blockchain para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es", "un NFT?"],
+      "sub": "Un certificado digital",
+      "icono": "etiqueta",
+      "orbita": ["libro", "cadena", "persona", "pregunta"],
+      "vo": "Seguro escuchaste de NFT, y de gente que pagó fortunas por un dibujo. ¿Qué se compra en realidad?"
+    },
+    {
+      "kind": "glosario",
+      "head": ["Token", "no fungible"],
+      "terminos": [
+        { "termino": "NFT", "definicion": "Un token **único**, que no se reemplaza por otro.", "icono": "etiqueta" },
+        { "termino": "Fungible", "definicion": "Que se cambia por otro igual, como **un billete**.", "icono": "billete", "cue": "se cambia" }
+      ],
+      "vo": "NFT quiere decir token no fungible. Fungible es lo que se cambia por otro igual, como un billete por otro billete."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como un", "certificado"],
+      "conector": "es como",
+      "a": { "icono": "etiqueta", "label": "Un NFT" },
+      "simbolo": "=",
+      "b": { "icono": "libro", "label": "Un certificado con número único", "cue": "certificado" },
+      "nota": "Queda **registrado en la blockchain**.",
+      "vo": "Un NFT es como un certificado con número único, registrado en la blockchain, que dice quién lo tiene."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Qué prueba", "y qué no"],
+      "a": { "titulo": "Sí prueba", "icono": "check", "items": [{ "text": "Quién tiene el token", "cue": "quién tiene" }, { "text": "Su historial", "cue": "historial" }] },
+      "b": { "titulo": "No prueba", "icono": "cruz", "items": [{ "text": "Que la obra sea tuya", "cue": "obra" }, { "text": "Que valga algo", "cue": "valga" }] },
+      "vo": "Prueba quién tiene el token y su historial. No prueba que la obra sea tuya, ni que valga algo."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UN DETALLE",
+      "head": ["La imagen", "está afuera"],
+      "icono": "nube",
+      "etiquetas": [{ "text": "Muchas veces, en otro servidor", "cue": "servidor" }, { "text": "El NFT apunta a ella", "cue": "apunta" }],
+      "vo": "Muchas veces la imagen ni siquiera está en la blockchain: está en otro servidor, y el NFT solo apunta a ella."
+    },
+    {
+      "kind": "claves",
+      "badge": "USOS POSIBLES",
+      "head": ["Para qué", "puede servir"],
+      "items": [
+        { "text": "Entradas a **eventos**", "cue": "entradas" },
+        { "text": "Objetos en **juegos**", "cue": "juegos" },
+        { "text": "Certificados y **membresías**", "cue": "membresías" }
+      ],
+      "vo": "Hay usos posibles, como entradas a eventos, objetos en juegos, certificados o membresías."
+    },
+    {
+      "kind": "alerta",
+      "head": ["NFT", "truchos"],
+      "titulo": "Colecciones falsas y regalos",
+      "items": [{ "text": "Copias de colecciones conocidas", "cue": "copias" }, { "text": "Un regalo que pide conectar la billetera", "cue": "regalo" }],
+      "consejo": "Un regalo que no pediste **puede ser una trampa**.",
+      "vo": "Ojo con las copias de colecciones conocidas y con los NFT de regalo que te piden conectar la billetera."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Un token único", "Dice quién lo tiene", "No garantiza valor"],
+      "vo": "Un NFT es un certificado único, no una garantía de valor. En el próximo video: redes de segunda capa."
+    }
+  ]
+}
