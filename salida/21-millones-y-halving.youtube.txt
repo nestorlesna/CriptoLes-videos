@@ -1,0 +1,40 @@
+TÍTULO
+21 millones y el halving ⏳ El límite de Bitcoin explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+⏳ 21 MILLONES Y EL HALVING — Por qué nunca va a haber más bitcoins
+
+Nunca va a haber más de 21 millones de bitcoins. ¿Cómo puede ser? La respuesta se llama halving. ✂️
+
+📚 EN ESTE VIDEO
+1️⃣ El máximo de 21 millones está escrito en las reglas
+2️⃣ Qué es el halving: la recompensa de los mineros, a la mitad
+3️⃣ Cada 210.000 bloques, más o menos cada cuatro años
+4️⃣ Una canilla que se va cerrando
+5️⃣ Qué cambia: cada vez nacen menos bitcoins
+6️⃣ Qué pasa cuando ya no salgan más
+
+💡 LA IDEA CLAVE
+El halving es como una canilla que se va cerrando: cada vez salen menos bitcoins nuevos, hasta que ya no salga ninguno.
+
+📖 GLOSARIO
+• Halving: en inglés, partir a la mitad. Es cuando la recompensa por bloque se divide por dos.
+• Recompensa por bloque: los bitcoins nuevos que recibe el minero que agrega un bloque.
+• Suministro máximo: la cantidad total que puede existir (21 millones).
+
+⚠️ OJO CON
+Quienes usan el halving para apurarte a comprar. Lo que pasó antes no garantiza lo que va a pasar: nadie sabe qué va a hacer el precio.
+
+🎓 NIVEL: Básico 3 · Siguiente video: ¿Qué son las comisiones de red?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó hablar del halving y no sabe qué es.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Halving #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es el halving, halving de bitcoin, 21 millones de bitcoin, suministro máximo bitcoin, recompensa de bloque, cuántos bitcoins hay, minería de bitcoin, bitcoin para principiantes, criptomonedas para principiantes, cripto desde cero, educación financiera

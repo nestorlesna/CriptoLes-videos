@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "La minería no es la única forma de cuidar una red. Hay otra que casi no gasta energía: la prueba de participación."
+    },
+    {
+      "id": "02",
+      "text": "En vez de gastar energía, los que validan dejan cripto bloqueada como garantía de que van a jugar limpio."
+    },
+    {
+      "id": "03",
+      "text": "Quien revisa y agrega bloques se llama validador. Y bloquear cripto para participar se llama stéiquin."
+    },
+    {
+      "id": "04",
+      "text": "Es como el depósito de un alquiler: si cumplís, lo recuperás. Si hacés trampa, perdés una parte."
+    },
+    {
+      "id": "05",
+      "text": "La prueba de trabajo gasta mucha energía, como en Bitcóin. La de participación gasta muy poca, como en Etérium."
+    },
+    {
+      "id": "06",
+      "text": "Los validadores reciben una recompensa en cripto. Pero ojo: no es una ganancia segura, porque el precio cambia."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con plataformas de stéiquin que prometen rendimientos enormes y fijos, y después no te dejan retirar."
+    },
+    {
+      "id": "08",
+      "text": "Hay más de una forma de cuidar una red. En el próximo video: ¿qué son las finanzas descentralizadas?"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Hay criptomonedas que buscan no subir ni bajar. Se llaman stéibolcoins. ¿Cómo lo hacen?"
+    },
+    {
+      "id": "02",
+      "text": "Stéibolcoin quiere decir moneda estable: una cripto que busca valer siempre lo mismo que otra moneda, como el dólar."
+    },
+    {
+      "id": "03",
+      "text": "Es como un vale: cada uno representa un dólar, pero se mueve por internet como cualquier cripto."
+    },
+    {
+      "id": "04",
+      "text": "Lo más común: una empresa guarda dólares y emite una stéibolcoin por cada uno, que después se puede devolver."
+    },
+    {
+      "id": "05",
+      "text": "Se usa para mover dólares por internet, como refugio entre cripto que se mueven mucho, y para pagar sin esperar."
+    },
+    {
+      "id": "06",
+      "text": "Paridad es que una stéibolcoin valga exactamente lo mismo que la moneda que imita. Si se rompe, vale menos."
+    },
+    {
+      "id": "07",
+      "text": "Ojo: estable no es seguro. Dependés de quien la emite, puede perder la paridad y no la garantiza ningún banco central."
+    },
+    {
+      "id": "08",
+      "text": "Una stéibolcoin busca valer siempre lo mismo, pero tiene riesgos. En el próximo video: ¿qué es Etérium?"
+    }
+  ]
+}

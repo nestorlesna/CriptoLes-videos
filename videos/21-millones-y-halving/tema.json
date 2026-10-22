@@ -1,0 +1,96 @@
+{
+  "slug": "21-millones-y-halving",
+  "titulo": "21 millones y el halving",
+  "nivel": "Básico 3",
+  "descripcion": "Por qué nunca va a haber más de 21 millones de bitcoins y qué es el halving (la recompensa se divide a la mitad cada 210.000 bloques).",
+  "revisado": false,
+  "notas": "Escuchar cómo lee Daniela '210.000' y '2140' antes de renderizar.",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "21 millones y el halving ⏳ El límite de Bitcoin explicado fácil | Cripto desde cero",
+    "descripcion": "⏳ 21 MILLONES Y EL HALVING — Por qué nunca va a haber más bitcoins\n\nNunca va a haber más de 21 millones de bitcoins. ¿Cómo puede ser? La respuesta se llama halving. ✂️\n\n📚 EN ESTE VIDEO\n1️⃣ El máximo de 21 millones está escrito en las reglas\n2️⃣ Qué es el halving: la recompensa de los mineros, a la mitad\n3️⃣ Cada 210.000 bloques, más o menos cada cuatro años\n4️⃣ Una canilla que se va cerrando\n5️⃣ Qué cambia: cada vez nacen menos bitcoins\n6️⃣ Qué pasa cuando ya no salgan más\n\n💡 LA IDEA CLAVE\nEl halving es como una canilla que se va cerrando: cada vez salen menos bitcoins nuevos, hasta que ya no salga ninguno.\n\n📖 GLOSARIO\n• Halving: en inglés, partir a la mitad. Es cuando la recompensa por bloque se divide por dos.\n• Recompensa por bloque: los bitcoins nuevos que recibe el minero que agrega un bloque.\n• Suministro máximo: la cantidad total que puede existir (21 millones).\n\n⚠️ OJO CON\nQuienes usan el halving para apurarte a comprar. Lo que pasó antes no garantiza lo que va a pasar: nadie sabe qué va a hacer el precio.\n\n🎓 NIVEL: Básico 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó hablar del halving y no sabe qué es.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Halving #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es el halving", "halving de bitcoin", "21 millones de bitcoin", "suministro máximo bitcoin", "recompensa de bloque", "cuántos bitcoins hay", "minería de bitcoin", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["21 millones", "y el halving"],
+      "sub": "El límite de Bitcoin",
+      "icono": "bitcoin",
+      "orbita": ["reloj", "bloques", "grafico", "candado"],
+      "vo": "Nunca va a haber más de 21 millones de bitcoins. ¿Cómo puede ser? La respuesta se llama halving."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL LÍMITE",
+      "head": ["Un máximo", "fijo"],
+      "icono": "candado",
+      "etiquetas": [{ "text": "21 millones", "cue": "21" }, { "text": "Escrito en las reglas", "cue": "reglas" }],
+      "vo": "El máximo de 21 millones está escrito en las reglas de Bitcoin desde el principio, y toda la red las respeta."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Qué es el", "halving"],
+      "terminos": [
+        { "termino": "Halving", "definicion": "Cuando la recompensa de los mineros **se divide a la mitad**.", "icono": "bitcoin" }
+      ],
+      "vo": "Halving quiere decir partir a la mitad. Es el momento en que la recompensa de los mineros se divide por dos."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Cada vez", "menos"],
+      "nodos": [
+        { "icono": "bloques", "label": "Pasan 210.000 bloques", "cue": "210.000" },
+        { "icono": "reloj", "label": "Unos cuatro años", "cue": "cuatro años" },
+        { "icono": "bitcoin", "label": "La recompensa, a la mitad", "cue": "mitad" }
+      ],
+      "vo": "Cada 210.000 bloques, más o menos cada cuatro años, la recompensa por bloque baja a la mitad."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Una canilla", "que se cierra"],
+      "conector": "es como",
+      "a": { "icono": "bitcoin", "label": "Bitcoins nuevos" },
+      "simbolo": "=",
+      "b": { "icono": "grafico", "label": "Una canilla que gotea menos", "cue": "canilla" },
+      "nota": "Nunca se pasa de **21 millones**.",
+      "vo": "Es como una canilla que se va cerrando: cada vez salen menos bitcoins nuevos, hasta que ya no salga ninguno."
+    },
+    {
+      "kind": "claves",
+      "badge": "QUÉ CAMBIA",
+      "head": ["Por qué", "importa"],
+      "items": [
+        { "text": "Cada vez **nacen menos**", "cue": "nacen menos" },
+        { "text": "Nadie puede **cambiar el límite** solo", "cue": "cambiar" },
+        { "text": "El último, **cerca de 2140**", "cue": "2140" }
+      ],
+      "vo": "Cada vez nacen menos bitcoins, nadie puede cambiar el límite solo, y se calcula que el último saldrá cerca de 2140."
+    },
+    {
+      "kind": "concepto",
+      "badge": "Y DESPUÉS",
+      "head": ["Quedan las", "comisiones"],
+      "icono": "billete",
+      "etiquetas": [{ "text": "Cuando no salgan más", "cue": "no salgan" }, { "text": "Los mineros cobran comisiones", "cue": "comisiones" }],
+      "vo": "¿Y cuando ya no salgan más? Los mineros van a seguir cobrando las comisiones de cada movimiento."
+    },
+    {
+      "kind": "alerta",
+      "head": ["No es una", "promesa"],
+      "titulo": "Después del halving sube, seguro",
+      "items": [{ "text": "Usan el halving para apurarte", "cue": "apurarte" }, { "text": "Nadie sabe qué hará el precio", "cue": "nadie sabe" }],
+      "consejo": "El pasado **no garantiza** el futuro.",
+      "vo": "Ojo con quienes usan el halving para apurarte a comprar. Nadie sabe qué va a hacer el precio."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Máximo: 21 millones", "Halving: recompensa a la mitad", "Cada vez nacen menos"],
+      "vo": "El halving hace que cada vez nazcan menos bitcoins. En el próximo video: ¿qué son las comisiones de red?"
+    }
+  ]
+}

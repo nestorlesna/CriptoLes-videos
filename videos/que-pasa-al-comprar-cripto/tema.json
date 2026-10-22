@@ -1,0 +1,87 @@
+{
+  "slug": "que-pasa-al-comprar-cripto",
+  "titulo": "¿Qué pasa cuando comprás cripto?",
+  "nivel": "Básico 2",
+  "descripcion": "El recorrido paso a paso (cuenta, verificación de identidad, compra, retiro a tu billetera) sin recomendar qué ni cuándo comprar.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué pasa cuando comprás cripto? 🛒 El recorrido paso a paso | Cripto desde cero",
+    "descripcion": "🛒 ¿QUÉ PASA CUANDO COMPRÁS CRIPTO? — El recorrido completo, paso a paso\n\nSin decirte qué ni cuándo comprar: acá ves todo lo que pasa desde que abrís una cuenta hasta que las cripto llegan a tu billetera. 👣\n\n📚 EN ESTE VIDEO\n1️⃣ El camino completo: cuenta, verificación, depósito y compra\n2️⃣ Por qué te piden documento y foto\n3️⃣ La orden de compra y la comisión\n4️⃣ El paso opcional: retirar a tu propia billetera\n5️⃣ Tres consejos antes de comprar\n6️⃣ Las ventas por privado\n\n💡 LA IDEA CLAVE\nComprar cripto no tiene magia: es un camino de pasos, y en cada uno conviene saber qué estás haciendo y cuánto te cobran.\n\n📖 GLOSARIO\n• Verificación de identidad: cuando la plataforma confirma que sos vos.\n• Depósito: pasar dinero común a tu cuenta de la plataforma.\n• Retiro: mandar tus cripto de la plataforma a tu billetera.\n\n⚠️ OJO CON\nDesconfiá si alguien te escribe por privado para venderte cripto y te pide una transferencia directa. Comprá solo en plataformas que verificaste.\n\n🎓 NIVEL: Básico 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que quiere empezar pero no sabe cómo es el proceso.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #ComprarCripto #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["cómo comprar criptomonedas", "qué pasa cuando compras cripto", "comprar bitcoin paso a paso", "verificación de identidad exchange", "retirar cripto a tu billetera", "comisiones al comprar cripto", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "estafas cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué pasa", "al comprar?"],
+      "sub": "El recorrido, paso a paso",
+      "icono": "carrito",
+      "orbita": ["persona", "edificio", "bitcoin", "billetera"],
+      "vo": "Sin decirte qué ni cuándo comprar, te muestro todo lo que pasa cuando comprás cripto."
+    },
+    {
+      "kind": "flujo",
+      "head": ["El camino", "completo"],
+      "nodos": [
+        { "icono": "persona", "label": "1. Abrís una cuenta", "cue": "cuenta" },
+        { "icono": "lupa", "label": "2. Verificás tu identidad", "cue": "identidad" },
+        { "icono": "billetes", "label": "3. Depositás dinero", "cue": "depositás" },
+        { "icono": "bitcoin", "label": "4. Comprás", "cue": "recién" }
+      ],
+      "vo": "Abrís una cuenta, verificás tu identidad, depositás dinero y recién ahí comprás. Vamos paso por paso."
+    },
+    {
+      "kind": "concepto",
+      "badge": "VERIFICACIÓN",
+      "head": ["Confirmar", "quién sos"],
+      "icono": "lupa",
+      "etiquetas": [{ "text": "Documento y foto", "cue": "documento" }, { "text": "Lo piden por ley", "cue": "ley" }],
+      "vo": "La plataforma te pide documento y una foto para confirmar que sos vos. Lo piden por ley, para evitar fraudes."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA COMPRA",
+      "head": ["La orden", "de compra"],
+      "icono": "carrito",
+      "etiquetas": [{ "text": "Elegís cuánto dinero", "cue": "cuánto" }, { "text": "Pagás una comisión", "cue": "comisión" }],
+      "vo": "Al comprar, elegís cuánto dinero querés cambiar. La plataforma cobra una comisión: conviene saber cuánta antes."
+    },
+    {
+      "kind": "concepto",
+      "badge": "OPCIONAL",
+      "head": ["Retirar a tu", "billetera"],
+      "icono": "billetera",
+      "etiquetas": [{ "text": "Las mandás a tu billetera", "cue": "retirar" }, { "text": "Pasás a tener tus llaves", "cue": "llaves" }],
+      "vo": "Un paso opcional: retirar las cripto a tu propia billetera. Así pasás a tener tus llaves, como vimos antes."
+    },
+    {
+      "kind": "claves",
+      "badge": "ANTES DE COMPRAR",
+      "head": ["Tres", "consejos"],
+      "items": [
+        { "text": "Empezá con **poco**", "cue": "poco" },
+        { "text": "Solo plata que **no necesitás**", "cue": "no necesitás" },
+        { "text": "Entendé **qué estás comprando**", "cue": "entendé" }
+      ],
+      "vo": "Tres consejos: empezá con poco, usá solo plata que no necesitás y entendé bien qué estás comprando."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Ventas por", "privado"],
+      "titulo": "Alguien te ofrece venderte",
+      "items": [{ "text": "Te escribe por privado", "cue": "privado" }, { "text": "Pide una transferencia directa", "cue": "transferencia" }],
+      "consejo": "Comprá solo en **plataformas que verificaste**.",
+      "vo": "Desconfiá si alguien te escribe por privado para venderte cripto y te pide una transferencia directa."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Cuenta y verificación", "Depósito y compra", "Retiro a tu billetera"],
+      "vo": "Comprar cripto es un camino de pasos, sin magia. En el próximo video: cómo enviar y recibir cripto."
+    }
+  ]
+}

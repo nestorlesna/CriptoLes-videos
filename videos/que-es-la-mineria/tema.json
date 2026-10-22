@@ -1,0 +1,97 @@
+{
+  "slug": "que-es-la-mineria",
+  "titulo": "¿Qué es la minería?",
+  "nivel": "Básico 3",
+  "descripcion": "Cómo se agregan bloques nuevos a Bitcoin: computadoras que compiten resolviendo un problema (prueba de trabajo) a cambio de una recompensa.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es la minería de Bitcoin? ⛏️ Explicada fácil | Cripto desde cero",
+    "descripcion": "⛏️ ¿QUÉ ES LA MINERÍA? — Sin pico ni pala: computadoras que cuidan la red\n\nEn cripto se habla de minería, pero no hay minas. Hay computadoras trabajando. Acá entendés haciendo qué, y por qué cobran. 💻\n\n📚 EN ESTE VIDEO\n1️⃣ Minar es anotar movimientos y sumar un bloque nuevo\n2️⃣ La carrera de adivinanzas entre computadoras\n3️⃣ Cómo se mina, paso a paso\n4️⃣ Qué es la prueba de trabajo y qué es un minero\n5️⃣ La recompensa: bitcoins nuevos más comisiones\n6️⃣ Por qué la minería mantiene la red segura\n7️⃣ Las apps que dicen minar desde tu celular\n\n💡 LA IDEA CLAVE\nMinar es como una carrera: miles de computadoras prueban números hasta adivinar uno especial, y la que acierta primero agrega el bloque y se lleva el premio.\n\n📖 GLOSARIO\n• Minero: quien pone computadoras a trabajar para agregar bloques.\n• Prueba de trabajo: demostrar que gastaste energía resolviendo el problema.\n• Recompensa: los bitcoins nuevos y las comisiones que cobra el ganador.\n\n⚠️ OJO CON\nApps que dicen minar desde tu celular con ganancias diarias: pagás para entrar y no minás nada.\n\n🎓 NIVEL: Básico 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que cree que minar es con pico y pala.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #MineriaBitcoin #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es la minería de bitcoin", "minería cripto explicada", "cómo se mina bitcoin", "prueba de trabajo", "proof of work", "qué es un minero", "recompensa de bloque", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "estafas de minería"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es la", "minería?"],
+      "sub": "Sin pico ni pala",
+      "icono": "computadora",
+      "orbita": ["bloque", "bitcoin", "reloj", "red"],
+      "vo": "En cripto se habla de minería, pero no hay pico ni pala. Hay computadoras trabajando. ¿Haciendo qué?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Agregar", "bloques"],
+      "icono": "bloques",
+      "etiquetas": [{ "text": "Anotar los movimientos", "cue": "anotar" }, { "text": "Sumar un bloque nuevo", "cue": "bloque nuevo" }],
+      "vo": "Minar es el trabajo de anotar los movimientos nuevos y sumar un bloque nuevo a la cadena de Bitcoin."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Una carrera", "de adivinanzas"],
+      "conector": "es como",
+      "a": { "icono": "computadora", "label": "Minar" },
+      "simbolo": "=",
+      "b": { "icono": "pregunta", "label": "Adivinar un número", "cue": "adivinar" },
+      "nota": "La que acierta primero **gana**.",
+      "vo": "Es como una carrera: miles de computadoras prueban números hasta adivinar uno especial. La que acierta primero, gana."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Así se", "mina"],
+      "nodos": [
+        { "icono": "computadora", "label": "Prueban números", "detalle": "sin parar", "cue": "prueban" },
+        { "icono": "check", "label": "Una encuentra la solución", "cue": "encuentra" },
+        { "icono": "bloque", "label": "Agrega el bloque", "detalle": "y las demás lo revisan", "cue": "agrega" }
+      ],
+      "vo": "Las computadoras prueban números sin parar. Cuando una encuentra la solución, agrega el bloque y las demás lo revisan."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Prueba de", "trabajo"],
+      "terminos": [
+        { "termino": "Prueba de trabajo", "definicion": "Demostrar que **gastaste energía** resolviendo el problema.", "icono": "computadora" },
+        { "termino": "Minero", "definicion": "Quien pone **computadoras** a trabajar.", "icono": "persona", "cue": "minero" }
+      ],
+      "vo": "Esto se llama prueba de trabajo: demostrar que gastaste energía resolviendo el problema. Quien lo hace es un minero."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL PREMIO",
+      "head": ["Una", "recompensa"],
+      "icono": "bitcoin",
+      "etiquetas": [{ "text": "Bitcoins nuevos", "cue": "nuevos" }, { "text": "Más las comisiones", "cue": "comisiones" }],
+      "vo": "El que gana se lleva una recompensa: bitcoins nuevos, más las comisiones de los movimientos del bloque."
+    },
+    {
+      "kind": "claves",
+      "badge": "POR QUÉ IMPORTA",
+      "head": ["Para qué", "sirve"],
+      "items": [
+        { "text": "Mantiene la red **segura**", "cue": "segura" },
+        { "text": "Hacer trampa **sale carísimo**", "cue": "carísimo" },
+        { "text": "Así **nacen** los bitcoins", "cue": "nacen" }
+      ],
+      "vo": "La minería mantiene la red segura, porque hacer trampa sale carísimo. Y es la única forma en que nacen bitcoins."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Minería", "trucha"],
+      "titulo": "Te ofrecen minar desde el celular",
+      "items": [{ "text": "Ganancias diarias aseguradas", "cue": "diarias" }, { "text": "Pagás para empezar", "cue": "pagás" }],
+      "consejo": "Minar de verdad necesita **equipos y energía**.",
+      "vo": "Ojo con las apps que dicen minar desde tu celular con ganancias diarias. Pagás para entrar y no minás nada."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Minar: agregar bloques", "Prueba de trabajo", "Recompensa en bitcoins"],
+      "vo": "Los mineros sostienen la red a cambio de una recompensa. En el próximo video: 21 millones y el halving."
+    }
+  ]
+}

@@ -5,42 +5,42 @@ La lista y su orden salen de `temas/temas.csv`; el estado, de `temas/<clave>.jso
 Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"` (y de la columna estado del CSV si no hay ficha).
 Subido = el .mp4 está en `salida/subidos/` (lo mueve el dueño del canal después de publicarlo). Identidad visual activa: `b-noche-dorada`.
 
-**Renderizados:** 6 / 33 · **Fichas:** 6 · **Descripción YouTube:** 6 · **Subidos:** 2 · **Próximo:** 7 · ¿Quién creó Bitcoin?
+**Renderizados:** 33 / 33 · **Fichas:** 33 · **Descripción YouTube:** 33 · **Subidos:** 6
 
 | # | Tema | Nivel | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | ¿De qué va Cripto desde cero? | Bienvenida | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/descripcion_inicial.youtube.txt) | [✅](salida/subidos/descripcion_inicial.miniatura.png) | 91.8 s | [descripcion_inicial.mp4](salida/subidos/descripcion_inicial.mp4) | ✅ | ✅ | Video de presentación del canal (más largo que los demás). |
-| 2 | ¿Qué es el dinero? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/que-es-el-dinero.youtube.txt) | [✅](salida/subidos/que-es-el-dinero.miniatura.png) | 54.3 s | [que-es-el-dinero.mp4](salida/subidos/que-es-el-dinero.mp4) | ✅ | ✅ | Video de prueba del pipeline. |
-| 3 | ¿Dónde está tu plata cuando está en el banco? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/plata-en-el-banco.youtube.txt) | [✅](salida/plata-en-el-banco.miniatura.png) | 51.9 s | [plata-en-el-banco.mp4](salida/plata-en-el-banco.mp4) | ⬜ | ⬜ |  |
-| 4 | ¿Qué es la inflación? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-la-inflacion.youtube.txt) | [✅](salida/que-es-la-inflacion.miniatura.png) | 51.2 s | [que-es-la-inflacion.mp4](salida/que-es-la-inflacion.mp4) | ⬜ | ⬜ |  |
-| 5 | ¿Qué es una criptomoneda? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-una-criptomoneda.youtube.txt) | [✅](salida/que-es-una-criptomoneda.miniatura.png) | 52.1 s | [que-es-una-criptomoneda.mp4](salida/que-es-una-criptomoneda.mp4) | ⬜ | ⬜ |  |
-| 6 | ¿Qué es Bitcoin? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-bitcoin.youtube.txt) | [✅](salida/que-es-bitcoin.miniatura.png) | 50.8 s | [que-es-bitcoin.mp4](salida/que-es-bitcoin.mp4) | ⬜ | ⬜ |  |
-| 7 | ¿Quién creó Bitcoin? | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 8 | ¿Qué es una blockchain? | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 9 | Centralizado vs descentralizado | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 10 | ¿Por qué Bitcoin tiene valor? | Básico 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 11 | ¿Qué es una billetera cripto? | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 12 | Clave pública y clave privada | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | la privada es la llave de tu caja fuerte (nunca se comparte). |
-| 13 | ¿Qué es la frase semilla? | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 14 | ¿Quién tiene tus llaves? | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 15 | ¿Qué es un exchange? | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 16 | ¿Qué pasa cuando comprás cripto? | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 17 | Cómo enviar y recibir cripto | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 18 | Las estafas más comunes en cripto | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 19 | Seguridad básica: que no te roben | Básico 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 20 | ¿Qué es la minería? | Básico 3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 21 | 21 millones y el halving | Básico 3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 22 | ¿Qué son las comisiones de red? | Básico 3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 23 | ¿Por qué el precio sube y baja tanto? | Básico 3 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 24 | ¿Qué es una stablecoin? | Intermedio 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 25 | ¿Qué es Ethereum? | Intermedio 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 26 | ¿Qué es un contrato inteligente? | Intermedio 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 27 | Tokens y altcoins: ¿por qué hay miles? | Intermedio 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 28 | Prueba de participación (staking) | Intermedio 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 29 | ¿Qué son las finanzas descentralizadas (DeFi)? | Intermedio 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 30 | ¿Qué es un NFT? | Intermedio 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 31 | Redes de segunda capa (Lightning) | Intermedio 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 32 | Cripto, impuestos y normativa | Intermedio 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
-| 33 | Cómo investigar un proyecto (DYOR) | Intermedio 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | propuesto |
+| 1 | ¿De qué va Cripto desde cero? | Bienvenida | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/descripcion_inicial.youtube.txt) | [✅](salida/subidos/Viejos/descripcion_inicial.miniatura.png) | 91.8 s | [descripcion_inicial.mp4](salida/subidos/Viejos/descripcion_inicial.mp4) | ✅ | ✅ | Video de presentación del canal (más largo que los demás). |
+| 2 | ¿Qué es el dinero? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-el-dinero.youtube.txt) | [✅](salida/subidos/Viejos/que-es-el-dinero.miniatura.png) | 54.3 s | [que-es-el-dinero.mp4](salida/subidos/Viejos/que-es-el-dinero.mp4) | ✅ | ✅ | Video de prueba del pipeline. |
+| 3 | ¿Dónde está tu plata cuando está en el banco? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/plata-en-el-banco.youtube.txt) | [✅](salida/subidos/Viejos/plata-en-el-banco.miniatura.png) | 51.9 s | [plata-en-el-banco.mp4](salida/subidos/Viejos/plata-en-el-banco.mp4) | ⬜ | ✅ |  |
+| 4 | ¿Qué es la inflación? | Básico 0 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-la-inflacion.youtube.txt) | [✅](salida/subidos/Viejos/que-es-la-inflacion.miniatura.png) | 51.2 s | [que-es-la-inflacion.mp4](salida/subidos/Viejos/que-es-la-inflacion.mp4) | ⬜ | ✅ |  |
+| 5 | ¿Qué es una criptomoneda? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-una-criptomoneda.youtube.txt) | [✅](salida/subidos/Viejos/que-es-una-criptomoneda.miniatura.png) | 52.1 s | [que-es-una-criptomoneda.mp4](salida/subidos/Viejos/que-es-una-criptomoneda.mp4) | ⬜ | ✅ |  |
+| 6 | ¿Qué es Bitcoin? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-bitcoin.youtube.txt) | [✅](salida/subidos/Viejos/que-es-bitcoin.miniatura.png) | 50.8 s | [que-es-bitcoin.mp4](salida/subidos/Viejos/que-es-bitcoin.mp4) | ⬜ | ✅ |  |
+| 7 | ¿Quién creó Bitcoin? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/quien-creo-bitcoin.youtube.txt) | [✅](salida/quien-creo-bitcoin.miniatura.png) | 51.6 s | [quien-creo-bitcoin.mp4](salida/quien-creo-bitcoin.mp4) | ⬜ | ⬜ |  |
+| 8 | ¿Qué es una blockchain? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-blockchain.youtube.txt) | [✅](salida/que-es-blockchain.miniatura.png) | 48.7 s | [que-es-blockchain.mp4](salida/que-es-blockchain.mp4) | ⬜ | ⬜ |  |
+| 9 | Centralizado vs descentralizado | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/centralizado-vs-descentralizado.youtube.txt) | [✅](salida/centralizado-vs-descentralizado.miniatura.png) | 50.3 s | [centralizado-vs-descentralizado.mp4](salida/centralizado-vs-descentralizado.mp4) | ⬜ | ⬜ |  |
+| 10 | ¿Por qué Bitcoin tiene valor? | Básico 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/por-que-bitcoin-tiene-valor.youtube.txt) | [✅](salida/por-que-bitcoin-tiene-valor.miniatura.png) | 49.9 s | [por-que-bitcoin-tiene-valor.mp4](salida/por-que-bitcoin-tiene-valor.mp4) | ⬜ | ⬜ |  |
+| 11 | ¿Qué es una billetera cripto? | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-una-billetera.youtube.txt) | [✅](salida/que-es-una-billetera.miniatura.png) | 51.2 s | [que-es-una-billetera.mp4](salida/que-es-una-billetera.mp4) | ⬜ | ⬜ |  |
+| 12 | Clave pública y clave privada | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/clave-publica-y-privada.youtube.txt) | [✅](salida/clave-publica-y-privada.miniatura.png) | 48.1 s | [clave-publica-y-privada.mp4](salida/clave-publica-y-privada.mp4) | ⬜ | ⬜ |  |
+| 13 | ¿Qué es la frase semilla? | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/frase-semilla.youtube.txt) | [✅](salida/frase-semilla.miniatura.png) | 50.1 s | [frase-semilla.mp4](salida/frase-semilla.mp4) | ⬜ | ⬜ |  |
+| 14 | ¿Quién tiene tus llaves? | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/custodia-propia-vs-exchange.youtube.txt) | [✅](salida/custodia-propia-vs-exchange.miniatura.png) | 49.3 s | [custodia-propia-vs-exchange.mp4](salida/custodia-propia-vs-exchange.mp4) | ⬜ | ⬜ |  |
+| 15 | ¿Qué es un exchange? | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-un-exchange.youtube.txt) | [✅](salida/que-es-un-exchange.miniatura.png) | 48.5 s | [que-es-un-exchange.mp4](salida/que-es-un-exchange.mp4) | ⬜ | ⬜ |  |
+| 16 | ¿Qué pasa cuando comprás cripto? | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-pasa-al-comprar-cripto.youtube.txt) | [✅](salida/que-pasa-al-comprar-cripto.miniatura.png) | 50.0 s | [que-pasa-al-comprar-cripto.mp4](salida/que-pasa-al-comprar-cripto.mp4) | ⬜ | ⬜ |  |
+| 17 | Cómo enviar y recibir cripto | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/enviar-y-recibir-cripto.youtube.txt) | [✅](salida/enviar-y-recibir-cripto.miniatura.png) | 49.3 s | [enviar-y-recibir-cripto.mp4](salida/enviar-y-recibir-cripto.mp4) | ⬜ | ⬜ |  |
+| 18 | Las estafas más comunes en cripto | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/estafas-mas-comunes.youtube.txt) | [✅](salida/estafas-mas-comunes.miniatura.png) | 52.8 s | [estafas-mas-comunes.mp4](salida/estafas-mas-comunes.mp4) | ⬜ | ⬜ | Sin nombrar apps de mensajería (regla de marcas): se dice 'por chat'. |
+| 19 | Seguridad básica: que no te roben | Básico 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/seguridad-basica.youtube.txt) | [✅](salida/seguridad-basica.miniatura.png) | 49.6 s | [seguridad-basica.mp4](salida/seguridad-basica.mp4) | ⬜ | ⬜ |  |
+| 20 | ¿Qué es la minería? | Básico 3 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-la-mineria.youtube.txt) | [✅](salida/que-es-la-mineria.miniatura.png) | 55.8 s | [que-es-la-mineria.mp4](salida/que-es-la-mineria.mp4) | ⬜ | ⬜ |  |
+| 21 | 21 millones y el halving | Básico 3 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/21-millones-y-halving.youtube.txt) | [✅](salida/21-millones-y-halving.miniatura.png) | 54.5 s | [21-millones-y-halving.mp4](salida/21-millones-y-halving.mp4) | ⬜ | ⬜ | Escuchar cómo lee Daniela '210.000' y '2140' antes de renderizar. |
+| 22 | ¿Qué son las comisiones de red? | Básico 3 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-son-las-comisiones.youtube.txt) | [✅](salida/que-son-las-comisiones.miniatura.png) | 52.6 s | [que-son-las-comisiones.mp4](salida/que-son-las-comisiones.mp4) | ⬜ | ⬜ |  |
+| 23 | ¿Por qué el precio sube y baja tanto? | Básico 3 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-la-volatilidad.youtube.txt) | [✅](salida/que-es-la-volatilidad.miniatura.png) | 49.5 s | [que-es-la-volatilidad.mp4](salida/que-es-la-volatilidad.mp4) | ⬜ | ⬜ |  |
+| 24 | ¿Qué es una stablecoin? | Intermedio 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-una-stablecoin.youtube.txt) | [✅](salida/que-es-una-stablecoin.miniatura.png) | 49.2 s | [que-es-una-stablecoin.mp4](salida/que-es-una-stablecoin.mp4) | ⬜ | ⬜ | Sin nombrar stablecoins puntuales (regla de marcas). |
+| 25 | ¿Qué es Ethereum? | Intermedio 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-ethereum.youtube.txt) | [✅](salida/que-es-ethereum.miniatura.png) | 49.3 s | [que-es-ethereum.mp4](salida/que-es-ethereum.mp4) | ⬜ | ⬜ | Palabra nueva para la voz: ether (escuchar antes de renderizar). |
+| 26 | ¿Qué es un contrato inteligente? | Intermedio 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/contratos-inteligentes.youtube.txt) | [✅](salida/contratos-inteligentes.miniatura.png) | 52.7 s | [contratos-inteligentes.mp4](salida/contratos-inteligentes.mp4) | ⬜ | ⬜ |  |
+| 27 | Tokens y altcoins: ¿por qué hay miles? | Intermedio 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/tokens-y-altcoins.youtube.txt) | [✅](salida/tokens-y-altcoins.miniatura.png) | 49.2 s | [tokens-y-altcoins.mp4](salida/tokens-y-altcoins.mp4) | ⬜ | ⬜ | Palabras nuevas para la voz: altcoin / Altcoin (escuchar antes de renderizar). |
+| 28 | Prueba de participación (staking) | Intermedio 1 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/prueba-de-participacion.youtube.txt) | [✅](salida/prueba-de-participacion.miniatura.png) | 50.1 s | [prueba-de-participacion.mp4](salida/prueba-de-participacion.mp4) | ⬜ | ⬜ |  |
+| 29 | ¿Qué son las finanzas descentralizadas (DeFi)? | Intermedio 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-defi.youtube.txt) | [✅](salida/que-es-defi.miniatura.png) | 51.3 s | [que-es-defi.mp4](salida/que-es-defi.mp4) | ⬜ | ⬜ |  |
+| 30 | ¿Qué es un NFT? | Intermedio 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/que-es-un-nft.youtube.txt) | [✅](salida/que-es-un-nft.miniatura.png) | 48.4 s | [que-es-un-nft.mp4](salida/que-es-un-nft.mp4) | ⬜ | ⬜ |  |
+| 31 | Redes de segunda capa (Lightning) | Intermedio 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/redes-de-segunda-capa.youtube.txt) | [✅](salida/redes-de-segunda-capa.miniatura.png) | 50.5 s | [redes-de-segunda-capa.mp4](salida/redes-de-segunda-capa.mp4) | ⬜ | ⬜ |  |
+| 32 | Cripto, impuestos y normativa | Intermedio 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/impuestos-y-normativa.youtube.txt) | [✅](salida/impuestos-y-normativa.miniatura.png) | 48.8 s | [impuestos-y-normativa.mp4](salida/impuestos-y-normativa.mp4) | ⬜ | ⬜ | Sin países, alícuotas ni normas puntuales (cambian): solo la idea general y consultar a un contador. |
+| 33 | Cómo investigar un proyecto (DYOR) | Intermedio 2 | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/como-investigar-un-proyecto.youtube.txt) | [✅](salida/como-investigar-un-proyecto.miniatura.png) | 50.6 s | [como-investigar-un-proyecto.mp4](salida/como-investigar-un-proyecto.mp4) | ⬜ | ⬜ | Último de la lista: el cierre usa 'proximo' a mano. Si se agregan temas al CSV, sacar 'proximo' y ajustar la voz del cierre. |
 
 Leyenda: ✅ listo · ⬜ pendiente · ❌ falló · ⚠️ desactualizado = lo que se ve/escucha en la ficha cambió después del último render (volver a renderizar) · Duración entre paréntesis = estimada (todavía sin render).

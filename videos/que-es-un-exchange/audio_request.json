@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Para cambiar plata común por cripto, casi siempre se pasa por un exchéinch. ¿Qué es exactamente?"
+    },
+    {
+      "id": "02",
+      "text": "Un exchéinch es como una casa de cambio: ahí cambiás dinero común por cripto, o cripto por dinero común."
+    },
+    {
+      "id": "03",
+      "text": "Vos querés comprar y otra persona quiere vender. El exchéinch junta a los dos y cobra una comisión por eso."
+    },
+    {
+      "id": "04",
+      "text": "Sirve para cambiar dinero por cripto, ver precios al momento y, si querés, guardar tus cripto ahí."
+    },
+    {
+      "id": "05",
+      "text": "Usar un exchéinch es confiar en una empresa: puede sufrir un robo informático, quebrar o cerrar."
+    },
+    {
+      "id": "06",
+      "text": "Antes de usar uno, fijate que esté registrado en tu país, que tenga verificación en dos pasos y cuánto tiempo lleva."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con los sitios falsos: llegan por un link o un anuncio, te dejan depositar y después no te dejan retirar."
+    },
+    {
+      "id": "08",
+      "text": "Un exchéinch es útil, pero tiene riesgos. En el próximo video: ¿qué pasa cuando comprás cripto?"
+    }
+  ]
+}

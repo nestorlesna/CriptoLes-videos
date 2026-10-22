@@ -1,0 +1,95 @@
+{
+  "slug": "que-son-las-comisiones",
+  "titulo": "¿Qué son las comisiones de red?",
+  "nivel": "Básico 3",
+  "descripcion": "Por qué pagás para mover cripto, quién cobra esa comisión y por qué a veces sube cuando la red está llena.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué son las comisiones de red? 🚦 Por qué pagás al enviar cripto | Cripto desde cero",
+    "descripcion": "🚦 ¿QUÉ SON LAS COMISIONES DE RED? — Por qué pagás cada vez que movés cripto\n\nCada vez que mandás cripto pagás una comisión. ¿A quién se la pagás y por qué a veces es más cara? Acá lo ves. 💸\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es: lo que pagás para que tu movimiento quede anotado\n2️⃣ Es como un peaje, pero con precio variable\n3️⃣ Qué pasa cuando hay mucho tráfico\n4️⃣ De qué depende la comisión\n5️⃣ Comisión de la red vs comisión de la plataforma\n6️⃣ Por qué conviene mirarla antes de enviar\n7️⃣ La estafa de pagar una comisión para liberar tu plata\n\n💡 LA IDEA CLAVE\nLa comisión es el peaje de la red: pagás para usar el camino, y cuando hay mucho tráfico, el peaje sube.\n\n📖 GLOSARIO\n• Comisión de red: lo que pagás para que tu movimiento entre en un bloque.\n• Comisión de la plataforma: lo que cobra la empresa por sus servicios.\n• Red congestionada: cuando muchos quieren enviar a la vez.\n\n⚠️ OJO CON\nEl cuento de pagar una comisión para liberar algo que supuestamente ganaste. Si te cobran primero, es estafa.\n\n🎓 NIVEL: Básico 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se sorprendió con lo que pagó por un envío.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #ComisionesCripto #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué son las comisiones de red", "comisiones cripto", "por qué pago comisión al enviar cripto", "comisión de bitcoin", "red congestionada", "fee cripto", "enviar criptomonedas", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "estafas cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Por qué", "pagás al enviar?"],
+      "sub": "Las comisiones de red",
+      "icono": "billete",
+      "orbita": ["red", "reloj", "computadora", "bloque"],
+      "vo": "Cada vez que movés cripto pagás una comisión. ¿A quién se la pagás y por qué a veces es más cara?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Un pago", "por anotar"],
+      "icono": "bloque",
+      "etiquetas": [{ "text": "Para quedar anotado", "cue": "anotado" }, { "text": "Va a quien arma el bloque", "cue": "arma" }],
+      "vo": "La comisión es lo que pagás para que tu movimiento quede anotado. Se la lleva quien arma el bloque."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como un", "peaje"],
+      "conector": "es como",
+      "a": { "icono": "billete", "label": "Comisión de red" },
+      "simbolo": "=",
+      "b": { "icono": "etiqueta", "label": "Un peaje en la ruta", "cue": "peaje" },
+      "nota": "Más tráfico, **más caro**.",
+      "vo": "Es como un peaje: pagás para usar el camino. Pero acá el precio no es fijo, cambia según el tráfico."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Cuando hay", "mucho tráfico"],
+      "nodos": [
+        { "icono": "grupo", "label": "Muchos quieren enviar", "cue": "muchos" },
+        { "icono": "bloque", "label": "El lugar no alcanza", "cue": "lugar" },
+        { "icono": "billetes", "label": "Pasan primero los que pagan más", "cue": "pagan más" }
+      ],
+      "vo": "Cuando muchos quieren enviar a la vez, el lugar en cada bloque no alcanza, y pasan primero los que pagan más."
+    },
+    {
+      "kind": "claves",
+      "badge": "DE QUÉ DEPENDE",
+      "head": ["Qué la", "cambia"],
+      "items": [
+        { "text": "Qué tan **llena** está la red", "cue": "llena" },
+        { "text": "Qué **red** usás", "cue": "red usás" },
+        { "text": "Qué tan **rápido** lo querés", "cue": "rápido" }
+      ],
+      "vo": "La comisión depende de qué tan llena está la red, qué red usás y qué tan rápido querés que llegue."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Dos", "comisiones"],
+      "a": { "titulo": "De la red", "icono": "red", "items": [{ "text": "Va a la red", "cue": "comisión de la red" }, { "text": "Cambia con el tráfico", "cue": "tráfico" }] },
+      "b": { "titulo": "De la plataforma", "icono": "edificio", "items": [{ "text": "La cobra la empresa", "cue": "plataforma" }, { "text": "La fija ella", "cue": "fija" }] },
+      "vo": "No confundas la comisión de la red, que cambia con el tráfico, con la que cobra la plataforma, que la fija la empresa."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UN CONSEJO",
+      "head": ["Mirala antes", "de enviar"],
+      "icono": "lupa",
+      "etiquetas": [{ "text": "La billetera te la muestra", "cue": "muestra" }, { "text": "Sin apuro, esperá", "cue": "apuro" }],
+      "vo": "Tu billetera te muestra la comisión antes de confirmar. Si no tenés apuro, a veces conviene esperar a que baje."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Comisión", "trucha"],
+      "titulo": "Pagá para liberar tu plata",
+      "items": [{ "text": "Te dicen que ganaste algo", "cue": "ganaste" }, { "text": "Te cobran antes de retirar", "cue": "primero" }],
+      "consejo": "Es estafa: **nunca vas a recibir nada**.",
+      "vo": "Ojo con el cuento de pagar una comisión para liberar lo que ganaste. Si te cobran primero, es estafa."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Pagás para quedar anotado", "Más tráfico, más caro", "Mirala antes de enviar"],
+      "vo": "La comisión es el peaje de la red. En el próximo video: ¿por qué el precio sube y baja tanto?"
+    }
+  ]
+}

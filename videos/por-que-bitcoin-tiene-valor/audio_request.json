@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Bitcóin no se puede tocar y no lo respalda ningún país. Entonces, ¿por qué tiene valor?"
+    },
+    {
+      "id": "02",
+      "text": "Acordate del video del dinero: algo vale porque confiamos en él y la gente lo acepta. Con Bitcóin pasa igual."
+    },
+    {
+      "id": "03",
+      "text": "Como el oro: hay poco y cuesta conseguirlo. Bitcóin tiene un máximo fijo de 21 millones, y nadie lo puede cambiar."
+    },
+    {
+      "id": "04",
+      "text": "Tres razones: es escaso, mucha gente confía en sus reglas y cada vez más personas lo aceptan."
+    },
+    {
+      "id": "05",
+      "text": "El dinero común lo emite un Estado, que puede imprimir más. Bitcóin no lo emite nadie, y nadie puede crear más."
+    },
+    {
+      "id": "06",
+      "text": "Tener valor no quiere decir tener un precio estable: depende de cuánta gente lo quiere, y sube y baja mucho."
+    },
+    {
+      "id": "07",
+      "text": "Desconfiá de quien te asegura que va a subir o te apura para que compres. Nadie sabe el precio de mañana."
+    },
+    {
+      "id": "08",
+      "text": "Bitcóin vale por escasez, confianza y gente que lo acepta. En el próximo video: ¿qué es una billetera cripto?"
+    }
+  ]
+}

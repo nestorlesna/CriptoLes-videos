@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Para usar cripto necesitás una billetera. Pero no funciona como la billetera que tenés en el bolsillo."
+    },
+    {
+      "id": "02",
+      "text": "Una billetera cripto es como un llavero: no guarda las monedas, guarda las llaves que te dejan moverlas."
+    },
+    {
+      "id": "03",
+      "text": "Las monedas están anotadas en la blocchéin. La billetera te muestra cuántas tenés y te deja usarlas."
+    },
+    {
+      "id": "04",
+      "text": "Hay billeteras en el celular, en la compu y en un dispositivo, parecido a un péndraiv, que guarda las llaves desconectadas."
+    },
+    {
+      "id": "05",
+      "text": "Las conectadas son cómodas para el día a día, pero más expuestas. Las desconectadas son más seguras, pero menos prácticas."
+    },
+    {
+      "id": "06",
+      "text": "En inglés, a la billetera le dicen uólet. Y la llave es el dato secreto que te deja mover tus monedas."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con las apps falsas: copian el nombre de una billetera conocida y te roban las llaves. Bajala del sitio oficial."
+    },
+    {
+      "id": "08",
+      "text": "La billetera guarda tus llaves, no tus monedas. En el próximo video: clave pública y clave privada."
+    }
+  ]
+}

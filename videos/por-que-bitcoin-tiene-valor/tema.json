@@ -1,0 +1,85 @@
+{
+  "slug": "por-que-bitcoin-tiene-valor",
+  "titulo": "¿Por qué Bitcoin tiene valor?",
+  "nivel": "Básico 1",
+  "descripcion": "Escasez (máximo de 21 millones), confianza y que la gente lo acepte. Conexión con el video del dinero. Sin hablar de precios.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Por qué Bitcoin tiene valor? 💎 Escasez y confianza explicadas fácil | Cripto desde cero",
+    "descripcion": "💎 ¿POR QUÉ BITCOIN TIENE VALOR? — Si no se puede tocar ni lo respalda un país\n\nEs la pregunta que todos se hacen. La respuesta tiene mucho que ver con el video de qué es el dinero. 🤝\n\n📚 EN ESTE VIDEO\n1️⃣ El valor, igual que con el dinero común, viene de la confianza\n2️⃣ Escaso como el oro: un máximo fijo de 21 millones\n3️⃣ Las tres razones: escasez, confianza en sus reglas y gente que lo acepta\n4️⃣ Dinero común vs Bitcoin: quién lo emite y si se puede crear más\n5️⃣ Tener valor no quiere decir tener un precio estable\n\n💡 LA IDEA CLAVE\nBitcoin es como el oro: hay poco, cuesta conseguirlo y nadie puede fabricar más de la cuenta.\n\n📖 GLOSARIO\n• Escasez: que hay poco de algo.\n• Emitir: crear dinero nuevo y ponerlo a circular.\n• Volátil: que su precio sube y baja mucho.\n\n⚠️ OJO CON\nNadie sabe cuánto va a valer mañana. Desconfiá de quien te asegura que va a subir o te apura para que compres.\n\n🎓 NIVEL: Básico 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que dice que Bitcoin no vale nada.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #ValorDeBitcoin #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["por qué bitcoin tiene valor", "qué respalda a bitcoin", "valor de bitcoin", "escasez de bitcoin", "21 millones de bitcoin", "bitcoin y el oro", "bitcoin explicado fácil", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "qué es el dinero"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Por qué", "vale algo?"],
+      "sub": "Si no se puede tocar",
+      "icono": "bitcoin",
+      "orbita": ["balanza", "apreton", "lingote", "grupo"],
+      "vo": "Bitcoin no se puede tocar y no lo respalda ningún país. Entonces, ¿por qué tiene valor?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "ACORDATE",
+      "head": ["El valor es", "confianza"],
+      "icono": "apreton",
+      "etiquetas": [{ "text": "Como el dinero común", "cue": "dinero" }, { "text": "Vale si la gente lo acepta", "cue": "acepta" }],
+      "vo": "Acordate del video del dinero: algo vale porque confiamos en él y la gente lo acepta. Con Bitcoin pasa igual."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Escaso como", "el oro"],
+      "conector": "es como",
+      "a": { "icono": "lingote", "label": "Oro: hay poco" },
+      "simbolo": "=",
+      "b": { "icono": "bitcoin", "label": "Bitcoin: máximo fijo", "cue": "máximo" },
+      "nota": "Lo escaso **cuesta conseguirlo**.",
+      "vo": "Como el oro: hay poco y cuesta conseguirlo. Bitcoin tiene un máximo fijo de 21 millones, y nadie lo puede cambiar."
+    },
+    {
+      "kind": "claves",
+      "badge": "LE DA VALOR",
+      "head": ["Tres", "razones"],
+      "items": [
+        { "text": "**Escasez:** máximo 21 millones", "cue": "escaso" },
+        { "text": "**Confianza** en sus reglas", "cue": "reglas" },
+        { "text": "**Gente** que lo acepta", "cue": "aceptan" }
+      ],
+      "vo": "Tres razones: es escaso, mucha gente confía en sus reglas y cada vez más personas lo aceptan."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Dinero común", "vs Bitcoin"],
+      "a": { "titulo": "Dinero común", "icono": "billetes", "items": [{ "text": "Lo emite un Estado", "cue": "emite un estado" }, { "text": "Se puede imprimir más", "cue": "imprimir" }] },
+      "b": { "titulo": "Bitcoin", "icono": "bitcoin", "items": [{ "text": "No lo emite nadie", "cue": "no lo emite" }, { "text": "Nadie puede crear más", "cue": "nadie puede" }] },
+      "vo": "El dinero común lo emite un Estado, que puede imprimir más. Bitcoin no lo emite nadie, y nadie puede crear más."
+    },
+    {
+      "kind": "concepto",
+      "badge": "PERO OJO",
+      "head": ["El precio", "cambia"],
+      "icono": "grafico",
+      "etiquetas": [{ "text": "Depende de cuánta gente lo quiere", "cue": "cuánta gente" }, { "text": "Sube y baja mucho", "cue": "sube" }],
+      "vo": "Tener valor no quiere decir tener un precio estable: depende de cuánta gente lo quiere, y sube y baja mucho."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Nadie sabe", "el futuro"],
+      "titulo": "Va a valer el doble, seguro",
+      "items": [{ "text": "Te aseguran ganancias", "cue": "asegura" }, { "text": "Te apuran para que compres", "cue": "apura" }],
+      "consejo": { "text": "Nadie conoce **el precio de mañana**.", "cue": "nadie sabe" },
+      "vo": "Desconfiá de quien te asegura que va a subir o te apura para que compres. Nadie sabe el precio de mañana."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Escaso: 21 millones", "Confianza en sus reglas", "Gente que lo acepta"],
+      "vo": "Bitcoin vale por escasez, confianza y gente que lo acepta. En el próximo video: ¿qué es una billetera cripto?"
+    }
+  ]
+}

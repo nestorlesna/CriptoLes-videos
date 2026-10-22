@@ -1,0 +1,87 @@
+{
+  "slug": "seguridad-basica",
+  "titulo": "Seguridad básica: que no te roben",
+  "nivel": "Básico 2",
+  "descripcion": "Contraseñas, verificación en dos pasos, phishing (links falsos) y desconfiar de todo lo que llega por privado.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Seguridad básica en cripto 🛡️ Que no te roben, explicado fácil | Cripto desde cero",
+    "descripcion": "🛡️ SEGURIDAD BÁSICA: QUE NO TE ROBEN — Hábitos simples que te cuidan\n\nNo hace falta ser experto para cuidar tus cripto. Con unos pocos hábitos evitás la mayoría de los robos. 🔒\n\n📚 EN ESTE VIDEO\n1️⃣ Contraseñas largas y una distinta para cada sitio\n2️⃣ La verificación en dos pasos\n3️⃣ Qué es el phishing (los links falsos)\n4️⃣ Cómo evitar entrar a un sitio falso\n5️⃣ La regla de oro: desconfiar de todo lo que llega por privado\n6️⃣ Cuidar el celular\n\n💡 LA IDEA CLAVE\nLa mayoría de los robos no rompen nada: te engañan para que vos abras la puerta. Si no abrís, no entran.\n\n📖 GLOSARIO\n• Verificación en dos pasos: además de la contraseña, un código que aparece en tu celular.\n• Phishing: un link falso que imita una página real para robarte datos.\n• Gestor de contraseñas: un programa que guarda tus contraseñas de forma segura.\n\n⚠️ OJO CON\nNada de fotos de tu frase semilla, ni apps de origen dudoso. Y mantené el celular actualizado.\n\n🎓 NIVEL: Básico 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que usa la misma contraseña para todo.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #SeguridadCripto #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["seguridad cripto", "cómo proteger tus criptomonedas", "verificación en dos pasos", "qué es el phishing", "contraseñas seguras", "gestor de contraseñas", "que no te roben cripto", "estafas cripto", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["Que no te", "roben"],
+      "sub": "Seguridad básica",
+      "icono": "escudo",
+      "orbita": ["candado", "celular", "llave", "alerta"],
+      "vo": "No hace falta ser experto para cuidar tus cripto. Con unos hábitos simples evitás la mayoría de los robos."
+    },
+    {
+      "kind": "claves",
+      "badge": "CONTRASEÑAS",
+      "head": ["Contraseñas", "fuertes"],
+      "items": [
+        { "text": "**Largas** y distintas", "cue": "largas" },
+        { "text": "Una **por cada sitio**", "cue": "cada sitio" },
+        { "text": "Un **gestor** te ayuda", "cue": "gestor" }
+      ],
+      "vo": "Usá contraseñas largas y una distinta para cada sitio. Un gestor de contraseñas te ayuda a recordarlas."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Dos pasos", "mejor que uno"],
+      "terminos": [
+        { "termino": "Verificación en dos pasos", "definicion": "Además de la contraseña, **un código** en tu celular.", "icono": "celular" }
+      ],
+      "vo": "Activá la verificación en dos pasos: además de la contraseña, te pide un código que aparece en tu celular."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Qué es el", "phishing"],
+      "terminos": [
+        { "termino": "Phishing", "definicion": "Un **link falso** que imita una página real.", "icono": "anzuelo" }
+      ],
+      "vo": "El phishing es un link falso que imita una página real para robarte datos. Llega por mail, mensaje o anuncio."
+    },
+    {
+      "kind": "claves",
+      "badge": "CÓMO EVITARLO",
+      "head": ["Antes de", "hacer clic"],
+      "items": [
+        { "text": "Revisá la **dirección** del sitio", "cue": "dirección" },
+        { "text": "Mejor, **escribila vos**", "cue": "escribila" },
+        { "text": "Usá **favoritos**", "cue": "favoritos" }
+      ],
+      "vo": "Revisá bien la dirección del sitio. Mejor todavía: escribila vos o guardala en favoritos y entrá desde ahí."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA REGLA DE ORO",
+      "head": ["Desconfiá", "del privado"],
+      "icono": "mensaje",
+      "etiquetas": [{ "text": "Nadie serio te escribe primero", "cue": "primero" }, { "text": "Nadie te pide claves", "cue": "claves" }],
+      "vo": "La regla de oro: desconfiá de todo lo que llega por privado. Nadie serio te escribe primero ni te pide claves."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Cuidá tu", "celular"],
+      "titulo": "Lo que te expone",
+      "items": [{ "text": "Fotos de tu frase semilla", "cue": "fotos" }, { "text": "Apps de origen dudoso", "cue": "apps" }],
+      "consejo": { "text": "Mantenelo **actualizado**.", "cue": "actualizado" },
+      "vo": "Ojo con tu celular: nada de fotos de tu frase semilla ni apps de origen dudoso. Y mantenelo actualizado."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Contraseñas largas y únicas", "Verificación en dos pasos", "Desconfiá del privado"],
+      "vo": "Con estos hábitos ya estás mucho más seguro. En el próximo video: ¿qué es la minería?"
+    }
+  ]
+}

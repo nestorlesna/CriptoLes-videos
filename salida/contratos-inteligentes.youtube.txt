@@ -1,0 +1,40 @@
+TÍTULO
+¿Qué es un contrato inteligente? 🤖 Explicado con una máquina expendedora | Cripto desde cero
+
+DESCRIPCIÓN
+🤖 ¿QUÉ ES UN CONTRATO INTELIGENTE? — Un programa que se cumple solo
+
+Un contrato que se cumple solo, sin escribano ni juez. Suena raro, pero existe. Acá lo entendés con una máquina expendedora. 🥤
+
+📚 EN ESTE VIDEO
+1️⃣ Es como una máquina expendedora
+2️⃣ La idea: si pasa esto, hace aquello
+3️⃣ Un ejemplo simple, paso a paso
+4️⃣ Lo bueno: sin intermediarios y con reglas a la vista
+5️⃣ Lo malo: un error no se deshace
+6️⃣ El peligro de aprobar contratos sin leer
+
+💡 LA IDEA CLAVE
+Ponés la moneda, elegís, y la gaseosa sale sola: no hace falta un vendedor. Un contrato inteligente funciona igual, pero con plata y reglas escritas en código.
+
+📖 GLOSARIO
+• Contrato inteligente: un programa en la blockchain que se ejecuta solo cuando se cumple una condición.
+• Condición: lo que tiene que pasar para que el contrato actúe.
+• Intermediario: alguien en el medio, como un banco o un escribano.
+
+⚠️ OJO CON
+Sitios que te piden conectar la billetera y aprobar un contrato. Si es una trampa, te puede vaciar la cuenta. No apruebes lo que no entendés.
+
+🎓 NIVEL: Intermedio 1 · Siguiente video: Tokens y altcoins: ¿por qué hay miles?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó smart contracts y no entendió nada.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Ethereum #ContratosInteligentes #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es un contrato inteligente, contratos inteligentes explicados, smart contracts, smart contract explicado fácil, cómo funciona un contrato inteligente, ethereum para principiantes, blockchain programable, criptomonedas para principiantes, cripto desde cero, educación financiera, seguridad cripto

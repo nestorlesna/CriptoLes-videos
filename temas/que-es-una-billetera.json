@@ -56,7 +56,7 @@
       "kind": "comparacion",
       "head": ["Conectada vs", "desconectada"],
       "a": { "titulo": "Conectada", "icono": "celular", "items": [{ "text": "Cómoda para el día a día", "cue": "cómodas" }, { "text": "Más expuesta", "cue": "expuestas" }] },
-      "b": { "titulo": "Desconectada", "icono": "candado", "items": [{ "text": "Más segura", "cue": "más seguras" }, { "text": "Menos práctica", "cue": "menos prácticas" }] },
+      "b": { "titulo": "Sin red", "icono": "candado", "items": [{ "text": "Más segura", "cue": "más seguras" }, { "text": "Menos práctica", "cue": "menos prácticas" }] },
       "vo": "Las conectadas son cómodas para el día a día, pero más expuestas. Las desconectadas son más seguras, pero menos prácticas."
     },
     {

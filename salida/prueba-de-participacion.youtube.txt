@@ -1,0 +1,40 @@
+TÍTULO
+Prueba de participación y staking 🔒 Explicados fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🔒 PRUEBA DE PARTICIPACIÓN (STAKING) — Otra forma de cuidar una red
+
+La minería no es la única forma de cuidar una red. Hay otra que casi no gasta energía. Acá ves cómo funciona y qué riesgos tiene. 🌱
+
+📚 EN ESTE VIDEO
+1️⃣ La idea: garantía en vez de energía
+2️⃣ Qué es un validador y qué es el staking
+3️⃣ Es como el depósito de un alquiler
+4️⃣ Prueba de trabajo vs prueba de participación
+5️⃣ La recompensa, y por qué no es una ganancia segura
+6️⃣ Las plataformas de staking milagroso
+
+💡 LA IDEA CLAVE
+Es como el depósito de un alquiler: si cumplís las reglas, lo recuperás. Si hacés trampa, perdés una parte.
+
+📖 GLOSARIO
+• Prueba de participación: los que validan dejan cripto bloqueada como garantía.
+• Validador: quien revisa y agrega bloques.
+• Staking: bloquear cripto para participar.
+
+⚠️ OJO CON
+Plataformas que prometen rendimientos enormes y fijos por hacer staking, y después no te dejan retirar.
+
+🎓 NIVEL: Intermedio 1 · Siguiente video: ¿Qué son las finanzas descentralizadas (DeFi)?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó hablar de staking y no sabe qué es.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Staking #PruebaDeParticipacion #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es el staking, prueba de participación, proof of stake, staking explicado fácil, qué es un validador, minería vs staking, prueba de trabajo vs prueba de participación, ethereum para principiantes, criptomonedas para principiantes, cripto desde cero, educación financiera

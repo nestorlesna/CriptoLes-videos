@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "No hace falta ser experto para cuidar tus cripto. Con unos hábitos simples evitás la mayoría de los robos."
+    },
+    {
+      "id": "02",
+      "text": "Usá contraseñas largas y una distinta para cada sitio. Un gestor de contraseñas te ayuda a recordarlas."
+    },
+    {
+      "id": "03",
+      "text": "Activá la verificación en dos pasos: además de la contraseña, te pide un código que aparece en tu celular."
+    },
+    {
+      "id": "04",
+      "text": "El físhin es un link falso que imita una página real para robarte datos. Llega por mail, mensaje o anuncio."
+    },
+    {
+      "id": "05",
+      "text": "Revisá bien la dirección del sitio. Mejor todavía: escribila vos o guardala en favoritos y entrá desde ahí."
+    },
+    {
+      "id": "06",
+      "text": "La regla de oro: desconfiá de todo lo que llega por privado. Nadie serio te escribe primero ni te pide claves."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con tu celular: nada de fotos de tu frase semilla ni apps de origen dudoso. Y mantenelo actualizado."
+    },
+    {
+      "id": "08",
+      "text": "Con estos hábitos ya estás mucho más seguro. En el próximo video: ¿qué es la minería?"
+    }
+  ]
+}

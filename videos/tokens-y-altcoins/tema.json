@@ -1,0 +1,86 @@
+{
+  "slug": "tokens-y-altcoins",
+  "titulo": "Tokens y altcoins: ¿por qué hay miles?",
+  "nivel": "Intermedio 1",
+  "descripcion": "Diferencia entre moneda propia de una red y token creado encima de otra. Por qué cualquiera puede crear uno (y por qué eso es un riesgo).",
+  "revisado": false,
+  "notas": "Palabras nuevas para la voz: altcoin / Altcoin (escuchar antes de renderizar).",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Tokens y altcoins: ¿por qué hay miles de criptos? 🪙 Explicado fácil | Cripto desde cero",
+    "descripcion": "🪙 TOKENS Y ALTCOINS — ¿Por qué hay miles de criptomonedas?\n\nHay miles de criptomonedas distintas. Acá entendés de dónde salen tantas, y por qué que cualquiera pueda crear una es un riesgo. ⚠️\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es una altcoin y qué es un token\n2️⃣ Moneda propia vs token\n3️⃣ Un token es como un local en un shopping\n4️⃣ Por qué crear uno es tan fácil\n5️⃣ Para qué se usan los que tienen un uso real\n6️⃣ El token que va a explotar\n\n💡 LA IDEA CLAVE\nUn token es como un local en un shopping: no construye el edificio, usa el que ya existe, que es la red. Por eso abrir uno es fácil, y por eso hay miles.\n\n📖 GLOSARIO\n• Altcoin: cualquier cripto que no es Bitcoin.\n• Token: una cripto creada encima de la red de otra.\n• Moneda propia: la que tiene su propia red, como bitcoin o ether.\n\n⚠️ OJO CON\nEl token que va a explotar: lo promocionan con mucho ruido, los creadores venden todo y desaparecen. Que exista no quiere decir que valga.\n\n🎓 NIVEL: Intermedio 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que te recomendó una cripto que nadie conoce.\n\n{{DESLINDE}}\n\n#Criptomonedas #Altcoins #Tokens #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es un token", "qué es una altcoin", "tokens y altcoins", "por qué hay tantas criptomonedas", "diferencia entre moneda y token", "cómo se crea un token", "estafas con tokens", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "ethereum para principiantes"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Por qué hay", "miles?"],
+      "sub": "Tokens y altcoins",
+      "icono": "cripto",
+      "orbita": ["moneda", "bitcoin", "etiqueta", "pregunta"],
+      "vo": "Hay miles de criptomonedas distintas. ¿De dónde salen tantas y por qué cualquiera puede crear una?"
+    },
+    {
+      "kind": "glosario",
+      "head": ["Dos palabras", "nuevas"],
+      "terminos": [
+        { "termino": "Altcoin", "definicion": "Cualquier cripto **que no es Bitcoin**.", "icono": "moneda" },
+        { "termino": "Token", "definicion": "Una cripto creada **encima de otra red**.", "icono": "etiqueta", "cue": "token" }
+      ],
+      "vo": "Altcoin es cualquier cripto que no es Bitcoin. Y un token es una cripto creada encima de la red de otra."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Moneda vs", "token"],
+      "a": { "titulo": "Moneda propia", "icono": "moneda", "items": [{ "text": "Tiene su propia red", "cue": "propia red" }, { "text": "Ej.: bitcoin, ether", "cue": "como bitcoin" }] },
+      "b": { "titulo": "Token", "icono": "etiqueta", "items": [{ "text": "Usa una red ajena", "cue": "ajena" }, { "text": "Se crea con un contrato", "cue": "contrato" }] },
+      "vo": "Una moneda tiene su propia red, como bitcoin o ether. Un token usa una red ajena y se crea con un contrato."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Un local en", "un shopping"],
+      "conector": "es como",
+      "a": { "icono": "etiqueta", "label": "Un token" },
+      "simbolo": "=",
+      "b": { "icono": "edificio", "label": "Un local en un shopping", "cue": "local" },
+      "nota": "Usa el edificio de otro: **la red**.",
+      "vo": "Un token es como un local en un shopping: no construye el edificio, usa el que ya existe, que es la red."
+    },
+    {
+      "kind": "concepto",
+      "badge": "POR QUÉ HAY MILES",
+      "head": ["Crear uno", "es fácil"],
+      "icono": "computadora",
+      "etiquetas": [{ "text": "Unos minutos", "cue": "minutos" }, { "text": "Casi sin costo", "cue": "costo" }],
+      "vo": "Crear un token lleva unos minutos y casi no tiene costo. Por eso hay miles, y la mayoría no sirve para nada."
+    },
+    {
+      "kind": "claves",
+      "badge": "USOS REALES",
+      "head": ["Para qué", "se usan"],
+      "items": [
+        { "text": "**Stablecoins** atadas al dólar", "cue": "stablecoins" },
+        { "text": "Acceso a un **servicio**", "cue": "servicio" },
+        { "text": "**Votar** en un proyecto", "cue": "votar" }
+      ],
+      "vo": "Algunos tienen usos reales: stablecoins, acceso a un servicio o votar decisiones en un proyecto."
+    },
+    {
+      "kind": "alerta",
+      "head": ["El token que", "va a explotar"],
+      "titulo": "Promesas de un token nuevo",
+      "items": [{ "text": "Lo promocionan con mucho ruido", "cue": "ruido" }, { "text": "Los creadores venden y desaparecen", "cue": "desaparecen" }],
+      "consejo": "Que exista **no quiere decir que valga**.",
+      "vo": "Ojo con el token que va a explotar: lo promocionan con mucho ruido, los creadores venden todo y desaparecen."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Altcoin: lo que no es Bitcoin", "Token: usa una red ajena", "Crear uno es fácil"],
+      "vo": "Que haya miles no quiere decir que valgan. En el próximo video: prueba de participación, o staking."
+    }
+  ]
+}

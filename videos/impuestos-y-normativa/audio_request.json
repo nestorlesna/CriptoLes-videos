@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Las cripto no están fuera de la ley. Según dónde vivas, pueden tener reglas e impuestos propios."
+    },
+    {
+      "id": "02",
+      "text": "Cada país tiene reglas distintas para las cripto, y en muchos siguen cambiando. No hay una respuesta única."
+    },
+    {
+      "id": "03",
+      "text": "En muchos lugares puede haber impuestos al vender con ganancia, al cambiar una cripto por otra o por lo que tenés guardado."
+    },
+    {
+      "id": "04",
+      "text": "Un buen hábito: anotá la fecha de cada movimiento, cuánto pagaste o recibiste, y guardá los comprobantes."
+    },
+    {
+      "id": "05",
+      "text": "Es como guardar los tickets de lo que comprás: si algún día te preguntan, tenés cómo mostrarlo."
+    },
+    {
+      "id": "06",
+      "text": "Lo mejor es preguntarle a un contador que conozca de cripto y las reglas de tu país. Este canal no asesora."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con quien te dice que con cripto no pagás impuestos porque es invisible. Los movimientos quedan registrados."
+    },
+    {
+      "id": "08",
+      "text": "Informate de las reglas de tu país y guardá registro. En el próximo video: cómo investigar un proyecto."
+    }
+  ]
+}

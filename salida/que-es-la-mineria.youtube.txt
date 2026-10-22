@@ -1,0 +1,41 @@
+TÍTULO
+¿Qué es la minería de Bitcoin? ⛏️ Explicada fácil | Cripto desde cero
+
+DESCRIPCIÓN
+⛏️ ¿QUÉ ES LA MINERÍA? — Sin pico ni pala: computadoras que cuidan la red
+
+En cripto se habla de minería, pero no hay minas. Hay computadoras trabajando. Acá entendés haciendo qué, y por qué cobran. 💻
+
+📚 EN ESTE VIDEO
+1️⃣ Minar es anotar movimientos y sumar un bloque nuevo
+2️⃣ La carrera de adivinanzas entre computadoras
+3️⃣ Cómo se mina, paso a paso
+4️⃣ Qué es la prueba de trabajo y qué es un minero
+5️⃣ La recompensa: bitcoins nuevos más comisiones
+6️⃣ Por qué la minería mantiene la red segura
+7️⃣ Las apps que dicen minar desde tu celular
+
+💡 LA IDEA CLAVE
+Minar es como una carrera: miles de computadoras prueban números hasta adivinar uno especial, y la que acierta primero agrega el bloque y se lleva el premio.
+
+📖 GLOSARIO
+• Minero: quien pone computadoras a trabajar para agregar bloques.
+• Prueba de trabajo: demostrar que gastaste energía resolviendo el problema.
+• Recompensa: los bitcoins nuevos y las comisiones que cobra el ganador.
+
+⚠️ OJO CON
+Apps que dicen minar desde tu celular con ganancias diarias: pagás para entrar y no minás nada.
+
+🎓 NIVEL: Básico 3 · Siguiente video: 21 millones y el halving
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que cree que minar es con pico y pala.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #MineriaBitcoin #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es la minería de bitcoin, minería cripto explicada, cómo se mina bitcoin, prueba de trabajo, proof of work, qué es un minero, recompensa de bloque, bitcoin para principiantes, criptomonedas para principiantes, cripto desde cero, educación financiera, estafas de minería

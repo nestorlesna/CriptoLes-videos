@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Hay miles de criptomonedas distintas. ¿De dónde salen tantas y por qué cualquiera puede crear una?"
+    },
+    {
+      "id": "02",
+      "text": "Áltcoin es cualquier cripto que no es Bitcóin. Y un tóquen es una cripto creada encima de la red de otra."
+    },
+    {
+      "id": "03",
+      "text": "Una moneda tiene su propia red, como bitcóin o íter. Un tóquen usa una red ajena y se crea con un contrato."
+    },
+    {
+      "id": "04",
+      "text": "Un tóquen es como un local en un shópin: no construye el edificio, usa el que ya existe, que es la red."
+    },
+    {
+      "id": "05",
+      "text": "Crear un tóquen lleva unos minutos y casi no tiene costo. Por eso hay miles, y la mayoría no sirve para nada."
+    },
+    {
+      "id": "06",
+      "text": "Algunos tienen usos reales: stéibolcoins, acceso a un servicio o votar decisiones en un proyecto."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con el tóquen que va a explotar: lo promocionan con mucho ruido, los creadores venden todo y desaparecen."
+    },
+    {
+      "id": "08",
+      "text": "Que haya miles no quiere decir que valgan. En el próximo video: prueba de participación, o stéiquin."
+    }
+  ]
+}

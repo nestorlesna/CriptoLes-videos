@@ -1,0 +1,85 @@
+{
+  "slug": "custodia-propia-vs-exchange",
+  "titulo": "¿Quién tiene tus llaves?",
+  "nivel": "Básico 2",
+  "descripcion": "Billetera propia vs dejar todo en una plataforma (custodia). Qué significa \"si no son tus llaves, no son tus monedas\".",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Quién tiene tus llaves? 🔐 Custodia propia vs plataforma explicada fácil | Cripto desde cero",
+    "descripcion": "🔐 ¿QUIÉN TIENE TUS LLAVES? — Tu propia billetera o una plataforma\n\nTus cripto pueden estar en tu billetera o en una plataforma. Parece lo mismo, pero no lo es. 🤔\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es la custodia: quién guarda las llaves de tus monedas\n2️⃣ Tu billetera vs una plataforma\n3️⃣ Dejar todo en una plataforma es como tener la plata en el banco\n4️⃣ La frase famosa: si no son tus llaves, no son tus monedas\n5️⃣ Pros de cada opción (y por qué muchos combinan las dos)\n6️⃣ Plataformas que prometen ganancias y no te dejan retirar\n\n💡 LA IDEA CLAVE\nTener tus llaves es tener el control. Dejarlas en una plataforma es confiar en que te devuelvan las monedas cuando las pidas.\n\n📖 GLOSARIO\n• Custodia: quién guarda las llaves de tus monedas.\n• Custodia propia: las llaves las tenés vos.\n• Retirar: pasar tus cripto de una plataforma a tu billetera.\n\n⚠️ OJO CON\nPlataformas que prometen ganancias seguras por dejar tus cripto y después no te dejan retirar. Es una señal de alarma.\n\n🎓 NIVEL: Básico 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que tiene todo en una sola plataforma.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #CustodiaPropia #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["custodia propia", "si no son tus llaves no son tus monedas", "billetera propia vs exchange", "dónde guardar criptomonedas", "custodia cripto", "billetera cripto", "seguridad cripto", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Quién tiene", "tus llaves?"],
+      "sub": "Tu billetera o una plataforma",
+      "icono": "llave",
+      "orbita": ["billetera", "edificio", "persona", "candado"],
+      "vo": "Tus cripto pueden estar en tu propia billetera o en una plataforma. Parece lo mismo, pero no lo es."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Qué es la", "custodia"],
+      "terminos": [
+        { "termino": "Custodia", "definicion": "Quién **guarda las llaves** de tus monedas.", "icono": "llave" }
+      ],
+      "vo": "La palabra clave es custodia: quién guarda las llaves de tus monedas. Vos, o una empresa por vos."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Vos o una", "plataforma"],
+      "a": { "titulo": "Tu billetera", "icono": "billetera", "items": [{ "text": "Las llaves son tuyas", "cue": "tuyas" }, { "text": "Vos sos responsable", "cue": "responsabilidad" }] },
+      "b": { "titulo": "Plataforma", "icono": "edificio", "items": [{ "text": "Las llaves las tiene ella", "cue": "en una plataforma" }, { "text": "Dependés de la empresa", "cue": "empresa" }] },
+      "vo": "En tu billetera, las llaves son tuyas y la responsabilidad también. En una plataforma, las llaves las tiene la empresa."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como la plata", "en el banco"],
+      "conector": "es como",
+      "a": { "icono": "edificio", "label": "Cripto en una plataforma" },
+      "simbolo": "=",
+      "b": { "icono": "banco", "label": "Plata en el banco", "cue": "banco" },
+      "nota": "Confiás en que **te la devuelvan**.",
+      "vo": "Dejar todo en una plataforma es como tener la plata en el banco: confiás en que te la devuelvan cuando la pidas."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UNA FRASE FAMOSA",
+      "head": ["Si no son tus", "llaves…"],
+      "icono": "llave",
+      "etiquetas": [{ "text": "…no son tus monedas", "cue": "no son tus monedas" }],
+      "vo": "En cripto se dice: si no son tus llaves, no son tus monedas. Si la empresa quiebra o te bloquea, no podés sacarlas."
+    },
+    {
+      "kind": "claves",
+      "badge": "PARA ELEGIR",
+      "head": ["Lo bueno de", "cada uno"],
+      "items": [
+        { "text": "**Plataforma:** más fácil al empezar", "cue": "más fácil" },
+        { "text": "**Tu billetera:** control total", "cue": "control" },
+        { "text": "Muchos **combinan** las dos", "cue": "combinan" }
+      ],
+      "vo": "La plataforma es más fácil al empezar. Tu billetera te da control total. Y muchos combinan las dos."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Plataformas", "dudosas"],
+      "titulo": "Te prometen ganancias seguras",
+      "items": [{ "text": "Por dejar tus cripto ahí", "cue": "ganancias" }, { "text": "Después no te dejan retirar", "cue": "retirar" }],
+      "consejo": { "text": "Si no podés retirar, **es una alarma**.", "cue": "alarma" },
+      "vo": "Desconfiá de plataformas que prometen ganancias seguras y después no te dejan retirar: es señal de alarma."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Custodia: quién tiene las llaves", "Tu billetera: control total", "Plataforma: confiás en otro"],
+      "vo": "Tener tus llaves es tener el control. En el próximo video: ¿qué es un exchange?"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Después de Bitcóin, Etérium es la red cripto más conocida. Pero su idea es bastante distinta."
+    },
+    {
+      "id": "02",
+      "text": "Etérium funciona desde 2015. Además de mover dinero, puede correr programas que viven en la blocchéin."
+    },
+    {
+      "id": "03",
+      "text": "Imaginala como una compu compartida por todo el mundo: cualquiera puede usarla y nadie la apaga por su cuenta."
+    },
+    {
+      "id": "04",
+      "text": "Bitcóin busca ser dinero digital, con pocas funciones a propósito. Etérium es una plataforma para muchas aplicaciones."
+    },
+    {
+      "id": "05",
+      "text": "La moneda de Etérium se llama íter. Y para usar la red pagás una comisión que se llama gas."
+    },
+    {
+      "id": "06",
+      "text": "Encima de Etérium hay contratos que se cumplen solos, tóquens de otros proyectos y finanzas sin banco."
+    },
+    {
+      "id": "07",
+      "text": "Ojo: hay tóquens con nombres parecidos que se hacen pasar por íter, o que llegan de regalo. Verificá qué recibís."
+    },
+    {
+      "id": "08",
+      "text": "Etérium es una compu mundial que corre programas. En el próximo video: ¿qué es un contrato inteligente?"
+    }
+  ]
+}

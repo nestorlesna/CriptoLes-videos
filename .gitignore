@@ -16,6 +16,7 @@ salida/subidos/**/*.mp4
 
 # Carpetas de trabajo generadas por make-video / hyperframes
 videos/_*/
+videos/_*.*
 videos/*/renders/
 videos/*/snapshots/
 videos/*/assets/

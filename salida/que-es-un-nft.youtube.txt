@@ -1,0 +1,41 @@
+TÍTULO
+¿Qué es un NFT? 🖼️ Qué prueba y qué no, explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🖼️ ¿QUÉ ES UN NFT? — Un certificado digital único, y lo que no te dice
+
+Seguro escuchaste de gente que pagó fortunas por un dibujo digital. Acá entendés qué se compra en realidad. 🤔
+
+📚 EN ESTE VIDEO
+1️⃣ Qué quiere decir NFT: token no fungible
+2️⃣ Qué es fungible, con un billete de ejemplo
+3️⃣ Un NFT es como un certificado con número único
+4️⃣ Qué prueba y qué no prueba
+5️⃣ Por qué muchas veces la imagen ni está en la blockchain
+6️⃣ Usos posibles
+7️⃣ Las colecciones falsas y los NFT de regalo
+
+💡 LA IDEA CLAVE
+Un NFT es como un certificado con número único registrado en la blockchain: dice quién lo tiene, pero no garantiza que la obra sea tuya ni que valga algo.
+
+📖 GLOSARIO
+• NFT: token no fungible, un token único.
+• Fungible: que se cambia por otro igual, como un billete por otro.
+• Colección: un grupo de NFT del mismo creador.
+
+⚠️ OJO CON
+Copias de colecciones conocidas y NFT de regalo que te piden conectar la billetera. Un regalo que no pediste puede ser una trampa.
+
+🎓 NIVEL: Intermedio 2 · Siguiente video: Redes de segunda capa (Lightning)
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que todavía no entiende qué es un NFT.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #NFT #Blockchain #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es un nft, nft explicado fácil, token no fungible, qué prueba un nft, para qué sirve un nft, nft para principiantes, estafas con nft, blockchain para principiantes, criptomonedas para principiantes, cripto desde cero, educación financiera

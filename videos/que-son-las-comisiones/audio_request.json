@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Cada vez que movés cripto pagás una comisión. ¿A quién se la pagás y por qué a veces es más cara?"
+    },
+    {
+      "id": "02",
+      "text": "La comisión es lo que pagás para que tu movimiento quede anotado. Se la lleva quien arma el bloque."
+    },
+    {
+      "id": "03",
+      "text": "Es como un peaje: pagás para usar el camino. Pero acá el precio no es fijo, cambia según el tráfico."
+    },
+    {
+      "id": "04",
+      "text": "Cuando muchos quieren enviar a la vez, el lugar en cada bloque no alcanza, y pasan primero los que pagan más."
+    },
+    {
+      "id": "05",
+      "text": "La comisión depende de qué tan llena está la red, qué red usás y qué tan rápido querés que llegue."
+    },
+    {
+      "id": "06",
+      "text": "No confundas la comisión de la red, que cambia con el tráfico, con la que cobra la plataforma, que la fija la empresa."
+    },
+    {
+      "id": "07",
+      "text": "Tu billetera te muestra la comisión antes de confirmar. Si no tenés apuro, a veces conviene esperar a que baje."
+    },
+    {
+      "id": "08",
+      "text": "Ojo con el cuento de pagar una comisión para liberar lo que ganaste. Si te cobran primero, es estafa."
+    },
+    {
+      "id": "09",
+      "text": "La comisión es el peaje de la red. En el próximo video: ¿por qué el precio sube y baja tanto?"
+    }
+  ]
+}

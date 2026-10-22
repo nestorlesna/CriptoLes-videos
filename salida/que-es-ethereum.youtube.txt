@@ -1,0 +1,40 @@
+TÍTULO
+¿Qué es Ethereum? 💠 La blockchain que corre programas | Cripto desde cero
+
+DESCRIPCIÓN
+💠 ¿QUÉ ES ETHEREUM? — Más que una moneda: una red que corre programas
+
+Después de Bitcoin, Ethereum es la red cripto más conocida. Pero su idea es bastante distinta. Acá ves en qué. 🧩
+
+📚 EN ESTE VIDEO
+1️⃣ Una red que, además de mover dinero, corre programas
+2️⃣ Es como una compu compartida por todo el mundo
+3️⃣ Bitcoin vs Ethereum: distinto propósito
+4️⃣ Qué es el ether y qué es el gas
+5️⃣ Qué se construye encima de Ethereum
+6️⃣ Los tokens que se hacen pasar por ether
+
+💡 LA IDEA CLAVE
+Bitcoin busca ser dinero digital. Ethereum es como una compu mundial: cualquiera puede usarla para correr programas, y nadie la apaga por su cuenta.
+
+📖 GLOSARIO
+• Ether: la moneda propia de la red Ethereum.
+• Gas: la comisión que pagás por usar la red.
+• Plataforma: una base sobre la que otros construyen aplicaciones.
+
+⚠️ OJO CON
+Tokens con nombres parecidos que se hacen pasar por ether, o regalos que no pediste. Verificá siempre qué estás recibiendo.
+
+🎓 NIVEL: Intermedio 1 · Siguiente video: ¿Qué es un contrato inteligente?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que cree que todas las cripto son iguales.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Ethereum #Blockchain #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es ethereum, ethereum explicado fácil, bitcoin vs ethereum, qué es el ether, qué es el gas en ethereum, ethereum para principiantes, blockchain programable, criptomonedas para principiantes, cripto desde cero, educación financiera, contratos inteligentes

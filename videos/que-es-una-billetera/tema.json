@@ -1,0 +1,86 @@
+{
+  "slug": "que-es-una-billetera",
+  "titulo": "¿Qué es una billetera cripto?",
+  "nivel": "Básico 2",
+  "descripcion": "La billetera no guarda las monedas: guarda las llaves que te permiten moverlas. Billeteras en el celular, en la compu y en un dispositivo.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es una billetera cripto? 👛 Explicada fácil | Cripto desde cero",
+    "descripcion": "👛 ¿QUÉ ES UNA BILLETERA CRIPTO? — Spoiler: no guarda tus monedas\n\nPara usar cripto necesitás una billetera, pero no funciona como la de tu bolsillo. Acá entendés qué guarda de verdad. 🔑\n\n📚 EN ESTE VIDEO\n1️⃣ La billetera es como un llavero: guarda llaves, no monedas\n2️⃣ Dónde están tus monedas: anotadas en la blockchain\n3️⃣ Los tipos: en el celular, en la compu y en un dispositivo\n4️⃣ Conectadas vs desconectadas: comodidad o seguridad\n5️⃣ Qué es una wallet y qué es una llave\n6️⃣ Las apps falsas que imitan billeteras\n\n💡 LA IDEA CLAVE\nUna billetera cripto es como un llavero: las monedas viven en la red, y la billetera guarda las llaves que te dejan moverlas.\n\n📖 GLOSARIO\n• Billetera (wallet): lo que guarda tus llaves.\n• Llave: el dato secreto que te deja mover tus monedas.\n• Billetera desconectada: guarda las llaves fuera de internet.\n\n⚠️ OJO CON\nApps falsas que copian el nombre y el logo de una billetera conocida para robarte las llaves. Bajala solo desde el sitio oficial.\n\n🎓 NIVEL: Básico 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que está por empezar en cripto.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #BilleteraCripto #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es una billetera cripto", "billetera de criptomonedas", "qué es una wallet", "wallet cripto explicada", "billetera fría", "billetera caliente", "cómo guardar criptomonedas", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "seguridad cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es una", "billetera?"],
+      "sub": "Spoiler: no guarda monedas",
+      "icono": "billetera",
+      "orbita": ["llave", "celular", "computadora", "candado"],
+      "vo": "Para usar cripto necesitás una billetera. Pero no funciona como la billetera que tenés en el bolsillo."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Es como un", "llavero"],
+      "conector": "es como",
+      "a": { "icono": "billetera", "label": "Billetera cripto" },
+      "simbolo": "=",
+      "b": { "icono": "llave", "label": "Tu llavero", "cue": "llavero" },
+      "nota": "Las monedas viven en la red, **no en la billetera**.",
+      "vo": "Una billetera cripto es como un llavero: no guarda las monedas, guarda las llaves que te dejan moverlas."
+    },
+    {
+      "kind": "concepto",
+      "badge": "DÓNDE ESTÁN",
+      "head": ["Las monedas", "están en la red"],
+      "icono": "red",
+      "etiquetas": [{ "text": "Anotadas en la blockchain", "cue": "anotadas" }, { "text": "La billetera te las muestra", "cue": "muestra" }],
+      "vo": "Las monedas están anotadas en la blockchain. La billetera te muestra cuántas tenés y te deja usarlas."
+    },
+    {
+      "kind": "claves",
+      "badge": "TRES TIPOS",
+      "head": ["Tipos de", "billetera"],
+      "items": [
+        { "text": "**En el celular:** una app", "cue": "celular" },
+        { "text": "**En la compu:** un programa", "cue": "compu" },
+        { "text": "**Un dispositivo** parecido a un pendrive", "cue": "dispositivo" }
+      ],
+      "vo": "Hay billeteras en el celular, en la compu y en un dispositivo, parecido a un pendrive, que guarda las llaves desconectadas."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Conectada vs", "desconectada"],
+      "a": { "titulo": "Conectada", "icono": "celular", "items": [{ "text": "Cómoda para el día a día", "cue": "cómodas" }, { "text": "Más expuesta", "cue": "expuestas" }] },
+      "b": { "titulo": "Sin red", "icono": "candado", "items": [{ "text": "Más segura", "cue": "más seguras" }, { "text": "Menos práctica", "cue": "menos prácticas" }] },
+      "vo": "Las conectadas son cómodas para el día a día, pero más expuestas. Las desconectadas son más seguras, pero menos prácticas."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Palabras", "nuevas"],
+      "terminos": [
+        { "termino": "Wallet", "definicion": "Billetera, en **inglés**.", "icono": "billetera" },
+        { "termino": "Llave", "definicion": "Dato secreto que te deja **mover tus monedas**.", "icono": "llave", "cue": "llave" }
+      ],
+      "vo": "En inglés, a la billetera le dicen wallet. Y la llave es el dato secreto que te deja mover tus monedas."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Billeteras", "truchas"],
+      "titulo": "Apps falsas que imitan billeteras",
+      "items": [{ "text": "Copian el nombre y el logo", "cue": "copian" }, { "text": "Te roban las llaves", "cue": "roban" }],
+      "consejo": { "text": "Bajala solo del **sitio oficial**.", "cue": "sitio oficial" },
+      "vo": "Ojo con las apps falsas: copian el nombre de una billetera conocida y te roban las llaves. Bajala del sitio oficial."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Guarda llaves, no monedas", "Las monedas están en la red", "Celular, compu o dispositivo"],
+      "vo": "La billetera guarda tus llaves, no tus monedas. En el próximo video: clave pública y clave privada."
+    }
+  ]
+}

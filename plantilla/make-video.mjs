@@ -74,7 +74,9 @@ const renderHash = (spec) => `${contentHash(spec)}:${identidadActiva().id}`;
 // Los ya publicados se mueven a mano a salida/subidos/: los archivos se buscan ahí también (no se duplican ni se pierden).
 const SUBIDOS = join(ROOT, "salida", "subidos");
 const subidoPath = (file) => (existsSync(join(SUBIDOS, file)) ? join(SUBIDOS, file) : null);
+const viejoPath = (file) => (existsSync(join(SUBIDOS, "Viejos", file)) ? join(SUBIDOS, "Viejos", file) : null);
 const outPath = (file) => subidoPath(file) || join(ROOT, "salida", file);
+const foundPath = (file) => subidoPath(file) || viejoPath(file) || join(ROOT, "salida", file);
 const rel = (f) => f.slice(ROOT.length + 1).replace(/\\/g, "/");
 
 const VOICE_CREDIT = "🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.";
@@ -231,7 +233,8 @@ export function checklist() {
   let done = 0, fichas = 0, yts = 0, subidos = 0, next = null;
   const rows = items.map(({ slug, n, row }) => {
     const s = specs[slug];
-    const out = outPath(`${slug}.mp4`), subido = !!subidoPath(`${slug}.mp4`);
+    const out = foundPath(`${slug}.mp4`);
+    const subido = !!subidoPath(`${slug}.mp4`) || !!viejoPath(`${slug}.mp4`);
     const rendered = existsSync(out);
     const titulo = s?.spec.titulo || row?.titulo || slug;
     const nivel = s?.spec.nivel || row?.nivel || "";
@@ -249,7 +252,7 @@ export function checklist() {
     if (ytWarns) yts++;
     const notas = [spec.notas, ...(ytWarns || []).map((w) => `⚠️ YouTube: ${w}`)].filter(Boolean).join(" · ");
     const dur = rendered ? `${mp4Duration(out)?.toFixed(1)} s` : st.duracion ? `(${st.duracion.toFixed(1)} s)` : "—";
-    const mini = outPath(`${slug}.miniatura.png`);
+    const mini = foundPath(`${slug}.miniatura.png`);
     return `| ${n} | ${titulo} | ${nivel} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${ytWarns ? `[${ytWarns.length ? "⚠️" : "✅"}](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(mini) ? `[✅](${rel(mini)})` : "⬜"} | ${dur} | ${rendered ? `[${slug}.mp4](${rel(out)})` : "—"} | ${ok(spec.revisado)} | ${ok(subido)} | ${notas} |`;
   });
   const md = `# Checklist — Cripto desde cero

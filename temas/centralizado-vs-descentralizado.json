@@ -51,8 +51,8 @@
     {
       "kind": "comparacion",
       "head": ["Lo bueno de", "cada uno"],
-      "a": { "titulo": "Centralizado", "icono": "banco", "items": [{ "text": "Rápido y simple", "cue": "rápido" }, { "text": "Alguien te ayuda", "cue": "ayuda" }] },
-      "b": { "titulo": "Descentralizado", "icono": "red", "items": [{ "text": "No depende de nadie", "cue": "no depende" }, { "text": "No se cae por una falla", "cue": "no se cae" }] },
+      "a": { "titulo": "Un solo jefe", "icono": "banco", "items": [{ "text": "Rápido y simple", "cue": "rápido" }, { "text": "Alguien te ayuda", "cue": "ayuda" }] },
+      "b": { "titulo": "Entre todos", "icono": "red", "items": [{ "text": "No depende de nadie", "cue": "no depende" }, { "text": "No se cae por una falla", "cue": "no se cae" }] },
       "vo": "Lo centralizado es rápido y alguien te ayuda. Lo descentralizado no depende de nadie y no se cae por una sola falla."
     },
     {

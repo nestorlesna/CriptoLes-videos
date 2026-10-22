@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@600;700;800;900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+/* fonts: https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@600;700;800;900&display=swap */
+/* Identidad B — "Noche Dorada": azul noche profundo, dorado como acento, menta de apoyo. Ver b-noche-dorada.frame.md */
+:root {
+  --bg: #151A3B; --bg-dots: rgba(255,255,255,0.08); --blob: #1F2654;
+  --surface: #222A5E; --surface-line: #3A4387;
+  --ink: #F6F4FF; --muted: #AEB4DD;
+  --line: #0F1330; --plate: #F6F4FF; --paper: #FFF3D1;
+  --primary: #FFC83D; --primary-strong: #FFD66B; --primary-soft: #FFE7A6;
+  --gold: #FFC83D; --sky: #6FA8FF; --leaf: #4FE0B6;
+  --alert: #FF6B6B; --alert-soft: #3A2244; --alert-ink: #FF9A9A;
+  --sub-bg: #0B0E24; --sub-ink: #FFFFFF; --sub-accent: #FFC83D;
+  --font-display: "Space Grotesk", sans-serif; --font-body: "Inter", sans-serif;
+  --radius: 22px; --shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+      /* Layout del kit de escenas (1080×1920). Los colores y fuentes salen de plantilla/identidad/<activa>.css (variables). */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
+      #root { width: 100%; height: 100%; position: relative; overflow: hidden; background: var(--bg); font-family: var(--font-body); color: var(--ink); }
+      .clip { position: absolute; }
+      .a-in { opacity: 0; }
+      #bg { inset: 0; background-color: var(--bg); background-image: radial-gradient(var(--bg-dots) 3px, transparent 3.6px); background-size: 46px 46px; background-position: 12px 12px; }
+      #blob { position: absolute; left: 90px; top: 760px; width: 900px; height: 800px; border-radius: 46% 54% 50% 50% / 52% 46% 54% 48%; background: var(--blob); }
+
+      /* barra superior (desde la 2.ª escena) */
+      #topbar { left: 70px; top: 62px; width: 940px; height: 56px; }
+      #topbar .inner { display: flex; align-items: center; justify-content: space-between; font-weight: 900; font-size: 26px; letter-spacing: 4px; color: var(--ink); }
+      #topbar .brand { display: flex; align-items: center; gap: 14px; }
+      #topbar .brand svg { width: 46px; height: 46px; }
+      #topbar .lvl { color: var(--primary-strong); }
+
+      /* texto de la escena */
+      .scene-text { left: 70px; top: 150px; width: 940px; }
+      .badge { display: inline-block; background: var(--ink); color: var(--bg); font-weight: 900; font-size: 28px; letter-spacing: 4px; padding: 12px 28px; border-radius: 999px; text-transform: uppercase; }
+      .badge.alert { background: var(--alert); color: #fff; }
+      .headline { margin-top: 24px; font-family: var(--font-display); font-weight: 600; font-size: 118px; line-height: 1.0; letter-spacing: -1px; color: var(--ink); }
+      .headline .hl { display: block; }
+      .headline.hero { font-size: 132px; }
+      .headline.hero .hl:last-child { color: var(--primary-strong); }
+      .subline { margin-top: 20px; font-size: 46px; font-weight: 800; color: var(--primary-strong); line-height: 1.2; }
+
+      /* zona visual: top/height los calcula el builder según el alto del texto */
+      .visual { left: 0; width: 1080px; }
+      .vwrap { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 30px;
+        transform: translateY(var(--dy, 0px)) scale(calc(var(--fit, 1) * var(--zoom, 1))); transform-origin: 50% 50%; }
+      .plate { display: flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--plate); border: 6px solid var(--line); box-shadow: var(--shadow); flex: none; }
+      .plate .ico { width: 68%; height: 68%; }
+      .card { background: var(--surface); border: 5px solid var(--surface-line); border-radius: var(--radius); box-shadow: var(--shadow); }
+
+      /* hook / concepto */
+      .hero-ico { position: relative; width: 500px; height: 500px; }
+      .hero-ico > .plate { position: absolute; inset: 0; }
+      .orb { position: absolute; width: 150px; height: 150px; }
+      .chips-row { display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; width: 960px; }
+      .chip { background: var(--surface); border: 5px solid var(--surface-line); border-radius: 999px; padding: 14px 30px; font-size: 40px; font-weight: 800; color: var(--ink); box-shadow: var(--shadow); }
+
+      /* analogía */
+      .ana-conn { font-size: 34px; font-weight: 900; letter-spacing: 5px; color: var(--muted); text-transform: uppercase; }
+      .ana { display: flex; align-items: center; gap: 22px; }
+      .ana-card { width: 410px; padding: 34px 22px 30px; display: flex; flex-direction: column; align-items: center; gap: 22px; }
+      .ana-card .lbl { font-size: 42px; font-weight: 800; text-align: center; line-height: 1.15; color: var(--ink); }
+      .ana-mid { width: 104px; height: 104px; border-radius: 50%; background: var(--gold); border: 6px solid var(--line); display: flex; align-items: center; justify-content: center;
+        font-family: var(--font-display); font-weight: 700; font-size: 60px; color: var(--line); flex: none; }
+
+      /* flujo */
+      .flow { position: relative; width: 880px; }
+      .node { position: absolute; left: 0; width: 880px; display: flex; align-items: center; gap: 30px; padding: 0 30px 0 18px; }
+      .node .lbl { font-size: 44px; font-weight: 800; line-height: 1.12; color: var(--ink); }
+      .node .lbl small { display: block; font-size: 32px; font-weight: 700; color: var(--muted); margin-top: 4px; }
+      .flow svg.arr { position: absolute; overflow: visible; }
+      .token { position: absolute; width: 96px; height: 96px; z-index: 5; }
+      .token svg { width: 100%; height: 100%; filter: drop-shadow(0 6px 0 rgba(0,0,0,0.18)); }
+
+      /* comparación */
+      .cmp { position: relative; display: flex; gap: 30px; width: 1010px; align-items: stretch; }
+      .cmp-col { flex: 1; overflow: hidden; display: flex; flex-direction: column; }
+      .cmp-head { display: flex; align-items: center; gap: 18px; padding: 22px 22px; border-bottom: 5px solid var(--surface-line); }
+      .cmp-col.a .cmp-head { background: var(--sky); }
+      .cmp-col.b .cmp-head { background: var(--primary); }
+      .cmp-head .t { font-family: var(--font-display); font-weight: 700; font-size: 52px; line-height: 1.0; color: var(--line); }
+      .cmp-items { list-style: none; padding: 26px 24px 30px; display: flex; flex-direction: column; gap: 22px; }
+      .cmp-items li { font-size: 42px; font-weight: 800; line-height: 1.18; color: var(--ink); padding-left: 34px; position: relative; }
+      .cmp-items li::before { content: ""; position: absolute; left: 0; top: 17px; width: 18px; height: 18px; border-radius: 50%; background: var(--muted); }
+      .cmp-col.b .cmp-items li::before { background: var(--primary); }
+      .vs { position: absolute; left: 50%; top: 32px; width: 112px; height: 112px; margin-left: -56px; border-radius: 50%; background: var(--gold); border: 6px solid var(--line);
+        display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 700; font-size: 46px; color: var(--line); z-index: 3; }
+
+      /* claves / resumen */
+      .keys { list-style: none; display: flex; flex-direction: column; gap: 24px; width: 940px; }
+      .keys li { display: flex; align-items: center; gap: 26px; padding: 22px 28px; font-size: 44px; font-weight: 800; line-height: 1.15; color: var(--ink); }
+      .keys li b { color: var(--primary-strong); font-weight: 900; }
+      .tick { display: block; width: 70px; height: 70px; border-radius: 18px; background: var(--primary); border: 5px solid var(--line); padding: 8px; flex: none; }
+      .tick svg { display: block; width: 100%; height: 100%; }
+      .keys.small li { font-size: 38px; padding: 16px 24px; gap: 20px; }
+      .keys.small .tick { width: 56px; height: 56px; border-radius: 14px; padding: 6px; }
+
+      /* alerta */
+      .alert-ico { width: 230px; height: 230px; }
+      .alert-card { width: 940px; background: var(--alert-soft); border: 6px solid var(--alert); border-radius: var(--radius); padding: 30px 32px; display: flex; flex-direction: column; gap: 22px; }
+      .alert-card .t { font-family: var(--font-display); font-weight: 700; font-size: 50px; color: var(--alert-ink); line-height: 1.05; }
+      .alert-card .it { display: flex; align-items: center; gap: 22px; font-size: 40px; font-weight: 800; color: var(--ink); line-height: 1.15; }
+      .alert-card .it svg { width: 58px; height: 58px; flex: none; }
+      .tip { width: 940px; display: flex; align-items: center; gap: 22px; padding: 22px 28px; font-size: 40px; font-weight: 800; line-height: 1.15; color: var(--ink); }
+      .tip svg { width: 64px; height: 64px; flex: none; }
+
+      /* glosario */
+      .glos { display: flex; flex-direction: column; gap: 26px; width: 940px; }
+      .gcard { padding: 30px 34px 34px; display: flex; gap: 28px; align-items: flex-start; }
+      .gcard .gtxt { flex: 1; }
+      .gterm { font-family: var(--font-display); font-weight: 700; font-size: 66px; line-height: 1.0; color: var(--primary-strong); }
+      .gdef { margin-top: 14px; font-size: 42px; font-weight: 700; line-height: 1.25; color: var(--ink); }
+
+      /* cierre */
+      .next-card { width: 940px; background: var(--sub-bg); border-radius: var(--radius); padding: 30px 34px; display: flex; align-items: center; gap: 28px; box-shadow: var(--shadow); }
+      .next-card .k { font-size: 28px; font-weight: 900; letter-spacing: 4px; color: var(--sub-accent); }
+      .next-card .t { margin-top: 10px; font-family: var(--font-display); font-weight: 600; font-size: 56px; line-height: 1.05; color: var(--sub-ink); }
+      .next-card svg { width: 130px; height: 130px; flex: none; }
+
+      /* subtítulo + barra de progreso */
+      .subtitle { left: 40px; top: 1600px; width: 1000px; height: 220px; }
+      .subtitle .inner { background: var(--sub-bg); border-left: 12px solid var(--sub-accent); border-radius: 24px; padding: 24px 32px; }
+      .subtitle p { color: var(--sub-ink); font-size: 42px; font-weight: 800; line-height: 1.3; }
+      #progress { left: 40px; top: 1858px; width: 1000px; height: 12px; border-radius: 6px; background: var(--bg-dots); overflow: hidden; }
+      #progress-fill { width: 100%; height: 100%; background: var(--primary); transform-origin: 0 50%; }
+
+    </style>
+  </head>
+  <body>
+    <!-- GENERADO por plantilla/build-index.mjs desde tema.json (identidad b-noche-dorada) — no editar a mano -->
+    <div id="root" data-composition-id="main" data-start="0" data-duration="49.296" data-width="1080" data-height="1920">
+      <div id="bg" class="clip" data-start="0" data-duration="49.296" data-track-index="0"><div id="blob"></div></div>
+      <div id="topbar" class="clip" data-start="6.433" data-duration="42.863" data-track-index="4"><div class="inner"><span class="brand"><svg class="brand-ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="44" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="60" cy="60" r="31" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><text x="60" y="62" text-anchor="middle" dominant-baseline="central" font-family="var(--font-display)" font-weight="700" font-size="40" fill="var(--line)">$</text></svg>CRIPTO DESDE CERO</span><span class="lvl">BÁSICO 2</span></div></div>
+      <div id="txt-01" class="clip scene-text" data-start="0" data-duration="6.433" data-track-index="3"><div class="inner"><div class="badge">CRIPTO DESDE CERO · Básico 2</div><h1 class="headline hero"><span class="hl">Enviar y</span><span class="hl">recibir</span></h1><p class="subline">Sin perder nada en el camino</p></div></div>
+      <div id="txt-02" class="clip scene-text" data-start="6.433" data-duration="6.515" data-track-index="3"><div class="inner"><div class="badge">CÓMO FUNCIONA</div><h1 class="headline"><span class="hl">Así se</span><span class="hl">manda</span></h1></div></div>
+      <div id="txt-03" class="clip scene-text" data-start="12.948" data-duration="6.631" data-track-index="3"><div class="inner"><div class="badge">GLOSARIO</div><h1 class="headline"><span class="hl">Tres palabras</span><span class="hl">clave</span></h1></div></div>
+      <div id="txt-04" class="clip scene-text" data-start="19.579" data-duration="6.294" data-track-index="3"><div class="inner"><div class="badge">LA RED</div><h1 class="headline"><span class="hl">Tiene que</span><span class="hl">coincidir</span></h1></div></div>
+      <div id="txt-05" class="clip scene-text" data-start="25.873" data-duration="5.69" data-track-index="3"><div class="inner"><div class="badge">ANTES DE ENVIAR</div><h1 class="headline"><span class="hl">Revisá</span><span class="hl">todo</span></h1></div></div>
+      <div id="txt-06" class="clip scene-text" data-start="31.563" data-duration="5.644" data-track-index="3"><div class="inner"><div class="badge">UN TRUCO</div><h1 class="headline"><span class="hl">Primero,</span><span class="hl">una prueba</span></h1></div></div>
+      <div id="txt-07" class="clip scene-text" data-start="37.207" data-duration="6.631" data-track-index="3"><div class="inner"><div class="badge alert">¡OJO!</div><h1 class="headline"><span class="hl">No hay</span><span class="hl">vuelta atrás</span></h1></div></div>
+      <div id="txt-08" class="clip scene-text" data-start="43.838" data-duration="5.458" data-track-index="3"><div class="inner"><div class="badge">EN RESUMEN</div><h1 class="headline"><span class="hl">Lo que</span><span class="hl">aprendiste</span></h1></div></div>
+      <div id="vis-01" class="clip visual" data-start="0" data-duration="6.433" data-track-index="2" style="top:612px;height:948px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:470px;height:470px"><div id="hero-01-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M20 44 H92 M76 28 L94 44 L76 60" fill="none" stroke="var(--primary)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M100 78 H28 M44 62 L26 78 L44 94" fill="none" stroke="var(--gold)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div id="orb-01-1" class="orb a-in" style="left:-40px;top:-10px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><rect x="14" y="32" width="88" height="66" rx="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 32 L80 16 L86 32" fill="var(--paper)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="70" y="52" width="40" height="28" rx="8" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="84" cy="66" r="5" fill="var(--line)"/></svg></div></div><div id="orb-01-2" class="orb a-in" style="left:360px;top:-30px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 24 L24 56 L44 98 M60 24 L96 56 L76 98 M24 56 L96 56 M44 98 L76 98 M60 24 L44 98 M60 24 L76 98" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="60" cy="24" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="24" cy="56" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="96" cy="56" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="44" cy="98" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="76" cy="98" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg></div></div><div id="orb-01-3" class="orb a-in" style="left:-70px;top:300px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><rect x="32" y="10" width="56" height="100" rx="12" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="40" y="24" width="40" height="66" rx="4" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="60" cy="100" r="4" fill="var(--line)"/></svg></div></div><div id="orb-01-4" class="orb a-in" style="left:390px;top:320px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 12 L110 100 H10 Z" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="6"/><path d="M60 44 V70" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="11"/><circle cx="60" cy="86" r="6" fill="var(--line)"/></svg></div></div></div></div></div>
+      <div id="vis-02" class="clip visual" data-start="6.433" data-duration="6.515" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="flow keep" style="height:700px"><div id="node-02-0" class="node card a-in" style="top:0px;height:172px"><div class="plate " style="width:136px;height:136px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="38" r="20" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M22 106 a38 34 0 0 1 76 0 Z" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div><div class="lbl">Te pasan su dirección</div></div><div id="node-02-1" class="node card a-in" style="top:264px;height:172px"><div class="plate " style="width:136px;height:136px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><rect x="14" y="32" width="88" height="66" rx="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 32 L80 16 L86 32" fill="var(--paper)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="70" y="52" width="40" height="28" rx="8" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="84" cy="66" r="5" fill="var(--line)"/></svg></div><div class="lbl">Elegís red y monto</div></div><div id="node-02-3" class="node card a-in" style="top:528px;height:172px"><div class="plate " style="width:136px;height:136px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 24 L24 56 L44 98 M60 24 L96 56 L76 98 M24 56 L96 56 M44 98 L76 98 M60 24 L44 98 M60 24 L76 98" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="60" cy="24" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="24" cy="56" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="96" cy="56" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="44" cy="98" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="76" cy="98" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg></div><div class="lbl">La red lo procesa</div></div><svg class="arr" width="880" height="700" viewBox="0 0 880 700" style="left:0;top:0"><path id="arr-02-2" d="M 91 182 L 91 250" pathLength="1" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-dasharray="0 1"/><path id="arr-02-2h" class="a-in" d="M 71 234 L 91 254 L 111 234" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path id="arr-02-4" d="M 91 446 L 91 514" pathLength="1" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-dasharray="0 1"/><path id="arr-02-4h" class="a-in" d="M 71 498 L 91 518 L 111 498" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg><div id="token-02-5" class="token a-in" style="left:90.52000000000001px;top:71.92px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="44" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="60" cy="60" r="31" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><text x="60" y="62" text-anchor="middle" dominant-baseline="central" font-family="var(--font-display)" font-weight="700" font-size="40" fill="var(--line)">$</text></svg></div></div></div></div>
+      <div id="vis-03" class="clip visual" data-start="12.948" data-duration="6.631" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="glos keep"><div id="g-03-0" class="gcard card a-in"><div class="plate " style="width:130px;height:130px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M14 54 L54 14 H104 V64 L64 104 Z" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="84" cy="34" r="8" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><text x="58" y="66" text-anchor="middle" dominant-baseline="central" font-family="var(--font-display)" font-weight="700" font-size="34" fill="var(--line)">$</text></svg></div><div class="gtxt"><div class="gterm">Dirección</div><div class="gdef">Donde <b>se recibe</b>, como un alias.</div></div></div><div id="g-03-1" class="gcard card a-in"><div class="plate " style="width:130px;height:130px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 24 L24 56 L44 98 M60 24 L96 56 L76 98 M24 56 L96 56 M44 98 L76 98 M60 24 L44 98 M60 24 L76 98" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="60" cy="24" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="24" cy="56" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="96" cy="56" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="44" cy="98" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="76" cy="98" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg></div><div class="gtxt"><div class="gterm">Red</div><div class="gdef">El <b>camino</b> por donde viaja.</div></div></div><div id="g-03-2" class="gcard card a-in"><div class="plate " style="width:130px;height:130px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><rect x="12" y="32" width="96" height="56" rx="8" fill="var(--leaf)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="22" y="42" width="76" height="36" rx="4" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="60" cy="60" r="12" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg></div><div class="gtxt"><div class="gterm">Comisión</div><div class="gdef">Lo que <b>pagás</b> por enviar.</div></div></div></div></div></div>
+      <div id="vis-04" class="clip visual" data-start="19.579" data-duration="6.294" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:420px;height:420px"><div id="hero-04-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 24 L24 56 L44 98 M60 24 L96 56 L76 98 M24 56 L96 56 M44 98 L76 98 M60 24 L44 98 M60 24 L76 98" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="60" cy="24" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="24" cy="56" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="96" cy="56" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="44" cy="98" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="76" cy="98" r="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg></div></div><div class="chips-row"><div id="chip-04-1" class="chip a-in">Varias redes posibles</div><div id="chip-04-2" class="chip a-in">Si no coincide, se puede perder</div></div></div></div>
+      <div id="vis-05" class="clip visual" data-start="25.873" data-duration="5.69" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><ul id="keys-05-0" class="keys keep"><li id="key-05-1" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>La <b>dirección</b> completa</span></li><li id="key-05-2" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>La <b>red</b> correcta</span></li><li id="key-05-3" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>La <b>comisión</b></span></li></ul></div></div>
+      <div id="vis-06" class="clip visual" data-start="31.563" data-duration="5.644" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:420px;height:420px"><div id="hero-06-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M36 62 L53 78 L86 44" fill="none" stroke="var(--plate)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div><div class="chips-row"><div id="chip-06-1" class="chip a-in">Mandá un monto chico</div><div id="chip-06-2" class="chip a-in">Si llega, mandá el resto</div></div></div></div>
+      <div id="vis-07" class="clip visual" data-start="37.207" data-duration="6.631" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><svg id="tri-07-0" class="alert-ico a-in" viewBox="0 0 120 120"><path d="M60 12 L110 100 H10 Z" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="6"/><path d="M60 44 V70" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="11"/><circle cx="60" cy="86" r="6" fill="var(--line)"/></svg><div id="acard-07-1" class="alert-card a-in keep"><div class="t">Un envío no se puede cancelar</div><div id="ai-07-2" class="it a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--alert)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 42 L78 78 M78 42 L42 78" fill="none" stroke="var(--plate)" stroke-width="11" stroke-linecap="round"/></svg><span>No hay banco que lo revierta</span></div><div id="ai-07-3" class="it a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--alert)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 42 L78 78 M78 42 L42 78" fill="none" stroke="var(--plate)" stroke-width="11" stroke-linecap="round"/></svg><span>Dirección mal copiada: plata perdida</span></div></div><div id="tip-07-4" class="tip card a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 10 L100 24 V56 C100 82 82 100 60 110 C38 100 20 82 20 56 V24 Z" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 60 L55 73 L80 46" fill="none" stroke="var(--plate)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Copiá, pegá y <b>revisá el principio y el final</b>.</span></div></div></div>
+      <div id="vis-08" class="clip visual" data-start="43.838" data-duration="5.458" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><ul id="keys-08-0" class="keys small keep"><li id="key-08-1" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Dirección, red y comisión</span></li><li id="key-08-2" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>La red tiene que coincidir</span></li><li id="key-08-3" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Primero, una prueba chica</span></li></ul><div id="next-08-4" class="next-card a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 38 L84 60 L50 82 Z" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg><div><div class="k">EN EL PRÓXIMO VIDEO</div><div class="t">Las estafas más comunes en cripto</div></div></div></div></div>
+      <div id="sub-01" class="clip subtitle" data-start="0" data-duration="6.433" data-track-index="5"><div class="inner"><p>Mandar cripto es fácil, pero un error chiquito puede hacer que pierdas el envío. Te muestro cómo evitarlo.</p></div></div>
+      <div id="sub-02" class="clip subtitle" data-start="6.433" data-duration="6.515" data-track-index="5"><div class="inner"><p>Quien recibe te pasa su dirección. Vos elegís la red y el monto, y la red procesa el envío en unos minutos.</p></div></div>
+      <div id="sub-03" class="clip subtitle" data-start="12.948" data-duration="6.631" data-track-index="5"><div class="inner"><p>La dirección es donde se recibe. La red, el camino por donde viaja. Y la comisión, lo que pagás por enviar.</p></div></div>
+      <div id="sub-04" class="clip subtitle" data-start="19.579" data-duration="6.294" data-track-index="5"><div class="inner"><p>Algunas monedas viajan por varias redes. Si mandás por una que la otra billetera no usa, lo podés perder.</p></div></div>
+      <div id="sub-05" class="clip subtitle" data-start="25.873" data-duration="5.69" data-track-index="5"><div class="inner"><p>Antes de enviar, revisá la dirección completa, la red correcta y cuánto vas a pagar de comisión.</p></div></div>
+      <div id="sub-06" class="clip subtitle" data-start="31.563" data-duration="5.644" data-track-index="5"><div class="inner"><p>Un truco: primero mandá un monto chico de prueba. Si llega bien, recién ahí mandás el resto.</p></div></div>
+      <div id="sub-07" class="clip subtitle" data-start="37.207" data-duration="6.631" data-track-index="5"><div class="inner"><p>Ojo: un envío no se puede cancelar. No hay banco que lo revierta, y una dirección mal copiada es plata perdida.</p></div></div>
+      <div id="sub-08" class="clip subtitle" data-start="43.838" data-duration="5.458" data-track-index="5"><div class="inner"><p>Revisá todo y probá con poco. En el próximo video: las estafas más comunes en cripto.</p></div></div>
+      <div id="progress" class="clip" data-start="0" data-duration="49.296" data-track-index="6"><div id="progress-fill"></div></div>
+      <audio id="vo-01" src="assets/voice/01.wav" data-start="0.25" data-duration="5.433" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-02" src="assets/voice/02.wav" data-start="6.683" data-duration="5.515" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-03" src="assets/voice/03.wav" data-start="13.198" data-duration="5.631" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-04" src="assets/voice/04.wav" data-start="19.829" data-duration="5.294" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-05" src="assets/voice/05.wav" data-start="26.123" data-duration="4.69" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-06" src="assets/voice/06.wav" data-start="31.813" data-duration="4.644" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-07" src="assets/voice/07.wav" data-start="37.457" data-duration="5.631" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-08" src="assets/voice/08.wav" data-start="44.088" data-duration="4.458" data-track-index="10" data-volume="1"></audio>
+      <audio id="bgm" src="assets/bgm/track-long.wav" data-start="0" data-duration="49.296" data-track-index="11" data-volume="0.18" data-automation='{"version":1,"lanes":[{"target":"volume","points":[{"t":0,"v":0},{"t":1.2,"v":0.18},{"t":47.3,"v":0.18},{"t":49.296,"v":0}]}]}'></audio>
+    </div>
+    <script>
+      window.__CR_CONFIG = {"total":49.296,"thumb":false,"frames":[{"id":"01","start":0,"dur":6.433,"last":false},{"id":"02","start":6.433,"dur":6.515,"last":false},{"id":"03","start":12.948,"dur":6.631,"last":false},{"id":"04","start":19.579,"dur":6.294,"last":false},{"id":"05","start":25.873,"dur":5.69,"last":false},{"id":"06","start":31.563,"dur":5.644,"last":false},{"id":"07","start":37.207,"dur":6.631,"last":false},{"id":"08","start":43.838,"dur":5.458,"last":true}],"anims":[{"sel":"#hero-01-0","fx":"pop","t":0.35},{"sel":"#orb-01-1","fx":"pop","t":1},{"sel":"#hero-01-0","fx":"float","dur":1.3,"repeat":2,"t":1.2},{"sel":"#orb-01-2","fx":"pop","t":1.35},{"sel":"#orb-01-3","fx":"pop","t":1.7},{"sel":"#orb-01-4","fx":"pop","t":2.05},{"sel":"#node-02-0","fx":"left","t":7.773},{"sel":"#arr-02-2","fx":"draw","dur":0.45,"t":8.353},{"sel":"#arr-02-2h","fx":"fade","dur":0.15,"t":8.753},{"sel":"#node-02-1","fx":"left","t":8.903},{"sel":"#arr-02-4","fx":"draw","dur":0.45,"t":9.793},{"sel":"#arr-02-4h","fx":"fade","dur":0.15,"t":10.193},{"sel":"#node-02-3","fx":"left","t":10.343},{"sel":"#g-03-0","fx":"up","t":13.548},{"sel":"#g-03-1","fx":"up","t":14.788},{"sel":"#g-03-2","fx":"up","t":16.888},{"sel":"#hero-04-0","fx":"pop","t":19.929},{"sel":"#hero-04-0","fx":"float","dur":1.3,"repeat":2,"t":20.779},{"sel":"#chip-04-1","fx":"up","t":21.039},{"sel":"#chip-04-2","fx":"up","t":24.619},{"sel":"#key-05-1","fx":"left","t":27.293},{"sel":"#key-05-1 .tick","fx":"tick","t":27.493},{"sel":"#key-05-2","fx":"left","t":28.413},{"sel":"#key-05-2 .tick","fx":"tick","t":28.613},{"sel":"#key-05-3","fx":"left","t":30.223},{"sel":"#key-05-3 .tick","fx":"tick","t":30.423},{"sel":"#hero-06-0","fx":"pop","t":31.913},{"sel":"#hero-06-0","fx":"float","dur":1.3,"repeat":2,"t":32.763},{"sel":"#chip-06-1","fx":"up","t":33.333},{"sel":"#chip-06-2","fx":"up","t":36.003},{"sel":"#tri-07-0","fx":"pop","t":37.557},{"sel":"#acard-07-1","fx":"up","t":38.107},{"sel":"#tri-07-0","fx":"shake","t":38.157},{"sel":"#ai-07-2","fx":"left","t":39.487},{"sel":"#ai-07-3","fx":"left","t":41.467},{"sel":"#tip-07-4","fx":"up","t":41.607},{"sel":"#key-08-1","fx":"left","t":44.338},{"sel":"#key-08-1 .tick","fx":"tick","t":44.538},{"sel":"#key-08-2","fx":"left","t":45.338},{"sel":"#key-08-2 .tick","fx":"tick","t":45.538},{"sel":"#key-08-3","fx":"left","t":46.338},{"sel":"#key-08-3 .tick","fx":"tick","t":46.538},{"sel":"#next-08-4","fx":"up","t":47.738}]};
+/* Runtime del kit de escenas de "Cripto desde cero".
+ * window.__CR_CONFIG lo inyecta plantilla/build-index.mjs: { total, thumb, frames[{id,start,dur,last}], anims[{sel,t,fx,dur,…}] }.
+ * Todo es un único timeline GSAP pausado (seek-safe): cada animación es un fromTo con estado inicial explícito y
+ * immediateRender:false; los elementos que entran nacen con la clase .a-in (opacity 0).
+ * fx: in/up (sube) · left/right (entra de costado) · pop (escala con rebote) · fade · draw (trazo SVG 0→1) · tick (check)
+ *     shake (sacudón de alerta) · float (flota, con repeat finito) · tween (from/to explícitos) · out (desaparece)
+ */
+(function () {
+  const C = window.__CR_CONFIG;
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const FX = {
+    in: (a) => [{ opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    up: (a) => [{ opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    left: (a) => [{ opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    right: (a) => [{ opacity: 0, x: 60 }, { opacity: 1, x: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    pop: (a) => [{ opacity: 0, scale: 0.55 }, { opacity: 1, scale: 1, duration: a.dur || 0.5, ease: "back.out(1.8)" }],
+    fade: (a) => [{ opacity: 0 }, { opacity: 1, duration: a.dur || 0.4, ease: "power1.out" }],
+    draw: (a) => [{ strokeDasharray: "0 1" }, { strokeDasharray: "1 0", duration: a.dur || 0.6, ease: "power2.inOut" }],
+    tick: (a) => [{ scale: 0 }, { scale: 1, duration: a.dur || 0.35, ease: "back.out(2)" }],
+    out: (a) => [{ opacity: 1 }, { opacity: 0, duration: a.dur || 0.3, ease: "power1.in" }],
+    tween: (a) => [Object.assign({}, a.from), Object.assign({}, a.to, { duration: a.dur || 0.6, ease: a.ease || "power2.inOut" })],
+  };
+
+  C.anims.forEach((a) => {
+    if (a.fx === "shake") {
+      // sacudón corto (alerta): rotación ida y vuelta, termina en 0
+      [-8, 7, -5, 3, 0].forEach((r, i) => tl.to(a.sel, { rotation: r, duration: 0.09, ease: "sine.inOut", transformOrigin: "50% 80%" }, a.t + i * 0.09));
+      return;
+    }
+    if (a.fx === "float") {
+      tl.fromTo(a.sel, { y: 0 }, Object.assign({ y: -16, duration: a.dur, ease: "sine.inOut", yoyo: true, repeat: a.repeat }, IR), a.t);
+      return;
+    }
+    const make = FX[a.fx] || FX.in;
+    const [from, to] = make(a);
+    if (a.fx !== "tween" && a.from) Object.assign(from, a.from);
+    if (a.fx !== "tween" && a.to) Object.assign(to, a.to);
+    tl.fromTo(a.sel, from, Object.assign(to, IR), a.t);
+  });
+
+  // Entradas/salidas de cada escena: texto, visual y subtítulo. La última escena queda quieta.
+  C.frames.forEach((f) => {
+    const txt = `#txt-${f.id} .inner`, vis = `#vis-${f.id} .vwrap`, sub = `#sub-${f.id} .inner`;
+    tl.fromTo(txt, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, f.start + 0.05);
+    if (!C.thumb) tl.fromTo(sub, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, f.start + 0.15);
+    if (!f.last) {
+      tl.to(txt, { opacity: 0, duration: 0.3, ease: "power1.in" }, f.start + f.dur - 0.32);
+      tl.to(vis, { opacity: 0, duration: 0.3, ease: "power1.in" }, f.start + f.dur - 0.32);
+      tl.to(sub, { opacity: 0, duration: 0.25 }, f.start + f.dur - 0.28);
+    }
+  });
+  tl.fromTo("#blob", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 1.0, ease: "power2.out" }, 0.1);
+  if (document.querySelector("#topbar")) tl.fromTo("#topbar .inner", { opacity: 0 }, { opacity: 1, duration: 0.4 }, C.frames[1].start + 0.1);
+  if (document.querySelector("#progress-fill")) tl.fromTo("#progress-fill", { scaleX: 0 }, { scaleX: 1, duration: C.total, ease: "none" }, 0);
+
+  // Si el contenido de una zona visual no entra (textos largos), se achica entero (--fit) en vez de pisar el subtítulo.
+  const GROW = 1.3;
+  function fit() {
+    document.querySelectorAll(".visual").forEach((v) => {
+      const w = v.querySelector(".vwrap"), prev = v.style.display;
+      v.style.display = "block"; // medir aunque el clip esté oculto en este instante
+      w.style.setProperty("--fit", 1);
+      let need = 0, wide = 0;
+      Array.from(w.children).forEach((c) => { if (c.tagName !== "STYLE") { need += c.offsetHeight; wide = Math.max(wide, c.offsetWidth); } });
+      const kids = Array.from(w.children).filter((c) => c.tagName !== "STYLE" && getComputedStyle(c).display !== "none").length;
+      need += Math.max(0, kids - 1) * 30;
+      // achica si no entra; si sobra lugar agranda hasta GROW (se lee mejor en el celular), sin pasar 1040 px de ancho
+      const k = need > 0 ? Math.min(GROW, (v.clientHeight - 40) / need, 1040 / Math.max(wide, 1)) : 1;
+      w.style.setProperty("--fit", k.toFixed(3));
+      v.style.display = prev;
+    });
+  }
+  fit();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+})();
+
+    </script>
+  </body>
+</html>

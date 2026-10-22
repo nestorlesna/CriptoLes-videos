@@ -1,0 +1,89 @@
+{
+  "slug": "que-es-blockchain",
+  "titulo": "¿Qué es una blockchain?",
+  "nivel": "Básico 1",
+  "descripcion": "La cadena de bloques como un cuaderno contable compartido que miles de computadoras copian y nadie puede borrar.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es una blockchain? ⛓️ La cadena de bloques explicada fácil | Cripto desde cero",
+    "descripcion": "⛓️ ¿QUÉ ES UNA BLOCKCHAIN? — La cadena de bloques, sin tecnicismos\n\nLa palabra blockchain aparece por todos lados. En menos de un minuto entendés qué es, con un cuaderno de por medio. 📒\n\n📚 EN ESTE VIDEO\n1️⃣ Qué quiere decir blockchain: cadena de bloques\n2️⃣ Qué es un bloque: una página con movimientos anotados\n3️⃣ El cuaderno contable que miles de computadoras tienen copiado\n4️⃣ Cómo crece la cadena, bloque por bloque\n5️⃣ Por qué es tan difícil hacer trampa\n6️⃣ Por qué lo anotado no se borra\n\n💡 LA IDEA CLAVE\nUna blockchain es como un cuaderno contable compartido: miles tienen la misma copia, cada página se engancha a la anterior y nadie puede arrancar una hoja sin que se note.\n\n📖 GLOSARIO\n• Blockchain: en inglés, cadena de bloques.\n• Bloque: un grupo de movimientos anotados juntos.\n• Registro: lo que queda anotado de cada movimiento.\n\n⚠️ OJO CON\nMuchas estafas usan la palabra blockchain para parecer serias. Que un proyecto la use no garantiza nada: investigá antes de confiar.\n\n🎓 NIVEL: Básico 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que nunca entendió qué es la blockchain.\n\n{{DESLINDE}}\n\n#Criptomonedas #Blockchain #CadenaDeBloques #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es blockchain", "qué es una blockchain", "cadena de bloques", "blockchain explicada fácil", "cómo funciona blockchain", "blockchain para principiantes", "qué es un bloque", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "tecnología blockchain"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es una", "blockchain?"],
+      "sub": "La cadena de bloques",
+      "icono": "cadena",
+      "orbita": ["bloque", "red", "candado", "libro"],
+      "vo": "Seguro escuchaste la palabra blockchain. Hoy la entendés sin tecnicismos, con la ayuda de un cuaderno."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Cadena de", "bloques"],
+      "terminos": [
+        { "termino": "Blockchain", "definicion": "En inglés: **cadena de bloques**.", "icono": "cadena" },
+        { "termino": "Bloque", "definicion": "Una página con **movimientos anotados**.", "icono": "bloque", "cue": "página" }
+      ],
+      "vo": "Blockchain quiere decir cadena de bloques. Y cada bloque es como una página con movimientos anotados."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Un cuaderno", "compartido"],
+      "conector": "es como",
+      "a": { "icono": "bloques", "label": "La blockchain" },
+      "simbolo": "=",
+      "b": { "icono": "libro", "label": "Un cuaderno contable", "cue": "cuaderno" },
+      "nota": "Todos tienen **la misma copia**.",
+      "vo": "Imaginá un cuaderno contable que miles de computadoras tienen copiado, y que todas revisan entre sí."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Cómo crece", "la cadena"],
+      "nodos": [
+        { "icono": "intercambio", "label": "Movimientos nuevos", "cue": "movimientos" },
+        { "icono": "bloque", "label": "Se arma un bloque", "cue": "se juntan" },
+        { "icono": "cadena", "label": "Se engancha al anterior", "cue": "engancha" }
+      ],
+      "vo": "Los movimientos nuevos se juntan en un bloque, y ese bloque se engancha al anterior. Así se forma la cadena."
+    },
+    {
+      "kind": "claves",
+      "badge": "POR QUÉ ES SEGURA",
+      "head": ["Difícil de", "trampear"],
+      "items": [
+        { "text": "**Miles de copias** iguales", "cue": "copias" },
+        { "text": "Cada bloque **apunta al anterior**", "cue": "apunta" },
+        { "text": "Si alguien cambia algo, **se nota**", "cue": "se nota" }
+      ],
+      "vo": "Hay miles de copias, y cada bloque apunta al anterior. Si alguien cambia algo en su copia, se nota enseguida."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UNA REGLA",
+      "head": ["Lo anotado", "queda"],
+      "icono": "candado",
+      "etiquetas": [{ "text": "No se puede borrar", "cue": "borrar" }, { "text": "Se corrige con otro movimiento", "cue": "corrige" }],
+      "vo": "Lo que se anota no se puede borrar. Si hubo un error, se corrige con un movimiento nuevo, que también queda."
+    },
+    {
+      "kind": "alerta",
+      "head": ["No es", "garantía"],
+      "titulo": "Proyectos que dicen usar blockchain",
+      "items": [{ "text": "Usan la palabra para impresionar", "cue": "palabra" }, { "text": "Eso no garantiza nada", "cue": "garantiza" }],
+      "consejo": "Antes de confiar, **investigá**.",
+      "vo": "Ojo: muchas estafas usan la palabra blockchain para parecer serias. Que la usen no garantiza nada."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Bloques enganchados en cadena", "Miles de copias iguales", "Lo anotado no se borra"],
+      "vo": "Una blockchain es un cuaderno compartido que nadie puede borrar. En el próximo video: centralizado versus descentralizado."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+TÍTULO
+Redes de segunda capa y Lightning ⚡ Pagos rápidos explicados fácil | Cripto desde cero
+
+DESCRIPCIÓN
+⚡ REDES DE SEGUNDA CAPA (LIGHTNING) — Pagos chicos y rápidos encima de Bitcoin
+
+Bitcoin es seguro, pero lento y a veces caro para pagos chicos. Para eso existen las redes de segunda capa. Acá entendés cómo funcionan, con la cuenta del bar. 🍻
+
+📚 EN ESTE VIDEO
+1️⃣ El problema: un bloque cada 10 minutos y lugar limitado
+2️⃣ Es como la cuenta del bar
+3️⃣ Cómo funciona: abrir un canal, pagar muchas veces, anotar el resultado
+4️⃣ Qué es una segunda capa y qué es Lightning
+5️⃣ Las ventajas: rápido y barato
+6️⃣ Lo que conviene saber antes de usarla
+
+💡 LA IDEA CLAVE
+Es como la cuenta del bar: vas anotando cada pedido y al final pagás todo junto. Así, la blockchain solo anota el resultado final.
+
+📖 GLOSARIO
+• Segunda capa: una red que funciona encima de otra.
+• Lightning: la segunda capa más conocida de Bitcoin.
+• Canal: el acuerdo entre dos partes para pagarse muchas veces.
+
+⚠️ OJO CON
+Es más compleja de usar y no conviene para guardar montos grandes. Empezá con poco.
+
+🎓 NIVEL: Intermedio 2 · Siguiente video: Cripto, impuestos y normativa
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que dice que Bitcoin es muy lento para pagar un café.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Lightning #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es lightning network, red lightning, segunda capa bitcoin, layer 2 explicado, pagos rápidos con bitcoin, cómo funciona lightning, comisiones bitcoin, bitcoin para principiantes, criptomonedas para principiantes, cripto desde cero, educación financiera

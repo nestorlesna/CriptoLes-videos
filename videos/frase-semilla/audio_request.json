@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Cuando creás una billetera, te muestra una lista de palabras. Es lo más importante que vas a tener."
+    },
+    {
+      "id": "02",
+      "text": "La frase semilla son 12 o 24 palabras en un orden fijo. Con ellas se recupera tu billetera en cualquier aparato."
+    },
+    {
+      "id": "03",
+      "text": "Es como una llave de repuesto de todas tus llaves. Si perdés el celular, con la frase recuperás todo."
+    },
+    {
+      "id": "04",
+      "text": "Escribila en papel y guardala en un lugar seguro. Nada de fotos, capturas ni notas en el celular."
+    },
+    {
+      "id": "05",
+      "text": "Así sí: en papel, escondida, y con una copia en otro lugar. Así no: en una foto o mandada por chat."
+    },
+    {
+      "id": "06",
+      "text": "Ojo: no hay un botón de olvidé mi clave. Si perdés el aparato y la frase, nadie te puede devolver las monedas."
+    },
+    {
+      "id": "07",
+      "text": "Ningún soporte ni sitio legítimo te va a pedir la frase para validar nada. Si te la piden, es estafa. Nunca."
+    },
+    {
+      "id": "08",
+      "text": "Tu frase semilla es tu llave maestra: en papel y sin compartir. En el próximo video: ¿quién tiene tus llaves?"
+    }
+  ]
+}

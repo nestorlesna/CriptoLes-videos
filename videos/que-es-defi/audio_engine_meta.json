@@ -1,0 +1,57 @@
+{
+  "tts_provider": "piper",
+  "voice_id": "es_AR-daniela-high",
+  "bgm": null,
+  "voices": [
+    {
+      "id": "01",
+      "path": "assets/voice/01.wav",
+      "duration_s": 4.783,
+      "words": []
+    },
+    {
+      "id": "02",
+      "path": "assets/voice/02.wav",
+      "duration_s": 6.177,
+      "words": []
+    },
+    {
+      "id": "03",
+      "path": "assets/voice/03.wav",
+      "duration_s": 5.364,
+      "words": []
+    },
+    {
+      "id": "04",
+      "path": "assets/voice/04.wav",
+      "duration_s": 4.586,
+      "words": []
+    },
+    {
+      "id": "05",
+      "path": "assets/voice/05.wav",
+      "duration_s": 6.351,
+      "words": []
+    },
+    {
+      "id": "06",
+      "path": "assets/voice/06.wav",
+      "duration_s": 5.48,
+      "words": []
+    },
+    {
+      "id": "07",
+      "path": "assets/voice/07.wav",
+      "duration_s": 5.259,
+      "words": []
+    },
+    {
+      "id": "08",
+      "path": "assets/voice/08.wav",
+      "duration_s": 5.271,
+      "words": []
+    }
+  ],
+  "sfx": [],
+  "total_duration_s": 43.271
+}

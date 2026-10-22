@@ -1,0 +1,40 @@
+TÍTULO
+¿Qué es una blockchain? ⛓️ La cadena de bloques explicada fácil | Cripto desde cero
+
+DESCRIPCIÓN
+⛓️ ¿QUÉ ES UNA BLOCKCHAIN? — La cadena de bloques, sin tecnicismos
+
+La palabra blockchain aparece por todos lados. En menos de un minuto entendés qué es, con un cuaderno de por medio. 📒
+
+📚 EN ESTE VIDEO
+1️⃣ Qué quiere decir blockchain: cadena de bloques
+2️⃣ Qué es un bloque: una página con movimientos anotados
+3️⃣ El cuaderno contable que miles de computadoras tienen copiado
+4️⃣ Cómo crece la cadena, bloque por bloque
+5️⃣ Por qué es tan difícil hacer trampa
+6️⃣ Por qué lo anotado no se borra
+
+💡 LA IDEA CLAVE
+Una blockchain es como un cuaderno contable compartido: miles tienen la misma copia, cada página se engancha a la anterior y nadie puede arrancar una hoja sin que se note.
+
+📖 GLOSARIO
+• Blockchain: en inglés, cadena de bloques.
+• Bloque: un grupo de movimientos anotados juntos.
+• Registro: lo que queda anotado de cada movimiento.
+
+⚠️ OJO CON
+Muchas estafas usan la palabra blockchain para parecer serias. Que un proyecto la use no garantiza nada: investigá antes de confiar.
+
+🎓 NIVEL: Básico 1 · Siguiente video: Centralizado vs descentralizado
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que nunca entendió qué es la blockchain.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Blockchain #CadenaDeBloques #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es blockchain, qué es una blockchain, cadena de bloques, blockchain explicada fácil, cómo funciona blockchain, blockchain para principiantes, qué es un bloque, bitcoin para principiantes, criptomonedas para principiantes, cripto desde cero, educación financiera, tecnología blockchain

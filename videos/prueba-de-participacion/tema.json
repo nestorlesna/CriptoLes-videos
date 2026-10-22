@@ -1,0 +1,83 @@
+{
+  "slug": "prueba-de-participacion",
+  "titulo": "Prueba de participación (staking)",
+  "nivel": "Intermedio 1",
+  "descripcion": "Otra forma de asegurar una red: en vez de gastar energía se deja bloqueada cripto como garantía. Comparación con la minería.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Prueba de participación y staking 🔒 Explicados fácil | Cripto desde cero",
+    "descripcion": "🔒 PRUEBA DE PARTICIPACIÓN (STAKING) — Otra forma de cuidar una red\n\nLa minería no es la única forma de cuidar una red. Hay otra que casi no gasta energía. Acá ves cómo funciona y qué riesgos tiene. 🌱\n\n📚 EN ESTE VIDEO\n1️⃣ La idea: garantía en vez de energía\n2️⃣ Qué es un validador y qué es el staking\n3️⃣ Es como el depósito de un alquiler\n4️⃣ Prueba de trabajo vs prueba de participación\n5️⃣ La recompensa, y por qué no es una ganancia segura\n6️⃣ Las plataformas de staking milagroso\n\n💡 LA IDEA CLAVE\nEs como el depósito de un alquiler: si cumplís las reglas, lo recuperás. Si hacés trampa, perdés una parte.\n\n📖 GLOSARIO\n• Prueba de participación: los que validan dejan cripto bloqueada como garantía.\n• Validador: quien revisa y agrega bloques.\n• Staking: bloquear cripto para participar.\n\n⚠️ OJO CON\nPlataformas que prometen rendimientos enormes y fijos por hacer staking, y después no te dejan retirar.\n\n🎓 NIVEL: Intermedio 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó hablar de staking y no sabe qué es.\n\n{{DESLINDE}}\n\n#Criptomonedas #Staking #PruebaDeParticipacion #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es el staking", "prueba de participación", "proof of stake", "staking explicado fácil", "qué es un validador", "minería vs staking", "prueba de trabajo vs prueba de participación", "ethereum para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["Prueba de", "participación"],
+      "sub": "Otra forma de cuidar la red",
+      "icono": "candado",
+      "orbita": ["bloque", "moneda", "computadora", "escudo"],
+      "vo": "La minería no es la única forma de cuidar una red. Hay otra que casi no gasta energía: la prueba de participación."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Garantía en", "vez de energía"],
+      "icono": "candado",
+      "etiquetas": [{ "text": "Dejás cripto bloqueada", "cue": "bloqueada" }, { "text": "Como garantía", "cue": "garantía" }],
+      "vo": "En vez de gastar energía, los que validan dejan cripto bloqueada como garantía de que van a jugar limpio."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Palabras", "nuevas"],
+      "terminos": [
+        { "termino": "Validador", "definicion": "Quien **revisa y agrega** bloques.", "icono": "persona" },
+        { "termino": "Staking", "definicion": "Bloquear cripto **para participar**.", "icono": "candado", "cue": "staking" }
+      ],
+      "vo": "Quien revisa y agrega bloques se llama validador. Y bloquear cripto para participar se llama staking."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como un", "depósito"],
+      "conector": "es como",
+      "a": { "icono": "candado", "label": "Staking" },
+      "simbolo": "=",
+      "b": { "icono": "llave", "label": "El depósito de un alquiler", "cue": "depósito" },
+      "nota": "Si hacés trampa, **perdés una parte**.",
+      "vo": "Es como el depósito de un alquiler: si cumplís, lo recuperás. Si hacés trampa, perdés una parte."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Trabajo vs", "participación"],
+      "a": { "titulo": "Trabajo", "icono": "computadora", "items": [{ "text": "Gasta mucha energía", "cue": "mucha energía" }, { "text": "Ej.: Bitcoin", "cue": "bitcoin" }] },
+      "b": { "titulo": "Participación", "icono": "candado", "items": [{ "text": "Gasta muy poca", "cue": "muy poca" }, { "text": "Ej.: Ethereum", "cue": "ethereum" }] },
+      "vo": "La prueba de trabajo gasta mucha energía, como en Bitcoin. La de participación gasta muy poca, como en Ethereum."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA RECOMPENSA",
+      "head": ["Cobrar por", "participar"],
+      "icono": "moneda",
+      "etiquetas": [{ "text": "Recompensa en cripto", "cue": "recompensa" }, { "text": "No es una ganancia segura", "cue": "no es" }],
+      "vo": "Los validadores reciben una recompensa en cripto. Pero ojo: no es una ganancia segura, porque el precio cambia."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Staking", "milagroso"],
+      "titulo": "Rendimientos altos y fijos",
+      "items": [{ "text": "Rendimientos enormes", "cue": "enormes" }, { "text": "No te dejan retirar", "cue": "retirar" }],
+      "consejo": "Si el rendimiento es **demasiado alto**, desconfiá.",
+      "vo": "Ojo con plataformas de staking que prometen rendimientos enormes y fijos, y después no te dejan retirar."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Garantía en vez de energía", "Validadores y staking", "Recompensa, pero con riesgo"],
+      "vo": "Hay más de una forma de cuidar una red. En el próximo video: ¿qué son las finanzas descentralizadas?"
+    }
+  ]
+}

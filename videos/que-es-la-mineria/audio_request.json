@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "En cripto se habla de minería, pero no hay pico ni pala. Hay computadoras trabajando. ¿Haciendo qué?"
+    },
+    {
+      "id": "02",
+      "text": "Minar es el trabajo de anotar los movimientos nuevos y sumar un bloque nuevo a la cadena de Bitcóin."
+    },
+    {
+      "id": "03",
+      "text": "Es como una carrera: miles de computadoras prueban números hasta adivinar uno especial. La que acierta primero, gana."
+    },
+    {
+      "id": "04",
+      "text": "Las computadoras prueban números sin parar. Cuando una encuentra la solución, agrega el bloque y las demás lo revisan."
+    },
+    {
+      "id": "05",
+      "text": "Esto se llama prueba de trabajo: demostrar que gastaste energía resolviendo el problema. Quien lo hace es un minero."
+    },
+    {
+      "id": "06",
+      "text": "El que gana se lleva una recompensa: bitcóins nuevos, más las comisiones de los movimientos del bloque."
+    },
+    {
+      "id": "07",
+      "text": "La minería mantiene la red segura, porque hacer trampa sale carísimo. Y es la única forma en que nacen bitcóins."
+    },
+    {
+      "id": "08",
+      "text": "Ojo con las apps que dicen minar desde tu celular con ganancias diarias. Pagás para entrar y no minás nada."
+    },
+    {
+      "id": "09",
+      "text": "Los mineros sostienen la red a cambio de una recompensa. En el próximo video: 21 millones y el jálvin."
+    }
+  ]
+}

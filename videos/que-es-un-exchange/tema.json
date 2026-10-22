@@ -1,0 +1,91 @@
+{
+  "slug": "que-es-un-exchange",
+  "titulo": "¿Qué es un exchange?",
+  "nivel": "Básico 2",
+  "descripcion": "La plataforma donde se cambia dinero común por cripto. Para qué sirve, qué riesgos tiene y qué mirar antes de usar una. Sin nombrar marcas.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es un exchange? 🏦 La casa de cambio cripto explicada fácil | Cripto desde cero",
+    "descripcion": "🏦 ¿QUÉ ES UN EXCHANGE? — La casa de cambio de las cripto\n\nPara cambiar dinero común por cripto, casi siempre se pasa por un exchange. Acá entendés qué es, para qué sirve y qué mirar antes de usar uno. 🔍\n\n📚 EN ESTE VIDEO\n1️⃣ Un exchange es como una casa de cambio\n2️⃣ Cómo funciona: junta a quien quiere comprar con quien quiere vender\n3️⃣ Para qué sirve: cambiar, ver precios y guardar\n4️⃣ Los riesgos: confiás en una empresa\n5️⃣ Qué mirar antes de usar uno\n6️⃣ Los sitios falsos que imitan exchanges\n\n💡 LA IDEA CLAVE\nUn exchange es una casa de cambio cripto: útil para entrar y salir, pero mientras tus cripto estén ahí, dependés de esa empresa.\n\n📖 GLOSARIO\n• Exchange: plataforma donde se cambia dinero común por cripto.\n• Comisión: lo que cobra la plataforma por cada operación.\n• Verificación en dos pasos: un código extra, además de la contraseña.\n\n⚠️ OJO CON\nSitios falsos que llegan por un link o un anuncio: te dejan depositar y después no te dejan retirar. Entrá siempre escribiendo la dirección vos.\n\n🎓 NIVEL: Básico 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que está por abrir su primera cuenta.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Exchange #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es un exchange", "exchange de criptomonedas", "cómo funciona un exchange", "casa de cambio cripto", "dónde se compran criptomonedas", "riesgos de un exchange", "comisiones exchange", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es un", "exchange?"],
+      "sub": "La casa de cambio cripto",
+      "icono": "intercambio",
+      "orbita": ["edificio", "billetes", "bitcoin", "celular"],
+      "vo": "Para cambiar plata común por cripto, casi siempre se pasa por un exchange. ¿Qué es exactamente?"
+    },
+    {
+      "kind": "analogia",
+      "head": ["Una casa", "de cambio"],
+      "conector": "es como",
+      "a": { "icono": "intercambio", "label": "Exchange" },
+      "simbolo": "=",
+      "b": { "icono": "edificio", "label": "Casa de cambio", "cue": "casa de cambio" },
+      "nota": "Cambia **dinero común por cripto** y al revés.",
+      "vo": "Un exchange es como una casa de cambio: ahí cambiás dinero común por cripto, o cripto por dinero común."
+    },
+    {
+      "kind": "flujo",
+      "head": ["Cómo", "funciona"],
+      "nodos": [
+        { "icono": "persona", "label": "Vos querés comprar", "cue": "querés comprar" },
+        { "icono": "grupo", "label": "Otro quiere vender", "cue": "vender" },
+        { "icono": "intercambio", "label": "El exchange los junta", "detalle": "y cobra una comisión", "cue": "junta" }
+      ],
+      "vo": "Vos querés comprar y otra persona quiere vender. El exchange junta a los dos y cobra una comisión por eso."
+    },
+    {
+      "kind": "claves",
+      "badge": "PARA QUÉ SIRVE",
+      "head": ["Lo que", "ofrece"],
+      "items": [
+        { "text": "Cambiar **dinero por cripto**", "cue": "cambiar" },
+        { "text": "Ver **precios** al momento", "cue": "precios" },
+        { "text": "Guardar tus cripto **(custodia)**", "cue": "guardar" }
+      ],
+      "vo": "Sirve para cambiar dinero por cripto, ver precios al momento y, si querés, guardar tus cripto ahí."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LOS RIESGOS",
+      "head": ["Confiás en", "una empresa"],
+      "icono": "edificio",
+      "etiquetas": [{ "text": "Puede sufrir robos", "cue": "robo" }, { "text": "Puede quebrar o cerrar", "cue": "quebrar" }],
+      "vo": "Usar un exchange es confiar en una empresa: puede sufrir un robo informático, quebrar o cerrar."
+    },
+    {
+      "kind": "claves",
+      "badge": "ANTES DE USAR UNO",
+      "head": ["Qué", "mirar"],
+      "items": [
+        { "text": "Que esté **registrado** en tu país", "cue": "registrado" },
+        { "text": "**Verificación en dos pasos**", "cue": "dos pasos" },
+        { "text": "Cuánto **tiempo** lleva", "cue": "tiempo" }
+      ],
+      "vo": "Antes de usar uno, fijate que esté registrado en tu país, que tenga verificación en dos pasos y cuánto tiempo lleva."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Exchanges", "falsos"],
+      "titulo": "Sitios que imitan a uno real",
+      "items": [{ "text": "Llegan por un link o anuncio", "cue": "link" }, { "text": "Te dejan depositar, no retirar", "cue": "retirar" }],
+      "consejo": "Entrá siempre **escribiendo la dirección** vos.",
+      "vo": "Ojo con los sitios falsos: llegan por un link o un anuncio, te dejan depositar y después no te dejan retirar."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Una casa de cambio cripto", "Junta compradores y vendedores", "Mirá bien antes de usarlo"],
+      "vo": "Un exchange es útil, pero tiene riesgos. En el próximo video: ¿qué pasa cuando comprás cripto?"
+    }
+  ]
+}

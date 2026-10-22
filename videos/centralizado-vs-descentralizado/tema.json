@@ -1,0 +1,84 @@
+{
+  "slug": "centralizado-vs-descentralizado",
+  "titulo": "Centralizado vs descentralizado",
+  "nivel": "Básico 1",
+  "descripcion": "Un banco con un solo dueño de la planilla vs una red donde muchos llevan la misma cuenta. Ventajas y desventajas de cada uno.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Centralizado vs descentralizado 🕸️ La diferencia explicada fácil | Cripto desde cero",
+    "descripcion": "🕸️ CENTRALIZADO VS DESCENTRALIZADO — Quién lleva la cuenta, y qué cambia\n\nDos palabras que vas a escuchar todo el tiempo en cripto. Acá entendés qué significan, con un grupo de amigos de ejemplo. 👥\n\n📚 EN ESTE VIDEO\n1️⃣ Centralizado: una sola planilla, la lleva una entidad\n2️⃣ Descentralizado: muchos tienen la misma cuenta y siguen reglas comunes\n3️⃣ El ejemplo del tesorero del grupo\n4️⃣ Ventajas de cada uno\n5️⃣ La contra de lo descentralizado: la seguridad depende de vos\n\n💡 LA IDEA CLAVE\nEs como la plata de un grupo de amigos: o la anota un tesorero, o la anotan todos y comparan sus cuentas.\n\n📖 GLOSARIO\n• Centralizado: lo controla una sola entidad.\n• Descentralizado: lo sostienen muchos a la vez.\n• Punto único de falla: una sola parte que, si se cae, hace caer todo.\n\n⚠️ OJO CON\nEn lo descentralizado no hay a quién reclamar si te equivocás. Antes de mover plata, entendé bien cómo funciona.\n\n🎓 NIVEL: Básico 1 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que siempre escucha estas palabras y no las entiende.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Descentralizacion #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["centralizado vs descentralizado", "qué es descentralizado", "qué es centralizado", "descentralización explicada", "red descentralizada", "bitcoin descentralizado", "blockchain para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "cómo funciona bitcoin"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Quién lleva", "la cuenta?"],
+      "sub": "Centralizado vs descentralizado",
+      "icono": "red",
+      "orbita": ["banco", "grupo", "libro", "candado"],
+      "vo": "Dos palabras que vas a escuchar mucho: centralizado y descentralizado. ¿Qué significan?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "CENTRALIZADO",
+      "head": ["Un solo", "dueño"],
+      "icono": "banco",
+      "etiquetas": [{ "text": "Una sola planilla", "cue": "planilla" }, { "text": "Decide una entidad", "cue": "decide" }],
+      "vo": "Centralizado: hay una sola planilla y la lleva una entidad, como un banco. Ella decide qué se anota."
+    },
+    {
+      "kind": "concepto",
+      "badge": "DESCENTRALIZADO",
+      "head": ["Muchos llevan", "la cuenta"],
+      "icono": "grupo",
+      "etiquetas": [{ "text": "Miles de copias", "cue": "copias" }, { "text": "Reglas comunes", "cue": "reglas" }],
+      "vo": "Descentralizado: miles de computadoras tienen copias de la misma cuenta y siguen reglas comunes. Nadie manda solo."
+    },
+    {
+      "kind": "analogia",
+      "head": ["El tesorero", "del grupo"],
+      "conector": "compará",
+      "a": { "icono": "persona", "label": "Un tesorero anota todo" },
+      "simbolo": "≠",
+      "b": { "icono": "grupo", "label": "Todos anotan y comparan", "cue": "todos" },
+      "vo": "Es como la plata de un grupo de amigos: o la anota un tesorero, o la anotan todos y comparan sus cuentas."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Lo bueno de", "cada uno"],
+      "a": { "titulo": "Un solo jefe", "icono": "banco", "items": [{ "text": "Rápido y simple", "cue": "rápido" }, { "text": "Alguien te ayuda", "cue": "ayuda" }] },
+      "b": { "titulo": "Entre todos", "icono": "red", "items": [{ "text": "No depende de nadie", "cue": "no depende" }, { "text": "No se cae por una falla", "cue": "no se cae" }] },
+      "vo": "Lo centralizado es rápido y alguien te ayuda. Lo descentralizado no depende de nadie y no se cae por una sola falla."
+    },
+    {
+      "kind": "claves",
+      "badge": "LA CONTRA",
+      "head": ["También", "tiene costos"],
+      "items": [
+        { "text": "Si te equivocás, **no hay a quién reclamar**", "cue": "reclamar" },
+        { "text": "La seguridad **depende de vos**", "cue": "depende de vos" }
+      ],
+      "vo": "Pero ojo: en lo descentralizado, si te equivocás, no hay a quién reclamar. La seguridad depende de vos."
+    },
+    {
+      "kind": "glosario",
+      "head": ["Dos palabras", "clave"],
+      "terminos": [
+        { "termino": "Centralizado", "definicion": "Lo controla **una sola entidad**.", "icono": "banco" },
+        { "termino": "Descentralizado", "definicion": "Lo sostienen **muchos a la vez**.", "icono": "red", "cue": "descentralizado" }
+      ],
+      "vo": "En resumen: centralizado es cuando controla una sola entidad. Descentralizado, cuando lo sostienen muchos a la vez."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Centralizado: un solo dueño", "Descentralizado: muchos", "Cada uno tiene pros y contras"],
+      "vo": "Bitcoin es descentralizado: lo sostienen muchos. En el próximo video: ¿por qué Bitcoin tiene valor?"
+    }
+  ]
+}

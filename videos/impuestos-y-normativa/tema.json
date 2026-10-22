@@ -1,0 +1,89 @@
+{
+  "slug": "impuestos-y-normativa",
+  "titulo": "Cripto, impuestos y normativa",
+  "nivel": "Intermedio 2",
+  "descripcion": "Por qué cada país tiene reglas distintas, qué preguntar a un contador y por qué conviene guardar registro de tus movimientos. Sin asesorar.",
+  "revisado": false,
+  "notas": "Sin países, alícuotas ni normas puntuales (cambian): solo la idea general y consultar a un contador.",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Cripto, impuestos y normativa ⚖️ Lo que tenés que saber | Cripto desde cero",
+    "descripcion": "⚖️ CRIPTO, IMPUESTOS Y NORMATIVA — Lo que tenés que saber (sin asesorar)\n\nLas cripto no están fuera de la ley. Según dónde vivas, pueden tener reglas e impuestos propios. Acá ves la idea general y qué hacer. 📒\n\n📚 EN ESTE VIDEO\n1️⃣ Cada país tiene sus reglas, y muchas siguen cambiando\n2️⃣ Cuándo puede haber impuestos\n3️⃣ El buen hábito de guardar registro\n4️⃣ Es como guardar los tickets de lo que comprás\n5️⃣ Por qué conviene consultar a un contador\n6️⃣ La mentira de que con cripto no pagás impuestos\n\n💡 LA IDEA CLAVE\nGuardar registro de tus movimientos es como guardar los tickets: si algún día te preguntan, tenés cómo mostrarlo.\n\n📖 GLOSARIO\n• Normativa: las reglas que pone cada país.\n• Registro: la lista de tus movimientos con fecha, monto y comprobante.\n• Contador: el profesional que te dice qué te corresponde según tu país.\n\n⚠️ OJO CON\nQuien te dice que con cripto no pagás impuestos porque es invisible. La blockchain es pública: los movimientos quedan registrados.\n\n🎓 NIVEL: Intermedio 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que nunca anotó sus movimientos.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #ImpuestosCripto #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["impuestos cripto", "criptomonedas e impuestos", "normativa cripto", "hay que pagar impuestos por bitcoin", "registro de movimientos cripto", "contador cripto", "regulación cripto", "bitcoin para principiantes", "criptomonedas para principiantes", "cripto desde cero", "educación financiera"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["Cripto e", "impuestos"],
+      "sub": "Lo que tenés que saber",
+      "icono": "balanza",
+      "orbita": ["libro", "mundo", "edificio", "lupa"],
+      "vo": "Las cripto no están fuera de la ley. Según dónde vivas, pueden tener reglas e impuestos propios."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Cada país,", "sus reglas"],
+      "icono": "mundo",
+      "etiquetas": [{ "text": "Distintas en cada país", "cue": "distintas" }, { "text": "Siguen cambiando", "cue": "siguen" }],
+      "vo": "Cada país tiene reglas distintas para las cripto, y en muchos siguen cambiando. No hay una respuesta única."
+    },
+    {
+      "kind": "claves",
+      "badge": "PUEDE HABER IMPUESTOS",
+      "head": ["Cuándo", "importa"],
+      "items": [
+        { "text": "Al **vender** con ganancia", "cue": "vender" },
+        { "text": "Al **cambiar** una cripto por otra", "cue": "cambiar" },
+        { "text": "Por lo que **tenés guardado**", "cue": "guardado" }
+      ],
+      "vo": "En muchos lugares puede haber impuestos al vender con ganancia, al cambiar una cripto por otra o por lo que tenés guardado."
+    },
+    {
+      "kind": "claves",
+      "badge": "UN BUEN HÁBITO",
+      "head": ["Guardá", "registro"],
+      "items": [
+        { "text": "**Fecha** de cada movimiento", "cue": "fecha" },
+        { "text": "**Cuánto** pagaste o recibiste", "cue": "cuánto" },
+        { "text": "Los **comprobantes**", "cue": "comprobantes" }
+      ],
+      "vo": "Un buen hábito: anotá la fecha de cada movimiento, cuánto pagaste o recibiste, y guardá los comprobantes."
+    },
+    {
+      "kind": "analogia",
+      "head": ["Como guardar", "los tickets"],
+      "conector": "es como",
+      "a": { "icono": "libro", "label": "Tu registro cripto" },
+      "simbolo": "=",
+      "b": { "icono": "etiqueta", "label": "Guardar los tickets", "cue": "tickets" },
+      "nota": "Si te preguntan, **tenés cómo mostrarlo**.",
+      "vo": "Es como guardar los tickets de lo que comprás: si algún día te preguntan, tenés cómo mostrarlo."
+    },
+    {
+      "kind": "concepto",
+      "badge": "QUÉ HACER",
+      "head": ["Preguntale a", "un contador"],
+      "icono": "persona",
+      "etiquetas": [{ "text": "Que conozca de cripto", "cue": "conozca" }, { "text": "Y las reglas de tu país", "cue": "tu país" }],
+      "vo": "Lo mejor es preguntarle a un contador que conozca de cripto y las reglas de tu país. Este canal no asesora."
+    },
+    {
+      "kind": "alerta",
+      "head": ["No es", "invisible"],
+      "titulo": "Con cripto no pagás impuestos",
+      "items": [{ "text": "Te venden que es invisible", "cue": "invisible" }, { "text": "Los movimientos quedan registrados", "cue": "registrados" }],
+      "consejo": "La blockchain **es pública**: todo queda anotado.",
+      "vo": "Ojo con quien te dice que con cripto no pagás impuestos porque es invisible. Los movimientos quedan registrados."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["Cada país, sus reglas", "Guardá registro", "Consultá a un contador"],
+      "vo": "Informate de las reglas de tu país y guardá registro. En el próximo video: cómo investigar un proyecto."
+    }
+  ]
+}

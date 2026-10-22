@@ -1,0 +1,85 @@
+{
+  "slug": "frase-semilla",
+  "titulo": "¿Qué es la frase semilla?",
+  "nivel": "Básico 2",
+  "descripcion": "Las 12 o 24 palabras que recuperan tu billetera. Cómo guardarla (papel, lugar seguro) y por qué nadie legítimo te la va a pedir.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es la frase semilla? 🌱 Cómo guardarla explicado fácil | Cripto desde cero",
+    "descripcion": "🌱 ¿QUÉ ES LA FRASE SEMILLA? — Las palabras más importantes de tu billetera\n\nCuando creás una billetera te muestra una lista de palabras. Es lo más importante que vas a tener: acá te explico por qué y cómo cuidarla. 🔐\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es: 12 o 24 palabras en un orden fijo\n2️⃣ Para qué sirve: recuperar tu billetera en cualquier aparato\n3️⃣ Cómo guardarla: en papel, en un lugar seguro, sin fotos\n4️⃣ Así sí y así no\n5️⃣ Por qué nadie te la puede recuperar si la perdés\n6️⃣ Por qué nadie legítimo te la va a pedir\n\n💡 LA IDEA CLAVE\nLa frase semilla es como una llave de repuesto de todas tus llaves: si perdés el celular, con ella recuperás todo. Y quien la tiene, tiene tus monedas.\n\n📖 GLOSARIO\n• Frase semilla: las 12 o 24 palabras que recuperan tu billetera.\n• Recuperar: volver a abrir tu billetera en otro aparato.\n\n⚠️ OJO CON\nNingún soporte, sitio ni app legítima te va a pedir tu frase semilla. Si alguien te la pide, es estafa. Nunca.\n\n🎓 NIVEL: Básico 2 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que tiene su frase en una foto del celular.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #FraseSemilla #CriptoDesdeCero #EducacionFinanciera",
+    "tags": ["qué es la frase semilla", "frase semilla", "seed phrase", "frase de recuperación", "cómo guardar la frase semilla", "12 palabras billetera", "billetera cripto", "seguridad cripto", "criptomonedas para principiantes", "cripto desde cero", "educación financiera", "estafas cripto"]
+  },
+  "miniatura": { "escena": "hook" },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": ["¿Qué es la", "frase semilla?"],
+      "sub": "12 o 24 palabras",
+      "icono": "semilla",
+      "orbita": ["libro", "llave", "candado", "billetera"],
+      "vo": "Cuando creás una billetera, te muestra una lista de palabras. Es lo más importante que vas a tener."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": ["Tu llave", "maestra"],
+      "icono": "semilla",
+      "etiquetas": [{ "text": "12 o 24 palabras", "cue": "12" }, { "text": "Recupera tu billetera", "cue": "recupera" }],
+      "vo": "La frase semilla son 12 o 24 palabras en un orden fijo. Con ellas se recupera tu billetera en cualquier aparato."
+    },
+    {
+      "kind": "analogia",
+      "head": ["La llave", "de repuesto"],
+      "conector": "es como",
+      "a": { "icono": "semilla", "label": "Frase semilla" },
+      "simbolo": "=",
+      "b": { "icono": "llave", "label": "Repuesto de todas tus llaves", "cue": "repuesto" },
+      "nota": "Quien la tiene, **tiene tus monedas**.",
+      "vo": "Es como una llave de repuesto de todas tus llaves. Si perdés el celular, con la frase recuperás todo."
+    },
+    {
+      "kind": "claves",
+      "badge": "CÓMO GUARDARLA",
+      "head": ["Guardala", "bien"],
+      "items": [
+        { "text": "Escrita **en papel**", "cue": "papel" },
+        { "text": "En un **lugar seguro**", "cue": "lugar seguro" },
+        { "text": "**Sin fotos** ni capturas", "cue": "fotos" }
+      ],
+      "vo": "Escribila en papel y guardala en un lugar seguro. Nada de fotos, capturas ni notas en el celular."
+    },
+    {
+      "kind": "comparacion",
+      "head": ["Así sí,", "así no"],
+      "a": { "titulo": "Así sí", "icono": "check", "items": [{ "text": "Papel escondido", "cue": "papel" }, { "text": "Una copia en otro lugar", "cue": "copia" }] },
+      "b": { "titulo": "Así no", "icono": "cruz", "items": [{ "text": "Foto en el celular", "cue": "foto" }, { "text": "Mandarla por chat", "cue": "chat" }] },
+      "vo": "Así sí: en papel, escondida, y con una copia en otro lugar. Así no: en una foto o mandada por chat."
+    },
+    {
+      "kind": "concepto",
+      "badge": "SI LA PERDÉS",
+      "head": ["Nadie te la", "recupera"],
+      "icono": "alerta",
+      "etiquetas": [{ "text": "No hay botón de recuperar", "cue": "botón" }, { "text": "Nadie te las devuelve", "cue": "nadie te puede" }],
+      "vo": "Ojo: no hay un botón de olvidé mi clave. Si perdés el aparato y la frase, nadie te puede devolver las monedas."
+    },
+    {
+      "kind": "alerta",
+      "head": ["Nadie te la", "va a pedir"],
+      "titulo": "Te piden tu frase semilla",
+      "items": [{ "text": "Un falso soporte técnico", "cue": "soporte" }, { "text": "Un sitio para validarla", "cue": "validar" }],
+      "consejo": { "text": "Nadie legítimo te la pide. **Nunca.**", "cue": "nunca" },
+      "vo": "Ningún soporte ni sitio legítimo te va a pedir la frase para validar nada. Si te la piden, es estafa. Nunca."
+    },
+    {
+      "kind": "cierre",
+      "head": ["Lo que", "aprendiste"],
+      "resumen": ["12 o 24 palabras", "Recupera tu billetera", "En papel y sin compartir"],
+      "vo": "Tu frase semilla es tu llave maestra: en papel y sin compartir. En el próximo video: ¿quién tiene tus llaves?"
+    }
+  ]
+}

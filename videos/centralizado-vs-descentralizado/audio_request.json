@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Dos palabras que vas a escuchar mucho: centralizado y descentralizado. ¿Qué significan?"
+    },
+    {
+      "id": "02",
+      "text": "Centralizado: hay una sola planilla y la lleva una entidad, como un banco. Ella decide qué se anota."
+    },
+    {
+      "id": "03",
+      "text": "Descentralizado: miles de computadoras tienen copias de la misma cuenta y siguen reglas comunes. Nadie manda solo."
+    },
+    {
+      "id": "04",
+      "text": "Es como la plata de un grupo de amigos: o la anota un tesorero, o la anotan todos y comparan sus cuentas."
+    },
+    {
+      "id": "05",
+      "text": "Lo centralizado es rápido y alguien te ayuda. Lo descentralizado no depende de nadie y no se cae por una sola falla."
+    },
+    {
+      "id": "06",
+      "text": "Pero ojo: en lo descentralizado, si te equivocás, no hay a quién reclamar. La seguridad depende de vos."
+    },
+    {
+      "id": "07",
+      "text": "En resumen: centralizado es cuando controla una sola entidad. Descentralizado, cuando lo sostienen muchos a la vez."
+    },
+    {
+      "id": "08",
+      "text": "Bitcóin es descentralizado: lo sostienen muchos. En el próximo video: ¿por qué Bitcóin tiene valor?"
+    }
+  ]
+}

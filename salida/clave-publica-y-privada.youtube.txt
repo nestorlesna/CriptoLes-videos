@@ -1,0 +1,41 @@
+TÍTULO
+Clave pública y clave privada 🔑 La diferencia explicada fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🔑 CLAVE PÚBLICA Y CLAVE PRIVADA — Cuál se comparte y cuál jamás
+
+Toda billetera cripto tiene dos claves. Saber la diferencia te puede salvar la plata. 🛡️
+
+📚 EN ESTE VIDEO
+1️⃣ La clave pública es como tu alias o tu CBU: se comparte
+2️⃣ La clave privada es como la llave de tu caja fuerte: nunca se comparte
+3️⃣ Pública para recibir, privada para enviar
+4️⃣ Qué es tu dirección y de dónde sale
+5️⃣ Qué es firmar un envío
+6️⃣ La estafa del falso soporte que te pide la clave privada
+
+💡 LA IDEA CLAVE
+La pública es tu alias: se la pasás a quien te quiere mandar plata. La privada es la llave de tu caja fuerte: quien la tiene, se lleva todo.
+
+📖 GLOSARIO
+• Clave pública: la que se comparte para recibir.
+• Clave privada: la que mueve tus monedas; nunca se comparte.
+• Dirección: la tira de letras y números que le pasás a quien te manda.
+• Firma digital: la prueba de que vos autorizaste un envío.
+
+⚠️ OJO CON
+Nadie legítimo te va a pedir tu clave privada: ni un soporte, ni un sitio para verificar tu cuenta. Si te la piden, es estafa.
+
+🎓 NIVEL: Básico 2 · Siguiente video: ¿Qué es la frase semilla?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que está armando su primera billetera.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #ClavePrivada #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+clave pública y clave privada, qué es la clave privada, qué es la clave pública, dirección de billetera, firma digital cripto, billetera cripto, seguridad cripto, bitcoin para principiantes, criptomonedas para principiantes, cripto desde cero, educación financiera, estafas cripto

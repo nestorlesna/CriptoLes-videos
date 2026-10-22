@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Seguro escuchaste de ene efe te, y de gente que pagó fortunas por un dibujo. ¿Qué se compra en realidad?"
+    },
+    {
+      "id": "02",
+      "text": "ene efe te quiere decir tóquen no fungible. Fungible es lo que se cambia por otro igual, como un billete por otro billete."
+    },
+    {
+      "id": "03",
+      "text": "Un ene efe te es como un certificado con número único, registrado en la blocchéin, que dice quién lo tiene."
+    },
+    {
+      "id": "04",
+      "text": "Prueba quién tiene el tóquen y su historial. No prueba que la obra sea tuya, ni que valga algo."
+    },
+    {
+      "id": "05",
+      "text": "Muchas veces la imagen ni siquiera está en la blocchéin: está en otro servidor, y el ene efe te solo apunta a ella."
+    },
+    {
+      "id": "06",
+      "text": "Hay usos posibles, como entradas a eventos, objetos en juegos, certificados o membresías."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con las copias de colecciones conocidas y con los ene efe te de regalo que te piden conectar la billetera."
+    },
+    {
+      "id": "08",
+      "text": "Un ene efe te es un certificado único, no una garantía de valor. En el próximo video: redes de segunda capa."
+    }
+  ]
+}

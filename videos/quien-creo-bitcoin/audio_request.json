@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Bitcóin funciona desde 2009, pero nadie sabe con certeza quién lo creó. ¿Cómo puede ser?"
+    },
+    {
+      "id": "02",
+      "text": "El creador firmó como Satóshi Nakamoto. Es un seudónimo: ni siquiera sabemos si es una persona o un grupo."
+    },
+    {
+      "id": "03",
+      "text": "En 2008 publicó un documento cortito, el uáitpéiper, donde explicaba cómo iba a funcionar Bitcóin."
+    },
+    {
+      "id": "04",
+      "text": "En 2008, el documento. En 2009, el primer bloque de la red. Y hoy la mantienen miles de personas en el mundo."
+    },
+    {
+      "id": "05",
+      "text": "Alrededor de 2011 dejó de escribir en los foros y le pasó el proyecto a otros programadores. Nunca más apareció."
+    },
+    {
+      "id": "06",
+      "text": "¿Importa que sea anónimo? No tanto: es como una receta publicada. El código está a la vista y cualquiera lo revisa."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con los falsos Satóshis: prometen regalar bitcóins si primero les mandás plata. Es una estafa."
+    },
+    {
+      "id": "08",
+      "text": "No sabemos quién es Satóshi, pero Bitcóin funciona igual. En el próximo video: ¿qué es una blocchéin?"
+    }
+  ]
+}

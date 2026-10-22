@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Tus cripto pueden estar en tu propia billetera o en una plataforma. Parece lo mismo, pero no lo es."
+    },
+    {
+      "id": "02",
+      "text": "La palabra clave es custodia: quién guarda las llaves de tus monedas. Vos, o una empresa por vos."
+    },
+    {
+      "id": "03",
+      "text": "En tu billetera, las llaves son tuyas y la responsabilidad también. En una plataforma, las llaves las tiene la empresa."
+    },
+    {
+      "id": "04",
+      "text": "Dejar todo en una plataforma es como tener la plata en el banco: confiás en que te la devuelvan cuando la pidas."
+    },
+    {
+      "id": "05",
+      "text": "En cripto se dice: si no son tus llaves, no son tus monedas. Si la empresa quiebra o te bloquea, no podés sacarlas."
+    },
+    {
+      "id": "06",
+      "text": "La plataforma es más fácil al empezar. Tu billetera te da control total. Y muchos combinan las dos."
+    },
+    {
+      "id": "07",
+      "text": "Desconfiá de plataformas que prometen ganancias seguras y después no te dejan retirar: es señal de alarma."
+    },
+    {
+      "id": "08",
+      "text": "Tener tus llaves es tener el control. En el próximo video: ¿qué es un exchéinch?"
+    }
+  ]
+}

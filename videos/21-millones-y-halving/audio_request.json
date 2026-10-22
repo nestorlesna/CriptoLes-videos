@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Nunca va a haber más de 21 millones de bitcóins. ¿Cómo puede ser? La respuesta se llama jálvin."
+    },
+    {
+      "id": "02",
+      "text": "El máximo de 21 millones está escrito en las reglas de Bitcóin desde el principio, y toda la red las respeta."
+    },
+    {
+      "id": "03",
+      "text": "Jálvin quiere decir partir a la mitad. Es el momento en que la recompensa de los mineros se divide por dos."
+    },
+    {
+      "id": "04",
+      "text": "Cada 210.000 bloques, más o menos cada cuatro años, la recompensa por bloque baja a la mitad."
+    },
+    {
+      "id": "05",
+      "text": "Es como una canilla que se va cerrando: cada vez salen menos bitcóins nuevos, hasta que ya no salga ninguno."
+    },
+    {
+      "id": "06",
+      "text": "Cada vez nacen menos bitcóins, nadie puede cambiar el límite solo, y se calcula que el último saldrá cerca de 2140."
+    },
+    {
+      "id": "07",
+      "text": "¿Y cuando ya no salgan más? Los mineros van a seguir cobrando las comisiones de cada movimiento."
+    },
+    {
+      "id": "08",
+      "text": "Ojo con quienes usan el jálvin para apurarte a comprar. Nadie sabe qué va a hacer el precio."
+    },
+    {
+      "id": "09",
+      "text": "El jálvin hace que cada vez nazcan menos bitcóins. En el próximo video: ¿qué son las comisiones de red?"
+    }
+  ]
+}

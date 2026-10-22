@@ -1,0 +1,40 @@
+TÍTULO
+¿Qué es una billetera cripto? 👛 Explicada fácil | Cripto desde cero
+
+DESCRIPCIÓN
+👛 ¿QUÉ ES UNA BILLETERA CRIPTO? — Spoiler: no guarda tus monedas
+
+Para usar cripto necesitás una billetera, pero no funciona como la de tu bolsillo. Acá entendés qué guarda de verdad. 🔑
+
+📚 EN ESTE VIDEO
+1️⃣ La billetera es como un llavero: guarda llaves, no monedas
+2️⃣ Dónde están tus monedas: anotadas en la blockchain
+3️⃣ Los tipos: en el celular, en la compu y en un dispositivo
+4️⃣ Conectadas vs desconectadas: comodidad o seguridad
+5️⃣ Qué es una wallet y qué es una llave
+6️⃣ Las apps falsas que imitan billeteras
+
+💡 LA IDEA CLAVE
+Una billetera cripto es como un llavero: las monedas viven en la red, y la billetera guarda las llaves que te dejan moverlas.
+
+📖 GLOSARIO
+• Billetera (wallet): lo que guarda tus llaves.
+• Llave: el dato secreto que te deja mover tus monedas.
+• Billetera desconectada: guarda las llaves fuera de internet.
+
+⚠️ OJO CON
+Apps falsas que copian el nombre y el logo de una billetera conocida para robarte las llaves. Bajala solo desde el sitio oficial.
+
+🎓 NIVEL: Básico 2 · Siguiente video: Clave pública y clave privada
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que está por empezar en cripto.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #BilleteraCripto #CriptoDesdeCero #EducacionFinanciera
+
+TAGS
+qué es una billetera cripto, billetera de criptomonedas, qué es una wallet, wallet cripto explicada, billetera fría, billetera caliente, cómo guardar criptomonedas, bitcoin para principiantes, criptomonedas para principiantes, cripto desde cero, educación financiera, seguridad cripto

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "En cripto hay muchas estafas, pero casi todas usan los mismos trucos. Aprendé a reconocerlos."
+    },
+    {
+      "id": "02",
+      "text": "Primera señal: te prometen ganancias seguras, fijas y sin riesgo. Nadie puede asegurar eso en cripto."
+    },
+    {
+      "id": "03",
+      "text": "Segunda: alguien del soporte te escribe por privado y te pide tu frase o tus claves. El soporte real nunca hace eso."
+    },
+    {
+      "id": "04",
+      "text": "Tercera: un grupo de chat con capturas de ganancias y un experto que te guía. Esas capturas se falsifican fácil."
+    },
+    {
+      "id": "05",
+      "text": "Cuarta: el esquema piramidal. Les pagan a los primeros con la plata de los nuevos. Cuando no entra más gente, se cae."
+    },
+    {
+      "id": "06",
+      "text": "Toda estafa es como un anzuelo con carnada: algo que brilla demasiado. Si suena demasiado bueno, desconfiá."
+    },
+    {
+      "id": "07",
+      "text": "Tus tres reglas: nunca compartas tu frase, no le mandes plata a desconocidos, y si te apuran, pará y preguntá."
+    },
+    {
+      "id": "08",
+      "text": "Casi todas las estafas usan los mismos trucos. En el próximo video: seguridad básica, que no te roben."
+    }
+  ]
+}

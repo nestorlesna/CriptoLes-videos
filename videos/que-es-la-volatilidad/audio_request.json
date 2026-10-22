@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "El precio de las cripto puede subir y bajar muchísimo en poco tiempo. ¿Por qué pasa eso?"
+    },
+    {
+      "id": "02",
+      "text": "A eso se le dice volatilidad. Algo es volátil cuando su precio cambia mucho y rápido, para arriba o para abajo."
+    },
+    {
+      "id": "03",
+      "text": "Pensá en los tomates de la feria: si todos quieren y hay pocos, suben. Si sobran y nadie quiere, bajan."
+    },
+    {
+      "id": "04",
+      "text": "Demanda es cuántos quieren comprar, oferta es cuántos quieren vender, y el precio se acomoda entre los dos."
+    },
+    {
+      "id": "05",
+      "text": "Se mueve tanto porque es un mercado chico y nuevo, reacciona a noticias y rumores, y está abierto todo el día."
+    },
+    {
+      "id": "06",
+      "text": "Y pesan las emociones: con euforia, todos compran y sube. Con miedo, todos venden y baja."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con los videos y grupos con gráficos que prometen cifras exactas. Nadie conoce el precio de mañana."
+    },
+    {
+      "id": "08",
+      "text": "Nunca pongas plata que necesitás. En el próximo video: ¿qué es una stéibolcoin? Una cripto que busca no moverse."
+    }
+  ]
+}

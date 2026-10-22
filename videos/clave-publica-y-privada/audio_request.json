@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Toda billetera tiene dos claves: una pública y una privada. Saber la diferencia te puede salvar la plata."
+    },
+    {
+      "id": "02",
+      "text": "La clave pública es como tu alias o tu ce be u: se la pasás a quien te quiere mandar plata, sin miedo."
+    },
+    {
+      "id": "03",
+      "text": "La clave privada es como la llave de tu caja fuerte: con ella se mueve la plata. Nunca se la des a nadie."
+    },
+    {
+      "id": "04",
+      "text": "La pública sirve para recibir y se comparte. La privada sirve para enviar y nunca, nunca se comparte."
+    },
+    {
+      "id": "05",
+      "text": "De la clave pública sale tu dirección: una tira larga de letras y números que le pasás a quien te manda."
+    },
+    {
+      "id": "06",
+      "text": "Cuando mandás cripto, tu billetera usa la clave privada para firmar: prueba que el envío lo autorizaste vos."
+    },
+    {
+      "id": "07",
+      "text": "Si alguien te pide la clave privada, como un falso soporte para verificar tu cuenta, es estafa: se lleva todo."
+    },
+    {
+      "id": "08",
+      "text": "La pública se comparte, la privada jamás. En el próximo video: ¿qué es la frase semilla?"
+    }
+  ]
+}

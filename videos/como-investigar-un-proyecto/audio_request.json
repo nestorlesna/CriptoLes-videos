@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Antes de confiar en una cripto, hay que investigarla. Te dejo una lista simple para hacerlo vos."
+    },
+    {
+      "id": "02",
+      "text": "En cripto se dice di uái o ar: hacé tu propia investigación. No le creas a nadie sin revisar por tu cuenta."
+    },
+    {
+      "id": "03",
+      "text": "Preguntate quién está detrás, para qué sirve y si resuelve un problema real o es solo una promesa."
+    },
+    {
+      "id": "04",
+      "text": "Leé el uáitpéiper, el documento que explica cómo funciona. Si no se entiende nada o no existe, es mala señal."
+    },
+    {
+      "id": "05",
+      "text": "Mirá también cuánto tiempo lleva, si unos pocos tienen la mayoría de las monedas y qué dicen fuentes independientes."
+    },
+    {
+      "id": "06",
+      "text": "Señales de alerta: ganancias aseguradas, te apuran a entrar y un equipo anónimo sin detalles. Ante la duda, no entres."
+    },
+    {
+      "id": "07",
+      "text": "Es como comprar un auto usado: lo revisás, preguntás y lo probás antes de pagar. Con las cripto, igual."
+    },
+    {
+      "id": "08",
+      "text": "Con esto cerramos la serie básica. ¡Gracias por llegar hasta acá! En el próximo video, temas nuevos."
+    }
+  ]
+}

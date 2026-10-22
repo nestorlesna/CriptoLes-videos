@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Préstamos, intercambios y ahorros sin un banco en el medio. Eso promete di fái. ¿Cómo funciona?"
+    },
+    {
+      "id": "02",
+      "text": "di fái quiere decir finanzas descentralizadas: servicios financieros hechos con contratos inteligentes, no con bancos."
+    },
+    {
+      "id": "03",
+      "text": "Es como un banco sin empleados ni horarios: las reglas las ejecuta un programa, y cualquiera con billetera entra."
+    },
+    {
+      "id": "04",
+      "text": "Ahí podés intercambiar cripto, prestar o pedir prestado, y ahorrar a cambio de un rendimiento."
+    },
+    {
+      "id": "05",
+      "text": "El banco te pide permiso, pero si algo falla, alguien responde. En di fái entra cualquiera, pero si falla, nadie responde."
+    },
+    {
+      "id": "06",
+      "text": "Los riesgos: errores en el código, proyectos que son estafas y precios que se desploman de un día para otro."
+    },
+    {
+      "id": "07",
+      "text": "Si te ofrecen un rendimiento que nadie explica, en un proyecto nuevo y anónimo, desconfiá: puede ser una trampa."
+    },
+    {
+      "id": "08",
+      "text": "di fái son finanzas sin banco, con más libertad y más riesgo. En el próximo video: ¿qué es un ene efe te?"
+    }
+  ]
+}

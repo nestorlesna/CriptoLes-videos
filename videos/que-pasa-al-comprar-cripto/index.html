@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@600;700;800;900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+/* fonts: https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@600;700;800;900&display=swap */
+/* Identidad B — "Noche Dorada": azul noche profundo, dorado como acento, menta de apoyo. Ver b-noche-dorada.frame.md */
+:root {
+  --bg: #151A3B; --bg-dots: rgba(255,255,255,0.08); --blob: #1F2654;
+  --surface: #222A5E; --surface-line: #3A4387;
+  --ink: #F6F4FF; --muted: #AEB4DD;
+  --line: #0F1330; --plate: #F6F4FF; --paper: #FFF3D1;
+  --primary: #FFC83D; --primary-strong: #FFD66B; --primary-soft: #FFE7A6;
+  --gold: #FFC83D; --sky: #6FA8FF; --leaf: #4FE0B6;
+  --alert: #FF6B6B; --alert-soft: #3A2244; --alert-ink: #FF9A9A;
+  --sub-bg: #0B0E24; --sub-ink: #FFFFFF; --sub-accent: #FFC83D;
+  --font-display: "Space Grotesk", sans-serif; --font-body: "Inter", sans-serif;
+  --radius: 22px; --shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+      /* Layout del kit de escenas (1080×1920). Los colores y fuentes salen de plantilla/identidad/<activa>.css (variables). */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
+      #root { width: 100%; height: 100%; position: relative; overflow: hidden; background: var(--bg); font-family: var(--font-body); color: var(--ink); }
+      .clip { position: absolute; }
+      .a-in { opacity: 0; }
+      #bg { inset: 0; background-color: var(--bg); background-image: radial-gradient(var(--bg-dots) 3px, transparent 3.6px); background-size: 46px 46px; background-position: 12px 12px; }
+      #blob { position: absolute; left: 90px; top: 760px; width: 900px; height: 800px; border-radius: 46% 54% 50% 50% / 52% 46% 54% 48%; background: var(--blob); }
+
+      /* barra superior (desde la 2.ª escena) */
+      #topbar { left: 70px; top: 62px; width: 940px; height: 56px; }
+      #topbar .inner { display: flex; align-items: center; justify-content: space-between; font-weight: 900; font-size: 26px; letter-spacing: 4px; color: var(--ink); }
+      #topbar .brand { display: flex; align-items: center; gap: 14px; }
+      #topbar .brand svg { width: 46px; height: 46px; }
+      #topbar .lvl { color: var(--primary-strong); }
+
+      /* texto de la escena */
+      .scene-text { left: 70px; top: 150px; width: 940px; }
+      .badge { display: inline-block; background: var(--ink); color: var(--bg); font-weight: 900; font-size: 28px; letter-spacing: 4px; padding: 12px 28px; border-radius: 999px; text-transform: uppercase; }
+      .badge.alert { background: var(--alert); color: #fff; }
+      .headline { margin-top: 24px; font-family: var(--font-display); font-weight: 600; font-size: 118px; line-height: 1.0; letter-spacing: -1px; color: var(--ink); }
+      .headline .hl { display: block; }
+      .headline.hero { font-size: 132px; }
+      .headline.hero .hl:last-child { color: var(--primary-strong); }
+      .subline { margin-top: 20px; font-size: 46px; font-weight: 800; color: var(--primary-strong); line-height: 1.2; }
+
+      /* zona visual: top/height los calcula el builder según el alto del texto */
+      .visual { left: 0; width: 1080px; }
+      .vwrap { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 30px;
+        transform: translateY(var(--dy, 0px)) scale(calc(var(--fit, 1) * var(--zoom, 1))); transform-origin: 50% 50%; }
+      .plate { display: flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--plate); border: 6px solid var(--line); box-shadow: var(--shadow); flex: none; }
+      .plate .ico { width: 68%; height: 68%; }
+      .card { background: var(--surface); border: 5px solid var(--surface-line); border-radius: var(--radius); box-shadow: var(--shadow); }
+
+      /* hook / concepto */
+      .hero-ico { position: relative; width: 500px; height: 500px; }
+      .hero-ico > .plate { position: absolute; inset: 0; }
+      .orb { position: absolute; width: 150px; height: 150px; }
+      .chips-row { display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; width: 960px; }
+      .chip { background: var(--surface); border: 5px solid var(--surface-line); border-radius: 999px; padding: 14px 30px; font-size: 40px; font-weight: 800; color: var(--ink); box-shadow: var(--shadow); }
+
+      /* analogía */
+      .ana-conn { font-size: 34px; font-weight: 900; letter-spacing: 5px; color: var(--muted); text-transform: uppercase; }
+      .ana { display: flex; align-items: center; gap: 22px; }
+      .ana-card { width: 410px; padding: 34px 22px 30px; display: flex; flex-direction: column; align-items: center; gap: 22px; }
+      .ana-card .lbl { font-size: 42px; font-weight: 800; text-align: center; line-height: 1.15; color: var(--ink); }
+      .ana-mid { width: 104px; height: 104px; border-radius: 50%; background: var(--gold); border: 6px solid var(--line); display: flex; align-items: center; justify-content: center;
+        font-family: var(--font-display); font-weight: 700; font-size: 60px; color: var(--line); flex: none; }
+
+      /* flujo */
+      .flow { position: relative; width: 880px; }
+      .node { position: absolute; left: 0; width: 880px; display: flex; align-items: center; gap: 30px; padding: 0 30px 0 18px; }
+      .node .lbl { font-size: 44px; font-weight: 800; line-height: 1.12; color: var(--ink); }
+      .node .lbl small { display: block; font-size: 32px; font-weight: 700; color: var(--muted); margin-top: 4px; }
+      .flow svg.arr { position: absolute; overflow: visible; }
+      .token { position: absolute; width: 96px; height: 96px; z-index: 5; }
+      .token svg { width: 100%; height: 100%; filter: drop-shadow(0 6px 0 rgba(0,0,0,0.18)); }
+
+      /* comparación */
+      .cmp { position: relative; display: flex; gap: 30px; width: 1010px; align-items: stretch; }
+      .cmp-col { flex: 1; overflow: hidden; display: flex; flex-direction: column; }
+      .cmp-head { display: flex; align-items: center; gap: 18px; padding: 22px 22px; border-bottom: 5px solid var(--surface-line); }
+      .cmp-col.a .cmp-head { background: var(--sky); }
+      .cmp-col.b .cmp-head { background: var(--primary); }
+      .cmp-head .t { font-family: var(--font-display); font-weight: 700; font-size: 52px; line-height: 1.0; color: var(--line); }
+      .cmp-items { list-style: none; padding: 26px 24px 30px; display: flex; flex-direction: column; gap: 22px; }
+      .cmp-items li { font-size: 42px; font-weight: 800; line-height: 1.18; color: var(--ink); padding-left: 34px; position: relative; }
+      .cmp-items li::before { content: ""; position: absolute; left: 0; top: 17px; width: 18px; height: 18px; border-radius: 50%; background: var(--muted); }
+      .cmp-col.b .cmp-items li::before { background: var(--primary); }
+      .vs { position: absolute; left: 50%; top: 32px; width: 112px; height: 112px; margin-left: -56px; border-radius: 50%; background: var(--gold); border: 6px solid var(--line);
+        display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 700; font-size: 46px; color: var(--line); z-index: 3; }
+
+      /* claves / resumen */
+      .keys { list-style: none; display: flex; flex-direction: column; gap: 24px; width: 940px; }
+      .keys li { display: flex; align-items: center; gap: 26px; padding: 22px 28px; font-size: 44px; font-weight: 800; line-height: 1.15; color: var(--ink); }
+      .keys li b { color: var(--primary-strong); font-weight: 900; }
+      .tick { display: block; width: 70px; height: 70px; border-radius: 18px; background: var(--primary); border: 5px solid var(--line); padding: 8px; flex: none; }
+      .tick svg { display: block; width: 100%; height: 100%; }
+      .keys.small li { font-size: 38px; padding: 16px 24px; gap: 20px; }
+      .keys.small .tick { width: 56px; height: 56px; border-radius: 14px; padding: 6px; }
+
+      /* alerta */
+      .alert-ico { width: 230px; height: 230px; }
+      .alert-card { width: 940px; background: var(--alert-soft); border: 6px solid var(--alert); border-radius: var(--radius); padding: 30px 32px; display: flex; flex-direction: column; gap: 22px; }
+      .alert-card .t { font-family: var(--font-display); font-weight: 700; font-size: 50px; color: var(--alert-ink); line-height: 1.05; }
+      .alert-card .it { display: flex; align-items: center; gap: 22px; font-size: 40px; font-weight: 800; color: var(--ink); line-height: 1.15; }
+      .alert-card .it svg { width: 58px; height: 58px; flex: none; }
+      .tip { width: 940px; display: flex; align-items: center; gap: 22px; padding: 22px 28px; font-size: 40px; font-weight: 800; line-height: 1.15; color: var(--ink); }
+      .tip svg { width: 64px; height: 64px; flex: none; }
+
+      /* glosario */
+      .glos { display: flex; flex-direction: column; gap: 26px; width: 940px; }
+      .gcard { padding: 30px 34px 34px; display: flex; gap: 28px; align-items: flex-start; }
+      .gcard .gtxt { flex: 1; }
+      .gterm { font-family: var(--font-display); font-weight: 700; font-size: 66px; line-height: 1.0; color: var(--primary-strong); }
+      .gdef { margin-top: 14px; font-size: 42px; font-weight: 700; line-height: 1.25; color: var(--ink); }
+
+      /* cierre */
+      .next-card { width: 940px; background: var(--sub-bg); border-radius: var(--radius); padding: 30px 34px; display: flex; align-items: center; gap: 28px; box-shadow: var(--shadow); }
+      .next-card .k { font-size: 28px; font-weight: 900; letter-spacing: 4px; color: var(--sub-accent); }
+      .next-card .t { margin-top: 10px; font-family: var(--font-display); font-weight: 600; font-size: 56px; line-height: 1.05; color: var(--sub-ink); }
+      .next-card svg { width: 130px; height: 130px; flex: none; }
+
+      /* subtítulo + barra de progreso */
+      .subtitle { left: 40px; top: 1600px; width: 1000px; height: 220px; }
+      .subtitle .inner { background: var(--sub-bg); border-left: 12px solid var(--sub-accent); border-radius: 24px; padding: 24px 32px; }
+      .subtitle p { color: var(--sub-ink); font-size: 42px; font-weight: 800; line-height: 1.3; }
+      #progress { left: 40px; top: 1858px; width: 1000px; height: 12px; border-radius: 6px; background: var(--bg-dots); overflow: hidden; }
+      #progress-fill { width: 100%; height: 100%; background: var(--primary); transform-origin: 0 50%; }
+
+    </style>
+  </head>
+  <body>
+    <!-- GENERADO por plantilla/build-index.mjs desde tema.json (identidad b-noche-dorada) — no editar a mano -->
+    <div id="root" data-composition-id="main" data-start="0" data-duration="49.957" data-width="1080" data-height="1920">
+      <div id="bg" class="clip" data-start="0" data-duration="49.957" data-track-index="0"><div id="blob"></div></div>
+      <div id="topbar" class="clip" data-start="5.098" data-duration="44.859" data-track-index="4"><div class="inner"><span class="brand"><svg class="brand-ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="44" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="60" cy="60" r="31" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><text x="60" y="62" text-anchor="middle" dominant-baseline="central" font-family="var(--font-display)" font-weight="700" font-size="40" fill="var(--line)">$</text></svg>CRIPTO DESDE CERO</span><span class="lvl">BÁSICO 2</span></div></div>
+      <div id="txt-01" class="clip scene-text" data-start="0" data-duration="5.098" data-track-index="3"><div class="inner"><div class="badge">CRIPTO DESDE CERO · Básico 2</div><h1 class="headline hero"><span class="hl">¿Qué pasa</span><span class="hl">al comprar?</span></h1><p class="subline">El recorrido, paso a paso</p></div></div>
+      <div id="txt-02" class="clip scene-text" data-start="5.098" data-duration="6.712" data-track-index="3"><div class="inner"><div class="badge">CÓMO FUNCIONA</div><h1 class="headline"><span class="hl">El camino</span><span class="hl">completo</span></h1></div></div>
+      <div id="txt-03" class="clip scene-text" data-start="11.81" data-duration="6.851" data-track-index="3"><div class="inner"><div class="badge">VERIFICACIÓN</div><h1 class="headline"><span class="hl">Confirmar</span><span class="hl">quién sos</span></h1></div></div>
+      <div id="txt-04" class="clip scene-text" data-start="18.661" data-duration="6.619" data-track-index="3"><div class="inner"><div class="badge">LA COMPRA</div><h1 class="headline"><span class="hl">La orden</span><span class="hl">de compra</span></h1></div></div>
+      <div id="txt-05" class="clip scene-text" data-start="25.28" data-duration="6.654" data-track-index="3"><div class="inner"><div class="badge">OPCIONAL</div><h1 class="headline"><span class="hl">Retirar a tu</span><span class="hl">billetera</span></h1></div></div>
+      <div id="txt-06" class="clip scene-text" data-start="31.934" data-duration="6.004" data-track-index="3"><div class="inner"><div class="badge">ANTES DE COMPRAR</div><h1 class="headline"><span class="hl">Tres</span><span class="hl">consejos</span></h1></div></div>
+      <div id="txt-07" class="clip scene-text" data-start="37.938" data-duration="5.632" data-track-index="3"><div class="inner"><div class="badge alert">¡OJO!</div><h1 class="headline"><span class="hl">Ventas por</span><span class="hl">privado</span></h1></div></div>
+      <div id="txt-08" class="clip scene-text" data-start="43.57" data-duration="6.387" data-track-index="3"><div class="inner"><div class="badge">EN RESUMEN</div><h1 class="headline"><span class="hl">Lo que</span><span class="hl">aprendiste</span></h1></div></div>
+      <div id="vis-01" class="clip visual" data-start="0" data-duration="5.098" data-track-index="2" style="top:612px;height:948px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:470px;height:470px"><div id="hero-01-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M8 20 H26 L40 80 H96 L106 38 H32" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="7"/><path d="M34 38 H104 L96 80 H42 Z" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="48" cy="98" r="9" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="88" cy="98" r="9" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div><div id="orb-01-1" class="orb a-in" style="left:-40px;top:-10px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="38" r="20" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M22 106 a38 34 0 0 1 76 0 Z" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div></div><div id="orb-01-2" class="orb a-in" style="left:360px;top:-30px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M30 52 A30 30 0 0 1 90 52 Z" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="22" y="52" width="76" height="54" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 22 V8 L76 13 L60 18" fill="var(--alert)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><rect x="36" y="64" width="9" height="30" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><rect x="56" y="64" width="9" height="30" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><rect x="76" y="64" width="9" height="30" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/></svg></div></div><div id="orb-01-3" class="orb a-in" style="left:-70px;top:300px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="44" fill="#F7931A" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><text x="60" y="62" text-anchor="middle" dominant-baseline="central" font-family="var(--font-display)" font-weight="700" font-size="54" fill="var(--line)">₿</text></svg></div></div><div id="orb-01-4" class="orb a-in" style="left:390px;top:320px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><rect x="14" y="32" width="88" height="66" rx="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 32 L80 16 L86 32" fill="var(--paper)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="70" y="52" width="40" height="28" rx="8" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="84" cy="66" r="5" fill="var(--line)"/></svg></div></div></div></div></div>
+      <div id="vis-02" class="clip visual" data-start="5.098" data-duration="6.712" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="flow keep" style="height:798px"><div id="node-02-0" class="node card a-in" style="top:0px;height:150px"><div class="plate " style="width:114px;height:114px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="38" r="20" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M22 106 a38 34 0 0 1 76 0 Z" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div><div class="lbl">1. Abrís una cuenta</div></div><div id="node-02-1" class="node card a-in" style="top:216px;height:150px"><div class="plate " style="width:114px;height:114px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="50" cy="50" r="30" fill="var(--paper)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="8"/><path d="M72 72 L104 104" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="14"/></svg></div><div class="lbl">2. Verificás tu identidad</div></div><div id="node-02-3" class="node card a-in" style="top:432px;height:150px"><div class="plate " style="width:114px;height:114px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><rect x="22" y="22" width="86" height="50" rx="8" fill="var(--leaf)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" opacity="0.65"/><rect x="12" y="44" width="86" height="50" rx="8" fill="var(--leaf)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="55" cy="69" r="11" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg></div><div class="lbl">3. Depositás dinero</div></div><div id="node-02-5" class="node card a-in" style="top:648px;height:150px"><div class="plate " style="width:114px;height:114px" style="border-width:5px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="44" fill="#F7931A" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><text x="60" y="62" text-anchor="middle" dominant-baseline="central" font-family="var(--font-display)" font-weight="700" font-size="54" fill="var(--line)">₿</text></svg></div><div class="lbl">4. Comprás</div></div><svg class="arr" width="880" height="798" viewBox="0 0 880 798" style="left:0;top:0"><path id="arr-02-2" d="M 80 160 L 80 202" pathLength="1" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-dasharray="0 1"/><path id="arr-02-2h" class="a-in" d="M 60 186 L 80 206 L 100 186" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path id="arr-02-4" d="M 80 376 L 80 418" pathLength="1" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-dasharray="0 1"/><path id="arr-02-4h" class="a-in" d="M 60 402 L 80 422 L 100 402" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path id="arr-02-6" d="M 80 592 L 80 634" pathLength="1" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-dasharray="0 1"/><path id="arr-02-6h" class="a-in" d="M 60 618 L 80 638 L 100 618" fill="none" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div></div>
+      <div id="vis-03" class="clip visual" data-start="11.81" data-duration="6.851" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:420px;height:420px"><div id="hero-03-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="50" cy="50" r="30" fill="var(--paper)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="8"/><path d="M72 72 L104 104" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="14"/></svg></div></div><div class="chips-row"><div id="chip-03-1" class="chip a-in">Documento y foto</div><div id="chip-03-2" class="chip a-in">Lo piden por ley</div></div></div></div>
+      <div id="vis-04" class="clip visual" data-start="18.661" data-duration="6.619" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:420px;height:420px"><div id="hero-04-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M8 20 H26 L40 80 H96 L106 38 H32" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="7"/><path d="M34 38 H104 L96 80 H42 Z" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="48" cy="98" r="9" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="88" cy="98" r="9" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div></div><div class="chips-row"><div id="chip-04-1" class="chip a-in">Elegís cuánto dinero</div><div id="chip-04-2" class="chip a-in">Pagás una comisión</div></div></div></div>
+      <div id="vis-05" class="clip visual" data-start="25.28" data-duration="6.654" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:420px;height:420px"><div id="hero-05-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><rect x="14" y="32" width="88" height="66" rx="12" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 32 L80 16 L86 32" fill="var(--paper)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="70" y="52" width="40" height="28" rx="8" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="84" cy="66" r="5" fill="var(--line)"/></svg></div></div><div class="chips-row"><div id="chip-05-1" class="chip a-in">Las mandás a tu billetera</div><div id="chip-05-2" class="chip a-in">Pasás a tener tus llaves</div></div></div></div>
+      <div id="vis-06" class="clip visual" data-start="31.934" data-duration="6.004" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><ul id="keys-06-0" class="keys keep"><li id="key-06-1" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Empezá con <b>poco</b></span></li><li id="key-06-2" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Solo plata que <b>no necesitás</b></span></li><li id="key-06-3" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Entendé <b>qué estás comprando</b></span></li></ul></div></div>
+      <div id="vis-07" class="clip visual" data-start="37.938" data-duration="5.632" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><svg id="tri-07-0" class="alert-ico a-in" viewBox="0 0 120 120"><path d="M60 12 L110 100 H10 Z" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="6"/><path d="M60 44 V70" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="11"/><circle cx="60" cy="86" r="6" fill="var(--line)"/></svg><div id="acard-07-1" class="alert-card a-in keep"><div class="t">Alguien te ofrece venderte</div><div id="ai-07-2" class="it a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--alert)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 42 L78 78 M78 42 L42 78" fill="none" stroke="var(--plate)" stroke-width="11" stroke-linecap="round"/></svg><span>Te escribe por privado</span></div><div id="ai-07-3" class="it a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--alert)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 42 L78 78 M78 42 L42 78" fill="none" stroke="var(--plate)" stroke-width="11" stroke-linecap="round"/></svg><span>Pide una transferencia directa</span></div></div><div id="tip-07-4" class="tip card a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 10 L100 24 V56 C100 82 82 100 60 110 C38 100 20 82 20 56 V24 Z" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 60 L55 73 L80 46" fill="none" stroke="var(--plate)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Comprá solo en <b>plataformas que verificaste</b>.</span></div></div></div>
+      <div id="vis-08" class="clip visual" data-start="43.57" data-duration="6.387" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><ul id="keys-08-0" class="keys small keep"><li id="key-08-1" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Cuenta y verificación</span></li><li id="key-08-2" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Depósito y compra</span></li><li id="key-08-3" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Retiro a tu billetera</span></li></ul><div id="next-08-4" class="next-card a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 38 L84 60 L50 82 Z" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg><div><div class="k">EN EL PRÓXIMO VIDEO</div><div class="t">Cómo enviar y recibir cripto</div></div></div></div></div>
+      <div id="sub-01" class="clip subtitle" data-start="0" data-duration="5.098" data-track-index="5"><div class="inner"><p>Sin decirte qué ni cuándo comprar, te muestro todo lo que pasa cuando comprás cripto.</p></div></div>
+      <div id="sub-02" class="clip subtitle" data-start="5.098" data-duration="6.712" data-track-index="5"><div class="inner"><p>Abrís una cuenta, verificás tu identidad, depositás dinero y recién ahí comprás. Vamos paso por paso.</p></div></div>
+      <div id="sub-03" class="clip subtitle" data-start="11.81" data-duration="6.851" data-track-index="5"><div class="inner"><p>La plataforma te pide documento y una foto para confirmar que sos vos. Lo piden por ley, para evitar fraudes.</p></div></div>
+      <div id="sub-04" class="clip subtitle" data-start="18.661" data-duration="6.619" data-track-index="5"><div class="inner"><p>Al comprar, elegís cuánto dinero querés cambiar. La plataforma cobra una comisión: conviene saber cuánta antes.</p></div></div>
+      <div id="sub-05" class="clip subtitle" data-start="25.28" data-duration="6.654" data-track-index="5"><div class="inner"><p>Un paso opcional: retirar las cripto a tu propia billetera. Así pasás a tener tus llaves, como vimos antes.</p></div></div>
+      <div id="sub-06" class="clip subtitle" data-start="31.934" data-duration="6.004" data-track-index="5"><div class="inner"><p>Tres consejos: empezá con poco, usá solo plata que no necesitás y entendé bien qué estás comprando.</p></div></div>
+      <div id="sub-07" class="clip subtitle" data-start="37.938" data-duration="5.632" data-track-index="5"><div class="inner"><p>Desconfiá si alguien te escribe por privado para venderte cripto y te pide una transferencia directa.</p></div></div>
+      <div id="sub-08" class="clip subtitle" data-start="43.57" data-duration="6.387" data-track-index="5"><div class="inner"><p>Comprar cripto es un camino de pasos, sin magia. En el próximo video: cómo enviar y recibir cripto.</p></div></div>
+      <div id="progress" class="clip" data-start="0" data-duration="49.957" data-track-index="6"><div id="progress-fill"></div></div>
+      <audio id="vo-01" src="assets/voice/01.wav" data-start="0.25" data-duration="4.098" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-02" src="assets/voice/02.wav" data-start="5.348" data-duration="5.712" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-03" src="assets/voice/03.wav" data-start="12.06" data-duration="5.851" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-04" src="assets/voice/04.wav" data-start="18.911" data-duration="5.619" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-05" src="assets/voice/05.wav" data-start="25.53" data-duration="5.654" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-06" src="assets/voice/06.wav" data-start="32.184" data-duration="5.004" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-07" src="assets/voice/07.wav" data-start="38.188" data-duration="4.632" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-08" src="assets/voice/08.wav" data-start="43.82" data-duration="5.387" data-track-index="10" data-volume="1"></audio>
+      <audio id="bgm" src="assets/bgm/track-long.wav" data-start="0" data-duration="49.957" data-track-index="11" data-volume="0.18" data-automation='{"version":1,"lanes":[{"target":"volume","points":[{"t":0,"v":0},{"t":1.2,"v":0.18},{"t":47.96,"v":0.18},{"t":49.957,"v":0}]}]}'></audio>
+    </div>
+    <script>
+      window.__CR_CONFIG = {"total":49.957,"thumb":false,"frames":[{"id":"01","start":0,"dur":5.098,"last":false},{"id":"02","start":5.098,"dur":6.712,"last":false},{"id":"03","start":11.81,"dur":6.851,"last":false},{"id":"04","start":18.661,"dur":6.619,"last":false},{"id":"05","start":25.28,"dur":6.654,"last":false},{"id":"06","start":31.934,"dur":6.004,"last":false},{"id":"07","start":37.938,"dur":5.632,"last":false},{"id":"08","start":43.57,"dur":6.387,"last":true}],"anims":[{"sel":"#hero-01-0","fx":"pop","t":0.35},{"sel":"#orb-01-1","fx":"pop","t":1},{"sel":"#hero-01-0","fx":"float","dur":1.3,"repeat":1,"t":1.2},{"sel":"#orb-01-2","fx":"pop","t":1.35},{"sel":"#orb-01-3","fx":"pop","t":1.7},{"sel":"#orb-01-4","fx":"pop","t":2.05},{"sel":"#node-02-0","fx":"left","t":5.768},{"sel":"#arr-02-2","fx":"draw","dur":0.45,"t":6.398},{"sel":"#arr-02-2h","fx":"fade","dur":0.15,"t":6.798},{"sel":"#node-02-1","fx":"left","t":6.948},{"sel":"#arr-02-4","fx":"draw","dur":0.45,"t":7.248},{"sel":"#node-02-3","fx":"left","t":7.578},{"sel":"#arr-02-4h","fx":"fade","dur":0.15,"t":7.648},{"sel":"#arr-02-6","fx":"draw","dur":0.45,"t":8.098},{"sel":"#arr-02-6h","fx":"fade","dur":0.15,"t":8.498},{"sel":"#node-02-5","fx":"left","t":8.648},{"sel":"#hero-03-0","fx":"pop","t":12.16},{"sel":"#hero-03-0","fx":"float","dur":1.3,"repeat":3,"t":13.01},{"sel":"#chip-03-1","fx":"up","t":13.09},{"sel":"#chip-03-2","fx":"up","t":16.42},{"sel":"#hero-04-0","fx":"pop","t":19.011},{"sel":"#chip-04-1","fx":"up","t":19.721},{"sel":"#hero-04-0","fx":"float","dur":1.3,"repeat":2,"t":19.861},{"sel":"#chip-04-2","fx":"up","t":22.461},{"sel":"#hero-05-0","fx":"pop","t":25.63},{"sel":"#chip-05-1","fx":"up","t":26.33},{"sel":"#hero-05-0","fx":"float","dur":1.3,"repeat":2,"t":26.48},{"sel":"#chip-05-2","fx":"up","t":29.71},{"sel":"#key-06-1","fx":"left","t":33.344},{"sel":"#key-06-1 .tick","fx":"tick","t":33.544},{"sel":"#key-06-2","fx":"left","t":34.614},{"sel":"#key-06-2 .tick","fx":"tick","t":34.814},{"sel":"#key-06-3","fx":"left","t":35.374},{"sel":"#key-06-3 .tick","fx":"tick","t":35.574},{"sel":"#tri-07-0","fx":"pop","t":38.288},{"sel":"#acard-07-1","fx":"up","t":38.838},{"sel":"#tri-07-0","fx":"shake","t":38.888},{"sel":"#ai-07-2","fx":"left","t":39.688},{"sel":"#ai-07-3","fx":"left","t":41.658},{"sel":"#tip-07-4","fx":"up","t":42.338},{"sel":"#key-08-1","fx":"left","t":44.07},{"sel":"#key-08-1 .tick","fx":"tick","t":44.27},{"sel":"#key-08-2","fx":"left","t":45.07},{"sel":"#key-08-2 .tick","fx":"tick","t":45.27},{"sel":"#key-08-3","fx":"left","t":46.07},{"sel":"#key-08-3 .tick","fx":"tick","t":46.27},{"sel":"#next-08-4","fx":"up","t":47.47}]};
+/* Runtime del kit de escenas de "Cripto desde cero".
+ * window.__CR_CONFIG lo inyecta plantilla/build-index.mjs: { total, thumb, frames[{id,start,dur,last}], anims[{sel,t,fx,dur,…}] }.
+ * Todo es un único timeline GSAP pausado (seek-safe): cada animación es un fromTo con estado inicial explícito y
+ * immediateRender:false; los elementos que entran nacen con la clase .a-in (opacity 0).
+ * fx: in/up (sube) · left/right (entra de costado) · pop (escala con rebote) · fade · draw (trazo SVG 0→1) · tick (check)
+ *     shake (sacudón de alerta) · float (flota, con repeat finito) · tween (from/to explícitos) · out (desaparece)
+ */
+(function () {
+  const C = window.__CR_CONFIG;
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const FX = {
+    in: (a) => [{ opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    up: (a) => [{ opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    left: (a) => [{ opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    right: (a) => [{ opacity: 0, x: 60 }, { opacity: 1, x: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    pop: (a) => [{ opacity: 0, scale: 0.55 }, { opacity: 1, scale: 1, duration: a.dur || 0.5, ease: "back.out(1.8)" }],
+    fade: (a) => [{ opacity: 0 }, { opacity: 1, duration: a.dur || 0.4, ease: "power1.out" }],
+    draw: (a) => [{ strokeDasharray: "0 1" }, { strokeDasharray: "1 0", duration: a.dur || 0.6, ease: "power2.inOut" }],
+    tick: (a) => [{ scale: 0 }, { scale: 1, duration: a.dur || 0.35, ease: "back.out(2)" }],
+    out: (a) => [{ opacity: 1 }, { opacity: 0, duration: a.dur || 0.3, ease: "power1.in" }],
+    tween: (a) => [Object.assign({}, a.from), Object.assign({}, a.to, { duration: a.dur || 0.6, ease: a.ease || "power2.inOut" })],
+  };
+
+  C.anims.forEach((a) => {
+    if (a.fx === "shake") {
+      // sacudón corto (alerta): rotación ida y vuelta, termina en 0
+      [-8, 7, -5, 3, 0].forEach((r, i) => tl.to(a.sel, { rotation: r, duration: 0.09, ease: "sine.inOut", transformOrigin: "50% 80%" }, a.t + i * 0.09));
+      return;
+    }
+    if (a.fx === "float") {
+      tl.fromTo(a.sel, { y: 0 }, Object.assign({ y: -16, duration: a.dur, ease: "sine.inOut", yoyo: true, repeat: a.repeat }, IR), a.t);
+      return;
+    }
+    const make = FX[a.fx] || FX.in;
+    const [from, to] = make(a);
+    if (a.fx !== "tween" && a.from) Object.assign(from, a.from);
+    if (a.fx !== "tween" && a.to) Object.assign(to, a.to);
+    tl.fromTo(a.sel, from, Object.assign(to, IR), a.t);
+  });
+
+  // Entradas/salidas de cada escena: texto, visual y subtítulo. La última escena queda quieta.
+  C.frames.forEach((f) => {
+    const txt = `#txt-${f.id} .inner`, vis = `#vis-${f.id} .vwrap`, sub = `#sub-${f.id} .inner`;
+    tl.fromTo(txt, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, f.start + 0.05);
+    if (!C.thumb) tl.fromTo(sub, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, f.start + 0.15);
+    if (!f.last) {
+      tl.to(txt, { opacity: 0, duration: 0.3, ease: "power1.in" }, f.start + f.dur - 0.32);
+      tl.to(vis, { opacity: 0, duration: 0.3, ease: "power1.in" }, f.start + f.dur - 0.32);
+      tl.to(sub, { opacity: 0, duration: 0.25 }, f.start + f.dur - 0.28);
+    }
+  });
+  tl.fromTo("#blob", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 1.0, ease: "power2.out" }, 0.1);
+  if (document.querySelector("#topbar")) tl.fromTo("#topbar .inner", { opacity: 0 }, { opacity: 1, duration: 0.4 }, C.frames[1].start + 0.1);
+  if (document.querySelector("#progress-fill")) tl.fromTo("#progress-fill", { scaleX: 0 }, { scaleX: 1, duration: C.total, ease: "none" }, 0);
+
+  // Si el contenido de una zona visual no entra (textos largos), se achica entero (--fit) en vez de pisar el subtítulo.
+  const GROW = 1.3;
+  function fit() {
+    document.querySelectorAll(".visual").forEach((v) => {
+      const w = v.querySelector(".vwrap"), prev = v.style.display;
+      v.style.display = "block"; // medir aunque el clip esté oculto en este instante
+      w.style.setProperty("--fit", 1);
+      let need = 0, wide = 0;
+      Array.from(w.children).forEach((c) => { if (c.tagName !== "STYLE") { need += c.offsetHeight; wide = Math.max(wide, c.offsetWidth); } });
+      const kids = Array.from(w.children).filter((c) => c.tagName !== "STYLE" && getComputedStyle(c).display !== "none").length;
+      need += Math.max(0, kids - 1) * 30;
+      // achica si no entra; si sobra lugar agranda hasta GROW (se lee mejor en el celular), sin pasar 1040 px de ancho
+      const k = need > 0 ? Math.min(GROW, (v.clientHeight - 40) / need, 1040 / Math.max(wide, 1)) : 1;
+      w.style.setProperty("--fit", k.toFixed(3));
+      v.style.display = prev;
+    });
+  }
+  fit();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+})();
+
+    </script>
+  </body>
+</html>

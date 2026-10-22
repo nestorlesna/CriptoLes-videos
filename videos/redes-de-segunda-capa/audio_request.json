@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Bitcóin es seguro, pero lento y a veces caro para pagos chicos. Para eso existen las redes de segunda capa."
+    },
+    {
+      "id": "02",
+      "text": "En Bitcóin sale un bloque cada 10 minutos, más o menos, y el lugar es limitado. Para un café, es mucho esperar."
+    },
+    {
+      "id": "03",
+      "text": "Es como la cuenta del bar: vas anotando cada pedido, y al final pagás todo junto, de una sola vez."
+    },
+    {
+      "id": "04",
+      "text": "Abrís un canal con parte de tus bitcóins, hacés muchos pagos rápidos y al final se anota el resultado en la blocchéin."
+    },
+    {
+      "id": "05",
+      "text": "Una segunda capa es una red que funciona encima de otra. La más conocida de Bitcóin se llama Láitnin."
+    },
+    {
+      "id": "06",
+      "text": "Ventajas: pagos en segundos, comisiones muy bajas, y es ideal para montos chicos, como un café."
+    },
+    {
+      "id": "07",
+      "text": "Ojo: es más compleja de usar y no conviene para guardar mucho. Como siempre, empezá con poco."
+    },
+    {
+      "id": "08",
+      "text": "Las segundas capas hacen rápidos los pagos chicos. En el próximo video: cripto, impuestos y normativa."
+    }
+  ]
+}

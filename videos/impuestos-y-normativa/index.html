@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@600;700;800;900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+/* fonts: https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@600;700;800;900&display=swap */
+/* Identidad B — "Noche Dorada": azul noche profundo, dorado como acento, menta de apoyo. Ver b-noche-dorada.frame.md */
+:root {
+  --bg: #151A3B; --bg-dots: rgba(255,255,255,0.08); --blob: #1F2654;
+  --surface: #222A5E; --surface-line: #3A4387;
+  --ink: #F6F4FF; --muted: #AEB4DD;
+  --line: #0F1330; --plate: #F6F4FF; --paper: #FFF3D1;
+  --primary: #FFC83D; --primary-strong: #FFD66B; --primary-soft: #FFE7A6;
+  --gold: #FFC83D; --sky: #6FA8FF; --leaf: #4FE0B6;
+  --alert: #FF6B6B; --alert-soft: #3A2244; --alert-ink: #FF9A9A;
+  --sub-bg: #0B0E24; --sub-ink: #FFFFFF; --sub-accent: #FFC83D;
+  --font-display: "Space Grotesk", sans-serif; --font-body: "Inter", sans-serif;
+  --radius: 22px; --shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+      /* Layout del kit de escenas (1080×1920). Los colores y fuentes salen de plantilla/identidad/<activa>.css (variables). */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
+      #root { width: 100%; height: 100%; position: relative; overflow: hidden; background: var(--bg); font-family: var(--font-body); color: var(--ink); }
+      .clip { position: absolute; }
+      .a-in { opacity: 0; }
+      #bg { inset: 0; background-color: var(--bg); background-image: radial-gradient(var(--bg-dots) 3px, transparent 3.6px); background-size: 46px 46px; background-position: 12px 12px; }
+      #blob { position: absolute; left: 90px; top: 760px; width: 900px; height: 800px; border-radius: 46% 54% 50% 50% / 52% 46% 54% 48%; background: var(--blob); }
+
+      /* barra superior (desde la 2.ª escena) */
+      #topbar { left: 70px; top: 62px; width: 940px; height: 56px; }
+      #topbar .inner { display: flex; align-items: center; justify-content: space-between; font-weight: 900; font-size: 26px; letter-spacing: 4px; color: var(--ink); }
+      #topbar .brand { display: flex; align-items: center; gap: 14px; }
+      #topbar .brand svg { width: 46px; height: 46px; }
+      #topbar .lvl { color: var(--primary-strong); }
+
+      /* texto de la escena */
+      .scene-text { left: 70px; top: 150px; width: 940px; }
+      .badge { display: inline-block; background: var(--ink); color: var(--bg); font-weight: 900; font-size: 28px; letter-spacing: 4px; padding: 12px 28px; border-radius: 999px; text-transform: uppercase; }
+      .badge.alert { background: var(--alert); color: #fff; }
+      .headline { margin-top: 24px; font-family: var(--font-display); font-weight: 600; font-size: 118px; line-height: 1.0; letter-spacing: -1px; color: var(--ink); }
+      .headline .hl { display: block; }
+      .headline.hero { font-size: 132px; }
+      .headline.hero .hl:last-child { color: var(--primary-strong); }
+      .subline { margin-top: 20px; font-size: 46px; font-weight: 800; color: var(--primary-strong); line-height: 1.2; }
+
+      /* zona visual: top/height los calcula el builder según el alto del texto */
+      .visual { left: 0; width: 1080px; }
+      .vwrap { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 30px;
+        transform: translateY(var(--dy, 0px)) scale(calc(var(--fit, 1) * var(--zoom, 1))); transform-origin: 50% 50%; }
+      .plate { display: flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--plate); border: 6px solid var(--line); box-shadow: var(--shadow); flex: none; }
+      .plate .ico { width: 68%; height: 68%; }
+      .card { background: var(--surface); border: 5px solid var(--surface-line); border-radius: var(--radius); box-shadow: var(--shadow); }
+
+      /* hook / concepto */
+      .hero-ico { position: relative; width: 500px; height: 500px; }
+      .hero-ico > .plate { position: absolute; inset: 0; }
+      .orb { position: absolute; width: 150px; height: 150px; }
+      .chips-row { display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; width: 960px; }
+      .chip { background: var(--surface); border: 5px solid var(--surface-line); border-radius: 999px; padding: 14px 30px; font-size: 40px; font-weight: 800; color: var(--ink); box-shadow: var(--shadow); }
+
+      /* analogía */
+      .ana-conn { font-size: 34px; font-weight: 900; letter-spacing: 5px; color: var(--muted); text-transform: uppercase; }
+      .ana { display: flex; align-items: center; gap: 22px; }
+      .ana-card { width: 410px; padding: 34px 22px 30px; display: flex; flex-direction: column; align-items: center; gap: 22px; }
+      .ana-card .lbl { font-size: 42px; font-weight: 800; text-align: center; line-height: 1.15; color: var(--ink); }
+      .ana-mid { width: 104px; height: 104px; border-radius: 50%; background: var(--gold); border: 6px solid var(--line); display: flex; align-items: center; justify-content: center;
+        font-family: var(--font-display); font-weight: 700; font-size: 60px; color: var(--line); flex: none; }
+
+      /* flujo */
+      .flow { position: relative; width: 880px; }
+      .node { position: absolute; left: 0; width: 880px; display: flex; align-items: center; gap: 30px; padding: 0 30px 0 18px; }
+      .node .lbl { font-size: 44px; font-weight: 800; line-height: 1.12; color: var(--ink); }
+      .node .lbl small { display: block; font-size: 32px; font-weight: 700; color: var(--muted); margin-top: 4px; }
+      .flow svg.arr { position: absolute; overflow: visible; }
+      .token { position: absolute; width: 96px; height: 96px; z-index: 5; }
+      .token svg { width: 100%; height: 100%; filter: drop-shadow(0 6px 0 rgba(0,0,0,0.18)); }
+
+      /* comparación */
+      .cmp { position: relative; display: flex; gap: 30px; width: 1010px; align-items: stretch; }
+      .cmp-col { flex: 1; overflow: hidden; display: flex; flex-direction: column; }
+      .cmp-head { display: flex; align-items: center; gap: 18px; padding: 22px 22px; border-bottom: 5px solid var(--surface-line); }
+      .cmp-col.a .cmp-head { background: var(--sky); }
+      .cmp-col.b .cmp-head { background: var(--primary); }
+      .cmp-head .t { font-family: var(--font-display); font-weight: 700; font-size: 52px; line-height: 1.0; color: var(--line); }
+      .cmp-items { list-style: none; padding: 26px 24px 30px; display: flex; flex-direction: column; gap: 22px; }
+      .cmp-items li { font-size: 42px; font-weight: 800; line-height: 1.18; color: var(--ink); padding-left: 34px; position: relative; }
+      .cmp-items li::before { content: ""; position: absolute; left: 0; top: 17px; width: 18px; height: 18px; border-radius: 50%; background: var(--muted); }
+      .cmp-col.b .cmp-items li::before { background: var(--primary); }
+      .vs { position: absolute; left: 50%; top: 32px; width: 112px; height: 112px; margin-left: -56px; border-radius: 50%; background: var(--gold); border: 6px solid var(--line);
+        display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 700; font-size: 46px; color: var(--line); z-index: 3; }
+
+      /* claves / resumen */
+      .keys { list-style: none; display: flex; flex-direction: column; gap: 24px; width: 940px; }
+      .keys li { display: flex; align-items: center; gap: 26px; padding: 22px 28px; font-size: 44px; font-weight: 800; line-height: 1.15; color: var(--ink); }
+      .keys li b { color: var(--primary-strong); font-weight: 900; }
+      .tick { display: block; width: 70px; height: 70px; border-radius: 18px; background: var(--primary); border: 5px solid var(--line); padding: 8px; flex: none; }
+      .tick svg { display: block; width: 100%; height: 100%; }
+      .keys.small li { font-size: 38px; padding: 16px 24px; gap: 20px; }
+      .keys.small .tick { width: 56px; height: 56px; border-radius: 14px; padding: 6px; }
+
+      /* alerta */
+      .alert-ico { width: 230px; height: 230px; }
+      .alert-card { width: 940px; background: var(--alert-soft); border: 6px solid var(--alert); border-radius: var(--radius); padding: 30px 32px; display: flex; flex-direction: column; gap: 22px; }
+      .alert-card .t { font-family: var(--font-display); font-weight: 700; font-size: 50px; color: var(--alert-ink); line-height: 1.05; }
+      .alert-card .it { display: flex; align-items: center; gap: 22px; font-size: 40px; font-weight: 800; color: var(--ink); line-height: 1.15; }
+      .alert-card .it svg { width: 58px; height: 58px; flex: none; }
+      .tip { width: 940px; display: flex; align-items: center; gap: 22px; padding: 22px 28px; font-size: 40px; font-weight: 800; line-height: 1.15; color: var(--ink); }
+      .tip svg { width: 64px; height: 64px; flex: none; }
+
+      /* glosario */
+      .glos { display: flex; flex-direction: column; gap: 26px; width: 940px; }
+      .gcard { padding: 30px 34px 34px; display: flex; gap: 28px; align-items: flex-start; }
+      .gcard .gtxt { flex: 1; }
+      .gterm { font-family: var(--font-display); font-weight: 700; font-size: 66px; line-height: 1.0; color: var(--primary-strong); }
+      .gdef { margin-top: 14px; font-size: 42px; font-weight: 700; line-height: 1.25; color: var(--ink); }
+
+      /* cierre */
+      .next-card { width: 940px; background: var(--sub-bg); border-radius: var(--radius); padding: 30px 34px; display: flex; align-items: center; gap: 28px; box-shadow: var(--shadow); }
+      .next-card .k { font-size: 28px; font-weight: 900; letter-spacing: 4px; color: var(--sub-accent); }
+      .next-card .t { margin-top: 10px; font-family: var(--font-display); font-weight: 600; font-size: 56px; line-height: 1.05; color: var(--sub-ink); }
+      .next-card svg { width: 130px; height: 130px; flex: none; }
+
+      /* subtítulo + barra de progreso */
+      .subtitle { left: 40px; top: 1600px; width: 1000px; height: 220px; }
+      .subtitle .inner { background: var(--sub-bg); border-left: 12px solid var(--sub-accent); border-radius: 24px; padding: 24px 32px; }
+      .subtitle p { color: var(--sub-ink); font-size: 42px; font-weight: 800; line-height: 1.3; }
+      #progress { left: 40px; top: 1858px; width: 1000px; height: 12px; border-radius: 6px; background: var(--bg-dots); overflow: hidden; }
+      #progress-fill { width: 100%; height: 100%; background: var(--primary); transform-origin: 0 50%; }
+
+    </style>
+  </head>
+  <body>
+    <!-- GENERADO por plantilla/build-index.mjs desde tema.json (identidad b-noche-dorada) — no editar a mano -->
+    <div id="root" data-composition-id="main" data-start="0" data-duration="48.797" data-width="1080" data-height="1920">
+      <div id="bg" class="clip" data-start="0" data-duration="48.797" data-track-index="0"><div id="blob"></div></div>
+      <div id="topbar" class="clip" data-start="5.795" data-duration="43.002" data-track-index="4"><div class="inner"><span class="brand"><svg class="brand-ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="44" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="60" cy="60" r="31" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><text x="60" y="62" text-anchor="middle" dominant-baseline="central" font-family="var(--font-display)" font-weight="700" font-size="40" fill="var(--line)">$</text></svg>CRIPTO DESDE CERO</span><span class="lvl">INTERMEDIO 2</span></div></div>
+      <div id="txt-01" class="clip scene-text" data-start="0" data-duration="5.795" data-track-index="3"><div class="inner"><div class="badge">CRIPTO DESDE CERO · Intermedio 2</div><h1 class="headline hero"><span class="hl">Cripto e</span><span class="hl">impuestos</span></h1><p class="subline">Lo que tenés que saber</p></div></div>
+      <div id="txt-02" class="clip scene-text" data-start="5.795" data-duration="6.178" data-track-index="3"><div class="inner"><div class="badge">LA IDEA</div><h1 class="headline"><span class="hl">Cada país,</span><span class="hl">sus reglas</span></h1></div></div>
+      <div id="txt-03" class="clip scene-text" data-start="11.973" data-duration="6.712" data-track-index="3"><div class="inner"><div class="badge">PUEDE HABER IMPUESTOS</div><h1 class="headline"><span class="hl">Cuándo</span><span class="hl">importa</span></h1></div></div>
+      <div id="txt-04" class="clip scene-text" data-start="18.685" data-duration="6.05" data-track-index="3"><div class="inner"><div class="badge">UN BUEN HÁBITO</div><h1 class="headline"><span class="hl">Guardá</span><span class="hl">registro</span></h1></div></div>
+      <div id="txt-05" class="clip scene-text" data-start="24.735" data-duration="5.644" data-track-index="3"><div class="inner"><div class="badge">ES COMO…</div><h1 class="headline"><span class="hl">Como guardar</span><span class="hl">los tickets</span></h1></div></div>
+      <div id="txt-06" class="clip scene-text" data-start="30.379" data-duration="6.178" data-track-index="3"><div class="inner"><div class="badge">QUÉ HACER</div><h1 class="headline"><span class="hl">Preguntale a</span><span class="hl">un contador</span></h1></div></div>
+      <div id="txt-07" class="clip scene-text" data-start="36.557" data-duration="6.224" data-track-index="3"><div class="inner"><div class="badge alert">¡OJO!</div><h1 class="headline"><span class="hl">No es</span><span class="hl">invisible</span></h1></div></div>
+      <div id="txt-08" class="clip scene-text" data-start="42.781" data-duration="6.016" data-track-index="3"><div class="inner"><div class="badge">EN RESUMEN</div><h1 class="headline"><span class="hl">Lo que</span><span class="hl">aprendiste</span></h1></div></div>
+      <div id="vis-01" class="clip visual" data-start="0" data-duration="5.795" data-track-index="2" style="top:612px;height:948px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:470px;height:470px"><div id="hero-01-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 18 V100 M34 106 H86 M20 34 H100" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="7"/><path d="M20 34 L8 66 H32 Z M100 34 L88 66 H112 Z" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><circle cx="60" cy="18" r="7" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/></svg></div><div id="orb-01-1" class="orb a-in" style="left:-40px;top:-10px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 26 C46 18 26 18 12 22 V98 C26 94 46 94 60 102 Z" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 26 C74 18 94 18 108 22 V98 C94 94 74 94 60 102 Z" fill="var(--primary-soft)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div></div><div id="orb-01-2" class="orb a-in" style="left:360px;top:-30px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="60" cy="60" rx="20" ry="46" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><path d="M14 60 H106 M22 36 H98 M22 84 H98" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg></div></div><div id="orb-01-3" class="orb a-in" style="left:-70px;top:300px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M30 52 A30 30 0 0 1 90 52 Z" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="22" y="52" width="76" height="54" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 22 V8 L76 13 L60 18" fill="var(--alert)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><rect x="36" y="64" width="9" height="30" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><rect x="56" y="64" width="9" height="30" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><rect x="76" y="64" width="9" height="30" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/></svg></div></div><div id="orb-01-4" class="orb a-in" style="left:390px;top:320px"><div class="plate " style="width:150px;height:150px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="50" cy="50" r="30" fill="var(--paper)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="8"/><path d="M72 72 L104 104" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="14"/></svg></div></div></div></div></div>
+      <div id="vis-02" class="clip visual" data-start="5.795" data-duration="6.178" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:420px;height:420px"><div id="hero-02-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--sky)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="60" cy="60" rx="20" ry="46" fill="none" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><path d="M14 60 H106 M22 36 H98 M22 84 H98" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg></div></div><div class="chips-row"><div id="chip-02-1" class="chip a-in">Distintas en cada país</div><div id="chip-02-2" class="chip a-in">Siguen cambiando</div></div></div></div>
+      <div id="vis-03" class="clip visual" data-start="11.973" data-duration="6.712" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><ul id="keys-03-0" class="keys keep"><li id="key-03-1" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Al <b>vender</b> con ganancia</span></li><li id="key-03-2" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Al <b>cambiar</b> una cripto por otra</span></li><li id="key-03-3" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Por lo que <b>tenés guardado</b></span></li></ul></div></div>
+      <div id="vis-04" class="clip visual" data-start="18.685" data-duration="6.05" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><ul id="keys-04-0" class="keys keep"><li id="key-04-1" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>Fecha</b> de cada movimiento</span></li><li id="key-04-2" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>Cuánto</b> pagaste o recibiste</span></li><li id="key-04-3" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Los <b>comprobantes</b></span></li></ul></div></div>
+      <div id="vis-05" class="clip visual" data-start="24.735" data-duration="5.644" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div id="con-05-3" class="ana-conn a-in">es como</div>
+        <div class="ana keep">
+          <div id="ana-05-0" class="ana-card card a-in"><div class="plate " style="width:230px;height:230px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 26 C46 18 26 18 12 22 V98 C26 94 46 94 60 102 Z" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 26 C74 18 94 18 108 22 V98 C94 94 74 94 60 102 Z" fill="var(--primary-soft)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div><div class="lbl">Tu registro cripto</div></div>
+          <div id="mid-05-2" class="ana-mid a-in">=</div>
+          <div id="ana-05-1" class="ana-card card a-in"><div class="plate " style="width:230px;height:230px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M14 54 L54 14 H104 V64 L64 104 Z" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="84" cy="34" r="8" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><text x="58" y="66" text-anchor="middle" dominant-baseline="central" font-family="var(--font-display)" font-weight="700" font-size="34" fill="var(--line)">$</text></svg></div><div class="lbl">Guardar los tickets</div></div>
+        </div><div id="nota-05-4" class="tip card a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 12 C36 12 24 32 26 50 C28 66 40 72 42 86 H78 C80 72 92 66 94 50 C96 32 84 12 60 12 Z" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><rect x="42" y="86" width="36" height="12" rx="3" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/><path d="M48 106 H72" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="6"/></svg><span>Si te preguntan, <b>tenés cómo mostrarlo</b>.</span></div></div></div>
+      <div id="vis-06" class="clip visual" data-start="30.379" data-duration="6.178" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><div class="hero-ico keep" style="width:420px;height:420px"><div id="hero-06-0" class="plate a-in" style="position:absolute;inset:0;border-width:8px"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="38" r="20" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M22 106 a38 34 0 0 1 76 0 Z" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg></div></div><div class="chips-row"><div id="chip-06-1" class="chip a-in">Que conozca de cripto</div><div id="chip-06-2" class="chip a-in">Y las reglas de tu país</div></div></div></div>
+      <div id="vis-07" class="clip visual" data-start="36.557" data-duration="6.224" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><svg id="tri-07-0" class="alert-ico a-in" viewBox="0 0 120 120"><path d="M60 12 L110 100 H10 Z" fill="var(--gold)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="6"/><path d="M60 44 V70" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="11"/><circle cx="60" cy="86" r="6" fill="var(--line)"/></svg><div id="acard-07-1" class="alert-card a-in keep"><div class="t">Con cripto no pagás impuestos</div><div id="ai-07-2" class="it a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--alert)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 42 L78 78 M78 42 L42 78" fill="none" stroke="var(--plate)" stroke-width="11" stroke-linecap="round"/></svg><span>Te venden que es invisible</span></div><div id="ai-07-3" class="it a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--alert)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 42 L78 78 M78 42 L42 78" fill="none" stroke="var(--plate)" stroke-width="11" stroke-linecap="round"/></svg><span>Los movimientos quedan registrados</span></div></div><div id="tip-07-4" class="tip card a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 10 L100 24 V56 C100 82 82 100 60 110 C38 100 20 82 20 56 V24 Z" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 60 L55 73 L80 46" fill="none" stroke="var(--plate)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg><span>La blockchain <b>es pública</b>: todo queda anotado.</span></div></div></div>
+      <div id="vis-08" class="clip visual" data-start="42.781" data-duration="6.016" data-track-index="2" style="top:520px;height:1040px"><div class="vwrap" style="--zoom:1;--dy:0px"><ul id="keys-08-0" class="keys small keep"><li id="key-08-1" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Cada país, sus reglas</span></li><li id="key-08-2" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Guardá registro</span></li><li id="key-08-3" class="card a-in"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="var(--plate)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Consultá a un contador</span></li></ul><div id="next-08-4" class="next-card a-in"><svg class="ico" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="46" fill="var(--primary)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 38 L84 60 L50 82 Z" fill="var(--plate)" stroke="var(--line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/></svg><div><div class="k">EN EL PRÓXIMO VIDEO</div><div class="t">Cómo investigar un proyecto (DYOR)</div></div></div></div></div>
+      <div id="sub-01" class="clip subtitle" data-start="0" data-duration="5.795" data-track-index="5"><div class="inner"><p>Las cripto no están fuera de la ley. Según dónde vivas, pueden tener reglas e impuestos propios.</p></div></div>
+      <div id="sub-02" class="clip subtitle" data-start="5.795" data-duration="6.178" data-track-index="5"><div class="inner"><p>Cada país tiene reglas distintas para las cripto, y en muchos siguen cambiando. No hay una respuesta única.</p></div></div>
+      <div id="sub-03" class="clip subtitle" data-start="11.973" data-duration="6.712" data-track-index="5"><div class="inner"><p>En muchos lugares puede haber impuestos al vender con ganancia, al cambiar una cripto por otra o por lo que tenés guardado.</p></div></div>
+      <div id="sub-04" class="clip subtitle" data-start="18.685" data-duration="6.05" data-track-index="5"><div class="inner"><p>Un buen hábito: anotá la fecha de cada movimiento, cuánto pagaste o recibiste, y guardá los comprobantes.</p></div></div>
+      <div id="sub-05" class="clip subtitle" data-start="24.735" data-duration="5.644" data-track-index="5"><div class="inner"><p>Es como guardar los tickets de lo que comprás: si algún día te preguntan, tenés cómo mostrarlo.</p></div></div>
+      <div id="sub-06" class="clip subtitle" data-start="30.379" data-duration="6.178" data-track-index="5"><div class="inner"><p>Lo mejor es preguntarle a un contador que conozca de cripto y las reglas de tu país. Este canal no asesora.</p></div></div>
+      <div id="sub-07" class="clip subtitle" data-start="36.557" data-duration="6.224" data-track-index="5"><div class="inner"><p>Ojo con quien te dice que con cripto no pagás impuestos porque es invisible. Los movimientos quedan registrados.</p></div></div>
+      <div id="sub-08" class="clip subtitle" data-start="42.781" data-duration="6.016" data-track-index="5"><div class="inner"><p>Informate de las reglas de tu país y guardá registro. En el próximo video: cómo investigar un proyecto.</p></div></div>
+      <div id="progress" class="clip" data-start="0" data-duration="48.797" data-track-index="6"><div id="progress-fill"></div></div>
+      <audio id="vo-01" src="assets/voice/01.wav" data-start="0.25" data-duration="4.795" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-02" src="assets/voice/02.wav" data-start="6.045" data-duration="5.178" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-03" src="assets/voice/03.wav" data-start="12.223" data-duration="5.712" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-04" src="assets/voice/04.wav" data-start="18.935" data-duration="5.05" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-05" src="assets/voice/05.wav" data-start="24.985" data-duration="4.644" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-06" src="assets/voice/06.wav" data-start="30.629" data-duration="5.178" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-07" src="assets/voice/07.wav" data-start="36.807" data-duration="5.224" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-08" src="assets/voice/08.wav" data-start="43.031" data-duration="5.016" data-track-index="10" data-volume="1"></audio>
+      <audio id="bgm" src="assets/bgm/track-long.wav" data-start="0" data-duration="48.797" data-track-index="11" data-volume="0.18" data-automation='{"version":1,"lanes":[{"target":"volume","points":[{"t":0,"v":0},{"t":1.2,"v":0.18},{"t":46.8,"v":0.18},{"t":48.797,"v":0}]}]}'></audio>
+    </div>
+    <script>
+      window.__CR_CONFIG = {"total":48.797,"thumb":false,"frames":[{"id":"01","start":0,"dur":5.795,"last":false},{"id":"02","start":5.795,"dur":6.178,"last":false},{"id":"03","start":11.973,"dur":6.712,"last":false},{"id":"04","start":18.685,"dur":6.05,"last":false},{"id":"05","start":24.735,"dur":5.644,"last":false},{"id":"06","start":30.379,"dur":6.178,"last":false},{"id":"07","start":36.557,"dur":6.224,"last":false},{"id":"08","start":42.781,"dur":6.016,"last":true}],"anims":[{"sel":"#hero-01-0","fx":"pop","t":0.35},{"sel":"#orb-01-1","fx":"pop","t":1},{"sel":"#hero-01-0","fx":"float","dur":1.3,"repeat":2,"t":1.2},{"sel":"#orb-01-2","fx":"pop","t":1.35},{"sel":"#orb-01-3","fx":"pop","t":1.7},{"sel":"#orb-01-4","fx":"pop","t":2.05},{"sel":"#hero-02-0","fx":"pop","t":6.145},{"sel":"#hero-02-0","fx":"float","dur":1.3,"repeat":2,"t":6.995},{"sel":"#chip-02-1","fx":"up","t":7.005},{"sel":"#chip-02-2","fx":"up","t":8.895},{"sel":"#key-03-1","fx":"left","t":14.073},{"sel":"#key-03-1 .tick","fx":"tick","t":14.273},{"sel":"#key-03-2","fx":"left","t":15.183},{"sel":"#key-03-2 .tick","fx":"tick","t":15.383},{"sel":"#key-03-3","fx":"left","t":17.363},{"sel":"#key-03-3 .tick","fx":"tick","t":17.563},{"sel":"#key-04-1","fx":"left","t":19.985},{"sel":"#key-04-1 .tick","fx":"tick","t":20.185},{"sel":"#key-04-2","fx":"left","t":21.235},{"sel":"#key-04-2 .tick","fx":"tick","t":21.435},{"sel":"#key-04-3","fx":"left","t":23.205},{"sel":"#key-04-3 .tick","fx":"tick","t":23.405},{"sel":"#con-05-3","fx":"fade","t":25.035},{"sel":"#ana-05-0","fx":"left","t":25.335},{"sel":"#ana-05-1","fx":"right","t":25.815},{"sel":"#mid-05-2","fx":"pop","t":26.635},{"sel":"#nota-05-4","fx":"up","t":27.115},{"sel":"#hero-06-0","fx":"pop","t":30.729},{"sel":"#hero-06-0","fx":"float","dur":1.3,"repeat":2,"t":31.579},{"sel":"#chip-06-1","fx":"up","t":32.509},{"sel":"#chip-06-2","fx":"up","t":34.159},{"sel":"#tri-07-0","fx":"pop","t":36.907},{"sel":"#acard-07-1","fx":"up","t":37.457},{"sel":"#tri-07-0","fx":"shake","t":37.507},{"sel":"#ai-07-2","fx":"left","t":39.737},{"sel":"#tip-07-4","fx":"up","t":40.957},{"sel":"#ai-07-3","fx":"left","t":41.317},{"sel":"#key-08-1","fx":"left","t":43.281},{"sel":"#key-08-1 .tick","fx":"tick","t":43.481},{"sel":"#key-08-2","fx":"left","t":44.281},{"sel":"#key-08-2 .tick","fx":"tick","t":44.481},{"sel":"#key-08-3","fx":"left","t":45.281},{"sel":"#key-08-3 .tick","fx":"tick","t":45.481},{"sel":"#next-08-4","fx":"up","t":46.681}]};
+/* Runtime del kit de escenas de "Cripto desde cero".
+ * window.__CR_CONFIG lo inyecta plantilla/build-index.mjs: { total, thumb, frames[{id,start,dur,last}], anims[{sel,t,fx,dur,…}] }.
+ * Todo es un único timeline GSAP pausado (seek-safe): cada animación es un fromTo con estado inicial explícito y
+ * immediateRender:false; los elementos que entran nacen con la clase .a-in (opacity 0).
+ * fx: in/up (sube) · left/right (entra de costado) · pop (escala con rebote) · fade · draw (trazo SVG 0→1) · tick (check)
+ *     shake (sacudón de alerta) · float (flota, con repeat finito) · tween (from/to explícitos) · out (desaparece)
+ */
+(function () {
+  const C = window.__CR_CONFIG;
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const FX = {
+    in: (a) => [{ opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    up: (a) => [{ opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    left: (a) => [{ opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    right: (a) => [{ opacity: 0, x: 60 }, { opacity: 1, x: 0, duration: a.dur || 0.5, ease: "power3.out" }],
+    pop: (a) => [{ opacity: 0, scale: 0.55 }, { opacity: 1, scale: 1, duration: a.dur || 0.5, ease: "back.out(1.8)" }],
+    fade: (a) => [{ opacity: 0 }, { opacity: 1, duration: a.dur || 0.4, ease: "power1.out" }],
+    draw: (a) => [{ strokeDasharray: "0 1" }, { strokeDasharray: "1 0", duration: a.dur || 0.6, ease: "power2.inOut" }],
+    tick: (a) => [{ scale: 0 }, { scale: 1, duration: a.dur || 0.35, ease: "back.out(2)" }],
+    out: (a) => [{ opacity: 1 }, { opacity: 0, duration: a.dur || 0.3, ease: "power1.in" }],
+    tween: (a) => [Object.assign({}, a.from), Object.assign({}, a.to, { duration: a.dur || 0.6, ease: a.ease || "power2.inOut" })],
+  };
+
+  C.anims.forEach((a) => {
+    if (a.fx === "shake") {
+      // sacudón corto (alerta): rotación ida y vuelta, termina en 0
+      [-8, 7, -5, 3, 0].forEach((r, i) => tl.to(a.sel, { rotation: r, duration: 0.09, ease: "sine.inOut", transformOrigin: "50% 80%" }, a.t + i * 0.09));
+      return;
+    }
+    if (a.fx === "float") {
+      tl.fromTo(a.sel, { y: 0 }, Object.assign({ y: -16, duration: a.dur, ease: "sine.inOut", yoyo: true, repeat: a.repeat }, IR), a.t);
+      return;
+    }
+    const make = FX[a.fx] || FX.in;
+    const [from, to] = make(a);
+    if (a.fx !== "tween" && a.from) Object.assign(from, a.from);
+    if (a.fx !== "tween" && a.to) Object.assign(to, a.to);
+    tl.fromTo(a.sel, from, Object.assign(to, IR), a.t);
+  });
+
+  // Entradas/salidas de cada escena: texto, visual y subtítulo. La última escena queda quieta.
+  C.frames.forEach((f) => {
+    const txt = `#txt-${f.id} .inner`, vis = `#vis-${f.id} .vwrap`, sub = `#sub-${f.id} .inner`;
+    tl.fromTo(txt, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, f.start + 0.05);
+    if (!C.thumb) tl.fromTo(sub, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, f.start + 0.15);
+    if (!f.last) {
+      tl.to(txt, { opacity: 0, duration: 0.3, ease: "power1.in" }, f.start + f.dur - 0.32);
+      tl.to(vis, { opacity: 0, duration: 0.3, ease: "power1.in" }, f.start + f.dur - 0.32);
+      tl.to(sub, { opacity: 0, duration: 0.25 }, f.start + f.dur - 0.28);
+    }
+  });
+  tl.fromTo("#blob", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 1.0, ease: "power2.out" }, 0.1);
+  if (document.querySelector("#topbar")) tl.fromTo("#topbar .inner", { opacity: 0 }, { opacity: 1, duration: 0.4 }, C.frames[1].start + 0.1);
+  if (document.querySelector("#progress-fill")) tl.fromTo("#progress-fill", { scaleX: 0 }, { scaleX: 1, duration: C.total, ease: "none" }, 0);
+
+  // Si el contenido de una zona visual no entra (textos largos), se achica entero (--fit) en vez de pisar el subtítulo.
+  const GROW = 1.3;
+  function fit() {
+    document.querySelectorAll(".visual").forEach((v) => {
+      const w = v.querySelector(".vwrap"), prev = v.style.display;
+      v.style.display = "block"; // medir aunque el clip esté oculto en este instante
+      w.style.setProperty("--fit", 1);
+      let need = 0, wide = 0;
+      Array.from(w.children).forEach((c) => { if (c.tagName !== "STYLE") { need += c.offsetHeight; wide = Math.max(wide, c.offsetWidth); } });
+      const kids = Array.from(w.children).filter((c) => c.tagName !== "STYLE" && getComputedStyle(c).display !== "none").length;
+      need += Math.max(0, kids - 1) * 30;
+      // achica si no entra; si sobra lugar agranda hasta GROW (se lee mejor en el celular), sin pasar 1040 px de ancho
+      const k = need > 0 ? Math.min(GROW, (v.clientHeight - 40) / need, 1040 / Math.max(wide, 1)) : 1;
+      w.style.setProperty("--fit", k.toFixed(3));
+      v.style.display = prev;
+    });
+  }
+  fit();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+})();
+
+    </script>
+  </body>
+</html>

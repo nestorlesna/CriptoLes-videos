@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Seguro escuchaste la palabra blocchéin. Hoy la entendés sin tecnicismos, con la ayuda de un cuaderno."
+    },
+    {
+      "id": "02",
+      "text": "Blocchéin quiere decir cadena de bloques. Y cada bloque es como una página con movimientos anotados."
+    },
+    {
+      "id": "03",
+      "text": "Imaginá un cuaderno contable que miles de computadoras tienen copiado, y que todas revisan entre sí."
+    },
+    {
+      "id": "04",
+      "text": "Los movimientos nuevos se juntan en un bloque, y ese bloque se engancha al anterior. Así se forma la cadena."
+    },
+    {
+      "id": "05",
+      "text": "Hay miles de copias, y cada bloque apunta al anterior. Si alguien cambia algo en su copia, se nota enseguida."
+    },
+    {
+      "id": "06",
+      "text": "Lo que se anota no se puede borrar. Si hubo un error, se corrige con un movimiento nuevo, que también queda."
+    },
+    {
+      "id": "07",
+      "text": "Ojo: muchas estafas usan la palabra blocchéin para parecer serias. Que la usen no garantiza nada."
+    },
+    {
+      "id": "08",
+      "text": "Una blocchéin es un cuaderno compartido que nadie puede borrar. En el próximo video: centralizado versus descentralizado."
+    }
+  ]
+}
