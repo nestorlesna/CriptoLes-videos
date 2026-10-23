@@ -7,6 +7,26 @@ Resumen práctico del skill `youtube-upload`. La guía completa (configuración 
 
 ---
 
+## ⭐ Flujo recomendado (el que se usa desde el video #7)
+
+La miniatura **no se pone bien por la API** (en las subidas anteriores no quedó). Por eso se hace así:
+
+1. **Subir en privado y sin miniatura** con el script (primero el `--dry-run`):
+   ```powershell
+   & $PY $SK --channel cripto "$OUT\<clave>.mp4" --privacy private --no-thumbnail --dry-run
+   & $PY $SK --channel cripto "$OUT\<clave>.mp4" --privacy private --no-thumbnail
+   ```
+   Igual mueve mp4 + txt + miniatura a `salida\subidos\`.
+2. **Miniatura desde el navegador** (Claude lo hace con Claude in Chrome): abrir
+   `https://studio.youtube.com/video/<ID>/edit`, cargar `salida\subidos\<clave>.miniatura.png` en el campo
+   **Miniatura** y tocar **Guardar** (aparece "Se han guardado los cambios").
+3. **Pasarlo a público desde el navegador**: en la misma página, **Visibilidad → Público → Hecho → Guardar**.
+
+Un video por vez y en el orden de `temas/temas.csv`. El `uploads_log.csv` queda con estado `private` porque lo anota
+antes del paso 3. Es normal.
+
+---
+
 ## 0. Preparar la terminal (PowerShell)
 
 Pegá esto una vez por sesión de terminal para no escribir las rutas largas cada vez:
@@ -68,6 +88,7 @@ Toma todos los `.mp4` de la carpeta. Las subcarpetas no entran, así que `subido
 | `--privacy private\|unlisted\|public` | Visibilidad del video. | `public` |
 | `--thumbnail <imagen>` | Fuerza una miniatura puntual. Solo sirve si subís **un** video. | busca `<video>.miniatura.png` |
 | `--category <id>` | Categoría de YouTube (27 = Educación, 17 = Deportes, 15 = Mascotas, 22 = Personas y blogs). | la del canal (cripto = 27) |
+| `--no-thumbnail` | No manda la miniatura por la API (se pone a mano en Studio). Igual la mueve a `subidos/`. | apagado |
 | `--force` | Sube aunque el video ya figure en `uploads_log.csv`. Sirve para resubir. | apagado |
 | `--no-move` | No mueve los archivos a `subidos/` después de subir. | los mueve |
 | `--channels` | Lista los canales configurados. | — |
