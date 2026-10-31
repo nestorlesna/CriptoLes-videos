@@ -46,7 +46,8 @@ Se programa en YouTube Studio y no por la API, porque el proyecto todavía no pa
 
 Calendario actual: del 23/10 al 1/11 de 2026 hay un video por día a las **12:00**, desde que-es-blockchain hasta
 enviar-y-recibir-cripto. Del **2/11 al 17/11** hay uno por día a las **18:00** (hora de Uruguay), desde estafas-mas-comunes
-hasta como-investigar-un-proyecto. Con estos 33 videos termina la tanda: el próximo tema es nuevo.
+hasta como-investigar-un-proyecto. Del **18/11 al 30/11** hay **dos por día, a las 14:00 y a las 16:00** (hora de Uruguay),
+desde doble-gasto hasta cinco-ideas-para-llevarte (temas 34 a 59, en el orden de `temas.csv`). Los temas nuevos siguen desde el 1/12.
 
 > **Horario:** el 31/10/2026 se pasó de las 12:00 a las 18:00. Studio no tenía datos de horas de actividad (3 suscriptores).
 > El 89 % mira desde el celular y México es la región con más visualizaciones. Cuando haya más audiencia, mirá
