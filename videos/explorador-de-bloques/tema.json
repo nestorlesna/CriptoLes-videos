@@ -1,0 +1,190 @@
+{
+  "slug": "explorador-de-bloques",
+  "titulo": "Cómo ver una transacción real",
+  "nivel": "Intermedio 4",
+  "descripcion": "Para qué sirve un explorador de bloques, qué se lee en una operación y cómo saber si ya está confirmada.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Cómo ver una transacción 🔎 Explorador de bloques explicado fácil | Cripto desde cero",
+    "descripcion": "🔎 CÓMO VER UNA TRANSACCIÓN REAL — Cómo mirar una operación en un explorador de bloques\n\nToda operación en una blockchain pública se puede ver. Para eso existen los exploradores de bloques.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es un explorador de bloques\n2️⃣ Qué datos se ven en una operación\n3️⃣ Qué son las confirmaciones\n4️⃣ Paso a paso para consultar un envío\n5️⃣ Cuidado con los sitios falsos\n\n💡 LA IDEA CLAVE\nEs como el seguimiento de un paquete: ves por dónde va y en qué estado está, pero no podés cambiar nada.\n\n📖 GLOSARIO\n• Explorador de bloques: sitio web para mirar bloques y operaciones.\n• Confirmación: cada bloque nuevo que se apila sobre tu operación.\n\n⚠️ OJO CON\nUn explorador solo sirve para mirar: si te pide conectar tu billetera o tus claves, es una estafa.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que mandó cripto y no sabe cómo ver si llegó.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Explorador #Blockchain #CriptoDesdeCero",
+    "tags": [
+      "explorador de bloques",
+      "cómo ver una transacción",
+      "confirmaciones bitcoin",
+      "cómo saber si llegó mi envío",
+      "block explorer",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Cómo ver una",
+        "transacción"
+      ],
+      "sub": "Con un explorador",
+      "icono": "lupa",
+      "orbita": [
+        "bloque",
+        "libro",
+        "celular",
+        "check"
+      ],
+      "vo": "Toda operación en una blockchain pública se puede ver. Para eso existen los exploradores de bloques."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Explorador",
+          "definicion": "Un **sitio web** donde mirás bloques y operaciones.",
+          "icono": "lupa"
+        },
+        {
+          "termino": "Código de operación",
+          "definicion": "Lo que **identifica** a cada envío.",
+          "icono": "etiqueta"
+        }
+      ],
+      "vo": "Un explorador de bloques es un sitio donde mirás bloques y operaciones. Cada envío tiene un código que lo identifica."
+    },
+    {
+      "kind": "claves",
+      "badge": "QUÉ SE VE",
+      "head": [
+        "Qué se lee"
+      ],
+      "items": [
+        {
+          "text": "De dónde **salió**",
+          "cue": "salió"
+        },
+        {
+          "text": "A dónde **llegó**",
+          "cue": "llegó"
+        },
+        {
+          "text": "El **monto** y la comisión",
+          "cue": "monto"
+        },
+        {
+          "text": "Las **confirmaciones**",
+          "cue": "confirmaciones"
+        }
+      ],
+      "vo": "Se ve de dónde salió, a dónde llegó, el monto, la comisión y cuántas confirmaciones tiene."
+    },
+    {
+      "kind": "concepto",
+      "badge": "CONFIRMACIONES",
+      "head": [
+        "Qué son las",
+        "confirmaciones"
+      ],
+      "icono": "check",
+      "etiquetas": [
+        {
+          "text": "Cada bloque nuevo suma una",
+          "cue": "bloque"
+        },
+        {
+          "text": "Más confirmaciones, más seguro",
+          "cue": "seguro"
+        }
+      ],
+      "vo": "Cada bloque nuevo que se apila encima suma una confirmación. Cuantas más tiene, más seguro es que no se revierte."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Paso a",
+        "paso"
+      ],
+      "nodos": [
+        {
+          "icono": "celular",
+          "label": "Copiás el código",
+          "cue": "Copiás"
+        },
+        {
+          "icono": "lupa",
+          "label": "Lo buscás en el explorador",
+          "cue": "buscás"
+        },
+        {
+          "icono": "check",
+          "label": "Ves el estado",
+          "cue": "confirmado"
+        }
+      ],
+      "vo": "Copiás el código del envío, lo buscás en el explorador y ves si está pendiente o confirmado."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Seguir un",
+        "paquete"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "lupa",
+        "label": "Un explorador"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "carrito",
+        "label": "El seguimiento de un paquete",
+        "cue": "paquete"
+      },
+      "nota": "Ves el estado, **pero no lo manejás**.",
+      "vo": "Es como el seguimiento de un paquete: ves por dónde va y en qué estado, pero no podés cambiar nada."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Cuidado con",
+        "sitios falsos"
+      ],
+      "titulo": "Exploradores truchos",
+      "items": [
+        {
+          "text": "Te pide conectar la billetera",
+          "cue": "conectar"
+        },
+        {
+          "text": "Te pide tus claves",
+          "cue": "claves"
+        }
+      ],
+      "consejo": "Un explorador **solo se mira**, nunca pide claves.",
+      "vo": "Ojo con sitios falsos: un explorador solo sirve para mirar. Si te pide conectar la billetera o tus claves, es una estafa."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Un explorador muestra operaciones",
+        "Se lee origen, destino y monto",
+        "Solo se mira, nunca pide claves"
+      ],
+      "vo": "En el próximo video: ¿Qué es «quemar» cripto?"
+    }
+  ]
+}

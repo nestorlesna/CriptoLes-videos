@@ -1,0 +1,38 @@
+TÍTULO
+Minemos un bloque a mano 🧮 Cómo trabaja un minero, explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+⛏️ MINEMOS UN BLOQUE A MANO — Un juego de sumas para entender qué hace un minero
+
+Para entender qué hace un minero, hagamos un juego: vamos a minar un bloque a mano, con sumas muy simples.
+
+📚 EN ESTE VIDEO
+1️⃣ Las reglas de nuestro juego
+2️⃣ Un ejemplo: las operaciones suman 9
+3️⃣ Probamos números hasta acertar
+4️⃣ Qué es minar
+5️⃣ Por qué en la vida real es mucho más difícil
+
+💡 LA IDEA CLAVE
+Minar es como abrir un candado de combinación: no hay atajo, se prueba un número tras otro hasta que abre.
+
+📖 GLOSARIO
+• Minar: probar números hasta que el resultado cumple la regla.
+• Número de prueba: el que el minero va cambiando hasta acertar.
+
+⚠️ OJO CON
+Este juego es una simplificación didáctica: el hash real no es una suma, es una cuenta mucho más compleja.
+
+🎓 NIVEL: Intermedio 3 · Siguiente video: ¿Cómo se sostiene una stablecoin?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que quiere jugar a ser minero un rato.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Minería #Bitcoin #CriptoDesdeCero
+
+TAGS
+cómo minar un bloque, qué hace un minero, minería explicada, prueba de trabajo, juego de minería, criptomonedas para principiantes, cripto desde cero, educación financiera

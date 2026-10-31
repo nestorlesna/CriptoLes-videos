@@ -1,0 +1,38 @@
+TÍTULO
+De la chacra a la mesa 🍎 Trazabilidad con blockchain, explicada fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🍎 DE LA CHACRA A LA MESA — Cómo seguir un producto paso a paso con una blockchain
+
+¿De dónde viene lo que comés? Con blockchain se puede seguir un producto desde que se produce hasta que llega a tu mesa.
+
+📚 EN ESTE VIDEO
+1️⃣ Qué es la trazabilidad
+2️⃣ Cómo se anota cada paso
+3️⃣ Por qué es difícil falsificar el origen
+4️⃣ Para qué sirve
+5️⃣ Un cuidado: lo que entra a la blockchain
+
+💡 LA IDEA CLAVE
+Cada eslabón firma su parte: así el recorrido de un producto queda anotado y no se puede retocar.
+
+📖 GLOSARIO
+• Trazabilidad: poder seguir el camino de un producto.
+• Eslabón: cada paso de la cadena de producción.
+
+⚠️ OJO CON
+La blockchain guarda el dato, pero no asegura que sea verdad. Si cargan algo falso, queda igual: hay que controlar quién carga.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: Billetera caliente y billetera fría
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se pregunta de dónde viene lo que come.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Trazabilidad #Blockchain #CriptoDesdeCero
+
+TAGS
+trazabilidad blockchain, qué es la trazabilidad, blockchain en la cadena de suministro, blockchain alimentos, casos de uso de blockchain, criptomonedas para principiantes, cripto desde cero, educación financiera

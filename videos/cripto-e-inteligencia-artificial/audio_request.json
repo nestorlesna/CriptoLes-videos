@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "¿Y si un programa de inteligencia ar tificial pudiera tener su propia billetera y pagar por los ser vicios que necesita?"
+    },
+    {
+      "id": "02",
+      "text": "Un agente de inteligencia ar tificial sería un programa con billetera propia que paga solo lo que necesita."
+    },
+    {
+      "id": "03",
+      "text": "Un agente de inteligencia ar tificial decide y actúa solo. Un micropago es un pago muy chico, a veces de centavos."
+    },
+    {
+      "id": "04",
+      "text": "El agente necesita datos, paga un micropago desde su billetera y recibe el ser vicio, todo en segundos."
+    },
+    {
+      "id": "05",
+      "text": "Cripto encaja por que funciona las 24 horas, no necesita cuenta bancaria y per mite pagos muy chicos."
+    },
+    {
+      "id": "06",
+      "text": "Ojo: muchas cosas son pruebas, un agente puede equivocar se y hay estafas que usan el nombre de la inteligencia ar tificial."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: Cinco ideas para llevar te."
+    }
+  ]
+}

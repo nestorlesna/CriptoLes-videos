@@ -1,0 +1,165 @@
+{
+  "slug": "trilema-blockchain",
+  "titulo": "El trilema de las blockchains",
+  "nivel": "Intermedio 4",
+  "descripcion": "Tres cosas que toda blockchain quisiera tener a la vez: descentralización, seguridad y escala. Por qué casi nunca se logran las tres juntas.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "El trilema de las blockchains ⚖️ Descentralización, seguridad y escala | Cripto desde cero",
+    "descripcion": "⚖️ EL TRILEMA DE LAS BLOCKCHAINS — Por qué una blockchain no puede tenerlo todo\n\nHay tres cosas que toda blockchain quisiera tener a la vez. El problema es que casi nunca se puede con las tres.\n\n📚 EN ESTE VIDEO\n1️⃣ Las tres cosas que toda blockchain busca\n2️⃣ Por qué casi nunca entran las tres\n3️⃣ Dos caminos distintos\n4️⃣ Una salida: sumar capas\n5️⃣ Qué significa trilema\n\n💡 LA IDEA CLAVE\nComo en «rápido, barato y bueno: elegí dos», mejorar una cosa suele empeorar otra.\n\n📖 GLOSARIO\n• Trilema: tres cosas que no entran juntas del todo.\n• Escalabilidad: aguantar más usuarios sin trabarse.\n\n⚠️ OJO CON\nCuando alguien promete una red perfecta en las tres, pedí que te explique qué sacrifica: algo siempre se sacrifica.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que compara redes por la velocidad y nada más.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Trilema #Blockchain #CriptoDesdeCero",
+    "tags": [
+      "trilema de blockchain",
+      "descentralización seguridad escalabilidad",
+      "por qué bitcoin es lento",
+      "escalabilidad blockchain",
+      "qué es el trilema",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "El trilema",
+        "de blockchain"
+      ],
+      "sub": "Tres deseos, dos lugares",
+      "icono": "balanza",
+      "orbita": [
+        "candado",
+        "red",
+        "cohete",
+        "mundo"
+      ],
+      "vo": "Hay tres cosas que toda blockchain quisiera tener a la vez. El problema es que casi nunca se puede con las tres."
+    },
+    {
+      "kind": "claves",
+      "badge": "LAS TRES",
+      "head": [
+        "Tres deseos"
+      ],
+      "items": [
+        {
+          "text": "**Descentralización:** nadie manda",
+          "cue": "nadie"
+        },
+        {
+          "text": "**Seguridad:** difícil de atacar",
+          "cue": "seguridad"
+        },
+        {
+          "text": "**Escala:** muchas operaciones",
+          "cue": "escala"
+        }
+      ],
+      "vo": "Descentralización, o sea que nadie mande; seguridad, que sea difícil de atacar; y escala, que aguante muchas operaciones."
+    },
+    {
+      "kind": "concepto",
+      "badge": "ELEGIR DOS",
+      "head": [
+        "Se suele",
+        "elegir dos"
+      ],
+      "icono": "balanza",
+      "etiquetas": [
+        {
+          "text": "Mejorar una empeora otra",
+          "cue": "empeorar"
+        },
+        {
+          "text": "Cada red elige su equilibrio",
+          "cue": "equilibrio"
+        }
+      ],
+      "vo": "Mejorar una suele empeorar otra. Por eso cada red elige su equilibrio, según para qué la quiere usar."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Dos",
+        "caminos"
+      ],
+      "a": {
+        "titulo": "Prioriza seguridad",
+        "icono": "escudo",
+        "items": [
+          "Muy descentralizada",
+          "Más lenta"
+        ]
+      },
+      "b": {
+        "titulo": "Prioriza velocidad",
+        "icono": "cohete",
+        "items": [
+          "Más rápida",
+          "Más centralizada"
+        ]
+      },
+      "vo": "Una red muy descentralizada suele ser más lenta. Una red más rápida suele depender de pocos nodos, o sea, más centralizada."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UNA SALIDA",
+      "head": [
+        "Sumar",
+        "capas"
+      ],
+      "icono": "cohete",
+      "etiquetas": [
+        {
+          "text": "La red principal da seguridad",
+          "cue": "principal"
+        },
+        {
+          "text": "Otra capa da velocidad",
+          "cue": "capa"
+        }
+      ],
+      "vo": "Una salida es sumar capas: la red principal da la seguridad, y otra capa encima da la velocidad."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Trilema",
+          "definicion": "Tres cosas que **no entran juntas** del todo.",
+          "icono": "balanza"
+        },
+        {
+          "termino": "Escalabilidad",
+          "definicion": "Aguantar **más usuarios** sin trabarse.",
+          "icono": "cohete"
+        }
+      ],
+      "vo": "Un trilema son tres cosas que no entran juntas del todo. Escalabilidad es aguantar más usuarios sin trabarse."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Tres deseos, no entran juntos",
+        "Cada red elige un equilibrio",
+        "Una salida: sumar capas"
+      ],
+      "vo": "Ninguna red logra todo a la vez, así que cada una elige su equilibrio. En el próximo video: El ataque del 51 %."
+    }
+  ]
+}

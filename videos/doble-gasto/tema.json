@@ -1,0 +1,183 @@
+{
+  "slug": "doble-gasto",
+  "titulo": "El problema del doble gasto",
+  "nivel": "Intermedio 3",
+  "descripcion": "Un billete no se puede dar dos veces, pero un archivo digital se copia sin límite. Por qué hacía falta un banco y qué idea nueva apareció en 2008.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "El doble gasto 🪙 El problema que Bitcoin resolvió, explicado fácil | Cripto desde cero",
+    "descripcion": "🪙 EL PROBLEMA DEL DOBLE GASTO — Por qué el dinero digital necesitaba un banco\n\nSi te doy un billete, ya no lo tengo. Pero ¿y si el dinero fuera un archivo en la compu? Ahí aparece el doble gasto.\n\n📚 EN ESTE VIDEO\n1️⃣ En el mundo físico, un billete es único\n2️⃣ Un archivo digital se copia en segundos\n3️⃣ Qué es el doble gasto\n4️⃣ La solución de siempre: un banco que lleva la cuenta\n5️⃣ La idea nueva: miles de computadoras con la misma cuenta\n\n💡 LA IDEA CLAVE\nSi el dinero fuera un simple archivo, podrías gastarlo muchas veces. Alguien tiene que llevar la cuenta.\n\n📖 GLOSARIO\n• Doble gasto: gastar el mismo dinero digital dos veces.\n• Intermediario: quien lleva la cuenta y valida los pagos.\n\n⚠️ OJO CON\nQue sea imposible copiar el dinero digital es lo que le da valor: sin esa garantía, nada vale.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que dice que copiar y pegar dinero digital sería fácil.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #DobleGasto #Blockchain #CriptoDesdeCero",
+    "tags": [
+      "qué es el doble gasto",
+      "problema del doble gasto",
+      "por qué existe bitcoin",
+      "dinero digital",
+      "cómo funciona bitcoin",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "El doble",
+        "gasto"
+      ],
+      "sub": "Por qué existe un banco",
+      "icono": "billete",
+      "orbita": [
+        "billetes",
+        "computadora",
+        "banco",
+        "candado"
+      ],
+      "vo": "Si te doy un billete, ya no lo tengo. Pero ¿y si el dinero fuera un archivo en la compu? Ahí aparece el doble gasto."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EN EL MUNDO FÍSICO",
+      "head": [
+        "Un billete",
+        "es único"
+      ],
+      "icono": "billete",
+      "etiquetas": [
+        {
+          "text": "Si lo doy, ya no lo tengo",
+          "cue": "doy"
+        },
+        {
+          "text": "La física lo garantiza",
+          "cue": "física"
+        }
+      ],
+      "vo": "En el mundo físico, un billete es único. Si te lo doy, yo dejo de tenerlo. Eso lo garantiza la física."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EN LO DIGITAL",
+      "head": [
+        "Un archivo",
+        "se copia"
+      ],
+      "icono": "computadora",
+      "etiquetas": [
+        {
+          "text": "Se copia en segundos",
+          "cue": "copia"
+        },
+        {
+          "text": "Y se puede gastar de nuevo",
+          "cue": "nuevo"
+        }
+      ],
+      "vo": "Pero un archivo digital se copia en un segundo. Si el dinero fuera un archivo, lo podrías gastar una y otra vez, de nuevo."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Doble",
+        "gasto"
+      ],
+      "terminos": [
+        {
+          "termino": "Doble gasto",
+          "definicion": "Gastar **el mismo dinero digital** dos veces.",
+          "icono": "billetes",
+          "cue": "doble gasto"
+        }
+      ],
+      "vo": "A eso se le llama doble gasto: gastar el mismo dinero digital dos veces. Es el gran problema de cualquier dinero digital."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "La solución",
+        "de siempre"
+      ],
+      "nodos": [
+        {
+          "icono": "persona",
+          "label": "Vos pagás",
+          "cue": "pagaste"
+        },
+        {
+          "icono": "banco",
+          "label": "El banco anota",
+          "cue": "anota"
+        },
+        {
+          "icono": "check",
+          "label": "No podés repetirlo",
+          "cue": "repetir"
+        }
+      ],
+      "vo": "La solución de siempre: un banco que lleva la cuenta. Anota que pagaste, y así no podés repetir el mismo gasto."
+    },
+    {
+      "kind": "claves",
+      "badge": "EL PRECIO",
+      "head": [
+        "Confiar en",
+        "un tercero"
+      ],
+      "items": [
+        {
+          "text": "Hay que **confiar** en él",
+          "cue": "confiar"
+        },
+        {
+          "text": "Cobra por su trabajo",
+          "cue": "cobra"
+        },
+        {
+          "text": "Puede fallar o bloquear",
+          "cue": "bloquear"
+        }
+      ],
+      "vo": "El precio: hay que confiar en el banco, que cobra por su trabajo y además puede fallar o bloquear tu dinero."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UNA IDEA NUEVA",
+      "head": [
+        "Sin banco",
+        "central"
+      ],
+      "icono": "cadena",
+      "etiquetas": [
+        {
+          "text": "Miles llevan la misma cuenta",
+          "cue": "miles"
+        },
+        {
+          "text": "Nadie la cambia solo",
+          "cue": "nadie"
+        }
+      ],
+      "vo": "En 2008 apareció otra idea: que miles de computadoras lleven la misma cuenta, y que nadie pueda cambiarla solo."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Lo digital se copia",
+        "Eso es el doble gasto",
+        "Antes lo evitaba un banco"
+      ],
+      "vo": "En el próximo video: El primer bloque y su mensaje oculto."
+    }
+  ]
+}

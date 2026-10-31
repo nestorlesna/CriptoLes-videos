@@ -1,0 +1,38 @@
+TÍTULO
+El trilema de las blockchains ⚖️ Descentralización, seguridad y escala | Cripto desde cero
+
+DESCRIPCIÓN
+⚖️ EL TRILEMA DE LAS BLOCKCHAINS — Por qué una blockchain no puede tenerlo todo
+
+Hay tres cosas que toda blockchain quisiera tener a la vez. El problema es que casi nunca se puede con las tres.
+
+📚 EN ESTE VIDEO
+1️⃣ Las tres cosas que toda blockchain busca
+2️⃣ Por qué casi nunca entran las tres
+3️⃣ Dos caminos distintos
+4️⃣ Una salida: sumar capas
+5️⃣ Qué significa trilema
+
+💡 LA IDEA CLAVE
+Como en «rápido, barato y bueno: elegí dos», mejorar una cosa suele empeorar otra.
+
+📖 GLOSARIO
+• Trilema: tres cosas que no entran juntas del todo.
+• Escalabilidad: aguantar más usuarios sin trabarse.
+
+⚠️ OJO CON
+Cuando alguien promete una red perfecta en las tres, pedí que te explique qué sacrifica: algo siempre se sacrifica.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: El ataque del 51 %
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que compara redes por la velocidad y nada más.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Trilema #Blockchain #CriptoDesdeCero
+
+TAGS
+trilema de blockchain, descentralización seguridad escalabilidad, por qué bitcoin es lento, escalabilidad blockchain, qué es el trilema, criptomonedas para principiantes, cripto desde cero, educación financiera

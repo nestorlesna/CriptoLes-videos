@@ -1,0 +1,38 @@
+TÍTULO
+¿Hacen falta los intermediarios? 🤝 Pagos con y sin tercero, explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🤝 HACEN FALTA LOS INTERMEDIARIOS — Qué hace un intermediario y qué cambia sin él
+
+Casi todo pago digital pasa por un intermediario. ¿Es necesario? Veamos qué hace y qué pasa si no está.
+
+📚 EN ESTE VIDEO
+1️⃣ Cómo viaja un pago normal
+2️⃣ Cuatro cosas que hace el intermediario
+3️⃣ Lo que sí te protege
+4️⃣ La idea de las cripto: pagar directo
+5️⃣ Con y sin intermediario
+
+💡 LA IDEA CLAVE
+Un intermediario te da un lugar donde reclamar, pero también puede frenar tu pago. Cada modelo tiene su precio.
+
+📖 GLOSARIO
+• Intermediario: quien está en el medio de un pago y lo valida.
+• Reclamar: pedir que se corrija o se devuelva una operación.
+
+⚠️ OJO CON
+Sin intermediario no hay a quién reclamar: si te equivocás en un envío, nadie te devuelve el dinero.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: ¿Bitcoin es anónimo?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se pregunta para qué sirve pagar sin un banco en el medio.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Intermediarios #Descentralización #CriptoDesdeCero
+
+TAGS
+qué es un intermediario, pagos sin intermediarios, para qué sirven las cripto, bancos vs cripto, descentralización explicada, criptomonedas para principiantes, cripto desde cero, educación financiera

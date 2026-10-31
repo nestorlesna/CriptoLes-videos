@@ -1,0 +1,160 @@
+{
+  "slug": "primera-compra-con-bitcoin",
+  "titulo": "Las pizzas de Bitcoin",
+  "nivel": "Intermedio 3",
+  "descripcion": "En 2010 un programador pagó dos pizzas con 10.000 bitcoins. La compra más famosa de la historia de Bitcoin y qué nos enseña.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Las pizzas de Bitcoin 🍕 La compra más famosa, explicada fácil | Cripto desde cero",
+    "descripcion": "🍕 LAS PIZZAS DE BITCOIN — La historia de las dos pizzas pagadas con Bitcoin\n\nEn 2010, alguien pagó dos pizzas con diez mil bitcoins. Es la compra más famosa de la historia de Bitcoin.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué pasó en mayo de 2010\n2️⃣ Por qué se recuerda como el Pizza Day\n3️⃣ Qué mostró sobre Bitcoin\n4️⃣ Cuándo algo vale\n5️⃣ Por qué no sirve comparar con hoy\n\n💡 LA IDEA CLAVE\nAlgo vale cuando dos personas aceptan que vale: esa tarde, dos pizzas y una cantidad de bitcoins valían lo mismo.\n\n📖 GLOSARIO\n• Pizza Day: el día en que se recuerda la primera compra famosa con Bitcoin.\n• Compra real: pagar algo del mundo físico con cripto.\n\n⚠️ OJO CON\nCuánto valdrían hoy esos bitcoins cambia todos los días: no sirve como guía para decidir nada.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que ama la pizza y las historias de internet.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #PizzaDay #Bitcoin #CriptoDesdeCero",
+    "tags": [
+      "bitcoin pizza day",
+      "pizzas con bitcoin",
+      "primera compra con bitcoin",
+      "historia de bitcoin",
+      "10000 bitcoins por dos pizzas",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Las pizzas",
+        "de Bitcoin"
+      ],
+      "sub": "La compra más famosa",
+      "icono": "bitcoin",
+      "orbita": [
+        "carrito",
+        "reloj",
+        "regalo",
+        "persona"
+      ],
+      "vo": "En 2010, alguien pagó dos pizzas con diez mil bitcoins. Es la compra más famosa de la historia de Bitcoin."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA HISTORIA",
+      "head": [
+        "Mayo de",
+        "2010"
+      ],
+      "icono": "carrito",
+      "etiquetas": [
+        {
+          "text": "Un programador ofreció 10.000 bitcoins",
+          "cue": "10.000"
+        },
+        {
+          "text": "A cambio de dos pizzas",
+          "cue": "pizzas"
+        }
+      ],
+      "vo": "En mayo de 2010, un programador ofreció 10.000 bitcoins a quien le llevara dos pizzas, y alguien aceptó."
+    },
+    {
+      "kind": "claves",
+      "badge": "QUÉ MOSTRÓ",
+      "head": [
+        "Por qué importa"
+      ],
+      "items": [
+        {
+          "text": "Bitcoin servía para **pagar**",
+          "cue": "pagar"
+        },
+        {
+          "text": "La gente le daba **valor**",
+          "cue": "valor"
+        },
+        {
+          "text": "Hoy se recuerda cada **año**",
+          "cue": "año"
+        }
+      ],
+      "vo": "Mostró que Bitcoin servía para pagar algo real, que la gente le daba valor, y hoy se recuerda cada año como el Pizza Day."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Pizza Day",
+          "definicion": "El día que se recuerda **la primera compra famosa** con Bitcoin.",
+          "icono": "regalo"
+        },
+        {
+          "termino": "Compra real",
+          "definicion": "Pagar algo **del mundo físico** con cripto.",
+          "icono": "carrito"
+        }
+      ],
+      "vo": "El Pizza Day recuerda la primera compra famosa con Bitcoin. Pagar algo del mundo físico con cripto era toda una novedad."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Vale lo que",
+        "acordamos"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "bitcoin",
+        "label": "Bitcoin"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "concha",
+        "label": "Las conchas como dinero",
+        "cue": "conchas"
+      },
+      "nota": "Algo vale **si las dos partes lo aceptan**.",
+      "vo": "Es como cuando las conchas servían de dinero: algo vale cuando las dos partes aceptan que vale."
+    },
+    {
+      "kind": "concepto",
+      "head": [
+        "Su valor",
+        "cambia"
+      ],
+      "icono": "grafico",
+      "etiquetas": [
+        {
+          "text": "Sube y baja seguido",
+          "cue": "cada día"
+        },
+        {
+          "text": "Nadie puede predecirlo",
+          "cue": "predecir"
+        }
+      ],
+      "vo": "Cuánto valdrían hoy esos bitcoins cambia cada día. Por eso nadie puede predecir el futuro con una historia del pasado."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Dos pizzas, diez mil bitcoins",
+        "Algo vale si se acepta",
+        "Su valor cambia todo el tiempo"
+      ],
+      "vo": "En el próximo video: ¿Hacen falta los intermediarios?"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "slug": "trazabilidad-con-blockchain",
+  "titulo": "De la chacra a la mesa",
+  "nivel": "Intermedio 4",
+  "descripcion": "Cómo una blockchain puede seguir un producto desde que se produce hasta que llega a tu mesa, y por qué no alcanza con anotar: hay que controlar quién carga los datos.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "De la chacra a la mesa 🍎 Trazabilidad con blockchain, explicada fácil | Cripto desde cero",
+    "descripcion": "🍎 DE LA CHACRA A LA MESA — Cómo seguir un producto paso a paso con una blockchain\n\n¿De dónde viene lo que comés? Con blockchain se puede seguir un producto desde que se produce hasta que llega a tu mesa.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es la trazabilidad\n2️⃣ Cómo se anota cada paso\n3️⃣ Por qué es difícil falsificar el origen\n4️⃣ Para qué sirve\n5️⃣ Un cuidado: lo que entra a la blockchain\n\n💡 LA IDEA CLAVE\nCada eslabón firma su parte: así el recorrido de un producto queda anotado y no se puede retocar.\n\n📖 GLOSARIO\n• Trazabilidad: poder seguir el camino de un producto.\n• Eslabón: cada paso de la cadena de producción.\n\n⚠️ OJO CON\nLa blockchain guarda el dato, pero no asegura que sea verdad. Si cargan algo falso, queda igual: hay que controlar quién carga.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se pregunta de dónde viene lo que come.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Trazabilidad #Blockchain #CriptoDesdeCero",
+    "tags": [
+      "trazabilidad blockchain",
+      "qué es la trazabilidad",
+      "blockchain en la cadena de suministro",
+      "blockchain alimentos",
+      "casos de uso de blockchain",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "De la chacra",
+        "a la mesa"
+      ],
+      "sub": "Seguir un producto",
+      "icono": "manzana",
+      "orbita": [
+        "carrito",
+        "mundo",
+        "candado",
+        "lupa"
+      ],
+      "vo": "¿De dónde viene lo que comés? Con blockchain se puede seguir un producto desde que se produce hasta que llega a tu mesa."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Trazabilidad",
+          "definicion": "Poder **seguir el camino** de un producto.",
+          "icono": "lupa"
+        },
+        {
+          "termino": "Eslabón",
+          "definicion": "Cada **paso** de la cadena de producción.",
+          "icono": "cadena"
+        }
+      ],
+      "vo": "Trazabilidad es poder seguir el camino de un producto. Y cada paso de la cadena de producción es un eslabón."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Cada paso",
+        "queda anotado"
+      ],
+      "nodos": [
+        {
+          "icono": "manzana",
+          "label": "Productor",
+          "cue": "productor"
+        },
+        {
+          "icono": "carrito",
+          "label": "Transporte",
+          "cue": "transporte"
+        },
+        {
+          "icono": "edificio",
+          "label": "Tienda",
+          "cue": "tienda"
+        }
+      ],
+      "vo": "El productor anota la cosecha, el transporte anota el viaje y la tienda anota la llegada. Todo queda en la cadena."
+    },
+    {
+      "kind": "concepto",
+      "badge": "SIN TRAMPA",
+      "head": [
+        "Difícil de",
+        "retocar"
+      ],
+      "icono": "candado",
+      "etiquetas": [
+        {
+          "text": "Lo anotado no se borra",
+          "cue": "borrar"
+        },
+        {
+          "text": "Cada uno firma su parte",
+          "cue": "firma"
+        }
+      ],
+      "vo": "Como lo anotado no se puede borrar y cada uno firma su parte, es muy difícil falsificar el origen."
+    },
+    {
+      "kind": "claves",
+      "badge": "PARA QUÉ SIRVE",
+      "head": [
+        "Casos de uso"
+      ],
+      "items": [
+        {
+          "text": "Saber **dónde** nació la comida",
+          "cue": "dónde"
+        },
+        {
+          "text": "Frenar productos **falsificados**",
+          "cue": "falsificados"
+        },
+        {
+          "text": "Ubicar un **lote** con problemas",
+          "cue": "lote"
+        }
+      ],
+      "vo": "Sirve para saber dónde nació la comida, frenar productos falsificados y ubicar rápido un lote con problemas."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Ojo con",
+        "lo que entra"
+      ],
+      "titulo": "Si entra un dato falso",
+      "items": [
+        {
+          "text": "Si cargan algo falso, queda",
+          "cue": "falso"
+        },
+        {
+          "text": "Hay que controlar quién carga",
+          "cue": "controlar"
+        }
+      ],
+      "consejo": "La blockchain **guarda** el dato, no asegura que sea verdad.",
+      "vo": "Ojo: la blockchain guarda el dato, no asegura que sea verdad. Si cargan algo falso queda igual; hay que controlar."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Cada paso queda anotado",
+        "El origen no se retoca",
+        "Hay que controlar el dato inicial"
+      ],
+      "vo": "En el próximo video: Billetera caliente y billetera fría."
+    }
+  ]
+}

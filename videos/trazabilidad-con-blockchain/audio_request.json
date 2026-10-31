@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "¿De dónde viene lo que comés? Con blocchéin se puede seguir un producto desde que se produce hasta que llega a tu mesa."
+    },
+    {
+      "id": "02",
+      "text": "Trazabilidad es poder seguir el camino de un producto. Y cada paso de la cadena de producción es un eslabón."
+    },
+    {
+      "id": "03",
+      "text": "El productor anota la cosecha, el transpor te anota el viaje y la tienda anota la llegada. Todo queda en la cadena."
+    },
+    {
+      "id": "04",
+      "text": "Como lo anotado no se puede bo rar y cada uno fir ma su par te, es muy difícil falsificar el origen."
+    },
+    {
+      "id": "05",
+      "text": "Sir ve para saber dónde nació la comida, frenar productos falsificados y ubicar rápido un lote con problemas."
+    },
+    {
+      "id": "06",
+      "text": "Ojo: la blocchéin guar da el dato, no asegura que sea ver dad. Si car gan algo falso queda igual; hay que controlar."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: Billetera caliente y billetera fría."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+TÍTULO
+Billetera caliente y fría 🔐 Cuál es cuál, explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🔐 BILLETERA CALIENTE Y BILLETERA FRÍA — La diferencia entre una billetera conectada y una fuera de línea
+
+No todas las billeteras guardan las llaves igual. Algunas están conectadas a internet y otras, guardadas fuera de línea.
+
+📚 EN ESTE VIDEO
+1️⃣ Dos formas de guardar tus llaves
+2️⃣ Billetera caliente vs billetera fría
+3️⃣ Una analogía: bolsillo y caja fuerte
+4️⃣ Cómo es una billetera fría
+5️⃣ Los cuidados de cada una
+
+💡 LA IDEA CLAVE
+La caliente es como la plata del bolsillo: a mano pero más expuesta. La fría es como una caja fuerte.
+
+📖 GLOSARIO
+• Billetera caliente: conectada a internet, cómoda para usar a diario.
+• Billetera fría: guarda las llaves fuera de línea, más segura.
+
+⚠️ OJO CON
+Con cualquiera de las dos, nunca compartas tu frase semilla: quien la tenga controla todo.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: ¿Por qué te piden documentos? (KYC)
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que guarda cripto y todavía usa solo el celular.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Billetera #Seguridad #CriptoDesdeCero
+
+TAGS
+billetera caliente y fría, hot wallet cold wallet, qué es una billetera fría, dónde guardar cripto, seguridad de billeteras, criptomonedas para principiantes, cripto desde cero, educación financiera

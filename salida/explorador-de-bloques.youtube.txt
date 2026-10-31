@@ -1,0 +1,38 @@
+TÍTULO
+Cómo ver una transacción 🔎 Explorador de bloques explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🔎 CÓMO VER UNA TRANSACCIÓN REAL — Cómo mirar una operación en un explorador de bloques
+
+Toda operación en una blockchain pública se puede ver. Para eso existen los exploradores de bloques.
+
+📚 EN ESTE VIDEO
+1️⃣ Qué es un explorador de bloques
+2️⃣ Qué datos se ven en una operación
+3️⃣ Qué son las confirmaciones
+4️⃣ Paso a paso para consultar un envío
+5️⃣ Cuidado con los sitios falsos
+
+💡 LA IDEA CLAVE
+Es como el seguimiento de un paquete: ves por dónde va y en qué estado está, pero no podés cambiar nada.
+
+📖 GLOSARIO
+• Explorador de bloques: sitio web para mirar bloques y operaciones.
+• Confirmación: cada bloque nuevo que se apila sobre tu operación.
+
+⚠️ OJO CON
+Un explorador solo sirve para mirar: si te pide conectar tu billetera o tus claves, es una estafa.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: ¿Qué es «quemar» cripto?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que mandó cripto y no sabe cómo ver si llegó.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Explorador #Blockchain #CriptoDesdeCero
+
+TAGS
+explorador de bloques, cómo ver una transacción, confirmaciones bitcoin, cómo saber si llegó mi envío, block explorer, criptomonedas para principiantes, cripto desde cero, educación financiera

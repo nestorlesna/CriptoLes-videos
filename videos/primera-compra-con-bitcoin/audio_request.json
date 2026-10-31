@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "En 2010, alguien pagó dos pizzas con diez mil bitcóins. Es la compra más famosa de la historia de Bitcóin."
+    },
+    {
+      "id": "02",
+      "text": "En mayo de 2010, un programador ofreció 10.000 bitcóins a quien le llevara dos pizzas, y alguien aceptó."
+    },
+    {
+      "id": "03",
+      "text": "Mostró que Bitcóin ser vía para pagar algo real, que la gente le daba valor, y hoy se recuer da cada año como el Pizza Déi."
+    },
+    {
+      "id": "04",
+      "text": "El Pizza Déi recuer da la primera compra famosa con Bitcóin. Pagar algo del mundo físico con cripto era toda una novedad."
+    },
+    {
+      "id": "05",
+      "text": "Es como cuando las conchas ser vían de dinero: algo vale cuando las dos par tes aceptan que vale."
+    },
+    {
+      "id": "06",
+      "text": "Cuánto valdrían hoy esos bitcóins cambia cada día. Por eso nadie puede predecir el futuro con una historia del pasado."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: ¿Hacen falta los inter mediarios?"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "ataque-del-51",
+  "titulo": "El ataque del 51 %",
+  "nivel": "Intermedio 4",
+  "descripcion": "Qué pasaría si alguien controlara más de la mitad del poder de una red, qué podría y qué no podría hacer, y por qué casi nunca conviene.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "El ataque del 51 % ⚠️ Qué es y por qué casi nunca conviene | Cripto desde cero",
+    "descripcion": "⚠️ EL ATAQUE DEL 51 % — Qué podría hacer quien controle la mayoría de una red\n\n¿Qué pasa si alguien controla más de la mitad de la red? Es el famoso ataque del cincuenta y uno por ciento.\n\n📚 EN ESTE VIDEO\n1️⃣ La idea: controlar más de la mitad\n2️⃣ Qué podría hacer y qué no\n3️⃣ Por qué casi nunca conviene\n4️⃣ Por qué las redes chicas son más vulnerables\n5️⃣ Una analogía con las votaciones\n\n💡 LA IDEA CLAVE\nEs como ganar una votación con la mitad más uno de los votos: si juntás tantos, decidís vos.\n\n📖 GLOSARIO\n• Ataque del 51 %: controlar más de la mitad del poder de la red.\n• Poder de cómputo: la fuerza de cálculo de las computadoras de la red.\n\n⚠️ OJO CON\nEn redes muy chicas, con poca gente participando, este ataque es mucho más fácil y ya ocurrió en algunas.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que pregunta si alguien podría robar bitcoins hackeando la red.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Seguridad #Bitcoin #CriptoDesdeCero",
+    "tags": [
+      "ataque del 51",
+      "ataque 51 por ciento",
+      "seguridad blockchain",
+      "se puede hackear bitcoin",
+      "doble gasto",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "El ataque",
+        "del 51 %"
+      ],
+      "sub": "Más de la mitad de la red",
+      "icono": "alerta",
+      "orbita": [
+        "computadora",
+        "candado",
+        "red",
+        "balanza"
+      ],
+      "vo": "¿Qué pasa si alguien controla más de la mitad de la red? Es el famoso ataque del cincuenta y uno por ciento."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": [
+        "Más de la",
+        "mitad"
+      ],
+      "icono": "grupo",
+      "etiquetas": [
+        {
+          "text": "Quien controla más de la mitad",
+          "cue": "mitad"
+        },
+        {
+          "text": "Podría imponer su versión",
+          "cue": "versión"
+        }
+      ],
+      "vo": "En una red por mayoría, quien controla más de la mitad del poder de cómputo podría imponer su versión de la historia."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Qué puede",
+        "y qué no"
+      ],
+      "a": {
+        "titulo": "Podría",
+        "icono": "alerta",
+        "items": [
+          "Frenar operaciones",
+          "Gastar dos veces lo suyo"
+        ]
+      },
+      "b": {
+        "titulo": "No podría",
+        "icono": "candado",
+        "items": [
+          "Robar monedas ajenas",
+          "Crear monedas de la nada"
+        ]
+      },
+      "vo": "Podría frenar operaciones y gastar dos veces lo suyo. No podría robar monedas ajenas ni crear monedas de la nada."
+    },
+    {
+      "kind": "claves",
+      "badge": "POR QUÉ CASI NO CONVIENE",
+      "head": [
+        "Tres razones"
+      ],
+      "items": [
+        {
+          "text": "Cuesta una **fortuna**",
+          "cue": "fortuna"
+        },
+        {
+          "text": "La moneda **pierde valor**",
+          "cue": "pierde"
+        },
+        {
+          "text": "El atacante se **perjudica**",
+          "cue": "perjudica"
+        }
+      ],
+      "vo": "Cuesta una fortuna en equipos y energía, y si el ataque se nota, la moneda pierde valor: el atacante termina perjudicado."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Las redes",
+        "chicas"
+      ],
+      "titulo": "Es más fácil de atacar",
+      "items": [
+        {
+          "text": "Poca gente participa",
+          "cue": "poca"
+        },
+        {
+          "text": "Poco poder de cómputo",
+          "cue": "poder"
+        },
+        {
+          "text": "Ya pasó en algunas",
+          "cue": "pasó"
+        }
+      ],
+      "consejo": "Desconfiá de las redes **muy chicas**.",
+      "vo": "En redes chicas, con poca gente y poco poder de cómputo, es mucho más fácil. Y ya pasó en algunas."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Ganar una",
+        "votación"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "computadora",
+        "label": "Controlar la mayoría"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "grupo",
+        "label": "Tener más de la mitad de los votos",
+        "cue": "votos"
+      },
+      "nota": "Por eso **más participantes** es más seguridad.",
+      "vo": "Es como ganar una votación con la mitad más uno de los votos: si juntás tantos, decidís vos."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Controlar más de la mitad",
+        "No se roban monedas ajenas",
+        "Casi nunca conviene"
+      ],
+      "vo": "En el próximo video: Cómo ver una transacción real."
+    }
+  ]
+}

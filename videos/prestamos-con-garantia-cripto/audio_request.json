@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "En finanzas descentralizadas podés pedir un préstamo dejando cripto de garantía. Pero hay una trampa: la liquidación."
+    },
+    {
+      "id": "02",
+      "text": "Dejás cripto de garantía en un contrato, recibís el préstamo y, cuando lo devolvés, recuperás tu garantía."
+    },
+    {
+      "id": "03",
+      "text": "No hay for mularios ni empleado de banco: lo maneja un contrato inteligente, un programa que se cumple solo."
+    },
+    {
+      "id": "04",
+      "text": "Si el valor de la garantía cae y ya no cubre el préstamo, el contrato la vende solo. Eso se llama liquidación."
+    },
+    {
+      "id": "05",
+      "text": "Es como empeñar un reloj: te dan plata, pero si no podés pagar, el reloj se pier de."
+    },
+    {
+      "id": "06",
+      "text": "En un banco te llaman para avisar te. Acá no: el código no negocia, solo ejecuta."
+    },
+    {
+      "id": "07",
+      "text": "Para cuidar te: dejá mucha garantía de más, poné aler tas y pedí poco. Si no lo entendés bien, no lo uses."
+    },
+    {
+      "id": "08",
+      "text": "Un préstamo con garantía se liquida solo si la garantía baja demasiado. En el próximo video: Cobrar en dólares digitales."
+    }
+  ]
+}

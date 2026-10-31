@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Mucha gente cree que Bitcóin es anónimo. La respuesta cor ta: no tanto. Es seudónimo, y la diferencia impor ta."
+    },
+    {
+      "id": "02",
+      "text": "La blocchéin es como un libro contable abier to: cualquiera puede leer todas las operaciones que se hicieron."
+    },
+    {
+      "id": "03",
+      "text": "Pero no aparecen nombres: aparece una dirección, un código lar go de letras y números que funciona como seudónimo."
+    },
+    {
+      "id": "04",
+      "text": "Seudónimo es usar un nombre que no dice quién sos. Anónimo sería que nadie pueda saberlo, y eso no es lo mismo."
+    },
+    {
+      "id": "05",
+      "text": "Si alguien une tu dirección con tu nombre, por ejemplo por una compra con documento, ve todo lo que hiciste, para siempre."
+    },
+    {
+      "id": "06",
+      "text": "Se puede auditar todo, pero tu historial es pú blico. Es difícil ocultar fraudes, pero también se sigue tu rastro."
+    },
+    {
+      "id": "07",
+      "text": "En Bitcóin todo es pú blico y con seudónimos, así que no es anónimo. En el próximo video: ¿Qué es un jash?"
+    }
+  ]
+}

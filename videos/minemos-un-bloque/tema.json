@@ -1,0 +1,191 @@
+{
+  "slug": "minemos-un-bloque",
+  "titulo": "Minemos un bloque a mano",
+  "nivel": "Intermedio 3",
+  "descripcion": "Un juego con sumas simples para entender qué hace un minero: probar números hasta que el resultado cumple una regla.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Minemos un bloque a mano 🧮 Cómo trabaja un minero, explicado fácil | Cripto desde cero",
+    "descripcion": "⛏️ MINEMOS UN BLOQUE A MANO — Un juego de sumas para entender qué hace un minero\n\nPara entender qué hace un minero, hagamos un juego: vamos a minar un bloque a mano, con sumas muy simples.\n\n📚 EN ESTE VIDEO\n1️⃣ Las reglas de nuestro juego\n2️⃣ Un ejemplo: las operaciones suman 9\n3️⃣ Probamos números hasta acertar\n4️⃣ Qué es minar\n5️⃣ Por qué en la vida real es mucho más difícil\n\n💡 LA IDEA CLAVE\nMinar es como abrir un candado de combinación: no hay atajo, se prueba un número tras otro hasta que abre.\n\n📖 GLOSARIO\n• Minar: probar números hasta que el resultado cumple la regla.\n• Número de prueba: el que el minero va cambiando hasta acertar.\n\n⚠️ OJO CON\nEste juego es una simplificación didáctica: el hash real no es una suma, es una cuenta mucho más compleja.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que quiere jugar a ser minero un rato.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Minería #Bitcoin #CriptoDesdeCero",
+    "tags": [
+      "cómo minar un bloque",
+      "qué hace un minero",
+      "minería explicada",
+      "prueba de trabajo",
+      "juego de minería",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Minemos un",
+        "bloque"
+      ],
+      "sub": "A mano, con un juego",
+      "icono": "bloque",
+      "orbita": [
+        "candado",
+        "reloj",
+        "computadora",
+        "grupo"
+      ],
+      "vo": "Para entender qué hace un minero, hagamos un juego: vamos a minar un bloque a mano, con sumas muy simples."
+    },
+    {
+      "kind": "claves",
+      "badge": "LAS REGLAS",
+      "head": [
+        "Reglas del",
+        "juego"
+      ],
+      "items": [
+        {
+          "text": "Cada bloque junta **tres** operaciones",
+          "cue": "tres"
+        },
+        {
+          "text": "El hash es **la suma** de todo",
+          "cue": "suma"
+        },
+        {
+          "text": "Probás un **número de prueba**",
+          "cue": "prueba"
+        },
+        {
+          "text": "Tiene que dar **múltiplo de 7**",
+          "cue": "múltiplo"
+        }
+      ],
+      "vo": "Reglas: tres operaciones por bloque, un hash que es la suma de todo, un número de prueba, y que dé múltiplo de siete."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL EJEMPLO",
+      "head": [
+        "Las",
+        "operaciones"
+      ],
+      "icono": "intercambio",
+      "etiquetas": [
+        {
+          "text": "2 + 3 + 4 = 9",
+          "cue": "nueve"
+        },
+        {
+          "text": "Hash anterior: 0",
+          "cue": "cero"
+        }
+      ],
+      "vo": "Primer bloque: las operaciones valen dos, tres y cuatro. Sumadas dan nueve, y como es el primero, el hash anterior es cero."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Probando",
+        "números"
+      ],
+      "nodos": [
+        {
+          "icono": "lupa",
+          "label": "Con 1: da 10, no sirve",
+          "cue": "uno"
+        },
+        {
+          "icono": "lupa",
+          "label": "Con 4: da 13, tampoco",
+          "cue": "cuatro"
+        },
+        {
+          "icono": "check",
+          "label": "Con 5: da 14, ¡minado!",
+          "cue": "cinco"
+        }
+      ],
+      "vo": "Probamos: con uno da diez, no sirve. Con cuatro da trece, tampoco. Con cinco da catorce, que es siete por dos: ¡minado!"
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Minar",
+          "definicion": "Probar números hasta que el resultado **cumple la regla**.",
+          "icono": "computadora"
+        },
+        {
+          "termino": "Número de prueba",
+          "definicion": "El que el minero **va cambiando** hasta acertar.",
+          "icono": "lupa"
+        }
+      ],
+      "vo": "Minar es probar números hasta que el resultado cumple la regla. Ese número se va cambiando hasta acertar."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Como abrir un",
+        "candado"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "computadora",
+        "label": "Un minero"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "candado",
+        "label": "Un candado de combinación",
+        "cue": "candado"
+      },
+      "nota": "No hay atajo: **se prueba y se prueba**.",
+      "vo": "Es como abrir un candado de combinación: no hay atajo, se prueba un número tras otro hasta que abre."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EN LA VIDA REAL",
+      "head": [
+        "Mucho más",
+        "difícil"
+      ],
+      "icono": "computadora",
+      "etiquetas": [
+        {
+          "text": "Una cuenta muy compleja",
+          "cue": "compleja"
+        },
+        {
+          "text": "Millones de intentos",
+          "cue": "millones"
+        }
+      ],
+      "vo": "En la vida real el hash no es una suma sino una cuenta mucho más compleja, y hacen falta millones de intentos."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Minar es probar números",
+        "Gana quien acierta primero",
+        "En serio es muchísimo más difícil"
+      ],
+      "vo": "En el próximo video: ¿Cómo se sostiene una stablecoin?"
+    }
+  ]
+}

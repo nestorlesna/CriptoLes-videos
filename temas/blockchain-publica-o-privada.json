@@ -1,0 +1,166 @@
+{
+  "slug": "blockchain-publica-o-privada",
+  "titulo": "Blockchain pública vs privada",
+  "nivel": "Intermedio 4",
+  "descripcion": "Algunas blockchains son abiertas a todo el mundo y otras son cerradas, solo para invitados. En qué se diferencian y para qué sirve cada una.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Blockchain pública vs privada 🌍 Diferencias explicadas fácil | Cripto desde cero",
+    "descripcion": "🌍 BLOCKCHAIN PÚBLICA VS PRIVADA — Las diferencias entre una blockchain abierta y una cerrada\n\nNo todas las blockchain son iguales. Algunas están abiertas a todo el mundo y otras son cerradas, solo para invitados.\n\n📚 EN ESTE VIDEO\n1️⃣ Dos tipos de blockchain\n2️⃣ Cómo es una pública\n3️⃣ Cómo es una privada\n4️⃣ Para qué sirve cada una\n5️⃣ Lo que ganás y lo que perdés en cada caso\n\n💡 LA IDEA CLAVE\nUna pública es como una plaza abierta; una privada es como un club con lista de invitados.\n\n📖 GLOSARIO\n• Blockchain pública: abierta a cualquiera que quiera participar.\n• Blockchain privada: cerrada: solo entran quienes están autorizados.\n\n⚠️ OJO CON\nUna blockchain privada se parece más a una base de datos compartida que a una cripto: no confundas las dos.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien de una empresa que escuchó hablar de blockchain para negocios.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Blockchain #Empresas #CriptoDesdeCero",
+    "tags": [
+      "blockchain pública vs privada",
+      "qué es una blockchain privada",
+      "blockchain para empresas",
+      "tipos de blockchain",
+      "red pública y privada",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Pública o",
+        "privada"
+      ],
+      "sub": "Dos tipos de blockchain",
+      "icono": "bloques",
+      "orbita": [
+        "mundo",
+        "candado",
+        "banco",
+        "grupo"
+      ],
+      "vo": "No todas las blockchain son iguales. Algunas están abiertas a todo el mundo y otras son cerradas, solo para invitados."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Pública vs",
+        "privada"
+      ],
+      "a": {
+        "titulo": "Pública",
+        "icono": "mundo",
+        "items": [
+          "Cualquiera participa",
+          "Nadie decide quién entra"
+        ]
+      },
+      "b": {
+        "titulo": "Privada",
+        "icono": "candado",
+        "items": [
+          "Solo invitados",
+          "Una entidad decide"
+        ]
+      },
+      "vo": "En la pública cualquiera participa y nadie decide quién entra. En la privada entran solo invitados y una entidad decide."
+    },
+    {
+      "kind": "concepto",
+      "badge": "PÚBLICA",
+      "head": [
+        "Abierta a",
+        "todos"
+      ],
+      "icono": "mundo",
+      "etiquetas": [
+        {
+          "text": "Cualquiera puede leer y enviar",
+          "cue": "leer"
+        },
+        {
+          "text": "Cualquiera puede ser nodo",
+          "cue": "nodo"
+        }
+      ],
+      "vo": "En la pública, cualquiera puede leer, enviar operaciones y hasta ser nodo. Bitcoin y Ethereum son así."
+    },
+    {
+      "kind": "concepto",
+      "badge": "PRIVADA",
+      "head": [
+        "Solo para",
+        "invitados"
+      ],
+      "icono": "candado",
+      "etiquetas": [
+        {
+          "text": "Entra quien está autorizado",
+          "cue": "autorizado"
+        },
+        {
+          "text": "La usan grupos de empresas",
+          "cue": "empresas"
+        }
+      ],
+      "vo": "En la privada, entra solo quien está autorizado. Suelen usarla un grupo de empresas o bancos que se conocen."
+    },
+    {
+      "kind": "claves",
+      "badge": "SIRVE PARA",
+      "head": [
+        "Cada una",
+        "en lo suyo"
+      ],
+      "items": [
+        {
+          "text": "Pública: dinero y servicios **abiertos**",
+          "cue": "abiertos"
+        },
+        {
+          "text": "Privada: **registros** entre empresas",
+          "cue": "registros"
+        },
+        {
+          "text": "Privada: lugares con **normas** estrictas",
+          "cue": "normas"
+        }
+      ],
+      "vo": "La pública sirve para dinero y servicios abiertos. La privada, para registros entre empresas y lugares con normas estrictas."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL PRECIO",
+      "head": [
+        "Ganás y",
+        "perdés"
+      ],
+      "icono": "balanza",
+      "etiquetas": [
+        {
+          "text": "Privada: más rápida y controlable",
+          "cue": "rápida"
+        },
+        {
+          "text": "Pública: más abierta y difícil de frenar",
+          "cue": "abierta"
+        }
+      ],
+      "vo": "La privada suele ser más rápida y controlable. La pública es más abierta y mucho más difícil de frenar o de censurar."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Pública: abierta a todos",
+        "Privada: solo invitados",
+        "Cada una sirve para algo distinto"
+      ],
+      "vo": "En el próximo video: El trilema de las blockchains."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "nodos-y-red-p2p",
+  "titulo": "Nodos: quién guarda la copia",
+  "nivel": "Intermedio 4",
+  "descripcion": "Miles de computadoras guardan la blockchain. Qué es un nodo, cómo se controla cada operación y por qué la red sigue funcionando si uno se cae.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es un nodo? 🌐 Quién guarda la blockchain, explicado fácil | Cripto desde cero",
+    "descripcion": "🌐 NODOS: QUIÉN GUARDA LA COPIA — Quién guarda la copia de la blockchain y por qué no se cae\n\nDijimos que miles de computadoras guardan la blockchain. Esas computadoras se llaman nodos, y son clave.\n\n📚 EN ESTE VIDEO\n1️⃣ Servidor único vs red de nodos\n2️⃣ Qué es un nodo\n3️⃣ Cómo se controla una operación\n4️⃣ Cualquiera puede sumar un nodo\n5️⃣ Por qué importan las copias\n\n💡 LA IDEA CLAVE\nEs como si mil personas tuvieran copia del mismo cuaderno: si una anota distinto, la mayoría la corrige.\n\n📖 GLOSARIO\n• Nodo: computadora que guarda una copia y controla las reglas.\n• Red entre pares: red donde todos son iguales, sin jefe.\n\n⚠️ OJO CON\nTener un nodo no es lo mismo que tener tu billetera: tus llaves siempre las guardás vos.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se pregunta dónde vive realmente la blockchain.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Nodos #Descentralización #CriptoDesdeCero",
+    "tags": [
+      "qué es un nodo",
+      "nodos blockchain",
+      "red entre pares",
+      "descentralización",
+      "cómo funciona la red de bitcoin",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Los nodos",
+        "de la red"
+      ],
+      "sub": "Quién guarda la copia",
+      "icono": "red",
+      "orbita": [
+        "computadora",
+        "grupo",
+        "mundo",
+        "libro"
+      ],
+      "vo": "Dijimos que miles de computadoras guardan la blockchain. Esas computadoras se llaman nodos, y son clave."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Un servidor",
+        "vs una red"
+      ],
+      "a": {
+        "titulo": "Un servidor",
+        "icono": "computadora",
+        "items": [
+          "Todo en un lugar",
+          "Si cae, cae todo"
+        ]
+      },
+      "b": {
+        "titulo": "Una red",
+        "icono": "red",
+        "items": [
+          "Copias en muchos lugares",
+          "Si uno cae, sigue"
+        ]
+      },
+      "vo": "Un servidor tiene todo en un lugar; una red, copias en muchos. Si cae el servidor, cae todo; si cae un nodo, la red sigue."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Nodo",
+          "definicion": "Una **computadora** que guarda una copia y controla las reglas.",
+          "icono": "computadora"
+        },
+        {
+          "termino": "Red entre pares",
+          "definicion": "Todos son **iguales**, sin jefe ni servidor central.",
+          "icono": "grupo"
+        }
+      ],
+      "vo": "Un nodo es una computadora que guarda una copia y controla las reglas. En una red entre pares, todos son iguales, sin jefe."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Así se",
+        "controla"
+      ],
+      "nodos": [
+        {
+          "icono": "celular",
+          "label": "Alguien envía",
+          "cue": "envía"
+        },
+        {
+          "icono": "red",
+          "label": "Los nodos revisan",
+          "cue": "revisan"
+        },
+        {
+          "icono": "bloque",
+          "label": "Se agrega al bloque",
+          "cue": "agrega"
+        }
+      ],
+      "vo": "Alguien envía una operación, los nodos revisan que cumpla las reglas, y recién ahí se agrega a un bloque."
+    },
+    {
+      "kind": "concepto",
+      "badge": "ABIERTO",
+      "head": [
+        "Sumarse",
+        "es libre"
+      ],
+      "icono": "grupo",
+      "etiquetas": [
+        {
+          "text": "No hace falta permiso",
+          "cue": "permiso"
+        },
+        {
+          "text": "Más nodos, más difícil de controlar",
+          "cue": "difícil"
+        }
+      ],
+      "vo": "En una red pública, cualquiera puede sumar un nodo, sin pedir permiso. Cuantos más hay, más difícil es controlarla."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Mil copias",
+        "del cuaderno"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "computadora",
+        "label": "Un nodo"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "libro",
+        "label": "Una copia del cuaderno",
+        "cue": "copia"
+      },
+      "nota": "Si una **no coincide**, gana la mayoría.",
+      "vo": "Es como si mil personas tuvieran copia del mismo cuaderno: si una anota distinto, la mayoría la corrige."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Un nodo guarda una copia",
+        "Controla las reglas",
+        "Si uno cae, la red sigue"
+      ],
+      "vo": "En el próximo video: Blockchain pública vs privada."
+    }
+  ]
+}

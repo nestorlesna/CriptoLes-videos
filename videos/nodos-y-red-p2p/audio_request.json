@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Dijimos que miles de computadoras guar dan la blocchéin. Esas computadoras se llaman nodos, y son clave."
+    },
+    {
+      "id": "02",
+      "text": "Un ser vidor tiene todo en un lugar; una red, copias en muchos. Si cae el ser vidor, cae todo; si cae un nodo, la red sigue."
+    },
+    {
+      "id": "03",
+      "text": "Un nodo es una computadora que guar da una copia y controla las reglas. En una red entre pares, todos son iguales, sin jefe."
+    },
+    {
+      "id": "04",
+      "text": "Alguien envía una operación, los nodos revisan que cumpla las reglas, y recién ahí se agrega a un bloque."
+    },
+    {
+      "id": "05",
+      "text": "En una red pú blica, cualquiera puede sumar un nodo, sin pedir per miso. Cuantos más hay, más difícil es controlarla."
+    },
+    {
+      "id": "06",
+      "text": "Es como si mil per sonas tuvieran copia del mismo cuader no: si una anota distinto, la mayoría la corrige."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: Blocchéin pú blica vs pri vada."
+    }
+  ]
+}

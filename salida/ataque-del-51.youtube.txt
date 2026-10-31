@@ -1,0 +1,38 @@
+TÍTULO
+El ataque del 51 % ⚠️ Qué es y por qué casi nunca conviene | Cripto desde cero
+
+DESCRIPCIÓN
+⚠️ EL ATAQUE DEL 51 % — Qué podría hacer quien controle la mayoría de una red
+
+¿Qué pasa si alguien controla más de la mitad de la red? Es el famoso ataque del cincuenta y uno por ciento.
+
+📚 EN ESTE VIDEO
+1️⃣ La idea: controlar más de la mitad
+2️⃣ Qué podría hacer y qué no
+3️⃣ Por qué casi nunca conviene
+4️⃣ Por qué las redes chicas son más vulnerables
+5️⃣ Una analogía con las votaciones
+
+💡 LA IDEA CLAVE
+Es como ganar una votación con la mitad más uno de los votos: si juntás tantos, decidís vos.
+
+📖 GLOSARIO
+• Ataque del 51 %: controlar más de la mitad del poder de la red.
+• Poder de cómputo: la fuerza de cálculo de las computadoras de la red.
+
+⚠️ OJO CON
+En redes muy chicas, con poca gente participando, este ataque es mucho más fácil y ya ocurrió en algunas.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: Cómo ver una transacción real
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que pregunta si alguien podría robar bitcoins hackeando la red.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Seguridad #Bitcoin #CriptoDesdeCero
+
+TAGS
+ataque del 51, ataque 51 por ciento, seguridad blockchain, se puede hackear bitcoin, doble gasto, criptomonedas para principiantes, cripto desde cero, educación financiera

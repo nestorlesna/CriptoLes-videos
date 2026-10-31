@@ -1,0 +1,165 @@
+{
+  "slug": "que-es-kyc",
+  "titulo": "¿Por qué te piden documentos? (KYC)",
+  "nivel": "Intermedio 4",
+  "descripcion": "Qué es el KYC, qué datos te piden las plataformas, por qué las leyes lo exigen y qué cuidar al entregar tu información.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es el KYC? 🪪 Por qué te piden documentos, explicado fácil | Cripto desde cero",
+    "descripcion": "🪪 POR QUÉ TE PIDEN DOCUMENTOS (KYC) — Por qué las plataformas te piden verificar tu identidad\n\nAl abrir una cuenta en una plataforma cripto te piden foto, documento y datos. Eso tiene nombre: KYC.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué significa KYC\n2️⃣ Qué datos suelen pedirte\n3️⃣ Por qué las leyes lo exigen\n4️⃣ Con y sin KYC\n5️⃣ Cómo cuidar tus datos\n\n💡 LA IDEA CLAVE\nEs lo mismo que te piden en un banco para abrir una cuenta: comprobar que sos quien decís ser.\n\n📖 GLOSARIO\n• KYC: conocé a tu cliente: verificar quién sos.\n• Lavado de dinero: esconder el origen de plata ilegal.\n\n⚠️ OJO CON\nDá tus datos solo en sitios oficiales. El KYC pide documentos, nunca tu frase semilla ni tus claves.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se quejó de que le pidieron selfie y documento.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #KYC #Regulación #CriptoDesdeCero",
+    "tags": [
+      "qué es kyc",
+      "verificación de identidad cripto",
+      "por qué piden documento exchange",
+      "kyc cripto",
+      "lavado de dinero cripto",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "¿Por qué te",
+        "piden datos?"
+      ],
+      "sub": "Qué es el KYC",
+      "icono": "persona",
+      "orbita": [
+        "celular",
+        "banco",
+        "libro",
+        "escudo"
+      ],
+      "vo": "Al abrir una cuenta en una plataforma cripto te piden foto, documento y datos. Eso tiene nombre: KYC."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "KYC",
+          "definicion": "Conocé a tu cliente: **verificar quién sos**.",
+          "icono": "persona"
+        },
+        {
+          "termino": "Verificación",
+          "definicion": "Comprobar con tu documento que **sos vos**.",
+          "icono": "check"
+        }
+      ],
+      "vo": "KYC viene de conocé a tu cliente: es verificar quién sos. Se hace con tu documento y una foto tuya."
+    },
+    {
+      "kind": "claves",
+      "badge": "QUÉ TE PIDEN",
+      "head": [
+        "Lo habitual"
+      ],
+      "items": [
+        {
+          "text": "Foto del **documento**",
+          "cue": "documento"
+        },
+        {
+          "text": "Una **selfie** para comprobar",
+          "cue": "selfie"
+        },
+        {
+          "text": "Datos como el **domicilio**",
+          "cue": "domicilio"
+        }
+      ],
+      "vo": "Lo habitual: foto del documento, una selfie para comprobar que sos vos, y datos como tu domicilio."
+    },
+    {
+      "kind": "concepto",
+      "badge": "POR QUÉ",
+      "head": [
+        "Es una",
+        "norma"
+      ],
+      "icono": "balanza",
+      "etiquetas": [
+        {
+          "text": "Evitar el lavado de dinero",
+          "cue": "lavado"
+        },
+        {
+          "text": "Lo exigen las leyes",
+          "cue": "leyes"
+        }
+      ],
+      "vo": "Sirve para evitar el lavado de dinero, o sea, esconder plata de origen ilegal. Las leyes se lo exigen a las plataformas."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Con y sin",
+        "KYC"
+      ],
+      "a": {
+        "titulo": "Con KYC",
+        "icono": "check",
+        "items": [
+          "Saben quién sos",
+          "Cumple la ley"
+        ]
+      },
+      "b": {
+        "titulo": "Sin KYC",
+        "icono": "pregunta",
+        "items": [
+          "Más privacidad",
+          "Más riesgo"
+        ]
+      },
+      "vo": "Con KYC la plataforma sabe quién sos y cumple la ley. Sin KYC hay más privacidad, pero también más riesgo para vos."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Tus datos",
+        "importan"
+      ],
+      "titulo": "Cuidá lo que entregás",
+      "items": [
+        {
+          "text": "Solo sitios oficiales",
+          "cue": "oficiales"
+        },
+        {
+          "text": "Nunca tus claves",
+          "cue": "claves"
+        }
+      ],
+      "consejo": "El KYC pide documentos, **nunca tus claves**.",
+      "vo": "Ojo: dá tus datos solo en sitios oficiales. El KYC pide documentos, nunca tu frase semilla ni tus claves."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "KYC: verificar quién sos",
+        "Lo exige la ley",
+        "Datos solo en sitios oficiales"
+      ],
+      "vo": "En el próximo video: Monedas digitales de bancos centrales."
+    }
+  ]
+}

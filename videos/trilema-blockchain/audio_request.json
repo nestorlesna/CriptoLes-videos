@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Hay tres cosas que toda blocchéin quisiera tener a la vez. El problema es que casi nunca se puede con las tres."
+    },
+    {
+      "id": "02",
+      "text": "Descentralización, o sea que nadie mande; seguridad, que sea difícil de atacar; y escala, que aguante muchas operaciones."
+    },
+    {
+      "id": "03",
+      "text": "Mejorar una suele empeorar otra. Por eso cada red elige su equilibrio, según para qué la quiere usar."
+    },
+    {
+      "id": "04",
+      "text": "Una red muy descentralizada suele ser más lenta. Una red más rápida suele depender de pocos nodos, o sea, más centralizada."
+    },
+    {
+      "id": "05",
+      "text": "Una salida es sumar capas: la red principal da la seguridad, y otra capa encima da la velocidad."
+    },
+    {
+      "id": "06",
+      "text": "Un trilema son tres cosas que no entran juntas del todo. Escalabilidad es aguantar más usuarios sin trabar se."
+    },
+    {
+      "id": "07",
+      "text": "Ninguna red logra todo a la vez, así que cada una elige su equilibrio. En el próximo video: El ataque del 51 %."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Hay gente que cobra su sueldo en dólares digitales. No es moda: responde a problemas muy concretos de la región."
+    },
+    {
+      "id": "02",
+      "text": "Imaginá a alguien que trabaja a distancia para una empresa del exterior y cobra cada mes en una stéibolcoin."
+    },
+    {
+      "id": "03",
+      "text": "Por tres motivos: cuidar el valor cuando hay inflación, evitar trabas para mover plata, y recibir rápido y barato."
+    },
+    {
+      "id": "04",
+      "text": "Un giro bancario inter nacional tar da días y cobra comisiones. Con una stéibolcoin, suele tar dar minutos y costar poco."
+    },
+    {
+      "id": "05",
+      "text": "Muchos cambian a moneda local solo lo que van a gastar, y el resto lo guar dan en dólares digitales."
+    },
+    {
+      "id": "06",
+      "text": "Ojo: una stéibolcoin puede per der su valor, hay que cuidar las claves y las reglas cambian. Es solo infor mativo."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: Las pizzas de Bitcóin."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+TÍTULO
+¿Bitcoin es anónimo? 🕵️ Seudónimo vs anónimo, explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🕵️ BITCOIN ES ANÓNIMO — Por qué Bitcoin no es tan anónimo como parece
+
+Mucha gente cree que Bitcoin es anónimo. La respuesta corta: no tanto. Es seudónimo, y la diferencia importa.
+
+📚 EN ESTE VIDEO
+1️⃣ Una blockchain pública es un libro abierto
+2️⃣ Aparecen direcciones, no nombres
+3️⃣ Seudónimo vs anónimo
+4️⃣ Cómo pueden vincularte con tu dirección
+5️⃣ Ventajas y desventajas de la transparencia
+
+💡 LA IDEA CLAVE
+Es un libro de cuentas abierto a todos donde figuran códigos en vez de nombres: si alguien une tu código con tu nombre, ve todo.
+
+📖 GLOSARIO
+• Seudónimo: usar un nombre que no dice quién sos.
+• Anónimo: cuando nadie puede saber quién sos.
+
+⚠️ OJO CON
+No asumas que nadie te ve: tu historial es público para siempre, y una compra con documento puede vincularlo con vos.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: ¿Qué es un hash?
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que cree que Bitcoin sirve para esconderse.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Privacidad #Bitcoin #CriptoDesdeCero
+
+TAGS
+bitcoin es anónimo, seudónimo vs anónimo, privacidad bitcoin, rastrear bitcoin, blockchain pública, criptomonedas para principiantes, cripto desde cero, educación financiera

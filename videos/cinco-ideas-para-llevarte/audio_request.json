@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Hicimos un recorrido lar go. Quedémonos con cinco ideas que or denan todo lo que vimos."
+    },
+    {
+      "id": "02",
+      "text": "Primera idea: blocchéin no es lo mismo que cripto. Blocchéin es la infraestructura; las cripto son solo una aplicación."
+    },
+    {
+      "id": "03",
+      "text": "Segunda: se puede transaccionar sin un ter cero de confianza. Más liber tad, pero también más responsabilidad."
+    },
+    {
+      "id": "04",
+      "text": "Ter cera: en Latinoamérica se adopta por necesidad, por la inflación, las trabas y el costo de mover plata."
+    },
+    {
+      "id": "05",
+      "text": "Cuar ta: las reglas están llegando. Hay cada vez más mar cos legales, verificación de identidad e impuestos."
+    },
+    {
+      "id": "06",
+      "text": "Quinta: lo más valioso es entender. Infor mate antes de actuar y, si te animás, empezá de a poco."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video, más temas nuevos."
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "billetera-caliente-y-fria",
+  "titulo": "Billetera caliente y billetera fría",
+  "nivel": "Intermedio 4",
+  "descripcion": "Conectada a internet o guardada fuera de línea: diferencias, comodidad, seguridad y los cuidados de cada una.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Billetera caliente y fría 🔐 Cuál es cuál, explicado fácil | Cripto desde cero",
+    "descripcion": "🔐 BILLETERA CALIENTE Y BILLETERA FRÍA — La diferencia entre una billetera conectada y una fuera de línea\n\nNo todas las billeteras guardan las llaves igual. Algunas están conectadas a internet y otras, guardadas fuera de línea.\n\n📚 EN ESTE VIDEO\n1️⃣ Dos formas de guardar tus llaves\n2️⃣ Billetera caliente vs billetera fría\n3️⃣ Una analogía: bolsillo y caja fuerte\n4️⃣ Cómo es una billetera fría\n5️⃣ Los cuidados de cada una\n\n💡 LA IDEA CLAVE\nLa caliente es como la plata del bolsillo: a mano pero más expuesta. La fría es como una caja fuerte.\n\n📖 GLOSARIO\n• Billetera caliente: conectada a internet, cómoda para usar a diario.\n• Billetera fría: guarda las llaves fuera de línea, más segura.\n\n⚠️ OJO CON\nCon cualquiera de las dos, nunca compartas tu frase semilla: quien la tenga controla todo.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que guarda cripto y todavía usa solo el celular.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Billetera #Seguridad #CriptoDesdeCero",
+    "tags": [
+      "billetera caliente y fría",
+      "hot wallet cold wallet",
+      "qué es una billetera fría",
+      "dónde guardar cripto",
+      "seguridad de billeteras",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Billetera",
+        "caliente y fría"
+      ],
+      "sub": "Dos formas de guardar",
+      "icono": "billetera",
+      "orbita": [
+        "celular",
+        "candado",
+        "llave",
+        "escudo"
+      ],
+      "vo": "No todas las billeteras guardan las llaves igual. Algunas están conectadas a internet y otras, guardadas fuera de línea."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Caliente vs",
+        "fría"
+      ],
+      "a": {
+        "titulo": "Caliente",
+        "icono": "celular",
+        "items": [
+          "Conectada a internet",
+          "Cómoda para el día a día"
+        ]
+      },
+      "b": {
+        "titulo": "Fría",
+        "icono": "candado",
+        "items": [
+          "Fuera de línea",
+          "Más segura, menos cómoda"
+        ]
+      },
+      "vo": "La caliente está conectada a internet y es cómoda. La fría está fuera de línea: más segura, pero menos cómoda."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Bolsillo y",
+        "caja fuerte"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "billetera",
+        "label": "Billetera caliente"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "billetes",
+        "label": "Plata en el bolsillo",
+        "cue": "bolsillo"
+      },
+      "nota": "La fría es como la **caja fuerte**.",
+      "vo": "La caliente es como la plata del bolsillo: a mano, pero más expuesta. La fría es como una caja fuerte."
+    },
+    {
+      "kind": "claves",
+      "badge": "BILLETERA FRÍA",
+      "head": [
+        "Cómo es"
+      ],
+      "items": [
+        {
+          "text": "Un **dispositivo** especial",
+          "cue": "dispositivo"
+        },
+        {
+          "text": "Las **llaves** no salen de él",
+          "cue": "llaves"
+        },
+        {
+          "text": "**Confirmás** en el aparato",
+          "cue": "confirmás"
+        }
+      ],
+      "vo": "La fría suele ser un dispositivo especial. Las llaves nunca salen de él, y confirmás cada envío en el propio aparato."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Cuidado",
+        "con la fría"
+      ],
+      "titulo": "También se cuida",
+      "items": [
+        {
+          "text": "Comprala en el sitio oficial",
+          "cue": "oficial"
+        },
+        {
+          "text": "Guardá bien la frase semilla",
+          "cue": "semilla"
+        },
+        {
+          "text": "Hacé una copia de respaldo",
+          "cue": "copia"
+        }
+      ],
+      "consejo": "Nunca compartas tu **frase semilla**.",
+      "vo": "Cuidado: comprala solo en el sitio oficial, guardá la frase semilla y hacé copia. Si la perdés sin copia, perdés todo."
+    },
+    {
+      "kind": "concepto",
+      "badge": "COMBINAR",
+      "head": [
+        "Cada una",
+        "en lo suyo"
+      ],
+      "icono": "balanza",
+      "etiquetas": [
+        {
+          "text": "Caliente: montos chicos para usar",
+          "cue": "chicos"
+        },
+        {
+          "text": "Fría: lo que no pensás mover",
+          "cue": "mover"
+        }
+      ],
+      "vo": "Mucha gente usa la caliente para montos chicos, y la fría para lo que no piensa mover. Es una forma de repartir el riesgo."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Caliente: conectada y cómoda",
+        "Fría: fuera de línea y segura",
+        "Cuidá siempre la frase semilla"
+      ],
+      "vo": "En el próximo video: ¿Por qué te piden documentos? (KYC)."
+    }
+  ]
+}

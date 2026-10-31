@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Jash es una de esas palabras que aparecen por todos lados en cripto. Es más simple de lo que suena: una huella digital."
+    },
+    {
+      "id": "02",
+      "text": "Como la huella de una per sona, el jash es un código único para unos datos: si los datos son otros, la huella es otra."
+    },
+    {
+      "id": "03",
+      "text": "Entran datos, una cuenta los procesa y sale el jash, un código del mismo lar go. Mismos datos, mismo jash."
+    },
+    {
+      "id": "04",
+      "text": "Si cambiás una sola letra de los datos, el jash cambia por completo. Así se detecta cualquier alteración."
+    },
+    {
+      "id": "05",
+      "text": "No se puede volver atrás hasta los datos, un mismo dato da siempre el mismo jash y todos miden lo mismo."
+    },
+    {
+      "id": "06",
+      "text": "En la blocchéin, cada bloque guar da el jash del anterior. Así, si algo cambia, se nota enseguida."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: Nodos: quién guar da la copia."
+    }
+  ]
+}

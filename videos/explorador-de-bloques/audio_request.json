@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Toda operación en una blocchéin pú blica se puede ver. Para eso existen los exploradores de bloques."
+    },
+    {
+      "id": "02",
+      "text": "Un explorador de bloques es un sitio donde mirás bloques y operaciones. Cada envío tiene un código que lo identifica."
+    },
+    {
+      "id": "03",
+      "text": "Se ve de dónde salió, a dónde llegó, el monto, la comisión y cuántas confir maciones tiene."
+    },
+    {
+      "id": "04",
+      "text": "Cada bloque nuevo que se apila encima suma una confir mación. Cuantas más tiene, más seguro es que no se revier te."
+    },
+    {
+      "id": "05",
+      "text": "Copiás el código del envío, lo buscás en el explorador y ves si está pendiente o confir mado."
+    },
+    {
+      "id": "06",
+      "text": "Es como el seguimiento de un paquete: ves por dónde va y en qué estado, pero no podés cambiar nada."
+    },
+    {
+      "id": "07",
+      "text": "Ojo con sitios falsos: un explorador solo sir ve para mirar. Si te pide conectar la billetera o tus claves, es una estafa."
+    },
+    {
+      "id": "08",
+      "text": "En el próximo video: ¿Qué es «quemar» cripto?"
+    }
+  ]
+}

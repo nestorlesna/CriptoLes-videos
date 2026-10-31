@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Al abrir una cuenta en una platafor ma cripto te piden foto, documento y datos. Eso tiene nombre: kei uái sí."
+    },
+    {
+      "id": "02",
+      "text": "kei uái sí viene de conocé a tu cliente: es verificar quién sos. Se hace con tu documento y una foto tuya."
+    },
+    {
+      "id": "03",
+      "text": "Lo habitual: foto del documento, una sel fi para comprobar que sos vos, y datos como tu domicilio."
+    },
+    {
+      "id": "04",
+      "text": "Sir ve para evitar el lavado de dinero, o sea, esconder plata de origen ilegal. Las leyes se lo exigen a las platafor mas."
+    },
+    {
+      "id": "05",
+      "text": "Con kei uái sí la platafor ma sabe quién sos y cumple la ley. Sin kei uái sí hay más privacidad, pero también más riesgo para vos."
+    },
+    {
+      "id": "06",
+      "text": "Ojo: dá tus datos solo en sitios oficiales. El kei uái sí pide documentos, nunca tu frase semilla ni tus claves."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: Monedas digitales de bancos centrales."
+    }
+  ]
+}

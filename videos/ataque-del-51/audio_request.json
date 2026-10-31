@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "¿Qué pasa si alguien controla más de la mitad de la red? Es el famoso ataque del cincuenta y uno por ciento."
+    },
+    {
+      "id": "02",
+      "text": "En una red por mayoría, quien controla más de la mitad del poder de cómputo podría imponer su ver sión de la historia."
+    },
+    {
+      "id": "03",
+      "text": "Podría frenar operaciones y gastar dos veces lo suyo. No podría robar monedas ajenas ni crear monedas de la nada."
+    },
+    {
+      "id": "04",
+      "text": "Cuesta una for tuna en equipos y ener gía, y si el ataque se nota, la moneda pier de valor: el atacante ter mina per judicado."
+    },
+    {
+      "id": "05",
+      "text": "En redes chicas, con poca gente y poco poder de cómputo, es mucho más fácil. Y ya pasó en algunas."
+    },
+    {
+      "id": "06",
+      "text": "Es como ganar una votación con la mitad más uno de los votos: si juntás tantos, decidís vos."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: Cómo ver una transacción real."
+    }
+  ]
+}

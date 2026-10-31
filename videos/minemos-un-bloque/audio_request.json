@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Para entender qué hace un minero, hagamos un juego: vamos a minar un bloque a mano, con sumas muy simples."
+    },
+    {
+      "id": "02",
+      "text": "Reglas: tres operaciones por bloque, un jash que es la suma de todo, un número de prueba, y que dé múltiplo de siete."
+    },
+    {
+      "id": "03",
+      "text": "Primer bloque: las operaciones valen dos, tres y cuatro. Sumadas dan nueve, y como es el primero, el jash anterior es cero."
+    },
+    {
+      "id": "04",
+      "text": "Probamos: con uno da diez, no sir ve. Con cuatro da trece, tampoco. Con cinco da cator ce, que es siete por dos: ¡minado!"
+    },
+    {
+      "id": "05",
+      "text": "Minar es probar números hasta que el resultado cumple la regla. Ese número se va cambiando hasta acer tar."
+    },
+    {
+      "id": "06",
+      "text": "Es como abrir un candado de combinación: no hay atajo, se prueba un número tras otro hasta que abre."
+    },
+    {
+      "id": "07",
+      "text": "En la vida real el jash no es una suma sino una cuenta mucho más compleja, y hacen falta millones de intentos."
+    },
+    {
+      "id": "08",
+      "text": "En el próximo video: ¿Cómo se sostiene una stéibolcoin?"
+    }
+  ]
+}

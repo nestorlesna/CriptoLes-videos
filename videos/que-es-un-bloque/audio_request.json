@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Una blocchéin está hecha de bloques. ¿Pero qué tiene adentro cada uno? Es más simple de lo que parece."
+    },
+    {
+      "id": "02",
+      "text": "Un bloque es como una página de un libro contable: ahí se anotan las operaciones de un período y se pasa a la siguiente."
+    },
+    {
+      "id": "03",
+      "text": "Adentro hay cuatro cosas: la hora, la lista de operaciones, una huella propia y la huella del bloque anterior."
+    },
+    {
+      "id": "04",
+      "text": "El jash es una huella digital: un código único para esos datos. Si los datos cambian, la huella cambia."
+    },
+    {
+      "id": "05",
+      "text": "El bloque dos guar da la huella del uno, el tres la del dos, y así se for ma la cadena, bloque tras bloque."
+    },
+    {
+      "id": "06",
+      "text": "En cada bloque entran muchas operaciones juntas. Por eso se anotan por tandas, y no una por una."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: ¿Por qué no se puede cambiar el pasado?"
+    }
+  ]
+}

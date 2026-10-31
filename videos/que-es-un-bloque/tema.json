@@ -1,0 +1,171 @@
+{
+  "slug": "que-es-un-bloque",
+  "titulo": "¿Qué hay dentro de un bloque?",
+  "nivel": "Intermedio 3",
+  "descripcion": "Una blockchain está hecha de bloques. Qué guarda cada uno: la hora, las operaciones, su huella y la huella del bloque anterior.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué hay dentro de un bloque? 🧱 Blockchain explicada fácil | Cripto desde cero",
+    "descripcion": "🧱 QUÉ HAY DENTRO DE UN BLOQUE — Qué guarda cada bloque de una blockchain\n\nUna blockchain está hecha de bloques. ¿Pero qué tiene adentro cada uno? Es más simple de lo que parece.\n\n📚 EN ESTE VIDEO\n1️⃣ El bloque como página de un libro contable\n2️⃣ Las cuatro cosas que tiene adentro\n3️⃣ Qué es el hash\n4️⃣ Cómo se encadenan los bloques\n5️⃣ Por qué las operaciones se anotan en tandas\n\n💡 LA IDEA CLAVE\nUn bloque es una página del libro contable: anota operaciones y se une a la página anterior con una huella.\n\n📖 GLOSARIO\n• Bloque: grupo de operaciones anotadas juntas.\n• Hash: una huella digital: un código único para esos datos.\n\n⚠️ OJO CON\nEl contenido de los bloques es público: nunca pongas datos personales en una operación.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que quiere saber qué hay realmente adentro de una blockchain.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Bloque #Blockchain #CriptoDesdeCero",
+    "tags": [
+      "qué es un bloque",
+      "bloque blockchain",
+      "qué tiene un bloque",
+      "hash bloque anterior",
+      "cómo funciona blockchain",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "¿Qué hay en",
+        "un bloque?"
+      ],
+      "sub": "Una página del libro",
+      "icono": "bloque",
+      "orbita": [
+        "libro",
+        "reloj",
+        "candado",
+        "cadena"
+      ],
+      "vo": "Una blockchain está hecha de bloques. ¿Pero qué tiene adentro cada uno? Es más simple de lo que parece."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Una página",
+        "del libro"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "bloque",
+        "label": "Un bloque"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "libro",
+        "label": "Página de un libro contable",
+        "cue": "página"
+      },
+      "nota": "Cada página **anota operaciones** y se une a la anterior.",
+      "vo": "Un bloque es como una página de un libro contable: ahí se anotan las operaciones de un período y se pasa a la siguiente."
+    },
+    {
+      "kind": "claves",
+      "badge": "ADENTRO HAY",
+      "head": [
+        "Cuatro cosas"
+      ],
+      "items": [
+        {
+          "text": "**La hora** de creación",
+          "cue": "hora"
+        },
+        {
+          "text": "**Las operaciones** anotadas",
+          "cue": "operaciones"
+        },
+        {
+          "text": "**Una huella** propia",
+          "cue": "huella"
+        },
+        {
+          "text": "**La huella** del anterior",
+          "cue": "anterior"
+        }
+      ],
+      "vo": "Adentro hay cuatro cosas: la hora, la lista de operaciones, una huella propia y la huella del bloque anterior."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Hash",
+          "definicion": "Una **huella digital**: un código único para esos datos.",
+          "icono": "lupa"
+        },
+        {
+          "termino": "Operación",
+          "definicion": "Un **movimiento** anotado, como un envío.",
+          "icono": "intercambio"
+        }
+      ],
+      "vo": "El hash es una huella digital: un código único para esos datos. Si los datos cambian, la huella cambia."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Así se",
+        "encadenan"
+      ],
+      "nodos": [
+        {
+          "icono": "bloque",
+          "label": "Bloque 1",
+          "cue": "uno"
+        },
+        {
+          "icono": "bloque",
+          "label": "Bloque 2",
+          "detalle": "Guarda la huella del 1",
+          "cue": "dos"
+        },
+        {
+          "icono": "bloque",
+          "label": "Bloque 3",
+          "detalle": "Guarda la huella del 2",
+          "cue": "tres"
+        }
+      ],
+      "vo": "El bloque dos guarda la huella del uno, el tres la del dos, y así se forma la cadena, bloque tras bloque."
+    },
+    {
+      "kind": "concepto",
+      "head": [
+        "Muchas",
+        "operaciones"
+      ],
+      "icono": "grupo",
+      "etiquetas": [
+        {
+          "text": "En cada bloque entran muchas",
+          "cue": "muchas"
+        },
+        {
+          "text": "Se anotan por tandas",
+          "cue": "tandas"
+        }
+      ],
+      "vo": "En cada bloque entran muchas operaciones juntas. Por eso se anotan por tandas, y no una por una."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Un bloque es una página",
+        "Tiene hora, operaciones y huellas",
+        "Se encadena con el anterior"
+      ],
+      "vo": "En el próximo video: ¿Por qué no se puede cambiar el pasado?"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "slug": "prestamos-con-garantia-cripto",
+  "titulo": "Préstamos con garantía y liquidación",
+  "nivel": "Intermedio 3",
+  "descripcion": "Cómo se pide un préstamo dejando cripto de garantía en un contrato inteligente, y qué pasa cuando la garantía baja demasiado: la liquidación.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Préstamos con garantía cripto 🔒 Qué es la liquidación, explicado fácil | Cripto desde cero",
+    "descripcion": "🔒 PRÉSTAMOS CON GARANTÍA Y LIQUIDACIÓN — Cómo funciona un préstamo con garantía y qué es la liquidación\n\nEn finanzas descentralizadas podés pedir un préstamo dejando cripto de garantía. Pero hay una trampa: la liquidación.\n\n📚 EN ESTE VIDEO\n1️⃣ Cómo se pide un préstamo dejando cripto de garantía\n2️⃣ Quién lo maneja: un contrato inteligente\n3️⃣ Qué es la liquidación\n4️⃣ Por qué el código no negocia\n5️⃣ Cómo reducir el riesgo\n\n💡 LA IDEA CLAVE\nEs como empeñar un reloj, pero con un contrato que no negocia: si la garantía no alcanza, la vende solo.\n\n📖 GLOSARIO\n• Garantía: lo que dejás para respaldar el préstamo.\n• Liquidación: cuando el contrato vende tu garantía porque ya no cubre la deuda.\n\n⚠️ OJO CON\nEn finanzas descentralizadas no hay quien te llame para avisarte: si la garantía baja, el contrato actúa igual. Usalo solo si lo entendés bien.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que quiere entender los préstamos cripto antes de probarlos.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #DeFi #Préstamos #CriptoDesdeCero",
+    "tags": [
+      "préstamos con garantía cripto",
+      "qué es la liquidación",
+      "préstamos defi",
+      "contrato inteligente préstamo",
+      "riesgos defi",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Préstamo con",
+        "garantía"
+      ],
+      "sub": "Y la liquidación",
+      "icono": "candado",
+      "orbita": [
+        "moneda",
+        "balanza",
+        "alerta",
+        "computadora"
+      ],
+      "vo": "En finanzas descentralizadas podés pedir un préstamo dejando cripto de garantía. Pero hay una trampa: la liquidación."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Así",
+        "funciona"
+      ],
+      "nodos": [
+        {
+          "icono": "candado",
+          "label": "Dejás cripto de garantía",
+          "cue": "garantía"
+        },
+        {
+          "icono": "billete",
+          "label": "Recibís el préstamo",
+          "cue": "préstamo"
+        },
+        {
+          "icono": "intercambio",
+          "label": "Devolvés y la recuperás",
+          "cue": "devolvés"
+        }
+      ],
+      "vo": "Dejás cripto de garantía en un contrato, recibís el préstamo y, cuando lo devolvés, recuperás tu garantía."
+    },
+    {
+      "kind": "concepto",
+      "head": [
+        "Sin papeles",
+        "ni personas"
+      ],
+      "icono": "computadora",
+      "etiquetas": [
+        {
+          "text": "Lo maneja un contrato inteligente",
+          "cue": "contrato"
+        },
+        {
+          "text": "Sin formularios ni banco",
+          "cue": "formularios"
+        }
+      ],
+      "vo": "No hay formularios ni empleado de banco: lo maneja un contrato inteligente, un programa que se cumple solo."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "La",
+        "liquidación"
+      ],
+      "titulo": "Si la garantía baja",
+      "items": [
+        {
+          "text": "Su valor cae",
+          "cue": "cae"
+        },
+        {
+          "text": "Ya no cubre el préstamo",
+          "cue": "cubre"
+        },
+        {
+          "text": "El contrato la vende solo",
+          "cue": "vende"
+        }
+      ],
+      "consejo": "Dejá **mucha más garantía** de la necesaria.",
+      "vo": "Si el valor de la garantía cae y ya no cubre el préstamo, el contrato la vende solo. Eso se llama liquidación."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Como empeñar",
+        "un reloj"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "candado",
+        "label": "Garantía"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "reloj",
+        "label": "Un reloj empeñado",
+        "cue": "reloj"
+      },
+      "nota": "La diferencia: acá **decide el código**.",
+      "vo": "Es como empeñar un reloj: te dan plata, pero si no podés pagar, el reloj se pierde."
+    },
+    {
+      "kind": "concepto",
+      "head": [
+        "El código",
+        "no negocia"
+      ],
+      "icono": "computadora",
+      "etiquetas": [
+        {
+          "text": "No hay llamado por teléfono",
+          "cue": "llaman"
+        },
+        {
+          "text": "Se ejecuta **igual**",
+          "cue": "ejecuta"
+        }
+      ],
+      "vo": "En un banco te llaman para avisarte. Acá no: el código no negocia, solo ejecuta."
+    },
+    {
+      "kind": "claves",
+      "badge": "PARA CUIDARTE",
+      "head": [
+        "Cuidados"
+      ],
+      "items": [
+        {
+          "text": "Dejar **mucha** garantía de más",
+          "cue": "garantía"
+        },
+        {
+          "text": "Poner alertas de precio",
+          "cue": "alertas"
+        },
+        {
+          "text": "Pedir **poco**",
+          "cue": "poco"
+        }
+      ],
+      "vo": "Para cuidarte: dejá mucha garantía de más, poné alertas y pedí poco. Si no lo entendés bien, no lo uses."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Dejás cripto de garantía",
+        "Si baja, se liquida sola",
+        "El código no negocia"
+      ],
+      "vo": "Un préstamo con garantía se liquida solo si la garantía baja demasiado. En el próximo video: Cobrar en dólares digitales."
+    }
+  ]
+}

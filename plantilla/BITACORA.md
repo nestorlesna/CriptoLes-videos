@@ -44,6 +44,7 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-22 | (CSV) | La descripción de clave-publica-y-privada tenía ";" y se partía en dos columnas | campos con ";" van entre comillas (readCsv las soporta) |
 | 10-22 | (voz) | Palabras nuevas: whitepaper, Satoshis, halving, altcoin, Stablecoin, ether, pendrive, shopping, CBU | agregadas a `pronunciacion.json`, **pendiente que el dueño las escuche**. En Windows `Halving.wav` pisa a `halving.wav` (mismo nombre sin mayúsculas): da igual, suenan igual |
 | 10-18 | descripcion_inicial | Video de presentación del canal, más largo que los temas | 14 escenas → ~92 s sin problemas de layout; va primero en `temas.csv` (nivel "Bienvenida") y su cierre apunta a ¿Qué es el dinero? |
+| 10-31 | 34-59 | Segunda tanda (26 videos de la charla, ver `PLAN-NUEVOS-VIDEOS.md`) | Voz: la "r" suave antes de consonante se perdía (servidor, participar…). Prueba A/B de oído: partir la palabra tras la r ("ser vidor") mejora; "ll"→"y" no hace falta. Regla automática en `vozText` (palabras de 5+ letras, excluye rr/rl/rh). Cierres con título entre ¿? no llevan punto extra. Lanzar `make-video` en paralelo pisa `hyperframes init`: correr de a uno |
 
 ## Pendientes / ideas
 

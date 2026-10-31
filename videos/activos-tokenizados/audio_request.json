@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "¿Y si un edificio se pudiera dividir en miles de par tes digitales y cada per sona comprara una? Eso es toquenizar."
+    },
+    {
+      "id": "02",
+      "text": "Un tóquen es una ficha digital que representa algo. Toquenizar es conver tir algo real, como un edificio, en fichas digitales."
+    },
+    {
+      "id": "03",
+      "text": "Se toma un activo real, se divide en muchas fichas digitales, y cada per sona puede tener una par te."
+    },
+    {
+      "id": "04",
+      "text": "Se habla de toquenizar inmuebles, o sea edificios y terrenos, oro y hasta obras de arte."
+    },
+    {
+      "id": "05",
+      "text": "Una ventaja: se puede comprar una par te chica, no el edificio entero, y en teoría es más fácil de vender."
+    },
+    {
+      "id": "06",
+      "text": "Ojo: el tóquen vale si hay un respaldo legal detrás. Hay que saber quién lo emite y qué reglas rigen en tu país."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: De la chacra a la mesa."
+    }
+  ]
+}

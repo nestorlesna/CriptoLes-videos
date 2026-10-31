@@ -1,0 +1,169 @@
+{
+  "slug": "cobrar-en-dolares-digitales",
+  "titulo": "Cobrar en dólares digitales",
+  "nivel": "Intermedio 3",
+  "descripcion": "Por qué hay gente en Latinoamérica que cobra su sueldo en stablecoins: inflación, trabas para mover plata y costos. Descriptivo, sin recomendar.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Cobrar en dólares digitales 🌎 Por qué pasa en Latinoamérica, explicado fácil | Cripto desde cero",
+    "descripcion": "🌎 COBRAR EN DÓLARES DIGITALES — Por qué hay quienes cobran su sueldo en stablecoins\n\nHay gente que cobra su sueldo en dólares digitales. No es moda: responde a problemas muy concretos de la región.\n\n📚 EN ESTE VIDEO\n1️⃣ El caso de alguien que trabaja para el exterior\n2️⃣ Tres motivos para cobrar así\n3️⃣ Banco vs stablecoin: tiempo y costo\n4️⃣ Cómo convierten lo que gastan\n5️⃣ Los riesgos que hay que conocer\n\n💡 LA IDEA CLAVE\nPara muchos no es especulación: es una herramienta para cuidar el valor de lo que ganan y cobrar sin trabas.\n\n📖 GLOSARIO\n• Stablecoin: criptomoneda que busca valer lo mismo que un dólar.\n• Inflación: cuando con la misma plata comprás cada vez menos.\n\n⚠️ OJO CON\nEste video es informativo, no una recomendación: una stablecoin puede perder su valor y las reglas e impuestos cambian según el país.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que trabaja para el exterior y cobra con comisiones altas.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Stablecoin #Latinoamérica #CriptoDesdeCero",
+    "tags": [
+      "cobrar en stablecoins",
+      "cobrar en dólares digitales",
+      "sueldo en stablecoins",
+      "stablecoins en latinoamérica",
+      "inflación y cripto",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Cobrar en",
+        "dólares digitales"
+      ],
+      "sub": "Por qué pasa en Latinoamérica",
+      "icono": "billete",
+      "orbita": [
+        "celular",
+        "mundo",
+        "banco",
+        "reloj"
+      ],
+      "vo": "Hay gente que cobra su sueldo en dólares digitales. No es moda: responde a problemas muy concretos de la región."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL CASO",
+      "head": [
+        "Un sueldo en",
+        "stablecoins"
+      ],
+      "icono": "persona",
+      "etiquetas": [
+        {
+          "text": "Trabaja para el exterior",
+          "cue": "exterior"
+        },
+        {
+          "text": "Cobra en una stablecoin",
+          "cue": "stablecoin"
+        }
+      ],
+      "vo": "Imaginá a alguien que trabaja a distancia para una empresa del exterior y cobra cada mes en una stablecoin."
+    },
+    {
+      "kind": "claves",
+      "badge": "POR QUÉ LO HACEN",
+      "head": [
+        "Tres motivos"
+      ],
+      "items": [
+        {
+          "text": "Cuidar el valor ante la **inflación**",
+          "cue": "inflación"
+        },
+        {
+          "text": "Evitar **trabas** para mover plata",
+          "cue": "trabas"
+        },
+        {
+          "text": "Recibir **rápido** y barato",
+          "cue": "rápido"
+        }
+      ],
+      "vo": "Por tres motivos: cuidar el valor cuando hay inflación, evitar trabas para mover plata, y recibir rápido y barato."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Banco vs",
+        "stablecoin"
+      ],
+      "a": {
+        "titulo": "Giro por banco",
+        "icono": "banco",
+        "items": [
+          "Tarda días",
+          "Cobra comisiones"
+        ]
+      },
+      "b": {
+        "titulo": "Stablecoin",
+        "icono": "moneda",
+        "items": [
+          "Tarda minutos",
+          "Comisión baja"
+        ]
+      },
+      "vo": "Un giro bancario internacional tarda días y cobra comisiones. Con una stablecoin, suele tardar minutos y costar poco."
+    },
+    {
+      "kind": "concepto",
+      "badge": "Y DESPUÉS",
+      "head": [
+        "Pasan a pesos",
+        "lo que gastan"
+      ],
+      "icono": "intercambio",
+      "etiquetas": [
+        {
+          "text": "Cambian solo lo del mes",
+          "cue": "gastar"
+        },
+        {
+          "text": "El resto queda en dólares digitales",
+          "cue": "resto"
+        }
+      ],
+      "vo": "Muchos cambian a moneda local solo lo que van a gastar, y el resto lo guardan en dólares digitales."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Ojo con",
+        "los riesgos"
+      ],
+      "titulo": "No todo es ventaja",
+      "items": [
+        {
+          "text": "Puede perder su valor",
+          "cue": "perder"
+        },
+        {
+          "text": "Hay que cuidar las claves",
+          "cue": "claves"
+        },
+        {
+          "text": "Las reglas cambian",
+          "cue": "reglas"
+        }
+      ],
+      "consejo": "Esto es **informativo**, no una recomendación.",
+      "vo": "Ojo: una stablecoin puede perder su valor, hay que cuidar las claves y las reglas cambian. Es solo informativo."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Inflación y trabas",
+        "Rápido y barato",
+        "Con riesgos que conocer"
+      ],
+      "vo": "En el próximo video: Las pizzas de Bitcoin."
+    }
+  ]
+}

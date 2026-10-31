@@ -165,6 +165,9 @@ function vozText(s) {
   const map = JSON.parse(readFileSync(join(HERE, "pronunciacion.json"), "utf8"));
   let out = String(s).replace(/\*\*/g, "");
   for (const [k, v] of Object.entries(map)) if (!k.startsWith("_")) out = out.replace(new RegExp(`(?<![\\p{L}])${k}(?![\\p{L}])`, "gu"), v);
+  // "r" suave antes de consonante (servidor, participar…): Daniela la pierde; un espacio tras la r la devuelve (probado de oído).
+  // Otros grupos (rr, bl, pr) NO se parten solos: "próximo", "precio" o "hablar" suenan bien tal cual; van uno por uno en pronunciacion.json.
+  out = out.replace(/\p{L}{5,}/gu, (w) => w.replace(/(?<=[aeiouáéíóú]r)(?=[^aeiouáéíóúhlr\s])/giu, " "));
   return out;
 }
 function tts(dir, spec, frames) {

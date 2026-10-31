@@ -1,0 +1,174 @@
+{
+  "slug": "por-que-intermediarios",
+  "titulo": "¿Hacen falta los intermediarios?",
+  "nivel": "Intermedio 4",
+  "descripcion": "Casi todo pago digital pasa por un tercero. Qué hace, qué cobra, qué puede bloquear y qué propone una red sin intermediarios.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Hacen falta los intermediarios? 🤝 Pagos con y sin tercero, explicado fácil | Cripto desde cero",
+    "descripcion": "🤝 HACEN FALTA LOS INTERMEDIARIOS — Qué hace un intermediario y qué cambia sin él\n\nCasi todo pago digital pasa por un intermediario. ¿Es necesario? Veamos qué hace y qué pasa si no está.\n\n📚 EN ESTE VIDEO\n1️⃣ Cómo viaja un pago normal\n2️⃣ Cuatro cosas que hace el intermediario\n3️⃣ Lo que sí te protege\n4️⃣ La idea de las cripto: pagar directo\n5️⃣ Con y sin intermediario\n\n💡 LA IDEA CLAVE\nUn intermediario te da un lugar donde reclamar, pero también puede frenar tu pago. Cada modelo tiene su precio.\n\n📖 GLOSARIO\n• Intermediario: quien está en el medio de un pago y lo valida.\n• Reclamar: pedir que se corrija o se devuelva una operación.\n\n⚠️ OJO CON\nSin intermediario no hay a quién reclamar: si te equivocás en un envío, nadie te devuelve el dinero.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se pregunta para qué sirve pagar sin un banco en el medio.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Intermediarios #Descentralización #CriptoDesdeCero",
+    "tags": [
+      "qué es un intermediario",
+      "pagos sin intermediarios",
+      "para qué sirven las cripto",
+      "bancos vs cripto",
+      "descentralización explicada",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "¿Hacen falta",
+        "intermediarios?"
+      ],
+      "sub": "Pagos con y sin tercero",
+      "icono": "banco",
+      "orbita": [
+        "persona",
+        "celular",
+        "candado",
+        "apreton"
+      ],
+      "vo": "Casi todo pago digital pasa por un intermediario. ¿Es necesario? Veamos qué hace y qué pasa si no está."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Un pago",
+        "normal"
+      ],
+      "nodos": [
+        {
+          "icono": "persona",
+          "label": "Vos",
+          "cue": "vos"
+        },
+        {
+          "icono": "banco",
+          "label": "Intermediario",
+          "cue": "intermediario"
+        },
+        {
+          "icono": "persona",
+          "label": "Otra persona",
+          "cue": "otra persona"
+        }
+      ],
+      "vo": "Cuando pagás, el dinero va de vos al intermediario, y de ahí a la otra persona. Siempre hay alguien en el medio."
+    },
+    {
+      "kind": "claves",
+      "badge": "EL INTERMEDIARIO",
+      "head": [
+        "Cuatro cosas"
+      ],
+      "items": [
+        {
+          "text": "Cobra una **comisión**",
+          "cue": "comisión"
+        },
+        {
+          "text": "Puede **bloquear** pagos",
+          "cue": "bloquear"
+        },
+        {
+          "text": "Puede **caerse**",
+          "cue": "caerse"
+        },
+        {
+          "text": "**Ve todo** lo que hacés",
+          "cue": "todo"
+        }
+      ],
+      "vo": "El intermediario cobra comisión, puede bloquear un pago, puede caerse y además ve todo lo que hacés."
+    },
+    {
+      "kind": "concepto",
+      "badge": "PERO TAMBIÉN PROTEGE",
+      "head": [
+        "Tiene sus",
+        "ventajas"
+      ],
+      "icono": "escudo",
+      "etiquetas": [
+        {
+          "text": "Si hay un error, alguien responde",
+          "cue": "error"
+        },
+        {
+          "text": "Puede frenar un fraude",
+          "cue": "fraude"
+        }
+      ],
+      "vo": "Ojo, también tiene ventajas: si hay un error o un fraude, hay alguien a quien reclamar. En cripto, no."
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA CRIPTO",
+      "head": [
+        "Pagar sin",
+        "nadie en medio"
+      ],
+      "icono": "red",
+      "etiquetas": [
+        {
+          "text": "La red valida el pago",
+          "cue": "red"
+        },
+        {
+          "text": "Sin pedir permiso",
+          "cue": "permiso"
+        }
+      ],
+      "vo": "La idea de las cripto: pagar directo, validado por una red y sin pedir permiso a nadie en el medio."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Con y sin",
+        "intermediario"
+      ],
+      "a": {
+        "titulo": "Con",
+        "icono": "banco",
+        "items": [
+          "Podés reclamar",
+          "Pueden frenar tu pago"
+        ]
+      },
+      "b": {
+        "titulo": "Sin",
+        "icono": "red",
+        "items": [
+          "Nadie te bloquea",
+          "Nadie te devuelve"
+        ]
+      },
+      "vo": "Con intermediario podés reclamar; sin él, nadie te bloquea. Allá pueden frenar tu pago; acá, nadie te devuelve nada."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Un intermediario cobra y controla",
+        "También da un lugar donde reclamar",
+        "Sin él: libertad y responsabilidad"
+      ],
+      "vo": "En el próximo video: ¿Bitcoin es anónimo?"
+    }
+  ]
+}

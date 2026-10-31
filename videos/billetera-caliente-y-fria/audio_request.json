@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "No todas las billeteras guar dan las llaves igual. Algunas están conectadas a inter net y otras, guar dadas fuera de línea."
+    },
+    {
+      "id": "02",
+      "text": "La caliente está conectada a inter net y es cómoda. La fría está fuera de línea: más segura, pero menos cómoda."
+    },
+    {
+      "id": "03",
+      "text": "La caliente es como la plata del bolsillo: a mano, pero más expuesta. La fría es como una caja fuer te."
+    },
+    {
+      "id": "04",
+      "text": "La fría suele ser un dispositivo especial. Las llaves nunca salen de él, y confir más cada envío en el propio aparato."
+    },
+    {
+      "id": "05",
+      "text": "Cuidado: comprala solo en el sitio oficial, guar dá la frase semilla y hacé copia. Si la per dés sin copia, per dés todo."
+    },
+    {
+      "id": "06",
+      "text": "Mucha gente usa la caliente para montos chicos, y la fría para lo que no piensa mover. Es una for ma de repar tir el riesgo."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: ¿Por qué te piden documentos? (kei uái sí)."
+    }
+  ]
+}

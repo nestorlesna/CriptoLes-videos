@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Si alguien quisiera cambiar una operación vieja de la blocchéin, ¿podría? En teoría sí, pero en la práctica es carísimo."
+    },
+    {
+      "id": "02",
+      "text": "Si cambiás algo del bloque dos, su huella cambia. Pero el bloque tres guar dó la huella vieja, y ya no encaja."
+    },
+    {
+      "id": "03",
+      "text": "Para disimularlo, habría que rehacer todos los bloques que vienen después, y la red lo rechaza si no coincide."
+    },
+    {
+      "id": "04",
+      "text": "Habría que rehacer ese bloque y todos los siguientes, ser más rápido que toda la red junta y convencer a la mayoría."
+    },
+    {
+      "id": "05",
+      "text": "Se dice que una blocchéin es inmutable: no es imposible cambiarla, pero cuesta tanto que no conviene."
+    },
+    {
+      "id": "06",
+      "text": "Es como escribir con tinta en un cuader no que miles de per sonas copian: agregar es fácil, bo rar no."
+    },
+    {
+      "id": "07",
+      "text": "Ojo: por lo mismo, no hay botón de deshacer. Si te equivocás en un envío, nadie lo revier te. Revisá todo antes de confir mar."
+    },
+    {
+      "id": "08",
+      "text": "Cambiar un bloque rompe la cadena, y por eso el pasado casi no se puede tocar. En el próximo video: Minemos un bloque a mano."
+    }
+  ]
+}

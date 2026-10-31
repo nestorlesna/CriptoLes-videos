@@ -1,0 +1,184 @@
+{
+  "slug": "por-que-no-se-puede-borrar",
+  "titulo": "¿Por qué no se puede cambiar el pasado?",
+  "nivel": "Intermedio 3",
+  "descripcion": "Si alguien toca un bloque viejo, se rompe la cadena hacia adelante. Qué significa que una blockchain sea inmutable y qué costaría falsificarla.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Por qué no se puede cambiar una blockchain? 🔗 Inmutabilidad explicada fácil | Cripto desde cero",
+    "descripcion": "🔗 POR QUÉ NO SE PUEDE CAMBIAR EL PASADO — Por qué una blockchain es tan difícil de falsificar\n\nSi alguien quisiera cambiar una operación vieja de la blockchain, ¿podría? En teoría sí, pero en la práctica es carísimo.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué pasa si cambiás un bloque viejo\n2️⃣ Por qué la cadena se rompe\n3️⃣ Qué habría que hacer para falsificarla\n4️⃣ Qué significa inmutable\n5️⃣ No hay botón de deshacer\n\n💡 LA IDEA CLAVE\nEscribir en una blockchain es como usar tinta en un cuaderno que miles copian: agregar es fácil, borrar casi imposible.\n\n📖 GLOSARIO\n• Inmutable: que no cambia: modificarlo cuesta demasiado.\n• Huella (hash): un código único que cambia si cambian los datos.\n\n⚠️ OJO CON\nInmutable también significa que si te equivocás en un envío, nadie lo revierte: revisá todo antes de confirmar.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que cree que una blockchain se puede editar como un Excel.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Inmutabilidad #Blockchain #CriptoDesdeCero",
+    "tags": [
+      "por qué blockchain no se puede cambiar",
+      "blockchain inmutable",
+      "qué es inmutabilidad",
+      "seguridad blockchain",
+      "cadena de bloques explicada",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Cambiar el",
+        "pasado"
+      ],
+      "sub": "En una blockchain",
+      "icono": "cadena",
+      "orbita": [
+        "bloque",
+        "lupa",
+        "reloj",
+        "escudo"
+      ],
+      "vo": "Si alguien quisiera cambiar una operación vieja de la blockchain, ¿podría? En teoría sí, pero en la práctica es carísimo."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Si tocás",
+        "un bloque"
+      ],
+      "nodos": [
+        {
+          "icono": "bloque",
+          "label": "Cambiás el bloque 2",
+          "cue": "dos"
+        },
+        {
+          "icono": "lupa",
+          "label": "Su huella cambia",
+          "cue": "huella"
+        },
+        {
+          "icono": "cadena",
+          "label": "El bloque 3 ya no encaja",
+          "cue": "encaja"
+        }
+      ],
+      "vo": "Si cambiás algo del bloque dos, su huella cambia. Pero el bloque tres guardó la huella vieja, y ya no encaja."
+    },
+    {
+      "kind": "concepto",
+      "head": [
+        "La cadena",
+        "se rompe"
+      ],
+      "icono": "cadena",
+      "etiquetas": [
+        {
+          "text": "Hay que rehacer lo posterior",
+          "cue": "rehacer"
+        },
+        {
+          "text": "La red lo rechaza",
+          "cue": "rechaza"
+        }
+      ],
+      "vo": "Para disimularlo, habría que rehacer todos los bloques que vienen después, y la red lo rechaza si no coincide."
+    },
+    {
+      "kind": "claves",
+      "badge": "PARA CAMBIARLO HARÍA FALTA",
+      "head": [
+        "Cuatro cosas"
+      ],
+      "items": [
+        {
+          "text": "Rehacer ese bloque",
+          "cue": "rehacer"
+        },
+        {
+          "text": "Rehacer **todos** los siguientes",
+          "cue": "siguientes"
+        },
+        {
+          "text": "Ser más rápido que toda la red",
+          "cue": "rápido"
+        },
+        {
+          "text": "Que la mayoría lo acepte",
+          "cue": "mayoría"
+        }
+      ],
+      "vo": "Habría que rehacer ese bloque y todos los siguientes, ser más rápido que toda la red junta y convencer a la mayoría."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabra",
+        "nueva"
+      ],
+      "terminos": [
+        {
+          "termino": "Inmutable",
+          "definicion": "Que **no cambia**: modificarlo cuesta demasiado.",
+          "icono": "candado"
+        }
+      ],
+      "vo": "Se dice que una blockchain es inmutable: no es imposible cambiarla, pero cuesta tanto que no conviene."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Tinta en un",
+        "cuaderno"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "cadena",
+        "label": "El pasado en la cadena"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "libro",
+        "label": "Un cuaderno escrito con tinta",
+        "cue": "tinta"
+      },
+      "nota": "Agregar páginas es fácil, **borrar las viejas** no.",
+      "vo": "Es como escribir con tinta en un cuaderno que miles de personas copian: agregar es fácil, borrar no."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Ojo con",
+        "los errores"
+      ],
+      "titulo": "No hay botón de deshacer",
+      "items": [
+        {
+          "text": "Si enviás mal, no se revierte",
+          "cue": "revierte"
+        },
+        {
+          "text": "Nadie te lo puede devolver",
+          "cue": "nadie"
+        }
+      ],
+      "consejo": "Revisá **todo** antes de confirmar.",
+      "vo": "Ojo: por lo mismo, no hay botón de deshacer. Si te equivocás en un envío, nadie lo revierte. Revisá todo antes de confirmar."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Tocar un bloque rompe la cadena",
+        "Inmutable: cuesta demasiado cambiarla",
+        "Un error no se deshace"
+      ],
+      "vo": "Cambiar un bloque rompe la cadena, y por eso el pasado casi no se puede tocar. En el próximo video: Minemos un bloque a mano."
+    }
+  ]
+}

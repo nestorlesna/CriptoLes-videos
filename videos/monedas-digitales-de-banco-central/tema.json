@@ -1,0 +1,169 @@
+{
+  "slug": "monedas-digitales-de-banco-central",
+  "titulo": "Monedas digitales de bancos centrales",
+  "nivel": "Intermedio 4",
+  "descripcion": "Dinero digital emitido por el Estado: en qué se parece y en qué se diferencia de una criptomoneda, qué promete y qué se discute.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Dinero digital del Estado 🏛️ Monedas de bancos centrales, explicado fácil | Cripto desde cero",
+    "descripcion": "🏛️ MONEDAS DIGITALES DE BANCOS CENTRALES — Qué es el dinero digital emitido por un banco central\n\nHay países que crean su propio dinero digital, emitido por el banco central. No es una criptomoneda, aunque se parece.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es un banco central\n2️⃣ Qué es una moneda digital estatal\n3️⃣ Estatal vs cripto\n4️⃣ Qué prometen\n5️⃣ Qué se discute\n\n💡 LA IDEA CLAVE\nEs el mismo dinero de siempre, pero en formato digital y emitido por el banco central: no es una criptomoneda.\n\n📖 GLOSARIO\n• Banco central: la institución que emite el dinero de un país.\n• Moneda digital estatal: dinero del Estado en formato digital.\n\n⚠️ OJO CON\nCada país la diseña distinto: informate de cómo funciona la del tuyo antes de opinar o de usarla.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que mezcla el dinero digital del Estado con las criptomonedas.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #BancoCentral #DineroDigital #CriptoDesdeCero",
+    "tags": [
+      "moneda digital de banco central",
+      "dinero digital del estado",
+      "cbdc explicada",
+      "diferencia con criptomonedas",
+      "dinero digital",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Dinero digital",
+        "del Estado"
+      ],
+      "sub": "Monedas de bancos centrales",
+      "icono": "banco",
+      "orbita": [
+        "celular",
+        "moneda",
+        "mundo",
+        "escudo"
+      ],
+      "vo": "Hay países que crean su propio dinero digital, emitido por el banco central. No es una criptomoneda, aunque se parece."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Banco central",
+          "definicion": "La institución que **emite el dinero** de un país.",
+          "icono": "banco"
+        },
+        {
+          "termino": "Moneda digital estatal",
+          "definicion": "Dinero **del Estado**, pero en formato digital.",
+          "icono": "celular"
+        }
+      ],
+      "vo": "El banco central emite el dinero de un país. Una moneda digital estatal es ese mismo dinero, pero en formato digital."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Estatal vs",
+        "cripto"
+      ],
+      "a": {
+        "titulo": "Moneda estatal",
+        "icono": "banco",
+        "items": [
+          "La emite el Estado",
+          "Vale como el billete"
+        ]
+      },
+      "b": {
+        "titulo": "Cripto",
+        "icono": "bitcoin",
+        "items": [
+          "No la emite nadie en particular",
+          "Su valor sube y baja"
+        ]
+      },
+      "vo": "La estatal la emite el banco central y vale como el billete. La cripto no la emite nadie y su valor sube y baja."
+    },
+    {
+      "kind": "claves",
+      "badge": "LO QUE PROMETEN",
+      "head": [
+        "Para qué"
+      ],
+      "items": [
+        {
+          "text": "Pagos **rápidos** y baratos",
+          "cue": "rápidos"
+        },
+        {
+          "text": "Llegar a quienes **no tienen banco**",
+          "cue": "banco"
+        },
+        {
+          "text": "Más **control** del Estado",
+          "cue": "control"
+        }
+      ],
+      "vo": "Prometen pagos rápidos y baratos, llegar a quienes no tienen banco, y darle al Estado más control sobre el dinero."
+    },
+    {
+      "kind": "concepto",
+      "badge": "AVANCE",
+      "head": [
+        "Varios países",
+        "lo prueban"
+      ],
+      "icono": "mundo",
+      "etiquetas": [
+        {
+          "text": "Algunos ya lo usan",
+          "cue": "usan"
+        },
+        {
+          "text": "Otros hacen pruebas piloto",
+          "cue": "piloto"
+        }
+      ],
+      "vo": "Algunos países ya lo usan y otros hacen pruebas piloto. Cada uno lo diseña a su manera."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Lo que se",
+        "discute"
+      ],
+      "titulo": "Preguntas abiertas",
+      "items": [
+        {
+          "text": "¿Cuánta privacidad queda?",
+          "cue": "privacidad"
+        },
+        {
+          "text": "¿Quién ve tus pagos?",
+          "cue": "pagos"
+        },
+        {
+          "text": "¿Podría usarse para controlar?",
+          "cue": "controlar"
+        }
+      ],
+      "consejo": "Informate de **cómo funciona** en tu país.",
+      "vo": "Hay debates: cuánta privacidad queda, quién ve tus pagos y si podría usarse para controlar. Informate bien."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Dinero del Estado, en digital",
+        "No es una criptomoneda",
+        "Cada país la diseña distinto"
+      ],
+      "vo": "En el próximo video: Cuando una IA paga sola."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Mandar plata a otro país suele ser lento y caro. Veamos cómo cambia con las stéibolcoins."
+    },
+    {
+      "id": "02",
+      "text": "Una remesa es plata que alguien manda a su familia en otro país. Un giro es cualquier envío de dinero entre per sonas."
+    },
+    {
+      "id": "03",
+      "text": "Por banco, tu giro pasa por tu banco, por bancos inter mediarios y recién ahí llega. Puede tar dar días."
+    },
+    {
+      "id": "04",
+      "text": "Con una stéibolcoin, enviás desde tu billetera, la red lo procesa y llega a la otra billetera, a veces en minutos."
+    },
+    {
+      "id": "05",
+      "text": "Por banco tar da días y solo en días hábiles. Con stéibolcoin tar da minutos y funciona todos los días, a toda hora."
+    },
+    {
+      "id": "06",
+      "text": "Lo usan familias que mandan remesas, quien trabaja para el exterior y empresas que pagan a proveedores."
+    },
+    {
+      "id": "07",
+      "text": "Ojo: hay comisión de la red, hay costos al cambiar a moneda local, y hay que elegir la red correcta. Probá antes con poco."
+    },
+    {
+      "id": "08",
+      "text": "En el próximo video: Toquenizar un edificio."
+    }
+  ]
+}

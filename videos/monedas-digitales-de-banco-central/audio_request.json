@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Hay países que crean su propio dinero digital, emitido por el banco central. No es una criptomoneda, aunque se parece."
+    },
+    {
+      "id": "02",
+      "text": "El banco central emite el dinero de un país. Una moneda digital estatal es ese mismo dinero, pero en for mato digital."
+    },
+    {
+      "id": "03",
+      "text": "La estatal la emite el banco central y vale como el billete. La cripto no la emite nadie y su valor sube y baja."
+    },
+    {
+      "id": "04",
+      "text": "Prometen pagos rápidos y baratos, llegar a quienes no tienen banco, y darle al Estado más control sobre el dinero."
+    },
+    {
+      "id": "05",
+      "text": "Algunos países ya lo usan y otros hacen pruebas piloto. Cada uno lo diseña a su manera."
+    },
+    {
+      "id": "06",
+      "text": "Hay debates: cuánta privacidad queda, quién ve tus pagos y si podría usar se para controlar. Infor mate bien."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: Cuando una IA paga sola."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Casi todo pago digital pasa por un inter mediario. ¿Es necesario? Veamos qué hace y qué pasa si no está."
+    },
+    {
+      "id": "02",
+      "text": "Cuando pagás, el dinero va de vos al inter mediario, y de ahí a la otra per sona. Siempre hay alguien en el medio."
+    },
+    {
+      "id": "03",
+      "text": "El inter mediario cobra comisión, puede bloquear un pago, puede caer se y además ve todo lo que hacés."
+    },
+    {
+      "id": "04",
+      "text": "Ojo, también tiene ventajas: si hay un error o un fraude, hay alguien a quien reclamar. En cripto, no."
+    },
+    {
+      "id": "05",
+      "text": "La idea de las cripto: pagar directo, validado por una red y sin pedir per miso a nadie en el medio."
+    },
+    {
+      "id": "06",
+      "text": "Con inter mediario podés reclamar; sin él, nadie te bloquea. Allá pueden frenar tu pago; acá, nadie te devuelve nada."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: ¿Bitcóin es anónimo?"
+    }
+  ]
+}

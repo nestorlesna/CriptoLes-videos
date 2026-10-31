@@ -1,0 +1,167 @@
+{
+  "slug": "que-es-un-hash",
+  "titulo": "¿Qué es un hash?",
+  "nivel": "Intermedio 4",
+  "descripcion": "La huella digital de unos datos: un código único que cambia por completo si cambia una sola letra. Para qué sirve en blockchain.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es un hash? 🔍 La huella digital de los datos, explicada fácil | Cripto desde cero",
+    "descripcion": "🔍 QUÉ ES UN HASH — La huella digital que une los bloques de una blockchain\n\nHash es una de esas palabras que aparecen por todos lados en cripto. Es más simple de lo que suena: una huella digital.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es un hash\n2️⃣ Cómo se calcula\n3️⃣ Qué pasa si cambiás una sola letra\n4️⃣ Tres propiedades que tiene\n5️⃣ Para qué sirve en una blockchain\n\n💡 LA IDEA CLAVE\nUn hash es como la huella de una persona: es única para esos datos, y si los datos cambian, la huella es otra.\n\n📖 GLOSARIO\n• Hash: código único calculado a partir de unos datos.\n• Huella digital: otro nombre para el hash.\n\n⚠️ OJO CON\nEl hash no oculta quién sos ni protege tus claves: solo sirve para comprobar que unos datos no cambiaron.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó hash mil veces y nunca entendió qué era.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Hash #Blockchain #CriptoDesdeCero",
+    "tags": [
+      "qué es un hash",
+      "hash explicado fácil",
+      "huella digital de datos",
+      "hash blockchain",
+      "cómo funciona un hash",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "¿Qué es",
+        "un hash?"
+      ],
+      "sub": "La huella digital",
+      "icono": "lupa",
+      "orbita": [
+        "bloque",
+        "libro",
+        "computadora",
+        "escudo"
+      ],
+      "vo": "Hash es una de esas palabras que aparecen por todos lados en cripto. Es más simple de lo que suena: una huella digital."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Una huella",
+        "digital"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "lupa",
+        "label": "Hash de unos datos"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "persona",
+        "label": "La huella de una persona",
+        "cue": "huella"
+      },
+      "nota": "Es **única** para esos datos.",
+      "vo": "Como la huella de una persona, el hash es un código único para unos datos: si los datos son otros, la huella es otra."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Así se",
+        "calcula"
+      ],
+      "nodos": [
+        {
+          "icono": "libro",
+          "label": "Entran datos",
+          "cue": "datos"
+        },
+        {
+          "icono": "computadora",
+          "label": "Una cuenta los procesa",
+          "cue": "cuenta"
+        },
+        {
+          "icono": "candado",
+          "label": "Sale el hash",
+          "cue": "hash"
+        }
+      ],
+      "vo": "Entran datos, una cuenta los procesa y sale el hash, un código del mismo largo. Mismos datos, mismo hash."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UN CAMBIO MÍNIMO",
+      "head": [
+        "Cambiás una",
+        "letra"
+      ],
+      "icono": "lupa",
+      "etiquetas": [
+        {
+          "text": "Cambia una sola letra",
+          "cue": "letra"
+        },
+        {
+          "text": "Sale un hash totalmente distinto",
+          "cue": "completo"
+        }
+      ],
+      "vo": "Si cambiás una sola letra de los datos, el hash cambia por completo. Así se detecta cualquier alteración."
+    },
+    {
+      "kind": "claves",
+      "badge": "PROPIEDADES",
+      "head": [
+        "Lo que",
+        "tiene"
+      ],
+      "items": [
+        {
+          "text": "No se puede **volver atrás**",
+          "cue": "atrás"
+        },
+        {
+          "text": "Mismo dato, **mismo hash**",
+          "cue": "mismo"
+        },
+        {
+          "text": "Todos miden **lo mismo**",
+          "cue": "miden"
+        }
+      ],
+      "vo": "No se puede volver atrás hasta los datos, un mismo dato da siempre el mismo hash y todos miden lo mismo."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EN BLOCKCHAIN",
+      "head": [
+        "Une los",
+        "bloques"
+      ],
+      "icono": "cadena",
+      "etiquetas": [
+        {
+          "text": "Cada bloque guarda el hash del anterior",
+          "cue": "anterior"
+        },
+        {
+          "text": "Si algo cambia, se nota",
+          "cue": "nota"
+        }
+      ],
+      "vo": "En la blockchain, cada bloque guarda el hash del anterior. Así, si algo cambia, se nota enseguida."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Un hash es una huella",
+        "Cambia si cambian los datos",
+        "Une los bloques de la cadena"
+      ],
+      "vo": "En el próximo video: Nodos: quién guarda la copia."
+    }
+  ]
+}

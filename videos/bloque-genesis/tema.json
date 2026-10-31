@@ -1,0 +1,158 @@
+{
+  "slug": "bloque-genesis",
+  "titulo": "El primer bloque y su mensaje oculto",
+  "nivel": "Intermedio 3",
+  "descripcion": "El 3 de enero de 2009 se creó el primer bloque de Bitcoin y quedó escrito un titular de diario sobre el rescate a los bancos. Qué significa.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "El bloque génesis de Bitcoin 🪙 El mensaje oculto explicado fácil | Cripto desde cero",
+    "descripcion": "🧱 EL PRIMER BLOQUE Y SU MENSAJE OCULTO — El primer bloque de Bitcoin y el mensaje que dejó su creador\n\nEl 3 de enero de 2009 se creó el primer bloque de Bitcoin. Y adentro, su creador dejó un mensaje escondido.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué es el bloque génesis\n2️⃣ Cuándo se creó: 3 de enero de 2009\n3️⃣ El titular de diario escondido adentro\n4️⃣ Una prueba de fecha\n5️⃣ Cómo se interpreta ese mensaje\n\n💡 LA IDEA CLAVE\nEl primer bloque funciona como el acta de nacimiento de Bitcoin: dice cuándo nació y deja una pista de por qué.\n\n📖 GLOSARIO\n• Bloque génesis: el primer bloque de una cadena.\n• Sello de fecha: algo que prueba cuándo ocurrió una cosa.\n\n⚠️ OJO CON\nSatoshi nunca explicó el mensaje: todo lo que se dice de su intención es una interpretación, no un dato.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien a quien le encantan las historias curiosas de internet.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #BloqueGénesis #Satoshi #CriptoDesdeCero",
+    "tags": [
+      "bloque génesis",
+      "primer bloque de bitcoin",
+      "mensaje oculto bitcoin",
+      "3 de enero de 2009",
+      "historia de bitcoin",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "El primer",
+        "bloque"
+      ],
+      "sub": "Y su mensaje oculto",
+      "icono": "bloque",
+      "orbita": [
+        "bitcoin",
+        "libro",
+        "reloj",
+        "mensaje"
+      ],
+      "vo": "El 3 de enero de 2009 se creó el primer bloque de Bitcoin. Y adentro, su creador dejó un mensaje escondido."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL PRIMER BLOQUE",
+      "head": [
+        "El bloque",
+        "cero"
+      ],
+      "icono": "bloque",
+      "etiquetas": [
+        {
+          "text": "Bloque génesis o bloque cero",
+          "cue": "cero"
+        },
+        {
+          "text": "Todo lo demás cuelga de él",
+          "cue": "cuelgan"
+        }
+      ],
+      "vo": "Se lo llama bloque génesis o bloque cero: el comienzo de la cadena. Todos los bloques que vinieron después cuelgan de él."
+    },
+    {
+      "kind": "concepto",
+      "badge": "EL MENSAJE",
+      "head": [
+        "Un titular",
+        "de diario"
+      ],
+      "icono": "mensaje",
+      "etiquetas": [
+        {
+          "text": "Un diario de Londres",
+          "cue": "Londres"
+        },
+        {
+          "text": "Hablaba de rescatar bancos",
+          "cue": "rescatar"
+        }
+      ],
+      "vo": "En el bloque quedó escrito el titular de un diario de Londres de ese día: hablaba de rescatar a los bancos, otra vez."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Un sello",
+        "de fecha"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "mensaje",
+        "label": "El titular"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "reloj",
+        "label": "Una foto con la fecha",
+        "cue": "fecha"
+      },
+      "nota": "Prueba que el bloque **no existía antes** de ese día.",
+      "vo": "También sirve como sello de fecha: ese bloque no pudo crearse antes de que saliera ese titular."
+    },
+    {
+      "kind": "claves",
+      "badge": "SE INTERPRETA COMO",
+      "head": [
+        "Una crítica",
+        "a los bancos"
+      ],
+      "items": [
+        {
+          "text": "Un sistema sin **rescates**",
+          "cue": "rescates"
+        },
+        {
+          "text": "Dinero que no dependa de un **banco**",
+          "cue": "banco"
+        }
+      ],
+      "vo": "Satoshi nunca lo explicó, pero muchos lo ven como una crítica: dinero que no dependa de rescates ni de un banco."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Bloque génesis",
+          "definicion": "El **primer bloque** de la cadena.",
+          "icono": "bloque"
+        },
+        {
+          "termino": "Sello de fecha",
+          "definicion": "Algo que **prueba cuándo** pasó una cosa.",
+          "icono": "reloj"
+        }
+      ],
+      "vo": "Bloque génesis: el primer bloque de la cadena. Sello de fecha: algo que prueba cuándo pasó una cosa."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Bloque cero: el comienzo",
+        "Lleva un titular de diario",
+        "Prueba su fecha de creación"
+      ],
+      "vo": "En el próximo video: ¿Qué hay dentro de un bloque?"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+TÍTULO
+¿Qué es un nodo? 🌐 Quién guarda la blockchain, explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🌐 NODOS: QUIÉN GUARDA LA COPIA — Quién guarda la copia de la blockchain y por qué no se cae
+
+Dijimos que miles de computadoras guardan la blockchain. Esas computadoras se llaman nodos, y son clave.
+
+📚 EN ESTE VIDEO
+1️⃣ Servidor único vs red de nodos
+2️⃣ Qué es un nodo
+3️⃣ Cómo se controla una operación
+4️⃣ Cualquiera puede sumar un nodo
+5️⃣ Por qué importan las copias
+
+💡 LA IDEA CLAVE
+Es como si mil personas tuvieran copia del mismo cuaderno: si una anota distinto, la mayoría la corrige.
+
+📖 GLOSARIO
+• Nodo: computadora que guarda una copia y controla las reglas.
+• Red entre pares: red donde todos son iguales, sin jefe.
+
+⚠️ OJO CON
+Tener un nodo no es lo mismo que tener tu billetera: tus llaves siempre las guardás vos.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: Blockchain pública vs privada
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que se pregunta dónde vive realmente la blockchain.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Nodos #Descentralización #CriptoDesdeCero
+
+TAGS
+qué es un nodo, nodos blockchain, red entre pares, descentralización, cómo funciona la red de bitcoin, criptomonedas para principiantes, cripto desde cero, educación financiera

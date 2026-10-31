@@ -1,0 +1,160 @@
+{
+  "slug": "cinco-ideas-para-llevarte",
+  "titulo": "Cinco ideas para llevarte",
+  "nivel": "Intermedio 4",
+  "descripcion": "Un repaso con las cinco ideas que ordenan todo lo que vimos: blockchain no es cripto, pagar sin tercero, adopción por necesidad, reglas en camino y entender primero.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Cinco ideas para llevarte 💡 Un repaso de blockchain y cripto | Cripto desde cero",
+    "descripcion": "💡 CINCO IDEAS PARA LLEVARTE — Un repaso con las cinco ideas clave de todo lo que vimos\n\nHicimos un recorrido largo. Quedémonos con cinco ideas que ordenan todo lo que vimos.\n\n📚 EN ESTE VIDEO\n1️⃣ Blockchain no es lo mismo que cripto\n2️⃣ Pagar sin un tercero de confianza\n3️⃣ En Latinoamérica se adopta por necesidad\n4️⃣ Las reglas están llegando\n5️⃣ Entender es lo primero\n\n💡 LA IDEA CLAVE\nSi te quedás con estas cinco ideas, podés entender casi cualquier noticia de cripto que aparezca.\n\n📖 GLOSARIO\n• Blockchain: el registro compartido que guarda las operaciones.\n• Cripto: una de las aplicaciones de la blockchain.\n\n⚠️ OJO CON\nRepasar no es recomendar: la decisión de usar o no cripto es tuya, con información y con cuidado.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que quiere un resumen de todo lo que viste en el canal.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Repaso #Blockchain #CriptoDesdeCero",
+    "tags": [
+      "resumen cripto",
+      "ideas clave blockchain",
+      "repaso criptomonedas",
+      "qué aprendí de cripto",
+      "criptomonedas para principiantes",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Cinco ideas",
+        "para llevarte"
+      ],
+      "sub": "Un repaso",
+      "icono": "foco",
+      "orbita": [
+        "bloque",
+        "bitcoin",
+        "escudo",
+        "mundo"
+      ],
+      "vo": "Hicimos un recorrido largo. Quedémonos con cinco ideas que ordenan todo lo que vimos."
+    },
+    {
+      "kind": "concepto",
+      "badge": "IDEA 1",
+      "head": [
+        "Blockchain no",
+        "es cripto"
+      ],
+      "icono": "bloques",
+      "etiquetas": [
+        {
+          "text": "Blockchain: la infraestructura",
+          "cue": "infraestructura"
+        },
+        {
+          "text": "Las cripto: una aplicación",
+          "cue": "aplicación"
+        }
+      ],
+      "vo": "Primera idea: blockchain no es lo mismo que cripto. Blockchain es la infraestructura; las cripto son solo una aplicación."
+    },
+    {
+      "kind": "concepto",
+      "badge": "IDEA 2",
+      "head": [
+        "Sin tercero",
+        "de confianza"
+      ],
+      "icono": "apreton",
+      "etiquetas": [
+        {
+          "text": "Sin un tercero en el medio",
+          "cue": "tercero"
+        },
+        {
+          "text": "Más libertad, más responsabilidad",
+          "cue": "responsabilidad"
+        }
+      ],
+      "vo": "Segunda: se puede transaccionar sin un tercero de confianza. Más libertad, pero también más responsabilidad."
+    },
+    {
+      "kind": "concepto",
+      "badge": "IDEA 3",
+      "head": [
+        "Se usa por",
+        "necesidad"
+      ],
+      "icono": "mundo",
+      "etiquetas": [
+        {
+          "text": "Inflación y trabas",
+          "cue": "inflación"
+        },
+        {
+          "text": "Costo de mover plata",
+          "cue": "costo"
+        }
+      ],
+      "vo": "Tercera: en Latinoamérica se adopta por necesidad, por la inflación, las trabas y el costo de mover plata."
+    },
+    {
+      "kind": "concepto",
+      "badge": "IDEA 4",
+      "head": [
+        "Las reglas",
+        "están llegando"
+      ],
+      "icono": "balanza",
+      "etiquetas": [
+        {
+          "text": "Cada vez más marcos legales",
+          "cue": "marcos"
+        },
+        {
+          "text": "Verificación e impuestos",
+          "cue": "impuestos"
+        }
+      ],
+      "vo": "Cuarta: las reglas están llegando. Hay cada vez más marcos legales, verificación de identidad e impuestos."
+    },
+    {
+      "kind": "concepto",
+      "badge": "IDEA 5",
+      "head": [
+        "Entender es",
+        "lo primero"
+      ],
+      "icono": "foco",
+      "etiquetas": [
+        {
+          "text": "Informate antes de actuar",
+          "cue": "informate"
+        },
+        {
+          "text": "Empezá de a poco",
+          "cue": "poco"
+        }
+      ],
+      "vo": "Quinta: lo más valioso es entender. Informate antes de actuar y, si te animás, empezá de a poco."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Blockchain no es cripto",
+        "Sin tercero: más responsabilidad",
+        "Entender es lo primero"
+      ],
+      "proximo": "Más temas: ¡se vienen pronto!",
+      "vo": "En el próximo video, más temas nuevos."
+    }
+  ]
+}

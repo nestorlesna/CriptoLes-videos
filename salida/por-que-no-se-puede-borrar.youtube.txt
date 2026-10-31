@@ -1,0 +1,38 @@
+TÍTULO
+¿Por qué no se puede cambiar una blockchain? 🔗 Inmutabilidad explicada fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🔗 POR QUÉ NO SE PUEDE CAMBIAR EL PASADO — Por qué una blockchain es tan difícil de falsificar
+
+Si alguien quisiera cambiar una operación vieja de la blockchain, ¿podría? En teoría sí, pero en la práctica es carísimo.
+
+📚 EN ESTE VIDEO
+1️⃣ Qué pasa si cambiás un bloque viejo
+2️⃣ Por qué la cadena se rompe
+3️⃣ Qué habría que hacer para falsificarla
+4️⃣ Qué significa inmutable
+5️⃣ No hay botón de deshacer
+
+💡 LA IDEA CLAVE
+Escribir en una blockchain es como usar tinta en un cuaderno que miles copian: agregar es fácil, borrar casi imposible.
+
+📖 GLOSARIO
+• Inmutable: que no cambia: modificarlo cuesta demasiado.
+• Huella (hash): un código único que cambia si cambian los datos.
+
+⚠️ OJO CON
+Inmutable también significa que si te equivocás en un envío, nadie lo revierte: revisá todo antes de confirmar.
+
+🎓 NIVEL: Intermedio 3 · Siguiente video: Minemos un bloque a mano
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que cree que una blockchain se puede editar como un Excel.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Inmutabilidad #Blockchain #CriptoDesdeCero
+
+TAGS
+por qué blockchain no se puede cambiar, blockchain inmutable, qué es inmutabilidad, seguridad blockchain, cadena de bloques explicada, criptomonedas para principiantes, cripto desde cero, educación financiera

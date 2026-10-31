@@ -1,0 +1,38 @@
+TÍTULO
+El doble gasto 🪙 El problema que Bitcoin resolvió, explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🪙 EL PROBLEMA DEL DOBLE GASTO — Por qué el dinero digital necesitaba un banco
+
+Si te doy un billete, ya no lo tengo. Pero ¿y si el dinero fuera un archivo en la compu? Ahí aparece el doble gasto.
+
+📚 EN ESTE VIDEO
+1️⃣ En el mundo físico, un billete es único
+2️⃣ Un archivo digital se copia en segundos
+3️⃣ Qué es el doble gasto
+4️⃣ La solución de siempre: un banco que lleva la cuenta
+5️⃣ La idea nueva: miles de computadoras con la misma cuenta
+
+💡 LA IDEA CLAVE
+Si el dinero fuera un simple archivo, podrías gastarlo muchas veces. Alguien tiene que llevar la cuenta.
+
+📖 GLOSARIO
+• Doble gasto: gastar el mismo dinero digital dos veces.
+• Intermediario: quien lleva la cuenta y valida los pagos.
+
+⚠️ OJO CON
+Que sea imposible copiar el dinero digital es lo que le da valor: sin esa garantía, nada vale.
+
+🎓 NIVEL: Intermedio 3 · Siguiente video: El primer bloque y su mensaje oculto
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que dice que copiar y pegar dinero digital sería fácil.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #DobleGasto #Blockchain #CriptoDesdeCero
+
+TAGS
+qué es el doble gasto, problema del doble gasto, por qué existe bitcoin, dinero digital, cómo funciona bitcoin, criptomonedas para principiantes, cripto desde cero, educación financiera

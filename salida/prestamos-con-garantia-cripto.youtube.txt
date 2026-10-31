@@ -1,0 +1,38 @@
+TÍTULO
+Préstamos con garantía cripto 🔒 Qué es la liquidación, explicado fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🔒 PRÉSTAMOS CON GARANTÍA Y LIQUIDACIÓN — Cómo funciona un préstamo con garantía y qué es la liquidación
+
+En finanzas descentralizadas podés pedir un préstamo dejando cripto de garantía. Pero hay una trampa: la liquidación.
+
+📚 EN ESTE VIDEO
+1️⃣ Cómo se pide un préstamo dejando cripto de garantía
+2️⃣ Quién lo maneja: un contrato inteligente
+3️⃣ Qué es la liquidación
+4️⃣ Por qué el código no negocia
+5️⃣ Cómo reducir el riesgo
+
+💡 LA IDEA CLAVE
+Es como empeñar un reloj, pero con un contrato que no negocia: si la garantía no alcanza, la vende solo.
+
+📖 GLOSARIO
+• Garantía: lo que dejás para respaldar el préstamo.
+• Liquidación: cuando el contrato vende tu garantía porque ya no cubre la deuda.
+
+⚠️ OJO CON
+En finanzas descentralizadas no hay quien te llame para avisarte: si la garantía baja, el contrato actúa igual. Usalo solo si lo entendés bien.
+
+🎓 NIVEL: Intermedio 3 · Siguiente video: Cobrar en dólares digitales
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que quiere entender los préstamos cripto antes de probarlos.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #DeFi #Préstamos #CriptoDesdeCero
+
+TAGS
+préstamos con garantía cripto, qué es la liquidación, préstamos defi, contrato inteligente préstamo, riesgos defi, criptomonedas para principiantes, cripto desde cero, educación financiera

@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "No todas las blocchéin son iguales. Algunas están abier tas a todo el mundo y otras son cer radas, solo para invitados."
+    },
+    {
+      "id": "02",
+      "text": "En la pú blica cualquiera par ticipa y nadie decide quién entra. En la pri vada entran solo invitados y una entidad decide."
+    },
+    {
+      "id": "03",
+      "text": "En la pú blica, cualquiera puede leer, enviar operaciones y hasta ser nodo. Bitcóin y Etérium son así."
+    },
+    {
+      "id": "04",
+      "text": "En la pri vada, entra solo quien está autorizado. Suelen usarla un grupo de empresas o bancos que se conocen."
+    },
+    {
+      "id": "05",
+      "text": "La pú blica sir ve para dinero y ser vicios abier tos. La pri vada, para registros entre empresas y lugares con nor mas estrictas."
+    },
+    {
+      "id": "06",
+      "text": "La pri vada suele ser más rápida y controlable. La pú blica es más abier ta y mucho más difícil de frenar o de censurar."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: El trilema de las blockchains."
+    }
+  ]
+}

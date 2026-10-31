@@ -1,0 +1,35 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "El 3 de enero de 2009 se creó el primer bloque de Bitcóin. Y adentro, su creador dejó un mensaje escondido."
+    },
+    {
+      "id": "02",
+      "text": "Se lo llama bloque génesis o bloque cero: el comienzo de la cadena. Todos los bloques que vinieron después cuelgan de él."
+    },
+    {
+      "id": "03",
+      "text": "En el bloque quedó escrito el titular de un diario de Londres de ese día: hablaba de rescatar a los bancos, otra vez."
+    },
+    {
+      "id": "04",
+      "text": "También sir ve como sello de fecha: ese bloque no pudo crear se antes de que saliera ese titular."
+    },
+    {
+      "id": "05",
+      "text": "Satóshi nunca lo explicó, pero muchos lo ven como una crítica: dinero que no dependa de rescates ni de un banco."
+    },
+    {
+      "id": "06",
+      "text": "Bloque génesis: el primer bloque de la cadena. Sello de fecha: algo que prueba cuándo pasó una cosa."
+    },
+    {
+      "id": "07",
+      "text": "En el próximo video: ¿Qué hay dentro de un bloque?"
+    }
+  ]
+}

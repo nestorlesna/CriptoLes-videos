@@ -1,0 +1,170 @@
+{
+  "slug": "cripto-e-inteligencia-artificial",
+  "titulo": "Cuando una IA paga sola",
+  "nivel": "Intermedio 4",
+  "descripcion": "Programas de inteligencia artificial con billetera propia que pagan por servicios, y por qué las cripto encajan. Una tendencia nueva, con sus cuidados.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Cripto e inteligencia artificial 🤖 Cuando una IA paga sola, explicado fácil | Cripto desde cero",
+    "descripcion": "🤖 CUANDO UNA IA PAGA SOLA — Qué pasa cuando un programa de IA tiene su propia billetera\n\n¿Y si un programa de inteligencia artificial pudiera tener su propia billetera y pagar por los servicios que necesita?\n\n📚 EN ESTE VIDEO\n1️⃣ La idea de un programa con billetera propia\n2️⃣ Qué es un agente de inteligencia artificial\n3️⃣ Un ejemplo posible, paso a paso\n4️⃣ Por qué las cripto encajan\n5️⃣ Los cuidados con una tendencia nueva\n\n💡 LA IDEA CLAVE\nUn programa que decide y actúa solo podría pagar al instante por lo que necesita, sin cuentas ni trámites.\n\n📖 GLOSARIO\n• Agente de inteligencia artificial: programa que decide y actúa solo.\n• Micropago: un pago muy chico, a veces de centavos.\n\n⚠️ OJO CON\nEs una tendencia nueva: muchas cosas son pruebas, y hay estafas que usan el nombre de la inteligencia artificial.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que sigue las novedades de tecnología.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #InteligenciaArtificial #Tendencias #CriptoDesdeCero",
+    "tags": [
+      "cripto e inteligencia artificial",
+      "ia con billetera",
+      "agentes de ia pagos",
+      "micropagos cripto",
+      "tendencias cripto",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "Cuando una IA",
+        "paga sola"
+      ],
+      "sub": "Cripto + inteligencia artificial",
+      "icono": "computadora",
+      "orbita": [
+        "moneda",
+        "mundo",
+        "reloj",
+        "nube"
+      ],
+      "vo": "¿Y si un programa de inteligencia artificial pudiera tener su propia billetera y pagar por los servicios que necesita?"
+    },
+    {
+      "kind": "concepto",
+      "badge": "LA IDEA",
+      "head": [
+        "Un programa",
+        "con billetera"
+      ],
+      "icono": "computadora",
+      "etiquetas": [
+        {
+          "text": "Tiene su propia billetera",
+          "cue": "billetera"
+        },
+        {
+          "text": "Paga por lo que necesita",
+          "cue": "necesita"
+        }
+      ],
+      "vo": "Un agente de inteligencia artificial sería un programa con billetera propia que paga solo lo que necesita."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Agente",
+          "definicion": "Un programa que **decide y actúa** solo.",
+          "icono": "computadora"
+        },
+        {
+          "termino": "Micropago",
+          "definicion": "Un pago **muy chico**, a veces de centavos.",
+          "icono": "moneda"
+        }
+      ],
+      "vo": "Un agente de inteligencia artificial decide y actúa solo. Un micropago es un pago muy chico, a veces de centavos."
+    },
+    {
+      "kind": "flujo",
+      "head": [
+        "Un ejemplo",
+        "posible"
+      ],
+      "nodos": [
+        {
+          "icono": "computadora",
+          "label": "El agente necesita datos",
+          "cue": "datos"
+        },
+        {
+          "icono": "moneda",
+          "label": "Paga un micropago",
+          "cue": "micropago"
+        },
+        {
+          "icono": "nube",
+          "label": "Recibe el servicio",
+          "cue": "servicio"
+        }
+      ],
+      "vo": "El agente necesita datos, paga un micropago desde su billetera y recibe el servicio, todo en segundos."
+    },
+    {
+      "kind": "claves",
+      "badge": "POR QUÉ CON CRIPTO",
+      "head": [
+        "Le encaja"
+      ],
+      "items": [
+        {
+          "text": "Funciona las **24 horas**",
+          "cue": "24"
+        },
+        {
+          "text": "No necesita **cuenta bancaria**",
+          "cue": "cuenta"
+        },
+        {
+          "text": "Permite pagos **muy chicos**",
+          "cue": "chicos"
+        }
+      ],
+      "vo": "Cripto encaja porque funciona las 24 horas, no necesita cuenta bancaria y permite pagos muy chicos."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Ojo: todavía",
+        "es nuevo"
+      ],
+      "titulo": "Es una tendencia",
+      "items": [
+        {
+          "text": "Muchas cosas son pruebas",
+          "cue": "pruebas"
+        },
+        {
+          "text": "Un agente puede equivocarse",
+          "cue": "equivocarse"
+        },
+        {
+          "text": "Hay estafas con ese nombre",
+          "cue": "estafas"
+        }
+      ],
+      "consejo": "Que suene a **futuro** no lo hace seguro.",
+      "vo": "Ojo: muchas cosas son pruebas, un agente puede equivocarse y hay estafas que usan el nombre de la inteligencia artificial."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Un programa con billetera propia",
+        "Micropagos entre máquinas",
+        "Es nuevo: ojo con las estafas"
+      ],
+      "vo": "En el próximo video: Cinco ideas para llevarte."
+    }
+  ]
+}

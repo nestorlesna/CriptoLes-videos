@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "En cripto a veces se habla de quemar monedas. No se prende fuego a nada: se destruyen para siempre."
+    },
+    {
+      "id": "02",
+      "text": "Se mandan a una dirección de la que nadie tiene la llave, así que quedan fuera de cir culación para siempre."
+    },
+    {
+      "id": "03",
+      "text": "Es como destruir billetes: si hay menos disponibles en total, cada uno que queda es un poco más escaso."
+    },
+    {
+      "id": "04",
+      "text": "Se quema para reducir la ofer ta, para destruir par te de las comisiones o para castigar trampas."
+    },
+    {
+      "id": "05",
+      "text": "En Etérium, desde 2021, par te de la comisión de cada operación se quema. Si se quema más de lo que se crea, la ofer ta baja."
+    },
+    {
+      "id": "06",
+      "text": "Ojo: quemar no asegura que el valor suba. Algunos proyectos lo usan de gancho para vender ilusión."
+    },
+    {
+      "id": "07",
+      "text": "Quemar es destruir cripto para siempre. La ofer ta es cuánta cantidad hay disponible."
+    },
+    {
+      "id": "08",
+      "text": "En el próximo video: Mandar plata al exterior."
+    }
+  ]
+}

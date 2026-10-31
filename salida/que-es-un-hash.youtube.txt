@@ -1,0 +1,38 @@
+TÍTULO
+¿Qué es un hash? 🔍 La huella digital de los datos, explicada fácil | Cripto desde cero
+
+DESCRIPCIÓN
+🔍 QUÉ ES UN HASH — La huella digital que une los bloques de una blockchain
+
+Hash es una de esas palabras que aparecen por todos lados en cripto. Es más simple de lo que suena: una huella digital.
+
+📚 EN ESTE VIDEO
+1️⃣ Qué es un hash
+2️⃣ Cómo se calcula
+3️⃣ Qué pasa si cambiás una sola letra
+4️⃣ Tres propiedades que tiene
+5️⃣ Para qué sirve en una blockchain
+
+💡 LA IDEA CLAVE
+Un hash es como la huella de una persona: es única para esos datos, y si los datos cambian, la huella es otra.
+
+📖 GLOSARIO
+• Hash: código único calculado a partir de unos datos.
+• Huella digital: otro nombre para el hash.
+
+⚠️ OJO CON
+El hash no oculta quién sos ni protege tus claves: solo sirve para comprobar que unos datos no cambiaron.
+
+🎓 NIVEL: Intermedio 4 · Siguiente video: Nodos: quién guarda la copia
+
+🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó hash mil veces y nunca entendió qué era.
+
+⚠️ IMPORTANTE (leelo, es cortito)
+Este video es solo educativo: NO es asesoramiento financiero ni una recomendación para comprar o vender ninguna criptomoneda. Las criptomonedas son muy volátiles y podés perder todo lo que pongas, así que nunca inviertas plata que necesitás. Nadie de este canal te va a escribir por privado ni te va a pedir dinero: si te pasa, es una estafa. NUNCA compartas tu frase semilla ni tus claves privadas con nadie. Consultá la normativa y los impuestos de tu país, y hacé siempre tu propia investigación (DYOR). 🧠🔐
+
+🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.
+
+#Criptomonedas #Bitcoin #Hash #Blockchain #CriptoDesdeCero
+
+TAGS
+qué es un hash, hash explicado fácil, huella digital de datos, hash blockchain, cómo funciona un hash, criptomonedas para principiantes, cripto desde cero, educación financiera

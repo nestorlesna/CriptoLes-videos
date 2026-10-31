@@ -1,0 +1,185 @@
+{
+  "slug": "tipos-de-stablecoin",
+  "titulo": "¿Cómo se sostiene una stablecoin?",
+  "nivel": "Intermedio 3",
+  "descripcion": "Tres formas de mantener una moneda estable: respaldada con dólares, respaldada con otras cripto, o algorítmica. Y por qué la última es la más frágil.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Cómo se sostiene una stablecoin? 💵 Los 3 tipos explicados fácil | Cripto desde cero",
+    "descripcion": "💵 CÓMO SE SOSTIENE UNA STABLECOIN — Las tres formas de mantener estable una stablecoin\n\nUna stablecoin promete valer siempre lo mismo que un dólar. ¿Pero cómo lo logra? Hay tres formas muy distintas.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué promete una stablecoin\n2️⃣ Forma 1: respaldada con dólares guardados\n3️⃣ Forma 2: respaldada con otras cripto\n4️⃣ Forma 3: algorítmica, la más frágil\n5️⃣ Qué mirar antes de usar una\n\n💡 LA IDEA CLAVE\nUna stablecoin vale lo que su respaldo: si no sabés qué la sostiene, no sabés cuánto vale.\n\n📖 GLOSARIO\n• Respaldo: lo que se guarda para que la moneda valga algo.\n• Garantía: algo que se deja por si algo sale mal.\n\n⚠️ OJO CON\nEn 2022 una stablecoin algorítmica perdió su valor en pocos días. Si no entendés cómo se sostiene, no pongas plata.\n\n🎓 NIVEL: Intermedio 3 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que usa dólares digitales y nunca se preguntó qué los respalda.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Stablecoin #DeFi #CriptoDesdeCero",
+    "tags": [
+      "tipos de stablecoin",
+      "cómo funciona una stablecoin",
+      "stablecoin algorítmica",
+      "stablecoin respaldada",
+      "riesgos de las stablecoins",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "¿Cómo se",
+        "sostiene?"
+      ],
+      "sub": "Una stablecoin",
+      "icono": "moneda",
+      "orbita": [
+        "billete",
+        "candado",
+        "balanza",
+        "alerta"
+      ],
+      "vo": "Una stablecoin promete valer siempre lo mismo que un dólar. ¿Pero cómo lo logra? Hay tres formas muy distintas."
+    },
+    {
+      "kind": "claves",
+      "badge": "TRES FORMAS",
+      "head": [
+        "Tres formas"
+      ],
+      "items": [
+        {
+          "text": "**Respaldada** con dólares guardados",
+          "cue": "dólares"
+        },
+        {
+          "text": "**Respaldada** con otras cripto",
+          "cue": "criptomonedas"
+        },
+        {
+          "text": "**Algorítmica**, sin respaldo real",
+          "cue": "algoritmo"
+        }
+      ],
+      "vo": "Una: con dólares guardados de verdad. Otra: con otras criptomonedas. Y la tercera: un algoritmo, sin respaldo real."
+    },
+    {
+      "kind": "concepto",
+      "badge": "FORMA 1",
+      "head": [
+        "Dólares en",
+        "reserva"
+      ],
+      "icono": "banco",
+      "etiquetas": [
+        {
+          "text": "Por cada una, un dólar guardado",
+          "cue": "guardado"
+        },
+        {
+          "text": "Hay que **confiar** en quien lo guarda",
+          "cue": "confiar"
+        }
+      ],
+      "vo": "Con dólares en reserva: por cada moneda emitida, hay un dólar guardado. Pero hay que confiar en quien lo guarda."
+    },
+    {
+      "kind": "concepto",
+      "badge": "FORMA 2",
+      "head": [
+        "Respaldo en",
+        "cripto"
+      ],
+      "icono": "candado",
+      "etiquetas": [
+        {
+          "text": "Se deja **más valor** de garantía",
+          "cue": "garantía"
+        },
+        {
+          "text": "Si la garantía baja, se vende sola",
+          "cue": "baja"
+        }
+      ],
+      "vo": "Con otras cripto: se deja en garantía más valor del que se recibe, y si esa garantía baja demasiado, se vende sola."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "La más",
+        "frágil"
+      ],
+      "titulo": "La algorítmica",
+      "items": [
+        {
+          "text": "No hay respaldo guardado",
+          "cue": "respaldo"
+        },
+        {
+          "text": "Depende de la confianza",
+          "cue": "confianza"
+        },
+        {
+          "text": "En 2022 una se derrumbó",
+          "cue": "2022"
+        }
+      ],
+      "consejo": "Si no entendés cómo se sostiene, **no pongas plata**.",
+      "vo": "La algorítmica es la más frágil: no hay respaldo, depende de la confianza, y en 2022 una se derrumbó en pocos días."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Respaldo",
+          "definicion": "Lo que se **guarda** para que la moneda valga algo.",
+          "icono": "candado"
+        },
+        {
+          "termino": "Garantía",
+          "definicion": "Algo que dejás **por si algo sale mal**.",
+          "icono": "balanza"
+        }
+      ],
+      "vo": "El respaldo es lo que se guarda para que la moneda valga algo. La garantía es lo que dejás por si algo sale mal."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Una ficha",
+        "canjeable"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "moneda",
+        "label": "Stablecoin respaldada"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "billete",
+        "label": "Ficha que canjeás por un dólar",
+        "cue": "ficha"
+      },
+      "nota": "Vale mientras te la canjeen **siempre**.",
+      "vo": "Es como una ficha que podés canjear por un dólar: vale mientras te la canjeen siempre, sin excusas."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Tres formas de sostenerla",
+        "Más respaldo, más confianza",
+        "La algorítmica es la más frágil"
+      ],
+      "vo": "En el próximo video: Préstamos con garantía y liquidación."
+    }
+  ]
+}

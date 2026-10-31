@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Una stéibolcoin promete valer siempre lo mismo que un dólar. ¿Pero cómo lo logra? Hay tres for mas muy distintas."
+    },
+    {
+      "id": "02",
+      "text": "Una: con dólares guar dados de ver dad. Otra: con otras criptomonedas. Y la ter cera: un algoritmo, sin respaldo real."
+    },
+    {
+      "id": "03",
+      "text": "Con dólares en reser va: por cada moneda emitida, hay un dólar guar dado. Pero hay que confiar en quien lo guar da."
+    },
+    {
+      "id": "04",
+      "text": "Con otras cripto: se deja en garantía más valor del que se recibe, y si esa garantía baja demasiado, se vende sola."
+    },
+    {
+      "id": "05",
+      "text": "La algorítmica es la más frágil: no hay respaldo, depende de la confianza, y en 2022 una se derrumbó en pocos días."
+    },
+    {
+      "id": "06",
+      "text": "El respaldo es lo que se guar da para que la moneda valga algo. La garantía es lo que dejás por si algo sale mal."
+    },
+    {
+      "id": "07",
+      "text": "Es como una ficha que podés canjear por un dólar: vale mientras te la canjeen siempre, sin excusas."
+    },
+    {
+      "id": "08",
+      "text": "En el próximo video: Préstamos con garantía y liquidación."
+    }
+  ]
+}

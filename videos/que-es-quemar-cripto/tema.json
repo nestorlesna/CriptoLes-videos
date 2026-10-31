@@ -1,0 +1,180 @@
+{
+  "slug": "que-es-quemar-cripto",
+  "titulo": "¿Qué es «quemar» cripto?",
+  "nivel": "Intermedio 4",
+  "descripcion": "Destruir monedas para siempre: cómo se hace, para qué sirve y por qué quemar no garantiza que el valor suba.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Qué es quemar cripto? 🔥 Explicado fácil | Cripto desde cero",
+    "descripcion": "🔥 QUÉ ES QUEMAR CRIPTO — Qué significa destruir monedas y para qué se hace\n\nEn cripto a veces se habla de quemar monedas. No se prende fuego a nada: se destruyen para siempre.\n\n📚 EN ESTE VIDEO\n1️⃣ Qué significa quemar\n2️⃣ Cómo se saca una moneda de circulación\n3️⃣ Una analogía con los billetes\n4️⃣ Para qué se quema\n5️⃣ Un ejemplo real con las comisiones\n\n💡 LA IDEA CLAVE\nQuemar es como destruir billetes: si hay menos disponibles, cada uno que queda es un poco más escaso.\n\n📖 GLOSARIO\n• Quemar: destruir cripto para siempre.\n• Oferta: cuánta cantidad hay disponible.\n\n⚠️ OJO CON\nQuemar no asegura que el valor suba. Algunos proyectos lo usan de gancho para vender ilusión.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que escuchó que van a quemar monedas y no entendió nada.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Quemar #Ethereum #CriptoDesdeCero",
+    "tags": [
+      "qué es quemar cripto",
+      "burn criptomonedas",
+      "quemar monedas",
+      "oferta de criptomonedas",
+      "comisiones que se queman",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "¿Qué es",
+        "quemar?"
+      ],
+      "sub": "Cripto que se destruye",
+      "icono": "moneda",
+      "orbita": [
+        "alerta",
+        "balanza",
+        "bloque",
+        "grafico"
+      ],
+      "vo": "En cripto a veces se habla de quemar monedas. No se prende fuego a nada: se destruyen para siempre."
+    },
+    {
+      "kind": "concepto",
+      "head": [
+        "Sacar de",
+        "circulación"
+      ],
+      "icono": "candado",
+      "etiquetas": [
+        {
+          "text": "A una dirección sin llave",
+          "cue": "llave"
+        },
+        {
+          "text": "Nadie las vuelve a usar",
+          "cue": "circulación"
+        }
+      ],
+      "vo": "Se mandan a una dirección de la que nadie tiene la llave, así que quedan fuera de circulación para siempre."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Como romper",
+        "un billete"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "moneda",
+        "label": "Quemar una moneda"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "billete",
+        "label": "Destruir billetes",
+        "cue": "billetes"
+      },
+      "nota": "Hay **menos** disponibles en total.",
+      "vo": "Es como destruir billetes: si hay menos disponibles en total, cada uno que queda es un poco más escaso."
+    },
+    {
+      "kind": "claves",
+      "badge": "PARA QUÉ SE QUEMA",
+      "head": [
+        "Tres motivos"
+      ],
+      "items": [
+        {
+          "text": "Reducir la **oferta**",
+          "cue": "oferta"
+        },
+        {
+          "text": "Destruir parte de las **comisiones**",
+          "cue": "comisiones"
+        },
+        {
+          "text": "Castigar **trampas**",
+          "cue": "trampas"
+        }
+      ],
+      "vo": "Se quema para reducir la oferta, para destruir parte de las comisiones o para castigar trampas."
+    },
+    {
+      "kind": "concepto",
+      "badge": "UN EJEMPLO REAL",
+      "head": [
+        "Comisiones",
+        "que se queman"
+      ],
+      "icono": "bloque",
+      "etiquetas": [
+        {
+          "text": "Desde 2021, en Ethereum",
+          "cue": "2021"
+        },
+        {
+          "text": "Si se quema más de lo que se crea, baja",
+          "cue": "baja"
+        }
+      ],
+      "vo": "En Ethereum, desde 2021, parte de la comisión de cada operación se quema. Si se quema más de lo que se crea, la oferta baja."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Ojo con",
+        "el marketing"
+      ],
+      "titulo": "Quemar no garantiza nada",
+      "items": [
+        {
+          "text": "No asegura que suba el valor",
+          "cue": "asegura"
+        },
+        {
+          "text": "Algunos lo usan de gancho",
+          "cue": "gancho"
+        }
+      ],
+      "consejo": "Menos oferta **no es** ganancia segura.",
+      "vo": "Ojo: quemar no asegura que el valor suba. Algunos proyectos lo usan de gancho para vender ilusión."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Quemar",
+          "definicion": "Destruir cripto **para siempre**.",
+          "icono": "cruz"
+        },
+        {
+          "termino": "Oferta",
+          "definicion": "Cuánta cantidad **hay disponible**.",
+          "icono": "grafico"
+        }
+      ],
+      "vo": "Quemar es destruir cripto para siempre. La oferta es cuánta cantidad hay disponible."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Quemar es destruir para siempre",
+        "Reduce la oferta",
+        "No garantiza ganancias"
+      ],
+      "vo": "En el próximo video: Mandar plata al exterior."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "es-anonimo-bitcoin",
+  "titulo": "¿Bitcoin es anónimo?",
+  "nivel": "Intermedio 4",
+  "descripcion": "Todos ven todo, pero con direcciones y no con nombres. La diferencia entre seudónimo y anónimo, y por qué tu historial puede rastrearse.",
+  "revisado": false,
+  "notas": "",
+  "voiceSpeed": 1,
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "¿Bitcoin es anónimo? 🕵️ Seudónimo vs anónimo, explicado fácil | Cripto desde cero",
+    "descripcion": "🕵️ BITCOIN ES ANÓNIMO — Por qué Bitcoin no es tan anónimo como parece\n\nMucha gente cree que Bitcoin es anónimo. La respuesta corta: no tanto. Es seudónimo, y la diferencia importa.\n\n📚 EN ESTE VIDEO\n1️⃣ Una blockchain pública es un libro abierto\n2️⃣ Aparecen direcciones, no nombres\n3️⃣ Seudónimo vs anónimo\n4️⃣ Cómo pueden vincularte con tu dirección\n5️⃣ Ventajas y desventajas de la transparencia\n\n💡 LA IDEA CLAVE\nEs un libro de cuentas abierto a todos donde figuran códigos en vez de nombres: si alguien une tu código con tu nombre, ve todo.\n\n📖 GLOSARIO\n• Seudónimo: usar un nombre que no dice quién sos.\n• Anónimo: cuando nadie puede saber quién sos.\n\n⚠️ OJO CON\nNo asumas que nadie te ve: tu historial es público para siempre, y una compra con documento puede vincularlo con vos.\n\n🎓 NIVEL: Intermedio 4 · Siguiente video: {{SIGUIENTE}}\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con alguien que cree que Bitcoin sirve para esconderse.\n\n{{DESLINDE}}\n\n#Criptomonedas #Bitcoin #Privacidad #Bitcoin #CriptoDesdeCero",
+    "tags": [
+      "bitcoin es anónimo",
+      "seudónimo vs anónimo",
+      "privacidad bitcoin",
+      "rastrear bitcoin",
+      "blockchain pública",
+      "criptomonedas para principiantes",
+      "cripto desde cero",
+      "educación financiera"
+    ]
+  },
+  "miniatura": {
+    "escena": "hook"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "head": [
+        "¿Bitcoin es",
+        "anónimo?"
+      ],
+      "sub": "La respuesta corta: no tanto",
+      "icono": "lupa",
+      "orbita": [
+        "persona",
+        "bloque",
+        "candado",
+        "libro"
+      ],
+      "vo": "Mucha gente cree que Bitcoin es anónimo. La respuesta corta: no tanto. Es seudónimo, y la diferencia importa."
+    },
+    {
+      "kind": "analogia",
+      "head": [
+        "Un libro",
+        "público"
+      ],
+      "conector": "es como",
+      "a": {
+        "icono": "bloques",
+        "label": "Blockchain pública"
+      },
+      "simbolo": "=",
+      "b": {
+        "icono": "libro",
+        "label": "Un libro contable abierto",
+        "cue": "libro"
+      },
+      "nota": "Cualquiera puede **leer** todas las operaciones.",
+      "vo": "La blockchain es como un libro contable abierto: cualquiera puede leer todas las operaciones que se hicieron."
+    },
+    {
+      "kind": "concepto",
+      "badge": "NO HAY NOMBRES",
+      "head": [
+        "Direcciones,",
+        "no nombres"
+      ],
+      "icono": "etiqueta",
+      "etiquetas": [
+        {
+          "text": "Cada uno aparece con una dirección",
+          "cue": "dirección"
+        },
+        {
+          "text": "Un código largo de letras y números",
+          "cue": "código"
+        }
+      ],
+      "vo": "Pero no aparecen nombres: aparece una dirección, un código largo de letras y números que funciona como seudónimo."
+    },
+    {
+      "kind": "glosario",
+      "head": [
+        "Palabras",
+        "nuevas"
+      ],
+      "terminos": [
+        {
+          "termino": "Seudónimo",
+          "definicion": "Un **nombre falso** que no dice quién sos.",
+          "icono": "persona"
+        },
+        {
+          "termino": "Anónimo",
+          "definicion": "Cuando **nadie puede saber** quién sos.",
+          "icono": "pregunta"
+        }
+      ],
+      "vo": "Seudónimo es usar un nombre que no dice quién sos. Anónimo sería que nadie pueda saberlo, y eso no es lo mismo."
+    },
+    {
+      "kind": "alerta",
+      "head": [
+        "Se puede",
+        "rastrear"
+      ],
+      "titulo": "Si te vinculan",
+      "items": [
+        {
+          "text": "Compraste con tu documento",
+          "cue": "documento"
+        },
+        {
+          "text": "Alguien une tu dirección con tu nombre",
+          "cue": "une"
+        },
+        {
+          "text": "Ve todo, para siempre",
+          "cue": "siempre"
+        }
+      ],
+      "consejo": "No asumas que **nadie te ve**.",
+      "vo": "Si alguien une tu dirección con tu nombre, por ejemplo por una compra con documento, ve todo lo que hiciste, para siempre."
+    },
+    {
+      "kind": "comparacion",
+      "head": [
+        "Lo bueno y",
+        "lo malo"
+      ],
+      "a": {
+        "titulo": "Ventaja",
+        "icono": "check",
+        "items": [
+          "Todo es auditable",
+          "Difícil ocultar fraudes"
+        ]
+      },
+      "b": {
+        "titulo": "Desventaja",
+        "icono": "alerta",
+        "items": [
+          "Tu historial es público",
+          "Se sigue el rastro"
+        ]
+      },
+      "vo": "Se puede auditar todo, pero tu historial es público. Es difícil ocultar fraudes, pero también se sigue tu rastro."
+    },
+    {
+      "kind": "cierre",
+      "head": [
+        "Lo que",
+        "aprendiste"
+      ],
+      "resumen": [
+        "Todo es público",
+        "Hay direcciones, no nombres",
+        "Seudónimo no es anónimo"
+      ],
+      "vo": "En Bitcoin todo es público y con seudónimos, así que no es anónimo. En el próximo video: ¿Qué es un hash?"
+    }
+  ]
+}
