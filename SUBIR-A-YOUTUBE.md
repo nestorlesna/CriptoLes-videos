@@ -20,10 +20,43 @@ La miniatura **no se pone bien por la API** (en las subidas anteriores no quedó
 2. **Miniatura desde el navegador** (Claude lo hace con Claude in Chrome): abrir
    `https://studio.youtube.com/video/<ID>/edit`, cargar `salida\subidos\<clave>.miniatura.png` en el campo
    **Miniatura** y tocar **Guardar** (aparece "Se han guardado los cambios").
-3. **Pasarlo a público desde el navegador**: en la misma página, **Visibilidad → Público → Hecho → Guardar**.
+3. **Programarlo (o pasarlo a público) desde el navegador**: en la misma página, **Visibilidad** →
+   - **Programar** (lo que se usa desde el 23/10/2026): un video por día a las **12:00 de Uruguay**. Ver abajo.
+   - O, si va ya: **Público**.
 
-Un video por vez y en el orden de `temas/temas.csv`. El `uploads_log.csv` queda con estado `private` porque lo anota
+   Después **Hecho → Guardar**.
+
+Los videos van en el orden de `temas/temas.csv`. El `uploads_log.csv` los deja anotados como `private` porque los registra
 antes del paso 3. Es normal.
+
+### Programar la publicación (1 por día a las 12:00)
+
+Se programa en YouTube Studio y no por la API, porque el proyecto todavía no pasó la auditoría.
+
+1. Revisá que Studio esté en el canal **Criptoles**. Si abre FitLesUY, el link del video da "Vaya, se ha producido un error".
+   Para cambiar: avatar → Cambiar de cuenta → Criptoles.
+2. **Visibilidad → Programar**:
+   - **Zona horaria**: elegí la primera opción, **Hora local (GMT-0300)**, que es Uruguay. Revisá que no haya quedado otra,
+     como Chicago.
+   - **Fecha**: el día siguiente al último video programado. Studio propone mañana a las 0:00.
+   - **Hora**: escribí `12:00` y tocá afuera de la lista. **No apretes Enter**, porque elige 0:00.
+3. **Hecho → Guardar**. Esperá a que aparezca "Se han guardado los cambios". Si al salir pregunta "¿Salir del sitio?",
+   el guardado no se hizo: tocá Guardar de nuevo.
+4. Revisalo en **Contenido → Shorts**: tiene que decir *Programado* y la fecha correcta.
+
+Calendario actual: del 23/10 al 1/11 de 2026 hay un video por día a las **12:00**, desde que-es-blockchain hasta
+enviar-y-recibir-cripto. Del **2/11 al 17/11** hay uno por día a las **18:00** (hora de Uruguay), desde estafas-mas-comunes
+hasta como-investigar-un-proyecto. Con estos 33 videos termina la tanda: el próximo tema es nuevo.
+
+> **Horario:** el 31/10/2026 se pasó de las 12:00 a las 18:00. Studio no tenía datos de horas de actividad (3 suscriptores).
+> El 89 % mira desde el celular y México es la región con más visualizaciones. Cuando haya más audiencia, mirá
+> Estadísticas → Audiencia → «Horas de actividad de tus usuarios en YouTube» y ajustá.
+
+> **Confirmado:** los videos programados se publican solos aunque el proyecto no tenga la auditoría. Pasó el 31/10 con
+> que-pasa-al-comprar-cripto. Si alguno queda privado pasada su hora, pasalo a Público a mano.
+
+> **Escribir la fecha:** en el calendario de Programar se puede escribir la fecha en el campo de arriba (`9 nov 2026` y
+> Enter), en vez de buscar el día. La hora se escribe aparte y **sin Enter**.
 
 ---
 
@@ -74,7 +107,9 @@ Toma todos los `.mp4` de la carpeta. Las subcarpetas no entran, así que `subido
 & $PY $SK --channel cripto $OUT
 ```
 
-> **Cuota:** alcanza para unos **6 videos por día** (10.000 unidades, y cada subida usa unas 1600). Si se acaba, el script frena y lista los pendientes. Al otro día corrés el mismo comando y saltea los que ya subió.
+> **Cuota:** la cuenta vieja daba unos 6 videos por día (10.000 unidades y unas 1600 por subida). El 23/10/2026 se subieron
+> **10 en un día sin problema**, así que hoy el límite es más alto, aunque no sabemos cuánto. Si se acaba, el script frena y
+> lista los pendientes. Al otro día corrés el mismo comando y saltea los que ya subió.
 
 ---
 
